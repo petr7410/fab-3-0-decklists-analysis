@@ -41,8 +41,8 @@ This directory contains the raw data files, including:
 ## Database Attributes
 
 Notes:
- - Cards unplayable by class were filtered out and are not included in the database.
- - Inventory is still considered, so most decks have over 30 cards.
+- Cards unplayable by class were filtered out and are not included in the database.
+- Inventory is still considered, so most decks have over 30 cards.
 
 The main derived attributes of the database are:
 - `Name`: The name of the card.
@@ -56,22 +56,22 @@ The main derived attributes of the database are:
 - `deck_weighted_pct`: Weighted percentage of the card across all decks: (`(assassin_deck_pct + illusionist_deck_pct + ninja_deck_pct) / 3`).
 
 Clarifications:
- - `hero_deck_pct`: For example, if the value of this attribute is equal to 100%, it means that the number of cards in the database is equal to the number of Assassin decks in the database.
- - `deck_weighted_pct`: This attribute is used to compensate for uneven deck representation. It is hard to give it a direct meaning.
+- `hero_deck_pct`: For example, if the value of this attribute is equal to 100%, it means that the number of cards in the database is equal to the number of Assassin decks in the database.
+- `deck_weighted_pct`: This attribute is used to compensate for uneven deck representation. It is hard to give it a direct meaning.
 
 ## Analysis Links
 
 To access detailed analysis and card distribution for each class, refer to the following links:
 
-- [Assassin Analysis](analysis/Assassin_info.html)
-- [Illusionist Analysis](analysis/Illusionist_info.html)
-- [Ninja Analysis](analysis/Ninja_info.html)
+- [Assassin Analysis](docs/Assassin_info.html)
+- [Illusionist Analysis](docs/Illusionist_info.html)
+- [Ninja Analysis](docs/Ninja_info.html)
 
 To access the complete card distribution statistics for each class:
 
-- [Complete Card Distribution for Assassin](analysis/Assassin_all_cards_stats.html)
-- [Complete Card Distribution for Illusionist](analysis/Illusionist_all_cards_stats.html)
-- [Complete Card Distribution for Ninja](analysis/Ninja_all_cards_stats.html)
+- [Complete Card Distribution for Assassin](docs/Assassin_all_cards_stats.html)
+- [Complete Card Distribution for Illusionist](docs/Illusionist_all_cards_stats.html)
+- [Complete Card Distribution for Ninja](docs/Ninja_all_cards_stats.html)
 
 ## Acknowledgements
 
