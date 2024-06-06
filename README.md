@@ -63,15 +63,15 @@ Clarifications:
 
 To access detailed analysis and card distribution for each class, refer to the following links:
 
-- [Assassin Analysis](analysis/Assassin_info.md)
-- [Illusionist Analysis](analysis/Illusionist_info.md)
-- [Ninja Analysis](analysis/Ninja_info.md)
+- [Assassin Analysis](analysis/Assassin_info.html)
+- [Illusionist Analysis](analysis/Illusionist_info.html)
+- [Ninja Analysis](analysis/Ninja_info.html)
 
 To access the complete card distribution statistics for each class:
 
-- [Complete Card Distribution for Assassin](analysis/Assassin_all_cards_stats.md)
-- [Complete Card Distribution for Illusionist](analysis/Illusionist_all_cards_stats.md)
-- [Complete Card Distribution for Ninja](analysis/Ninja_all_cards_stats.md)
+- [Complete Card Distribution for Assassin](analysis/Assassin_all_cards_stats.html)
+- [Complete Card Distribution for Illusionist](analysis/Illusionist_all_cards_stats.html)
+- [Complete Card Distribution for Ninja](analysis/Ninja_all_cards_stats.html)
 
 ## Acknowledgements
 
