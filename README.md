@@ -1,5 +1,7 @@
 # 3 Win Decklists Analysis
 
+To see images in Analysis Links, [visit the 3-0 Decklists Analysis](https://petr7410.github.io/fab-3-0-decklists-analysis).
+
 ## Index
 
 - [Introduction](#introduction)
