@@ -15,6 +15,8 @@ This project provides an analysis of 3-0 decklists from the Runaway Discord serv
 
 If you are only interested in the analysis, check the [Analysis Links](#analysis-links). However, it is recommended to at least review the attribute descriptions.
 
+In the end, this project ended as html page. You can access the analysis folder for md files, but these are using custom css, so they won't render correctly on GitHub.
+
 ## Overview of Files
 
 ### scripts/

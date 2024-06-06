@@ -78,10 +78,10 @@ grouped_sum = (grouped_sum / number_of_cards * 100).round(2)
 for group, total in grouped_sum.items():
     msg += f"Cost value: {group} corresponds to {total} % of cards.  \n"
 
-msg += f"\n\n## Summary of card types and keywords %  \n"
+msg += f"\n\n## Summary of card types and keywords  \n"
 
 pct_attack_reaction = (hero_cards[hero_cards["Types"].str.contains("Attack Reaction")][cards_count_name].sum() / number_of_cards * 100).round(2)
-msg += f"Percentage of attack reaction cards: {pct_attack_reaction}  \n"
+msg += f"Percentage of attack reaction cards: {pct_attack_reaction} %  \n"
 
 pct_instant = (hero_cards[hero_cards["Types"].str.contains("Instant")][cards_count_name].sum() / number_of_cards * 100).round(2)
 msg += f"Percentage of instant cards: {pct_instant} %  \n"

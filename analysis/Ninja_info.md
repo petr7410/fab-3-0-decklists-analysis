@@ -28,8 +28,8 @@ Cost value: 4.0 corresponds to 0.21 % of cards.
 Cost value: 9.0 corresponds to 0.12 % of cards.  
 
 
-## Summary of card types and keywords %  
-Percentage of attack reaction cards: 0.68  
+## Summary of card types and keywords  
+Percentage of attack reaction cards: 0.68 %  
 Percentage of instant cards: 7.24 %  
 Percentage of defense reaction cards: 2.2 %  
 Percentage of transcend cards: 7.21 %  
