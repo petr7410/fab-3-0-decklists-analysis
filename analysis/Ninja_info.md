@@ -8,111 +8,124 @@ Total number of card: 3369
 ## Basic distributions:  
 
 ### Pitch distribution:  
-Pitch value: 1.0 corresponds to 39.21 % of cards.  
-Pitch value: 2.0 corresponds to 15.91 % of cards.  
-Pitch value: 3.0 corresponds to 44.88 % of cards.  
+Pitch value: **1.0** corresponds to **39.21 %** of cards, represents **11.8** cards in a deck of 30 cards.  
+Pitch value: **2.0** corresponds to **15.91 %** of cards, represents **4.8** cards in a deck of 30 cards.  
+Pitch value: **3.0** corresponds to **44.88 %** of cards, represents **13.5** cards in a deck of 30 cards.  
 
 ### Defense distribution:  
-Defense value: 1.0 corresponds to 0.42 % of cards.  
-Defense value: 2.0 corresponds to 50.76 % of cards.  
-Defense value: 3.0 corresponds to 41.53 % of cards.  
-Defense value: 5.0 corresponds to 0.06 % of cards.  
-Defense value: None corresponds to 7.24 % of cards.  
+Defense value: **1.0** corresponds to **0.42 %** of cards, represents **0.1** cards in a deck of 30 cards.  
+Defense value: **2.0** corresponds to **50.76 %** of cards, represents **15.2** cards in a deck of 30 cards.  
+Defense value: **3.0** corresponds to **41.53 %** of cards, represents **12.5** cards in a deck of 30 cards.  
+Defense value: **5.0** corresponds to **0.06 %** of cards, represents **0.0** cards in a deck of 30 cards.  
+Defense value: **None** corresponds to **7.24 %** of cards, represents **2.2** cards in a deck of 30 cards.  
 
 ### Cost distribution:  
-Cost value: 0.0 corresponds to 39.21 % of cards.  
-Cost value: 1.0 corresponds to 44.67 % of cards.  
-Cost value: 2.0 corresponds to 11.58 % of cards.  
-Cost value: 3.0 corresponds to 4.21 % of cards.  
-Cost value: 4.0 corresponds to 0.21 % of cards.  
-Cost value: 9.0 corresponds to 0.12 % of cards.  
+Cost value: **0.0** corresponds to **39.21 %** of cards, represents **11.8** cards in a deck of 30 cards.  
+Cost value: **1.0** corresponds to **44.67 %** of cards, represents **13.4** cards in a deck of 30 cards.  
+Cost value: **2.0** corresponds to **11.58 %** of cards, represents **3.5** cards in a deck of 30 cards.  
+Cost value: **3.0** corresponds to **4.21 %** of cards, represents **1.3** cards in a deck of 30 cards.  
+Cost value: **4.0** corresponds to **0.21 %** of cards, represents **0.1** cards in a deck of 30 cards.  
+Cost value: **9.0** corresponds to **0.12 %** of cards, represents **0.0** cards in a deck of 30 cards.  
 
 
 ## Summary of card types and keywords  
-Percentage of attack reaction cards: 0.68 %  
-Percentage of instant cards: 7.24 %  
-Percentage of defense reaction cards: 2.2 %  
-Percentage of transcend cards: 7.21 %  
-Percentage of go again cards: 71.03 %  
-Percentage of stealth cards: 0.0 %  
-Percentage of ward cards: 0.0 %  
-Percentage of combo cards: 21.4 %  
+Percentage of attack action cards: **72.81 %**  
+Percentage of non-attack action cards: **17.07 %**  
+Percentage of attack reaction cards: **0.68 %**  
+Percentage of instant cards: **7.24 %**  
+Percentage of defense reaction cards: **2.2 %**  
+Percentage of transcend cards: **7.21 %**  
+Percentage of go again cards: **71.03 %**  
+Percentage of stealth cards: **0.0 %**  
+Percentage of ward cards: **0.0 %**  
+Percentage of combo cards: **21.4 %**  
 
 
-## Top 20 cards based on rarity + equipment  
+## Top 20 cards based on rarity + equipment + transcend  
 
 ### Top 20 common cards  
-Card: <a href="link" class="tooltip">Untamed (red)<span class="tooltiptext"><img src="https://storage.googleapis.com/fabmaster/cardfaces/2024-MST/EN/MST185.png"></span></a>, Overall count: 133, On average in 135.71 % of decks  
-Card: <a href="link" class="tooltip">Tiger Form Incantation (red)<span class="tooltiptext"><img src="https://storage.googleapis.com/fabmaster/cardfaces/2024-MST/EN/MST063.png"></span></a>, Overall count: 124, On average in 126.53 % of decks  
-Card: <a href="link" class="tooltip">Pouncing Qi (red)<span class="tooltiptext"><img src="https://storage.googleapis.com/fabmaster/cardfaces/2024-MST/EN/MST182.png"></span></a>, Overall count: 120, On average in 122.45 % of decks  
-Card: <a href="link" class="tooltip">Biting Breeze (red)<span class="tooltiptext"><img src="https://storage.googleapis.com/fabmaster/cardfaces/2024-MST/EN/MST173.png"></span></a>, Overall count: 117, On average in 119.39 % of decks  
-Card: <a href="link" class="tooltip">Pouncing Qi (blue)<span class="tooltiptext"><img src="https://storage.googleapis.com/fabmaster/cardfaces/2024-MST/EN/MST184.png"></span></a>, Overall count: 116, On average in 118.37 % of decks  
-Card: <a href="link" class="tooltip">Breed Anger (blue)<span class="tooltiptext"><img src="https://storage.googleapis.com/fabmaster/cardfaces/2024-MST/EN/MST178.png"></span></a>, Overall count: 116, On average in 118.37 % of decks  
-Card: <a href="link" class="tooltip">Harmony of the Hunt (red)<span class="tooltiptext"><img src="https://storage.googleapis.com/fabmaster/cardfaces/2024-MST/EN/MST060.png"></span></a>, Overall count: 110, On average in 112.24 % of decks  
-Card: <a href="link" class="tooltip">Breed Anger (red)<span class="tooltiptext"><img src="https://storage.googleapis.com/fabmaster/cardfaces/2024-MST/EN/MST176.png"></span></a>, Overall count: 107, On average in 109.18 % of decks  
-Card: <a href="link" class="tooltip">Flex Claws (red)<span class="tooltiptext"><img src="https://storage.googleapis.com/fabmaster/cardfaces/2024-MST/EN/MST179.png"></span></a>, Overall count: 106, On average in 108.16 % of decks  
-Card: <a href="link" class="tooltip">Tiger Form Incantation (blue)<span class="tooltiptext"><img src="https://storage.googleapis.com/fabmaster/cardfaces/2024-MST/EN/MST065.png"></span></a>, Overall count: 102, On average in 104.08 % of decks  
-Card: <a href="link" class="tooltip">Biting Breeze (blue)<span class="tooltiptext"><img src="https://storage.googleapis.com/fabmaster/cardfaces/2024-MST/EN/MST175.png"></span></a>, Overall count: 97, On average in 98.98 % of decks  
-Card: <a href="link" class="tooltip">Companion of the Claw (red)<span class="tooltiptext"><img src="https://storage.googleapis.com/fabmaster/cardfaces/2024-MST/EN/MST057.png"></span></a>, Overall count: 90, On average in 91.84 % of decks  
-Card: <a href="link" class="tooltip">Harmony of the Hunt (blue)<span class="tooltiptext"><img src="https://storage.googleapis.com/fabmaster/cardfaces/2024-MST/EN/MST062.png"></span></a>, Overall count: 90, On average in 91.84 % of decks  
-Card: <a href="link" class="tooltip">Flex Claws (blue)<span class="tooltiptext"><img src="https://storage.googleapis.com/fabmaster/cardfaces/2024-MST/EN/MST181.png"></span></a>, Overall count: 85, On average in 86.73 % of decks  
-Card: <a href="link" class="tooltip">Companion of the Claw (blue)<span class="tooltiptext"><img src="https://storage.googleapis.com/fabmaster/cardfaces/2024-MST/EN/MST059.png"></span></a>, Overall count: 79, On average in 80.61 % of decks  
-Card: <a href="link" class="tooltip">Untamed (blue)<span class="tooltiptext"><img src="https://storage.googleapis.com/fabmaster/cardfaces/2024-MST/EN/MST187.png"></span></a>, Overall count: 73, On average in 74.49 % of decks  
-Card: <a href="link" class="tooltip">Harmony of the Hunt (yellow)<span class="tooltiptext"><img src="https://storage.googleapis.com/fabmaster/cardfaces/2024-MST/EN/MST061.png"></span></a>, Overall count: 48, On average in 48.98 % of decks  
-Card: <a href="link" class="tooltip">Tiger Form Incantation (yellow)<span class="tooltiptext"><img src="https://storage.googleapis.com/fabmaster/cardfaces/2024-MST/EN/MST064.png"></span></a>, Overall count: 47, On average in 47.96 % of decks  
-Card: <a href="link" class="tooltip">Pouncing Qi (yellow)<span class="tooltiptext"><img src="https://storage.googleapis.com/fabmaster/cardfaces/2024-MST/EN/MST183.png"></span></a>, Overall count: 46, On average in 46.94 % of decks  
-Card: <a href="link" class="tooltip">Untamed (yellow)<span class="tooltiptext"><img src="https://storage.googleapis.com/fabmaster/cardfaces/2024-MST/EN/MST186.png"></span></a>, Overall count: 45, On average in 45.92 % of decks  
+Card: <a href="link" class="tooltip">**Untamed (red)**<span class="tooltiptext"><img src="https://storage.googleapis.com/fabmaster/cardfaces/2024-MST/EN/MST185.png"></span></a>, Overall count: **133**, On average in **135.71** % of decks  
+Card: <a href="link" class="tooltip">**Tiger Form Incantation (red)**<span class="tooltiptext"><img src="https://storage.googleapis.com/fabmaster/cardfaces/2024-MST/EN/MST063.png"></span></a>, Overall count: **124**, On average in **126.53** % of decks  
+Card: <a href="link" class="tooltip">**Pouncing Qi (red)**<span class="tooltiptext"><img src="https://storage.googleapis.com/fabmaster/cardfaces/2024-MST/EN/MST182.png"></span></a>, Overall count: **120**, On average in **122.45** % of decks  
+Card: <a href="link" class="tooltip">**Biting Breeze (red)**<span class="tooltiptext"><img src="https://storage.googleapis.com/fabmaster/cardfaces/2024-MST/EN/MST173.png"></span></a>, Overall count: **117**, On average in **119.39** % of decks  
+Card: <a href="link" class="tooltip">**Pouncing Qi (blue)**<span class="tooltiptext"><img src="https://storage.googleapis.com/fabmaster/cardfaces/2024-MST/EN/MST184.png"></span></a>, Overall count: **116**, On average in **118.37** % of decks  
+Card: <a href="link" class="tooltip">**Breed Anger (blue)**<span class="tooltiptext"><img src="https://storage.googleapis.com/fabmaster/cardfaces/2024-MST/EN/MST178.png"></span></a>, Overall count: **116**, On average in **118.37** % of decks  
+Card: <a href="link" class="tooltip">**Harmony of the Hunt (red)**<span class="tooltiptext"><img src="https://storage.googleapis.com/fabmaster/cardfaces/2024-MST/EN/MST060.png"></span></a>, Overall count: **110**, On average in **112.24** % of decks  
+Card: <a href="link" class="tooltip">**Breed Anger (red)**<span class="tooltiptext"><img src="https://storage.googleapis.com/fabmaster/cardfaces/2024-MST/EN/MST176.png"></span></a>, Overall count: **107**, On average in **109.18** % of decks  
+Card: <a href="link" class="tooltip">**Flex Claws (red)**<span class="tooltiptext"><img src="https://storage.googleapis.com/fabmaster/cardfaces/2024-MST/EN/MST179.png"></span></a>, Overall count: **106**, On average in **108.16** % of decks  
+Card: <a href="link" class="tooltip">**Tiger Form Incantation (blue)**<span class="tooltiptext"><img src="https://storage.googleapis.com/fabmaster/cardfaces/2024-MST/EN/MST065.png"></span></a>, Overall count: **102**, On average in **104.08** % of decks  
+Card: <a href="link" class="tooltip">**Biting Breeze (blue)**<span class="tooltiptext"><img src="https://storage.googleapis.com/fabmaster/cardfaces/2024-MST/EN/MST175.png"></span></a>, Overall count: **97**, On average in **98.98** % of decks  
+Card: <a href="link" class="tooltip">**Companion of the Claw (red)**<span class="tooltiptext"><img src="https://storage.googleapis.com/fabmaster/cardfaces/2024-MST/EN/MST057.png"></span></a>, Overall count: **90**, On average in **91.84** % of decks  
+Card: <a href="link" class="tooltip">**Harmony of the Hunt (blue)**<span class="tooltiptext"><img src="https://storage.googleapis.com/fabmaster/cardfaces/2024-MST/EN/MST062.png"></span></a>, Overall count: **90**, On average in **91.84** % of decks  
+Card: <a href="link" class="tooltip">**Flex Claws (blue)**<span class="tooltiptext"><img src="https://storage.googleapis.com/fabmaster/cardfaces/2024-MST/EN/MST181.png"></span></a>, Overall count: **85**, On average in **86.73** % of decks  
+Card: <a href="link" class="tooltip">**Companion of the Claw (blue)**<span class="tooltiptext"><img src="https://storage.googleapis.com/fabmaster/cardfaces/2024-MST/EN/MST059.png"></span></a>, Overall count: **79**, On average in **80.61** % of decks  
+Card: <a href="link" class="tooltip">**Untamed (blue)**<span class="tooltiptext"><img src="https://storage.googleapis.com/fabmaster/cardfaces/2024-MST/EN/MST187.png"></span></a>, Overall count: **73**, On average in **74.49** % of decks  
+Card: <a href="link" class="tooltip">**Harmony of the Hunt (yellow)**<span class="tooltiptext"><img src="https://storage.googleapis.com/fabmaster/cardfaces/2024-MST/EN/MST061.png"></span></a>, Overall count: **48**, On average in **48.98** % of decks  
+Card: <a href="link" class="tooltip">**Tiger Form Incantation (yellow)**<span class="tooltiptext"><img src="https://storage.googleapis.com/fabmaster/cardfaces/2024-MST/EN/MST064.png"></span></a>, Overall count: **47**, On average in **47.96** % of decks  
+Card: <a href="link" class="tooltip">**Pouncing Qi (yellow)**<span class="tooltiptext"><img src="https://storage.googleapis.com/fabmaster/cardfaces/2024-MST/EN/MST183.png"></span></a>, Overall count: **46**, On average in **46.94** % of decks  
+Card: <a href="link" class="tooltip">**Untamed (yellow)**<span class="tooltiptext"><img src="https://storage.googleapis.com/fabmaster/cardfaces/2024-MST/EN/MST186.png"></span></a>, Overall count: **45**, On average in **45.92** % of decks  
 
 ### Top 20 rare cards
-Card: <a href="link" class="tooltip">Qi Unleashed (red)<span class="tooltiptext"><img src="https://storage.googleapis.com/fabmaster/cardfaces/2024-MST/EN/MST167.png"></span></a>, Overall count: 45, On average in 45.92 % of decks  
-Card: <a href="link" class="tooltip">Aspect of Tiger: Body (red)<span class="tooltiptext"><img src="https://storage.googleapis.com/fabmaster/cardfaces/2024-MST/EN/MST164.png"></span></a>, Overall count: 40, On average in 40.82 % of decks  
-Card: <a href="link" class="tooltip">Wind Chakra (blue)<span class="tooltiptext"><img src="https://storage.googleapis.com/fabmaster/cardfaces/2024-MST/EN/MST056.png"></span></a>, Overall count: 33, On average in 33.67 % of decks  
-Card: <a href="link" class="tooltip">Wind Chakra (red)<span class="tooltiptext"><img src="https://storage.googleapis.com/fabmaster/cardfaces/2024-MST/EN/MST054.png"></span></a>, Overall count: 28, On average in 28.57 % of decks  
-Card: <a href="link" class="tooltip">Qi Unleashed (blue)<span class="tooltiptext"><img src="https://storage.googleapis.com/fabmaster/cardfaces/2024-MST/EN/MST169.png"></span></a>, Overall count: 26, On average in 26.53 % of decks  
-Card: <a href="link" class="tooltip">Qi Unleashed (yellow)<span class="tooltiptext"><img src="https://storage.googleapis.com/fabmaster/cardfaces/2024-MST/EN/MST168.png"></span></a>, Overall count: 24, On average in 24.49 % of decks  
-Card: <a href="link" class="tooltip">Blessing of Qi (red)<span class="tooltiptext"><img src="https://storage.googleapis.com/fabmaster/cardfaces/2024-MST/EN/MST170.png"></span></a>, Overall count: 24, On average in 24.49 % of decks  
-Card: <a href="link" class="tooltip">Blessing of Qi (blue)<span class="tooltiptext"><img src="https://storage.googleapis.com/fabmaster/cardfaces/2024-MST/EN/MST172.png"></span></a>, Overall count: 23, On average in 23.47 % of decks  
-Card: <a href="link" class="tooltip">Blessing of Qi (yellow)<span class="tooltiptext"><img src="https://storage.googleapis.com/fabmaster/cardfaces/2024-MST/EN/MST171.png"></span></a>, Overall count: 19, On average in 19.39 % of decks  
-Card: <a href="link" class="tooltip">Aspect of Tiger: Mind (blue)<span class="tooltiptext"><img src="https://storage.googleapis.com/fabmaster/cardfaces/2024-MST/EN/MST166.png"></span></a>, Overall count: 18, On average in 18.37 % of decks  
-Card: <a href="link" class="tooltip">Wind Chakra (yellow)<span class="tooltiptext"><img src="https://storage.googleapis.com/fabmaster/cardfaces/2024-MST/EN/MST055.png"></span></a>, Overall count: 17, On average in 17.35 % of decks  
-Card: <a href="link" class="tooltip">Emissary of Tides (red)<span class="tooltiptext"><img src="https://storage.googleapis.com/fabmaster/cardfaces/2024-MST/EN/MST198.png"></span></a>, Overall count: 17, On average in 17.35 % of decks  
-Card: <a href="link" class="tooltip">Gravekeeping (red)<span class="tooltiptext"><img src="https://storage.googleapis.com/fabmaster/cardfaces/2024-MST/EN/MST200.png"></span></a>, Overall count: 15, On average in 15.31 % of decks  
-Card: <a href="link" class="tooltip">Aspect of Tiger: Soul (yellow)<span class="tooltiptext"><img src="https://storage.googleapis.com/fabmaster/cardfaces/2024-MST/EN/MST165.png"></span></a>, Overall count: 15, On average in 15.31 % of decks  
-Card: <a href="link" class="tooltip">Wide Blue Yonder (blue)<span class="tooltiptext"><img src="https://storage.googleapis.com/fabmaster/cardfaces/2024-MST/EN/MST085.png"></span></a>, Overall count: 13, On average in 13.27 % of decks  
-Card: <a href="link" class="tooltip">Blanch (yellow)<span class="tooltiptext"><img src="https://storage.googleapis.com/fabmaster/cardfaces/2024-MST/EN/MST195.png"></span></a>, Overall count: 13, On average in 13.27 % of decks  
-Card: <a href="link" class="tooltip">Emissary of Wind (red)<span class="tooltiptext"><img src="https://storage.googleapis.com/fabmaster/cardfaces/2024-MST/EN/MST199.png"></span></a>, Overall count: 12, On average in 12.24 % of decks  
-Card: <a href="link" class="tooltip">Blanch (red)<span class="tooltiptext"><img src="https://storage.googleapis.com/fabmaster/cardfaces/2024-MST/EN/MST194.png"></span></a>, Overall count: 12, On average in 12.24 % of decks  
-Card: <a href="link" class="tooltip">Emissary of Moon (red)<span class="tooltiptext"><img src="https://storage.googleapis.com/fabmaster/cardfaces/2024-MST/EN/MST197.png"></span></a>, Overall count: 11, On average in 11.22 % of decks  
-Card: <a href="link" class="tooltip">Gravekeeping (yellow)<span class="tooltiptext"><img src="https://storage.googleapis.com/fabmaster/cardfaces/2024-MST/EN/MST201.png"></span></a>, Overall count: 11, On average in 11.22 % of decks  
+Card: <a href="link" class="tooltip">**Qi Unleashed (red)**<span class="tooltiptext"><img src="https://storage.googleapis.com/fabmaster/cardfaces/2024-MST/EN/MST167.png"></span></a>, Overall count: **45**, On average in **45.92** % of decks  
+Card: <a href="link" class="tooltip">**Aspect of Tiger: Body (red)**<span class="tooltiptext"><img src="https://storage.googleapis.com/fabmaster/cardfaces/2024-MST/EN/MST164.png"></span></a>, Overall count: **40**, On average in **40.82** % of decks  
+Card: <a href="link" class="tooltip">**Wind Chakra (blue)**<span class="tooltiptext"><img src="https://storage.googleapis.com/fabmaster/cardfaces/2024-MST/EN/MST056.png"></span></a>, Overall count: **33**, On average in **33.67** % of decks  
+Card: <a href="link" class="tooltip">**Wind Chakra (red)**<span class="tooltiptext"><img src="https://storage.googleapis.com/fabmaster/cardfaces/2024-MST/EN/MST054.png"></span></a>, Overall count: **28**, On average in **28.57** % of decks  
+Card: <a href="link" class="tooltip">**Qi Unleashed (blue)**<span class="tooltiptext"><img src="https://storage.googleapis.com/fabmaster/cardfaces/2024-MST/EN/MST169.png"></span></a>, Overall count: **26**, On average in **26.53** % of decks  
+Card: <a href="link" class="tooltip">**Qi Unleashed (yellow)**<span class="tooltiptext"><img src="https://storage.googleapis.com/fabmaster/cardfaces/2024-MST/EN/MST168.png"></span></a>, Overall count: **24**, On average in **24.49** % of decks  
+Card: <a href="link" class="tooltip">**Blessing of Qi (red)**<span class="tooltiptext"><img src="https://storage.googleapis.com/fabmaster/cardfaces/2024-MST/EN/MST170.png"></span></a>, Overall count: **24**, On average in **24.49** % of decks  
+Card: <a href="link" class="tooltip">**Blessing of Qi (blue)**<span class="tooltiptext"><img src="https://storage.googleapis.com/fabmaster/cardfaces/2024-MST/EN/MST172.png"></span></a>, Overall count: **23**, On average in **23.47** % of decks  
+Card: <a href="link" class="tooltip">**Blessing of Qi (yellow)**<span class="tooltiptext"><img src="https://storage.googleapis.com/fabmaster/cardfaces/2024-MST/EN/MST171.png"></span></a>, Overall count: **19**, On average in **19.39** % of decks  
+Card: <a href="link" class="tooltip">**Aspect of Tiger: Mind (blue)**<span class="tooltiptext"><img src="https://storage.googleapis.com/fabmaster/cardfaces/2024-MST/EN/MST166.png"></span></a>, Overall count: **18**, On average in **18.37** % of decks  
+Card: <a href="link" class="tooltip">**Wind Chakra (yellow)**<span class="tooltiptext"><img src="https://storage.googleapis.com/fabmaster/cardfaces/2024-MST/EN/MST055.png"></span></a>, Overall count: **17**, On average in **17.35** % of decks  
+Card: <a href="link" class="tooltip">**Emissary of Tides (red)**<span class="tooltiptext"><img src="https://storage.googleapis.com/fabmaster/cardfaces/2024-MST/EN/MST198.png"></span></a>, Overall count: **17**, On average in **17.35** % of decks  
+Card: <a href="link" class="tooltip">**Gravekeeping (red)**<span class="tooltiptext"><img src="https://storage.googleapis.com/fabmaster/cardfaces/2024-MST/EN/MST200.png"></span></a>, Overall count: **15**, On average in **15.31** % of decks  
+Card: <a href="link" class="tooltip">**Aspect of Tiger: Soul (yellow)**<span class="tooltiptext"><img src="https://storage.googleapis.com/fabmaster/cardfaces/2024-MST/EN/MST165.png"></span></a>, Overall count: **15**, On average in **15.31** % of decks  
+Card: <a href="link" class="tooltip">**Wide Blue Yonder (blue)**<span class="tooltiptext"><img src="https://storage.googleapis.com/fabmaster/cardfaces/2024-MST/EN/MST085.png"></span></a>, Overall count: **13**, On average in **13.27** % of decks  
+Card: <a href="link" class="tooltip">**Blanch (yellow)**<span class="tooltiptext"><img src="https://storage.googleapis.com/fabmaster/cardfaces/2024-MST/EN/MST195.png"></span></a>, Overall count: **13**, On average in **13.27** % of decks  
+Card: <a href="link" class="tooltip">**Emissary of Wind (red)**<span class="tooltiptext"><img src="https://storage.googleapis.com/fabmaster/cardfaces/2024-MST/EN/MST199.png"></span></a>, Overall count: **12**, On average in **12.24** % of decks  
+Card: <a href="link" class="tooltip">**Blanch (red)**<span class="tooltiptext"><img src="https://storage.googleapis.com/fabmaster/cardfaces/2024-MST/EN/MST194.png"></span></a>, Overall count: **12**, On average in **12.24** % of decks  
+Card: <a href="link" class="tooltip">**Emissary of Moon (red)**<span class="tooltiptext"><img src="https://storage.googleapis.com/fabmaster/cardfaces/2024-MST/EN/MST197.png"></span></a>, Overall count: **11**, On average in **11.22** % of decks  
+Card: <a href="link" class="tooltip">**Gravekeeping (yellow)**<span class="tooltiptext"><img src="https://storage.googleapis.com/fabmaster/cardfaces/2024-MST/EN/MST201.png"></span></a>, Overall count: **11**, On average in **11.22** % of decks  
 
 ### Mythic cards  
-Card: <a href="link" class="tooltip">Tooth and Claw (red)<span class="tooltiptext"><img src="https://storage.googleapis.com/fabmaster/cardfaces/2024-MST/EN/MST051.png"></span></a>, Overall count: 11, On average in 11.22 % of decks  
-Card: <a href="link" class="tooltip">Maul (yellow)<span class="tooltiptext"><img src="https://storage.googleapis.com/fabmaster/cardfaces/2024-MST/EN/MST162.png"></span></a>, Overall count: 10, On average in 10.2 % of decks  
-Card: <a href="link" class="tooltip">Territorial Domain (blue)<span class="tooltiptext"><img src="https://storage.googleapis.com/fabmaster/cardfaces/2024-MST/EN/MST163.png"></span></a>, Overall count: 9, On average in 9.18 % of decks  
-Card: <a href="link" class="tooltip">Chase the Tail (red)<span class="tooltiptext"><img src="https://storage.googleapis.com/fabmaster/cardfaces/2024-MST/EN/MST161.png"></span></a>, Overall count: 8, On average in 8.16 % of decks  
-Card: <a href="link" class="tooltip">Sacred Art: Jade Tiger Domain (blue)<span class="tooltiptext"><img src="https://storage.googleapis.com/fabmaster/cardfaces/2024-MST/EN/MST053.png"></span></a>, Overall count: 6, On average in 6.12 % of decks  
-Card: <a href="link" class="tooltip">Shifting Winds of the Mystic Beast (blue)<span class="tooltiptext"><img src="https://storage.googleapis.com/fabmaster/cardfaces/2024-MST/EN/MST052.png"></span></a>, Overall count: 6, On average in 6.12 % of decks  
-Card: <a href="link" class="tooltip">Levels of Enlightenment (blue)<span class="tooltiptext"><img src="https://storage.googleapis.com/fabmaster/cardfaces/2024-MST/EN/MST077.png"></span></a>, Overall count: 4, On average in 4.08 % of decks  
-Card: <a href="link" class="tooltip">Cosmic Awakening (blue)<span class="tooltiptext"><img src="https://storage.googleapis.com/fabmaster/cardfaces/2024-MST/EN/MST076.png"></span></a>, Overall count: 4, On average in 4.08 % of decks  
-Card: <a href="link" class="tooltip">Attune with Cosmic Vibrations (blue)<span class="tooltiptext"><img src="https://storage.googleapis.com/fabmaster/cardfaces/2024-MST/EN/MST075.png"></span></a>, Overall count: 4, On average in 4.08 % of decks  
-Card: <a href="link" class="tooltip">The Weakest Link (red)<span class="tooltiptext"><img src="https://storage.googleapis.com/fabmaster/cardfaces/2024-MST/EN/MST192.png"></span></a>, Overall count: 3, On average in 3.06 % of decks  
-Card: <a href="link" class="tooltip">Unravel Aggression (blue)<span class="tooltiptext"><img src="https://storage.googleapis.com/fabmaster/cardfaces/2024-MST/EN/MST078.png"></span></a>, Overall count: 2, On average in 2.04 % of decks  
-Card: <a href="link" class="tooltip">Prismatic Leyline (yellow)<span class="tooltiptext"><img src="https://storage.googleapis.com/fabmaster/cardfaces/2024-MST/EN/MST193.png"></span></a>, Overall count: 2, On average in 2.04 % of decks  
-Card: <a href="link" class="tooltip">Rowdy Locals (blue)<span class="tooltiptext"><img src="https://storage.googleapis.com/fabmaster/cardfaces/2024-MST/EN/MST191.png"></span></a>, Overall count: 2, On average in 2.04 % of decks  
-Card: <a href="link" class="tooltip">Orihon of Mystic Tenets (blue)<span class="tooltiptext"><img src="https://storage.googleapis.com/fabmaster/cardfaces/2024-MST/EN/MST080.png"></span></a>, Overall count: 1, On average in 1.02 % of decks  
+Card: <a href="link" class="tooltip">**Tooth and Claw (red)**<span class="tooltiptext"><img src="https://storage.googleapis.com/fabmaster/cardfaces/2024-MST/EN/MST051.png"></span></a>, Overall count: **11**, On average in **11.22** % of decks  
+Card: <a href="link" class="tooltip">**Maul (yellow)**<span class="tooltiptext"><img src="https://storage.googleapis.com/fabmaster/cardfaces/2024-MST/EN/MST162.png"></span></a>, Overall count: **10**, On average in **10.2** % of decks  
+Card: <a href="link" class="tooltip">**Territorial Domain (blue)**<span class="tooltiptext"><img src="https://storage.googleapis.com/fabmaster/cardfaces/2024-MST/EN/MST163.png"></span></a>, Overall count: **9**, On average in **9.18** % of decks  
+Card: <a href="link" class="tooltip">**Chase the Tail (red)**<span class="tooltiptext"><img src="https://storage.googleapis.com/fabmaster/cardfaces/2024-MST/EN/MST161.png"></span></a>, Overall count: **8**, On average in **8.16** % of decks  
+Card: <a href="link" class="tooltip">**Sacred Art: Jade Tiger Domain (blue)**<span class="tooltiptext"><img src="https://storage.googleapis.com/fabmaster/cardfaces/2024-MST/EN/MST053.png"></span></a>, Overall count: **6**, On average in **6.12** % of decks  
+Card: <a href="link" class="tooltip">**Shifting Winds of the Mystic Beast (blue)**<span class="tooltiptext"><img src="https://storage.googleapis.com/fabmaster/cardfaces/2024-MST/EN/MST052.png"></span></a>, Overall count: **6**, On average in **6.12** % of decks  
+Card: <a href="link" class="tooltip">**Levels of Enlightenment (blue)**<span class="tooltiptext"><img src="https://storage.googleapis.com/fabmaster/cardfaces/2024-MST/EN/MST077.png"></span></a>, Overall count: **4**, On average in **4.08** % of decks  
+Card: <a href="link" class="tooltip">**Cosmic Awakening (blue)**<span class="tooltiptext"><img src="https://storage.googleapis.com/fabmaster/cardfaces/2024-MST/EN/MST076.png"></span></a>, Overall count: **4**, On average in **4.08** % of decks  
+Card: <a href="link" class="tooltip">**Attune with Cosmic Vibrations (blue)**<span class="tooltiptext"><img src="https://storage.googleapis.com/fabmaster/cardfaces/2024-MST/EN/MST075.png"></span></a>, Overall count: **4**, On average in **4.08** % of decks  
+Card: <a href="link" class="tooltip">**The Weakest Link (red)**<span class="tooltiptext"><img src="https://storage.googleapis.com/fabmaster/cardfaces/2024-MST/EN/MST192.png"></span></a>, Overall count: **3**, On average in **3.06** % of decks  
+Card: <a href="link" class="tooltip">**Unravel Aggression (blue)**<span class="tooltiptext"><img src="https://storage.googleapis.com/fabmaster/cardfaces/2024-MST/EN/MST078.png"></span></a>, Overall count: **2**, On average in **2.04** % of decks  
+Card: <a href="link" class="tooltip">**Prismatic Leyline (yellow)**<span class="tooltiptext"><img src="https://storage.googleapis.com/fabmaster/cardfaces/2024-MST/EN/MST193.png"></span></a>, Overall count: **2**, On average in **2.04** % of decks  
+Card: <a href="link" class="tooltip">**Rowdy Locals (blue)**<span class="tooltiptext"><img src="https://storage.googleapis.com/fabmaster/cardfaces/2024-MST/EN/MST191.png"></span></a>, Overall count: **2**, On average in **2.04** % of decks  
+Card: <a href="link" class="tooltip">**Orihon of Mystic Tenets (blue)**<span class="tooltiptext"><img src="https://storage.googleapis.com/fabmaster/cardfaces/2024-MST/EN/MST080.png"></span></a>, Overall count: **1**, On average in **1.02** % of decks  
 
 ### Equipment cards  
-Card: <a href="link" class="tooltip">Stride of Reprisal<span class="tooltiptext"><img src="https://storage.googleapis.com/fabmaster/cardfaces/2024-MST/EN/MST050.png"></span></a>, Overall count: 71, On average in 72.45 % of decks  
-Card: <a href="link" class="tooltip">Mask of Wizened Whiskers<span class="tooltiptext"><img src="https://storage.googleapis.com/fabmaster/cardfaces/2024-MST/EN/MST160.png"></span></a>, Overall count: 69, On average in 70.41 % of decks  
-Card: <a href="link" class="tooltip">Skyhold Keikoi<span class="tooltiptext"><img src="https://storage.googleapis.com/fabmaster/cardfaces/2024-MST/EN/MST073.png"></span></a>, Overall count: 45, On average in 45.92 % of decks  
-Card: <a href="link" class="tooltip">Heirloom of Tiger Hide<span class="tooltiptext"><img src="https://storage.googleapis.com/fabmaster/cardfaces/2024-MST/EN/MST049.png"></span></a>, Overall count: 32, On average in 32.65 % of decks  
-Card: <a href="link" class="tooltip">Skybody Keikoi<span class="tooltiptext"><img src="https://storage.googleapis.com/fabmaster/cardfaces/2024-MST/EN/MST072.png"></span></a>, Overall count: 32, On average in 32.65 % of decks  
-Card: <a href="link" class="tooltip">Waves of Aqua Marine<span class="tooltiptext"><img src="https://storage.googleapis.com/fabmaster/cardfaces/2024-MST/EN/MST069.png"></span></a>, Overall count: 28, On average in 28.57 % of decks  
-Card: <a href="link" class="tooltip">Koi Blessed Kimono<span class="tooltiptext"><img src="https://storage.googleapis.com/fabmaster/cardfaces/2024-MST/EN/MST068.png"></span></a>, Overall count: 24, On average in 24.49 % of decks  
-Card: <a href="link" class="tooltip">Skycrest Keikoi<span class="tooltiptext"><img src="https://storage.googleapis.com/fabmaster/cardfaces/2024-MST/EN/MST071.png"></span></a>, Overall count: 20, On average in 20.41 % of decks  
-Card: <a href="link" class="tooltip">Skywalker Keikoi<span class="tooltiptext"><img src="https://storage.googleapis.com/fabmaster/cardfaces/2024-MST/EN/MST074.png"></span></a>, Overall count: 17, On average in 17.35 % of decks  
-Card: <a href="link" class="tooltip">Aqua Laps<span class="tooltiptext"><img src="https://storage.googleapis.com/fabmaster/cardfaces/2024-MST/EN/MST070.png"></span></a>, Overall count: 10, On average in 10.2 % of decks  
-Card: <a href="link" class="tooltip">Aqua Seeing Shell<span class="tooltiptext"><img src="https://storage.googleapis.com/fabmaster/cardfaces/2024-MST/EN/MST067.png"></span></a>, Overall count: 9, On average in 9.18 % of decks  
+Card: <a href="link" class="tooltip">**Stride of Reprisal**<span class="tooltiptext"><img src="https://storage.googleapis.com/fabmaster/cardfaces/2024-MST/EN/MST050.png"></span></a>, Overall count: **71**, On average in **72.45** % of decks  
+Card: <a href="link" class="tooltip">**Mask of Wizened Whiskers**<span class="tooltiptext"><img src="https://storage.googleapis.com/fabmaster/cardfaces/2024-MST/EN/MST160.png"></span></a>, Overall count: **69**, On average in **70.41** % of decks  
+Card: <a href="link" class="tooltip">**Skyhold Keikoi**<span class="tooltiptext"><img src="https://storage.googleapis.com/fabmaster/cardfaces/2024-MST/EN/MST073.png"></span></a>, Overall count: **45**, On average in **45.92** % of decks  
+Card: <a href="link" class="tooltip">**Heirloom of Tiger Hide**<span class="tooltiptext"><img src="https://storage.googleapis.com/fabmaster/cardfaces/2024-MST/EN/MST049.png"></span></a>, Overall count: **32**, On average in **32.65** % of decks  
+Card: <a href="link" class="tooltip">**Skybody Keikoi**<span class="tooltiptext"><img src="https://storage.googleapis.com/fabmaster/cardfaces/2024-MST/EN/MST072.png"></span></a>, Overall count: **32**, On average in **32.65** % of decks  
+Card: <a href="link" class="tooltip">**Waves of Aqua Marine**<span class="tooltiptext"><img src="https://storage.googleapis.com/fabmaster/cardfaces/2024-MST/EN/MST069.png"></span></a>, Overall count: **28**, On average in **28.57** % of decks  
+Card: <a href="link" class="tooltip">**Koi Blessed Kimono**<span class="tooltiptext"><img src="https://storage.googleapis.com/fabmaster/cardfaces/2024-MST/EN/MST068.png"></span></a>, Overall count: **24**, On average in **24.49** % of decks  
+Card: <a href="link" class="tooltip">**Skycrest Keikoi**<span class="tooltiptext"><img src="https://storage.googleapis.com/fabmaster/cardfaces/2024-MST/EN/MST071.png"></span></a>, Overall count: **20**, On average in **20.41** % of decks  
+Card: <a href="link" class="tooltip">**Skywalker Keikoi**<span class="tooltiptext"><img src="https://storage.googleapis.com/fabmaster/cardfaces/2024-MST/EN/MST074.png"></span></a>, Overall count: **17**, On average in **17.35** % of decks  
+Card: <a href="link" class="tooltip">**Aqua Laps**<span class="tooltiptext"><img src="https://storage.googleapis.com/fabmaster/cardfaces/2024-MST/EN/MST070.png"></span></a>, Overall count: **10**, On average in **10.2** % of decks  
+Card: <a href="link" class="tooltip">**Aqua Seeing Shell**<span class="tooltiptext"><img src="https://storage.googleapis.com/fabmaster/cardfaces/2024-MST/EN/MST067.png"></span></a>, Overall count: **9**, On average in **9.18** % of decks  
+
+### Transcend cards  
+Card: <a href="link" class="tooltip">**Preserve Tradition (blue)**<span class="tooltiptext"><img src="https://storage.googleapis.com/fabmaster/cardfaces/2024-MST/EN/MST099.png"></span></a>, Overall count: **45**, On average in **45.92** % of decks  
+Card: <a href="link" class="tooltip">**Homage to Ancestors (blue)**<span class="tooltiptext"><img src="https://storage.googleapis.com/fabmaster/cardfaces/2024-MST/EN/MST096.png"></span></a>, Overall count: **37**, On average in **37.76** % of decks  
+Card: <a href="link" class="tooltip">**Rising Sun, Setting Moon (blue)**<span class="tooltiptext"><img src="https://storage.googleapis.com/fabmaster/cardfaces/2024-MST/EN/MST100.png"></span></a>, Overall count: **35**, On average in **35.71** % of decks  
+Card: <a href="link" class="tooltip">**Stir the Pot (blue)**<span class="tooltiptext"><img src="https://storage.googleapis.com/fabmaster/cardfaces/2024-MST/EN/MST101.png"></span></a>, Overall count: **31**, On average in **31.63** % of decks  
+Card: <a href="link" class="tooltip">**The Grain that Tips the Scale (blue)**<span class="tooltiptext"><img src="https://storage.googleapis.com/fabmaster/cardfaces/2024-MST/EN/MST102.png"></span></a>, Overall count: **29**, On average in **29.59** % of decks  
+Card: <a href="link" class="tooltip">**Path Well Traveled (blue)**<span class="tooltiptext"><img src="https://storage.googleapis.com/fabmaster/cardfaces/2024-MST/EN/MST098.png"></span></a>, Overall count: **27**, On average in **27.55** % of decks  
+Card: <a href="link" class="tooltip">**Pass Over (blue)**<span class="tooltiptext"><img src="https://storage.googleapis.com/fabmaster/cardfaces/2024-MST/EN/MST097.png"></span></a>, Overall count: **22**, On average in **22.45** % of decks  
+Card: <a href="link" class="tooltip">**A Drop in the Ocean (blue)**<span class="tooltiptext"><img src="https://storage.googleapis.com/fabmaster/cardfaces/2024-MST/EN/MST095.png"></span></a>, Overall count: **11**, On average in **11.22** % of decks  
+Card: <a href="link" class="tooltip">**Sacred Art: Jade Tiger Domain (blue)**<span class="tooltiptext"><img src="https://storage.googleapis.com/fabmaster/cardfaces/2024-MST/EN/MST053.png"></span></a>, Overall count: **6**, On average in **6.12** % of decks  
 <style>
   img {
     width: 250px;

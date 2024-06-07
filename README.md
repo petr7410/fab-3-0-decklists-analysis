@@ -77,6 +77,7 @@ To access the complete card distribution statistics for each class:
 - [Complete Card Distribution for Illusionist](docs/Illusionist_all_cards_stats.html)
 - [Complete Card Distribution for Ninja](docs/Ninja_all_cards_stats.html)
 - [Complete Card Distribution for All cards](docs/all_cards_stats.html)
+- [Analysis of shared cards across all classes](docs/shared_cards_analysis.html)
 
 ## Acknowledgements
 

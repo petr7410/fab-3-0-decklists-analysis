@@ -41,11 +41,11 @@ ninja_cards = ninja_all_cards[~ninja_all_cards["Types"].str.contains("Equipment"
 
 # Setup for md file
 msg = ""
-hero_name = "Ninja"
-cards_count_name = 'ninja_cards'
-card_deck_pct_name = 'ninja_deck_pct'
-hero_cards = ninja_cards
-hero_equip = ninja_equips
+hero_name = "Assassin"
+cards_count_name = 'assassin_cards'
+card_deck_pct_name = 'assassin_deck_pct'
+hero_cards = assassin_cards
+hero_equip = assassin_equips
 
 # Creating info md file
 msg += f"# {hero_name} Analysis:  \n"
@@ -62,53 +62,59 @@ hero_cards['Pitch'] = hero_cards['Pitch'].fillna('None')
 grouped_sum = hero_cards.groupby('Pitch')[cards_count_name].sum()
 grouped_sum = (grouped_sum / number_of_cards * 100).round(2)
 for group, total in grouped_sum.items():
-    msg += f"Pitch value: {group} corresponds to {total} % of cards.  \n"
+    msg += f"Pitch value: **{group}** corresponds to **{total} %** of cards, represents **{round(total*0.3, 1)}** cards in a deck of 30 cards.  \n"
 
 msg += f"\n### Defense distribution:  \n"
 hero_cards['Defense'] = hero_cards['Defense'].fillna('None')
 grouped_sum = hero_cards.groupby('Defense')[cards_count_name].sum()
 grouped_sum = (grouped_sum / number_of_cards * 100).round(2)
 for group, total in grouped_sum.items():
-    msg += f"Defense value: {group} corresponds to {total} % of cards.  \n"
+    msg += f"Defense value: **{group}** corresponds to **{total} %** of cards, represents **{round(total*0.3, 1)}** cards in a deck of 30 cards.  \n"
 
 msg += f"\n### Cost distribution:  \n"
 hero_cards['Cost'] = hero_cards['Cost'].fillna('None')
 grouped_sum = hero_cards.groupby('Cost')[cards_count_name].sum()
 grouped_sum = (grouped_sum / number_of_cards * 100).round(2)
 for group, total in grouped_sum.items():
-    msg += f"Cost value: {group} corresponds to {total} % of cards.  \n"
+    msg += f"Cost value: **{group}** corresponds to **{total} %** of cards, represents **{round(total*0.3, 1)}** cards in a deck of 30 cards.  \n"
 
 msg += f"\n\n## Summary of card types and keywords  \n"
 
+pct_action_attack = (hero_cards[hero_cards["Types"].str.contains("Action") & hero_cards["Types"].str.contains("Attack")][cards_count_name].sum() / number_of_cards * 100).round(2)
+msg += f"Percentage of attack action cards: **{pct_action_attack} %**  \n"
+
+pct_non_attack_action = (hero_cards[hero_cards["Types"].str.contains("Action") & ~hero_cards["Types"].str.contains("Attack")][cards_count_name].sum() / number_of_cards * 100).round(2)
+msg += f"Percentage of non-attack action cards: **{pct_non_attack_action} %**  \n"
+
 pct_attack_reaction = (hero_cards[hero_cards["Types"].str.contains("Attack Reaction")][cards_count_name].sum() / number_of_cards * 100).round(2)
-msg += f"Percentage of attack reaction cards: {pct_attack_reaction} %  \n"
+msg += f"Percentage of attack reaction cards: **{pct_attack_reaction} %**  \n"
 
 pct_instant = (hero_cards[hero_cards["Types"].str.contains("Instant")][cards_count_name].sum() / number_of_cards * 100).round(2)
-msg += f"Percentage of instant cards: {pct_instant} %  \n"
+msg += f"Percentage of instant cards: **{pct_instant} %**  \n"
 
 pct_defense_reaction = (hero_cards[hero_cards["Types"].str.contains("Defense Reaction")][cards_count_name].sum() / number_of_cards * 100).round(2)
-msg += f"Percentage of defense reaction cards: {pct_defense_reaction} %  \n"
+msg += f"Percentage of defense reaction cards: **{pct_defense_reaction} %**  \n"
 
 filtered_hero_cards = hero_cards[hero_cards["Card Keywords"].notna()]
 pct_transcend = (filtered_hero_cards[filtered_hero_cards["Card Keywords"].str.contains("Transcend")][cards_count_name].sum() / number_of_cards * 100).round(2)
-msg += f"Percentage of transcend cards: {pct_transcend} %  \n"
+msg += f"Percentage of transcend cards: **{pct_transcend} %**  \n"
 
 pct_go_again = (filtered_hero_cards[filtered_hero_cards["Card Keywords"].str.contains("Go again")][cards_count_name].sum() / number_of_cards * 100).round(2)
-msg += f"Percentage of go again cards: {pct_go_again} %  \n"
+msg += f"Percentage of go again cards: **{pct_go_again} %**  \n"
 
 pct_stealth = (filtered_hero_cards[filtered_hero_cards["Card Keywords"].str.contains("Stealth")][cards_count_name].sum() / number_of_cards * 100).round(2)
-msg += f"Percentage of stealth cards: {pct_stealth} %  \n"
+msg += f"Percentage of stealth cards: **{pct_stealth} %**  \n"
 
 pct_ward = (filtered_hero_cards[filtered_hero_cards["Card Keywords"].str.contains("Ward")][cards_count_name].sum() / number_of_cards * 100).round(2)
-msg += f"Percentage of ward cards: {pct_ward} %  \n"
+msg += f"Percentage of ward cards: **{pct_ward} %**  \n"
 
 pct_combo = (filtered_hero_cards[filtered_hero_cards["Card Keywords"].str.contains("Combo")][cards_count_name].sum() / number_of_cards * 100).round(2)
-msg += f"Percentage of combo cards: {pct_combo} %  \n"
+msg += f"Percentage of combo cards: **{pct_combo} %**  \n"
 
 def card_with_image(card_name, card_link):
-    return f'<a href="link" class="tooltip">{card_name}<span class="tooltiptext"><img src="{card_link}"></span></a>'
+    return f'<a href="link" class="tooltip">**{card_name}**<span class="tooltiptext"><img src="{card_link}"></span></a>'
 
-msg += f"\n\n## Top 20 cards based on rarity + equipment  \n"
+msg += f"\n\n## Top 20 cards based on rarity + equipment + transcend  \n"
 msg += "\n### Top 20 common cards  \n"
 hero_20_common_cards = hero_cards[hero_cards["rarity"] == "common"].head(20).reset_index()
 for index, row in hero_20_common_cards.iterrows():
@@ -116,7 +122,7 @@ for index, row in hero_20_common_cards.iterrows():
     x = row[cards_count_name]
     y = row[card_deck_pct_name]
     link = row["image_url"]
-    msg +=  f"Card: {card_with_image(name, link)}, Overall count: {x}, On average in {y} % of decks  \n"
+    msg +=  f"Card: {card_with_image(name, link)}, Overall count: **{x}**, On average in **{y}** % of decks  \n"
 
 msg += "\n### Top 20 rare cards\n"
 hero_20_rare_cards = hero_cards[hero_cards["rarity"] == "rare"].head(20).reset_index()
@@ -125,7 +131,7 @@ for index, row in hero_20_rare_cards.iterrows():
     x = row[cards_count_name]
     y = row[card_deck_pct_name]
     link = row["image_url"]
-    msg +=  f"Card: {card_with_image(name, link)}, Overall count: {x}, On average in {y} % of decks  \n"
+    msg +=  f"Card: {card_with_image(name, link)}, Overall count: **{x}**, On average in **{y}** % of decks  \n"
 
 msg += "\n### Mythic cards  \n"
 hero_mythic_cards = hero_cards[hero_cards["rarity"] == "mythic"].reset_index()
@@ -134,7 +140,7 @@ for index, row in hero_mythic_cards.iterrows():
     x = row[cards_count_name]
     y = row[card_deck_pct_name]
     link = row["image_url"]
-    msg +=  f"Card: {card_with_image(name, link)}, Overall count: {x}, On average in {y} % of decks  \n"
+    msg +=  f"Card: {card_with_image(name, link)}, Overall count: **{x}**, On average in **{y}** % of decks  \n"
 
 msg += "\n### Equipment cards  \n"
 hero_equip_cards = hero_equip.reset_index()
@@ -143,7 +149,16 @@ for index, row in hero_equip_cards.iterrows():
     x = row[cards_count_name]
     y = row[card_deck_pct_name]
     link = row["image_url"]
-    msg +=  f"Card: {card_with_image(name, link)}, Overall count: {x}, On average in {y} % of decks  \n"
+    msg +=  f"Card: {card_with_image(name, link)}, Overall count: **{x}**, On average in **{y}** % of decks  \n"
+
+msg += "\n### Transcend cards  \n"
+hero_transcend_cards = filtered_hero_cards[filtered_hero_cards["Card Keywords"].str.contains("Transcend")].reset_index()
+for index, row in hero_transcend_cards.iterrows():
+    name = row['Name']
+    x = row[cards_count_name]
+    y = row[card_deck_pct_name]
+    link = row["image_url"]
+    msg +=  f"Card: {card_with_image(name, link)}, Overall count: **{x}**, On average in **{y}** % of decks  \n"
 
 msg += """\
 <style>
@@ -189,7 +204,7 @@ for index, row in hero_all_cards.iterrows():
     x = row[cards_count_name]
     y = row[card_deck_pct_name]
     link = row["image_url"]
-    msg +=  f"Card: {card_with_image(name, link)}, Overall count: {x}, On average in {y} % of decks  \n"
+    msg +=  f"Card: {card_with_image(name, link)}, Overall count: **{x}**, On average in **{y}** % of decks  \n"
 
 """# Creating all cards list for all cards
 hero_name = ""
@@ -200,7 +215,7 @@ for index, row in cards.iterrows():
     x = row["all_cards"]
     y = row["deck_weighted_pct"]
     link = row["image_url"]
-    msg +=  f"Card: {card_with_image(name, link)}, Overall count: {x}, Weighted percentage: {y} %  \n"
+    msg +=  f"Card: {card_with_image(name, link)}, Overall count: **{x}**, Weighted percentage: **{y}** %  \n"
 """
 
 msg += """\
