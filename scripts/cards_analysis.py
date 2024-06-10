@@ -168,7 +168,7 @@ for setup in setup_list:
         f.write(add_style(msg))
 
     with open(f'../docs/{hero_name}_info.html', 'w') as f:
-        f.write(add_html_format(markdown.markdown(msg)))
+        f.write(add_html_format(markdown.markdown(msg), hero_name + " Analysis"))
 
     # Creating all cards list for hero
     msg = f'# {hero_name}: All cards  \n'
@@ -184,7 +184,7 @@ for setup in setup_list:
         f.write(add_style(msg))
 
     with open(f'../docs/{hero_name}_all_cards_stats.html', 'w') as f:
-        f.write(add_html_format(markdown.markdown(msg)))
+        f.write(add_html_format(markdown.markdown(msg), hero_name + " All Cards"))
 
 # Creating all cards list for all cards
 hero_name = ""
@@ -201,5 +201,5 @@ with open(f'../analysis/all_cards_stats.md', 'w') as f:
     f.write(add_style(msg))
 
 with open(f'../docs/all_cards_stats.html', 'w') as f:
-    f.write(add_html_format(markdown.markdown(msg)))
+    f.write(add_html_format(markdown.markdown(msg), "All Cards"))
 

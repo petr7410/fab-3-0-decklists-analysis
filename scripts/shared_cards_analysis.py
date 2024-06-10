@@ -73,4 +73,4 @@ with open(f'../analysis/shared_cards_analysis.md', 'w') as f:
   f.write(add_style(msg))
 
 with open(f'../docs/shared_cards_analysis.html', 'w') as f:
-  f.write(add_html_format(markdown.markdown(msg)))
+  f.write(add_html_format(markdown.markdown(msg), "Shared cards analysis"))

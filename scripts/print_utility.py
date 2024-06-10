@@ -35,14 +35,14 @@ def add_style(msg):
     return msg
 
 # html definition
-def add_html_format(msg):
-    head = """\
+def add_html_format(msg, title):
+    head = f"""\
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Template</title>
+    <title>{title}</title>
     <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>\n"""
