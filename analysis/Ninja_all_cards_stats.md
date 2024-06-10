@@ -102,33 +102,33 @@ Card: <a href="link" class="tooltip">**Gravekeeping (blue)**<span class="tooltip
 Card: <a href="link" class="tooltip">**Rowdy Locals (blue)**<span class="tooltiptext"><img src="https://storage.googleapis.com/fabmaster/cardfaces/2024-MST/EN/MST191.png"></span></a>, Overall count: **2**, On average in **2.04** % of decks  
 Card: <a href="link" class="tooltip">**Orihon of Mystic Tenets (blue)**<span class="tooltiptext"><img src="https://storage.googleapis.com/fabmaster/cardfaces/2024-MST/EN/MST080.png"></span></a>, Overall count: **1**, On average in **1.02** % of decks  
 <style>
-  img {
-    width: 250px;
-  }
+    img {
+        width: 250px;
+    }
 
-  .tooltip {
-    position: relative;
-    display: inline-block;
-  }
+    .tooltip {
+        position: relative;
+        display: inline-block;
+    }
 
-  .tooltip .tooltiptext {
-    visibility: hidden;
-    width: 250px;
-    background-color: white;
-    text-align: center;
-    padding: 5px;
-    border-radius: 6px;
-    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.2);
+    .tooltip .tooltiptext {
+        visibility: hidden;
+        width: 250px;
+        background-color: white;
+        text-align: center;
+        padding: 5px;
+        border-radius: 6px;
+        box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.2);
 
-    /* Position the tooltip text */
-    position: absolute;
-    z-index: 1;
-    top: 20px; /* Position it below the link */
-    left: 105%; /* Position it to the right of the link */
-    margin-left: 0;
-  }
+        /* Position the tooltip text */
+        position: absolute;
+        z-index: 1;
+        top: 20px; /* Position it below the link */
+        left: 105%; /* Position it to the right of the link */
+        margin-left: 0;
+    }
 
-  .tooltip:hover .tooltiptext {
-    visibility: visible;
-  }
+    .tooltip:hover .tooltiptext {
+        visibility: visible;
+    }
 </style>

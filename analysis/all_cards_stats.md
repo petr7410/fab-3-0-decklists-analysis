@@ -205,33 +205,33 @@ Card: <a href="link" class="tooltip">**Siren's Call (red)**<span class="tooltipt
 Card: <a href="link" class="tooltip">**Cracked Bauble (yellow)**<span class="tooltiptext"><img src="https://storage.googleapis.com/fabmaster/cardfaces/2024-MST/EN/MST224.png"></span></a>, Overall count: **2**, Weighted percentage: **0.89** %  
 Card: <a href="link" class="tooltip">**Dense Blue Mist (blue)**<span class="tooltiptext"><img src="https://storage.googleapis.com/fabmaster/cardfaces/2024-MST/EN/MST079.png"></span></a>, Overall count: **2**, Weighted percentage: **0.87** %  
 <style>
-  img {
-    width: 250px;
-  }
+    img {
+        width: 250px;
+    }
 
-  .tooltip {
-    position: relative;
-    display: inline-block;
-  }
+    .tooltip {
+        position: relative;
+        display: inline-block;
+    }
 
-  .tooltip .tooltiptext {
-    visibility: hidden;
-    width: 250px;
-    background-color: white;
-    text-align: center;
-    padding: 5px;
-    border-radius: 6px;
-    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.2);
+    .tooltip .tooltiptext {
+        visibility: hidden;
+        width: 250px;
+        background-color: white;
+        text-align: center;
+        padding: 5px;
+        border-radius: 6px;
+        box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.2);
 
-    /* Position the tooltip text */
-    position: absolute;
-    z-index: 1;
-    top: 20px; /* Position it below the link */
-    left: 105%; /* Position it to the right of the link */
-    margin-left: 0;
-  }
+        /* Position the tooltip text */
+        position: absolute;
+        z-index: 1;
+        top: 20px; /* Position it below the link */
+        left: 105%; /* Position it to the right of the link */
+        margin-left: 0;
+    }
 
-  .tooltip:hover .tooltiptext {
-    visibility: visible;
-  }
+    .tooltip:hover .tooltiptext {
+        visibility: visible;
+    }
 </style>

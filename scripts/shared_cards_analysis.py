@@ -1,6 +1,8 @@
 import warnings
 import pandas as pd
 import json
+import markdown
+from print_utility import add_style, add_html_format
 
 # Suppress Warning messages
 warnings.simplefilter(action='ignore', category=Warning)
@@ -35,70 +37,40 @@ msg = "# Comparison of Generic / Mystic card across classes\n\n"
 
 msg += "\n## Equipment cards  \n"
 for index, row in all_equips.iterrows():
-    name = row['Name']
-    count = row["all_cards"]
-    assassin = row["assassin_deck_pct"]
-    illusionist = row["illusionist_deck_pct"]
-    ninja = row["ninja_deck_pct"]
-    weight = row["deck_weighted_pct"]
-    link = row["image_url"]
-    msg +=  f"Card: {card_with_image(name, link)}, Overall count: **{count}**, Weighted percentage: **{weight}** %  \n-> On average in **{assassin}** % of Assassin decks  \n-> On average in **{illusionist}** % of Illusionist decks  \n-> On average in **{ninja}** % of Ninja decks\n\n"
+  name = row['Name']
+  count = row["all_cards"]
+  assassin = row["assassin_deck_pct"]
+  illusionist = row["illusionist_deck_pct"]
+  ninja = row["ninja_deck_pct"]
+  weight = row["deck_weighted_pct"]
+  link = row["image_url"]
+  msg +=  f"Card: {card_with_image(name, link)}, Overall count: **{count}**, Weighted percentage: **{weight}** %  \n-> On average in **{assassin}** % of Assassin decks  \n-> On average in **{illusionist}** % of Illusionist decks  \n-> On average in **{ninja}** % of Ninja decks\n\n"
 
 
 msg += "\n## Mystic cards  \n"
 for index, row in all_mystic.iterrows():
-    name = row['Name']
-    count = row["all_cards"]
-    assassin = row["assassin_deck_pct"]
-    illusionist = row["illusionist_deck_pct"]
-    ninja = row["ninja_deck_pct"]
-    weight = row["deck_weighted_pct"]
-    link = row["image_url"]
-    msg +=  f"Card: {card_with_image(name, link)}, Overall count: **{count}**, Weighted percentage: **{weight}** %  \n-> On average in **{assassin}** % of Assassin decks  \n-> On average in **{illusionist}** % of Illusionist decks  \n-> On average in **{ninja}** % of Ninja decks\n\n"
+  name = row['Name']
+  count = row["all_cards"]
+  assassin = row["assassin_deck_pct"]
+  illusionist = row["illusionist_deck_pct"]
+  ninja = row["ninja_deck_pct"]
+  weight = row["deck_weighted_pct"]
+  link = row["image_url"]
+  msg +=  f"Card: {card_with_image(name, link)}, Overall count: **{count}**, Weighted percentage: **{weight}** %  \n-> On average in **{assassin}** % of Assassin decks  \n-> On average in **{illusionist}** % of Illusionist decks  \n-> On average in **{ninja}** % of Ninja decks\n\n"
 
 msg += "\n## Generic cards  \n"
 for index, row in all_generic.iterrows():
-    name = row['Name']
-    count = row["all_cards"]
-    assassin = row["assassin_deck_pct"]
-    illusionist = row["illusionist_deck_pct"]
-    ninja = row["ninja_deck_pct"]
-    weight = row["deck_weighted_pct"]
-    link = row["image_url"]
-    msg +=  f"Card: {card_with_image(name, link)}, Overall count: **{count}**, Weighted percentage: **{weight}** %  \n-> On average in **{assassin}** % of Assassin decks  \n-> On average in **{illusionist}** % of Illusionist decks  \n-> On average in **{ninja}** % of Ninja decks\n\n"
-
-msg += """\
-<style>
-  img {
-    width: 250px;
-  }
-
-  .tooltip {
-    position: relative;
-    display: inline-block;
-  }
-
-  .tooltip .tooltiptext {
-    visibility: hidden;
-    width: 250px;
-    background-color: white;
-    text-align: center;
-    padding: 5px;
-    border-radius: 6px;
-    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.2);
-
-    /* Position the tooltip text */
-    position: absolute;
-    z-index: 1;
-    top: 20px; /* Position it below the link */
-    left: 105%; /* Position it to the right of the link */
-    margin-left: 0;
-  }
-
-  .tooltip:hover .tooltiptext {
-    visibility: visible;
-  }
-</style>\n"""
+  name = row['Name']
+  count = row["all_cards"]
+  assassin = row["assassin_deck_pct"]
+  illusionist = row["illusionist_deck_pct"]
+  ninja = row["ninja_deck_pct"]
+  weight = row["deck_weighted_pct"]
+  link = row["image_url"]
+  msg +=  f"Card: {card_with_image(name, link)}, Overall count: **{count}**, Weighted percentage: **{weight}** %  \n-> On average in **{assassin}** % of Assassin decks  \n-> On average in **{illusionist}** % of Illusionist decks  \n-> On average in **{ninja}** % of Ninja decks\n\n"
 
 with open(f'../analysis/shared_cards_analysis.md', 'w') as f:
-    f.write(msg)
+  f.write(add_style(msg))
+
+with open(f'../docs/shared_cards_analysis.html', 'w') as f:
+  f.write(add_html_format(markdown.markdown(msg)))
