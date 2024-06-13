@@ -1,5 +1,7 @@
 # Style definition
 def add_style(msg):
+    # fixing the problem with data-src
+    msg = msg.replace("data-src", "src")
     msg += """\
 <style>
     img {
