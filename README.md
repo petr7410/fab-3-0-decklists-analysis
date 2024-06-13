@@ -79,11 +79,51 @@ To access the complete card distribution statistics for each class:
 - [Complete Card Distribution for All cards](docs/all_cards_stats.html)
 - [Analysis of shared cards across all classes](docs/shared_cards_analysis.html)
 
+### Draft
+
+The following analysis considers the draft file v2.
+
+Take this analysis with a grain of salt, as it is based on decks from the newest draft file (v2). However, there is a high chance that some decks used different files (v1).
+
+Additionally, the sample size is small, as only 3-0 decks from June are considered.
+
+**Brief Explanation of Data:**
+
+- **Expected number of appearances per draft:** The sum of appearances of all cards is equal to `14 * 3 * 8 = 336`.
+- **Pick rate:** `number_of_times_picked / (expected_number_of_appearances_per_draft * number_of_win_of_class)` shown as a percentage.
+  - This is the pick rate by the winner. A 100 % pick rate would closely (but not completely) correspond to an instant win card.
+  - A good pick rate for non-class cards is above 12.5 %, and for class cards, it is above approximately 33.3 % (37.5 %).
+- **Pick weight:** `if (class) {pick_rate * 3} else {pick_rate * 8}` metric to compare class and non-class cards.
+  - Expecting 8 players to compete for non-class cards and 3 players to compete for class cards.
+  - It is possible to use a different number than 3 (for example, 8/3), but it is normal to end up with some cards from different classes.
+  - Do not take this attribute too seriously, especially when comparing class and common cards.
+
+To access stats and brief summary of classes:
+
+- [Draft: Assassin Brief Summary](docs/Assassin_draft_analysis.html)
+- [Draft: Illusionist Brief Summary](docs/Illusionist_draft_analysis.html)
+- [Draft: Ninja Brief Summary](docs/Ninja_draft_analysis.html)
+
+To access the complete card distribution statistics for each class:
+
+- [Draft: Complete Card Distribution for Assassin](docs/Assassin_all_cards_draft.html)
+- [Draft: Complete Card Distribution for Illusionist](docs/Illusionist_all_cards_draft.html)
+- [Draft: Complete Card Distribution for Ninja](docs/Ninja_all_cards_draft.html)
+
+To access pick rate of non-class cards:
+
+- [Draft Non-Class Cards](docs/draft_non-class_cards.html)
+
+To access card distribution of the current draft file (v2):
+
+- [Draft File Distribution](docs/draft_analysis.html)
+
 ## Acknowledgements
 
 Thank you to:
 - The [Flesh and Blood Cards](https://github.com/the-fab-cube/flesh-and-blood-cards) for providing open access to card details.
 - [Runaways TCG](https://x.com/tcgrunaways) for gathering an amazing community.
+- briguy for creating the amazing draft file.
 - All the people who shared their decks on the Runaways Discord server.
 
 ## Contributions and Suggestions
