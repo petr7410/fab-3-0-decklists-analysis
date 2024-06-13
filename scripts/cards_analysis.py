@@ -85,35 +85,35 @@ for setup in setup_list:
     msg += f"\n\n## Summary of card types and keywords  \n"
 
     pct_action_attack = (hero_cards[hero_cards["Types"].str.contains("Action") & hero_cards["Types"].str.contains("Attack")][cards_count_name].sum() / number_of_cards * 100).round(2)
-    msg += f"Percentage of attack action cards: **{pct_action_attack} %**  \n"
+    msg += f"Percentage of attack action cards: **{pct_action_attack} %** (represents **{round(pct_action_attack*0.3, 1)}** cards in a deck of 30 cards)  \n"
 
     pct_non_attack_action = (hero_cards[hero_cards["Types"].str.contains("Action") & ~hero_cards["Types"].str.contains("Attack")][cards_count_name].sum() / number_of_cards * 100).round(2)
-    msg += f"Percentage of non-attack action cards: **{pct_non_attack_action} %**  \n"
+    msg += f"Percentage of non-attack action cards: **{pct_non_attack_action} %** (represents **{round(pct_non_attack_action*0.3, 1)}** cards in a deck of 30 cards)  \n"
 
     pct_attack_reaction = (hero_cards[hero_cards["Types"].str.contains("Attack Reaction")][cards_count_name].sum() / number_of_cards * 100).round(2)
-    msg += f"Percentage of attack reaction cards: **{pct_attack_reaction} %**  \n"
+    msg += f"Percentage of attack reaction cards: **{pct_attack_reaction} %** (represents **{round(pct_attack_reaction*0.3, 1)}** cards in a deck of 30 cards)  \n"
 
     pct_instant = (hero_cards[hero_cards["Types"].str.contains("Instant")][cards_count_name].sum() / number_of_cards * 100).round(2)
-    msg += f"Percentage of instant cards: **{pct_instant} %**  \n"
+    msg += f"Percentage of instant cards: **{pct_instant} %** (represents **{round(pct_instant*0.3, 1)}** cards in a deck of 30 cards)  \n"
 
     pct_defense_reaction = (hero_cards[hero_cards["Types"].str.contains("Defense Reaction")][cards_count_name].sum() / number_of_cards * 100).round(2)
-    msg += f"Percentage of defense reaction cards: **{pct_defense_reaction} %**  \n"
+    msg += f"Percentage of defense reaction cards: **{pct_defense_reaction} %** (represents **{round(pct_defense_reaction*0.3, 1)}** cards in a deck of 30 cards)  \n"
 
     filtered_hero_cards = hero_cards[hero_cards["Card Keywords"].notna()]
     pct_transcend = (filtered_hero_cards[filtered_hero_cards["Card Keywords"].str.contains("Transcend")][cards_count_name].sum() / number_of_cards * 100).round(2)
-    msg += f"Percentage of transcend cards: **{pct_transcend} %**  \n"
+    msg += f"Percentage of transcend cards: **{pct_transcend} %** (represents **{round(pct_transcend*0.3, 1)}** cards in a deck of 30 cards)  \n"
 
     pct_go_again = (filtered_hero_cards[filtered_hero_cards["Card Keywords"].str.contains("Go again")][cards_count_name].sum() / number_of_cards * 100).round(2)
-    msg += f"Percentage of go again cards: **{pct_go_again} %**  \n"
+    msg += f"Percentage of go again cards: **{pct_go_again} %** (represents **{round(pct_go_again*0.3, 1)}** cards in a deck of 30 cards)  \n"
 
     pct_stealth = (filtered_hero_cards[filtered_hero_cards["Card Keywords"].str.contains("Stealth")][cards_count_name].sum() / number_of_cards * 100).round(2)
-    msg += f"Percentage of stealth cards: **{pct_stealth} %**  \n"
+    msg += f"Percentage of stealth cards: **{pct_stealth} %** (represents **{round(pct_stealth*0.3, 1)}** cards in a deck of 30 cards)  \n"
 
     pct_ward = (filtered_hero_cards[filtered_hero_cards["Card Keywords"].str.contains("Ward")][cards_count_name].sum() / number_of_cards * 100).round(2)
-    msg += f"Percentage of ward cards: **{pct_ward} %**  \n"
+    msg += f"Percentage of ward cards: **{pct_ward} %** (represents **{round(pct_ward*0.3, 1)}** cards in a deck of 30 cards)  \n"
 
     pct_combo = (filtered_hero_cards[filtered_hero_cards["Card Keywords"].str.contains("Combo")][cards_count_name].sum() / number_of_cards * 100).round(2)
-    msg += f"Percentage of combo cards: **{pct_combo} %**  \n"
+    msg += f"Percentage of combo cards: **{pct_combo} %** (represents **{round(pct_combo*0.3, 1)}** cards in a deck of 30 cards)  \n"
 
     msg += f"\n\n## Top 20 cards based on rarity + equipment + transcend  \n"
     msg += "\n### Top 20 common cards  \n"

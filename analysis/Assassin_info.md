@@ -30,16 +30,16 @@ Cost value: **None** corresponds to **0.14 %** of cards, represents **0.0** card
 
 
 ## Summary of card types and keywords  
-Percentage of attack action cards: **60.56 %**  
-Percentage of non-attack action cards: **4.14 %**  
-Percentage of attack reaction cards: **24.57 %**  
-Percentage of instant cards: **8.34 %**  
-Percentage of defense reaction cards: **2.24 %**  
-Percentage of transcend cards: **8.29 %**  
-Percentage of go again cards: **6.67 %**  
-Percentage of stealth cards: **44.04 %**  
-Percentage of ward cards: **0.0 %**  
-Percentage of combo cards: **0.0 %**  
+Percentage of attack action cards: **60.56 %** (represents **18.2** cards in a deck of 30 cards)  
+Percentage of non-attack action cards: **4.14 %** (represents **1.2** cards in a deck of 30 cards)  
+Percentage of attack reaction cards: **24.57 %** (represents **7.4** cards in a deck of 30 cards)  
+Percentage of instant cards: **8.34 %** (represents **2.5** cards in a deck of 30 cards)  
+Percentage of defense reaction cards: **2.24 %** (represents **0.7** cards in a deck of 30 cards)  
+Percentage of transcend cards: **8.29 %** (represents **2.5** cards in a deck of 30 cards)  
+Percentage of go again cards: **6.67 %** (represents **2.0** cards in a deck of 30 cards)  
+Percentage of stealth cards: **44.04 %** (represents **13.2** cards in a deck of 30 cards)  
+Percentage of ward cards: **0.0 %** (represents **0.0** cards in a deck of 30 cards)  
+Percentage of combo cards: **0.0 %** (represents **0.0** cards in a deck of 30 cards)  
 
 
 ## Top 20 cards based on rarity + equipment + transcend  
