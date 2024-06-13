@@ -1,6 +1,8 @@
 import pandas as pd
 import json
 
+MONTH_FILTER = None
+
 # Loading card details
 file_path = '../data/cards_draft.json'
 with open(file_path, 'r', encoding='utf-8') as file:
@@ -66,11 +68,24 @@ class_dict = {}
 card_dict = {}
 equip_dict = {}
 all_cards = {}
+data_filter = False
 
 with open("../data/decks.txt", "r", encoding='utf-8') as file:
     lines = file.readlines()
     current_hero = None
     for line in lines:
+        if MONTH_FILTER is not None and line.startswith("2024-"):
+            month = line[5:7]
+            if month == MONTH_FILTER:
+                data_filter = True
+                continue
+            else:
+                data_filter = False
+                continue
+
+        if MONTH_FILTER is not None and not data_filter:
+            continue
+
         # Checking for deck class
         if line.startswith("Class: "):
             hero = line.split("Class: ")[1].replace("\n", "")
@@ -124,14 +139,20 @@ for card in all_cards.keys():
 
 decks_cards.index.name = "Name"
 
-decks_cards.to_csv('../data/decks_cards.csv')
-
-with open('../data/deck_stats.json', 'w') as f:
-    json.dump(class_dict, f)
-
-
-# Creating scv card database
-
 complete_cards = cards.merge(decks_cards, left_index=True, right_index=True, how='inner')
 
-complete_cards.to_csv('../data/complete_cards.csv')
+if MONTH_FILTER is None:
+    decks_cards.to_csv('../data/decks_cards.csv')
+
+    with open('../data/deck_stats.json', 'w') as f:
+        json.dump(class_dict, f)
+
+
+    # Creating scv card database
+
+    complete_cards.to_csv('../data/complete_cards.csv')
+else:
+    with open('../data/deck_stats_' + MONTH_FILTER + '.json', 'w') as f:
+        json.dump(class_dict, f)
+
+    complete_cards.to_csv('../data/complete_cards_' + MONTH_FILTER + '.csv')
