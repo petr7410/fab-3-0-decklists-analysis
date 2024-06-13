@@ -45,8 +45,17 @@ def add_html_format(msg, title):
     <title>{title}</title>
     <link rel="stylesheet" href="css/styles.css">
 </head>
-<body>\n"""
+<body>
+    <div class="content">
+        <div class="main-text">\n"""
     tail = """\
-\n</body>
+\n        </div>
+    </div>
+    <script src="js/utility.js"></script>
+</body>
 </html>"""
     return head + msg + tail
+
+# card with image preview
+def card_with_image(card_name, card_link):
+    return f'<a href="link" class="tooltip">**{card_name}**<span class="tooltiptext"><img data-src="{card_link}"></span></a>'

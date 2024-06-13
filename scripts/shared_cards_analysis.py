@@ -2,7 +2,7 @@ import warnings
 import pandas as pd
 import json
 import markdown
-from print_utility import add_style, add_html_format
+from print_utility import add_style, add_html_format, card_with_image
 
 # Suppress Warning messages
 warnings.simplefilter(action='ignore', category=Warning)
@@ -29,9 +29,6 @@ all_cards = cards[~cards["Types"].str.contains("Equipment")]
 all_equips = cards[cards["Types"].str.contains("Equipment")].reset_index()
 all_mystic = all_cards[all_cards["Types"].str.contains("Mystic")].reset_index()
 all_generic = all_cards[all_cards["Types"].str.contains("Generic")].reset_index()
-
-def card_with_image(card_name, card_link):
-    return f'<a href="link" class="tooltip">**{card_name}**<span class="tooltiptext"><img src="{card_link}"></span></a>'
 
 msg = "# Comparison of Generic / Mystic card across classes\n\n"
 

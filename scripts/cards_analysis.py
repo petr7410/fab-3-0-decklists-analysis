@@ -2,7 +2,7 @@ import warnings
 import pandas as pd
 import json
 import markdown
-from print_utility import add_style, add_html_format
+from print_utility import add_style, add_html_format, card_with_image
 
 # Suppress Warning messages
 warnings.simplefilter(action='ignore', category=Warning)
@@ -114,9 +114,6 @@ for setup in setup_list:
 
     pct_combo = (filtered_hero_cards[filtered_hero_cards["Card Keywords"].str.contains("Combo")][cards_count_name].sum() / number_of_cards * 100).round(2)
     msg += f"Percentage of combo cards: **{pct_combo} %**  \n"
-
-    def card_with_image(card_name, card_link):
-        return f'<a href="link" class="tooltip">**{card_name}**<span class="tooltiptext"><img src="{card_link}"></span></a>'
 
     msg += f"\n\n## Top 20 cards based on rarity + equipment + transcend  \n"
     msg += "\n### Top 20 common cards  \n"
