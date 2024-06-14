@@ -110,7 +110,7 @@ To access the complete card distribution statistics for each class:
 - [Draft: Complete Card Distribution for Illusionist](docs/Illusionist_all_cards_draft.html)
 - [Draft: Complete Card Distribution for Ninja](docs/Ninja_all_cards_draft.html)
 
-To access pick rate of non-class cards:
+To access pick rate of non-class cards (Correction of uneven class distribution is not included):
 
 - [Draft Non-Class Cards](docs/draft_non-class_cards.html)
 

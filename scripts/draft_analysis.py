@@ -181,7 +181,7 @@ for index, row in non_class_cards.iterrows():
     draft_appearance = row["draft_average_occurrence"]
     pick_rate = row["pick_rate"]
     link = row["image_url"]
-    msg +=  f"Card: {card_with_image(name, link)}, Overall count: **{count}**, Expected number of appearances per draft: **{round(draft_appearance, 3)}**, Pick rate: **{pick_rate}** %, Pick weight: **{round(pick_weight, 2)}**  \n"
+    msg +=  f"Card: {card_with_image(name, link)}, Overall count: **{count}**, Expected number of appearances per draft: **{round(draft_appearance, 3)}**, Pick rate: **{pick_rate}** % \n"
 
 with open(f'../analysis/draft_non-class_cards.md', 'w') as f:
     f.write(add_style(msg))
