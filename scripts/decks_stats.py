@@ -1,8 +1,10 @@
 import warnings
 import pandas as pd
 import json
-import markdown
+import mistune
 from print_utility import add_style, add_html_format, card_with_image
+
+markdown = mistune.create_markdown()
 
 # Suppress Warning messages
 warnings.simplefilter(action='ignore', category=Warning)
@@ -97,4 +99,4 @@ for hero in heroes:
         f.write(add_style(msg))
 
     with open(f'../docs/{hero}_decks_stats.html', 'w') as f:
-        f.write(add_html_format(markdown.markdown(msg), hero + " Decks"))
+        f.write(add_html_format(markdown(msg), hero + " Decks"))

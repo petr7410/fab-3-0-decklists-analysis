@@ -41,7 +41,7 @@ for index, row in all_equips.iterrows():
   ninja = row["ninja_deck_pct"]
   weight = row["deck_weighted_pct"]
   link = row["image_url"]
-  msg +=  f"Card: {card_with_image(name, link)}, Overall count: **{count}**, Weighted percentage: **{weight}** %  \n-> On average in **{assassin}** % of Assassin decks  \n-> On average in **{illusionist}** % of Illusionist decks  \n-> On average in **{ninja}** % of Ninja decks\n\n"
+  msg +=  f"Card: {card_with_image(name, link)}, Overall count: **{count}**, Weighted percentage: **{weight}** %  \n  - On average in **{assassin}** % of Assassin decks  \n  - On average in **{illusionist}** % of Illusionist decks  \n  - On average in **{ninja}** % of Ninja decks\n\n"
 
 
 msg += "\n## Mystic cards  \n"
@@ -53,7 +53,7 @@ for index, row in all_mystic.iterrows():
   ninja = row["ninja_deck_pct"]
   weight = row["deck_weighted_pct"]
   link = row["image_url"]
-  msg +=  f"Card: {card_with_image(name, link)}, Overall count: **{count}**, Weighted percentage: **{weight}** %  \n-> On average in **{assassin}** % of Assassin decks  \n-> On average in **{illusionist}** % of Illusionist decks  \n-> On average in **{ninja}** % of Ninja decks\n\n"
+  msg +=  f"Card: {card_with_image(name, link)}, Overall count: **{count}**, Weighted percentage: **{weight}** %  \n  - On average in **{assassin}** % of Assassin decks  \n  - On average in **{illusionist}** % of Illusionist decks  \n  - On average in **{ninja}** % of Ninja decks\n\n"
 
 msg += "\n## Generic cards  \n"
 for index, row in all_generic.iterrows():
@@ -64,7 +64,7 @@ for index, row in all_generic.iterrows():
   ninja = row["ninja_deck_pct"]
   weight = row["deck_weighted_pct"]
   link = row["image_url"]
-  msg +=  f"Card: {card_with_image(name, link)}, Overall count: **{count}**, Weighted percentage: **{weight}** %  \n-> On average in **{assassin}** % of Assassin decks  \n-> On average in **{illusionist}** % of Illusionist decks  \n-> On average in **{ninja}** % of Ninja decks\n\n"
+  msg +=  f"Card: {card_with_image(name, link)}, Overall count: **{count}**, Weighted percentage: **{weight}** %  \n  - On average in **{assassin}** % of Assassin decks  \n  - On average in **{illusionist}** % of Illusionist decks  \n  - On average in **{ninja}** % of Ninja decks\n\n"
 
 with open(f'../analysis/shared_cards_analysis.md', 'w') as f:
   f.write(add_style(msg))
