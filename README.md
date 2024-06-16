@@ -118,6 +118,16 @@ To access card distribution of the current draft file (v2):
 
 - [Draft File Distribution](docs/draft_analysis.html)
 
+### Decks
+
+To access the analysis with respect to the deck distribution of classes:
+
+- [Decks: Assassin Info](docs/Assassin_decks_stats.html)
+- [Decks: Illusionist Info](docs/Illusionist_decks_stats.html)
+- [Decks: Ninja Info](docs/Ninja_decks_stats.html)
+
+Note: The current method of getting a deck from Fabrary lists only one equipment of the same name.
+
 ## Acknowledgements
 
 Thank you to:

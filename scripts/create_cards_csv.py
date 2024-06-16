@@ -70,6 +70,9 @@ equip_dict = {}
 all_cards = {}
 data_filter = False
 
+deck_dict = {"Assassin": [], "Illusionist": [], "Ninja": []}
+current_deck = None
+
 with open("../data/decks.txt", "r", encoding='utf-8') as file:
     lines = file.readlines()
     current_hero = None
@@ -94,6 +97,9 @@ with open("../data/decks.txt", "r", encoding='utf-8') as file:
                 card_dict[hero] = {}
                 equip_dict[hero] = {}
             class_dict[hero] += 1
+
+            current_deck = {"cards": [], "equips": []}
+            deck_dict[hero].append(current_deck)
         
         # Checking for card
         if line.startswith("("):
@@ -109,6 +115,8 @@ with open("../data/decks.txt", "r", encoding='utf-8') as file:
             if can_be_played(hero, card):
                 card_dict[hero][card] += number
                 all_cards[card] += number
+                for _ in range(number):
+                    current_deck["cards"].append(card)
         
         # Checking for equipments
         if line.startswith("Equipment: "):
@@ -122,8 +130,7 @@ with open("../data/decks.txt", "r", encoding='utf-8') as file:
                 if can_be_played(hero, equip):
                     equip_dict[hero][equip] += 1
                     all_cards[equip] += 1
-                
-
+                    current_deck["equips"].append(equip)
 
 assassin_cards = card_dict["Assassin"] | equip_dict["Assassin"] 
 illusionist_cards = card_dict["Illusionist"] | equip_dict["Illusionist"]
@@ -156,3 +163,6 @@ else:
         json.dump(class_dict, f)
 
     complete_cards.to_csv('../data/complete_cards_' + MONTH_FILTER + '.csv')
+
+with open('../data/decks.json', 'w') as f:
+    json.dump(deck_dict, f)
