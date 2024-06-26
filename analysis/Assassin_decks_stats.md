@@ -1,18 +1,18 @@
 # Assassin decks analysis  
 ## Number of Mythic cards  
-- Deck with **0** mythic cards appeared **51** times  
-- Deck with **1** mythic cards appeared **50** times  
-- Deck with **2** mythic cards appeared **14** times  
+- Deck with **0** mythic cards appeared **54** times  
+- Deck with **1** mythic cards appeared **55** times  
+- Deck with **2** mythic cards appeared **17** times  
 - Deck with **3** mythic cards appeared **2** times  
 - Deck with **4** mythic cards appeared **1** times  
 ## Number of Nimbl cards  
-- Deck with **0** Nimbl cards appeared **59** times  
-  - Deck with **0** Nimblism and **0** Nimble Strike appeared **59** times  
-- Deck with **1** Nimbl cards appeared **25** times  
+- Deck with **0** Nimbl cards appeared **68** times  
+  - Deck with **0** Nimblism and **0** Nimble Strike appeared **68** times  
+- Deck with **1** Nimbl cards appeared **26** times  
   - Deck with **0** Nimblism and **1** Nimble Strike appeared **5** times  
-  - Deck with **1** Nimblism and **0** Nimble Strike appeared **20** times  
-- Deck with **2** Nimbl cards appeared **12** times  
-  - Deck with **1** Nimblism and **1** Nimble Strike appeared **10** times  
+  - Deck with **1** Nimblism and **0** Nimble Strike appeared **21** times  
+- Deck with **2** Nimbl cards appeared **13** times  
+  - Deck with **1** Nimblism and **1** Nimble Strike appeared **11** times  
   - Deck with **2** Nimblism and **0** Nimble Strike appeared **2** times  
 - Deck with **3** Nimbl cards appeared **12** times  
   - Deck with **0** Nimblism and **3** Nimble Strike appeared **1** times  
@@ -26,40 +26,40 @@
   - Deck with **3** Nimblism and **3** Nimble Strike appeared **1** times  
 ## Number of Transcend cards  
 - Deck with **1** transcend cards appeared **13** times  
-- Deck with **2** transcend cards appeared **27** times  
-- Deck with **3** transcend cards appeared **47** times  
-- Deck with **4** transcend cards appeared **25** times  
+- Deck with **2** transcend cards appeared **31** times  
+- Deck with **3** transcend cards appeared **53** times  
+- Deck with **4** transcend cards appeared **26** times  
 - Deck with **5** transcend cards appeared **5** times  
 - Deck with **6** transcend cards appeared **1** times  
 ## Number of Eqiupments  
 - Deck with **1** equipments appeared **1** times  
-- Deck with **2** equipments appeared **13** times  
-- Deck with **3** equipments appeared **44** times  
-- Deck with **4** equipments appeared **46** times  
-- Deck with **5** equipments appeared **13** times  
+- Deck with **2** equipments appeared **14** times  
+- Deck with **3** equipments appeared **49** times  
+- Deck with **4** equipments appeared **48** times  
+- Deck with **5** equipments appeared **16** times  
 - Deck with **7** equipments appeared **1** times  
 ## Number of Cards  
 - Deck with **30** cards appeared **7** times  
 - Deck with **31** cards appeared **6** times  
-- Deck with **32** cards appeared **12** times  
+- Deck with **32** cards appeared **14** times  
 - Deck with **33** cards appeared **16** times  
-- Deck with **34** cards appeared **18** times  
-- Deck with **35** cards appeared **17** times  
-- Deck with **36** cards appeared **16** times  
+- Deck with **34** cards appeared **21** times  
+- Deck with **35** cards appeared **18** times  
+- Deck with **36** cards appeared **20** times  
 - Deck with **37** cards appeared **17** times  
-- Deck with **38** cards appeared **5** times  
+- Deck with **38** cards appeared **6** times  
 - Deck with **39** cards appeared **4** times  
 ## Number of Cards with Eqiupments  
 - Deck with **32** cards with eqipment appeared **1** times  
 - Deck with **33** cards with eqipment appeared **4** times  
 - Deck with **34** cards with eqipment appeared **3** times  
-- Deck with **35** cards with eqipment appeared **9** times  
+- Deck with **35** cards with eqipment appeared **11** times  
 - Deck with **36** cards with eqipment appeared **12** times  
-- Deck with **37** cards with eqipment appeared **19** times  
-- Deck with **38** cards with eqipment appeared **18** times  
-- Deck with **39** cards with eqipment appeared **17** times  
-- Deck with **40** cards with eqipment appeared **23** times  
-- Deck with **41** cards with eqipment appeared **6** times  
+- Deck with **37** cards with eqipment appeared **20** times  
+- Deck with **38** cards with eqipment appeared **20** times  
+- Deck with **39** cards with eqipment appeared **19** times  
+- Deck with **40** cards with eqipment appeared **25** times  
+- Deck with **41** cards with eqipment appeared **8** times  
 - Deck with **42** cards with eqipment appeared **6** times  
 <style>
     img {
