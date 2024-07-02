@@ -1,7 +1,7 @@
 import pandas as pd
 import json
 
-MONTH_FILTER = None
+FILTERS = [None, "2024-06"]
 
 # Loading card details
 file_path = '../data/cards_draft.json'
@@ -64,105 +64,108 @@ def can_be_played(hero, card):
             return False
     return True
 
-class_dict = {}
-card_dict = {}
-equip_dict = {}
-all_cards = {}
-data_filter = False
+for current_filter in FILTERS:
+    class_dict = {}
+    card_dict = {}
+    equip_dict = {}
+    all_cards = {}
+    data_filter = False
 
-deck_dict = {"Assassin": [], "Illusionist": [], "Ninja": []}
-current_deck = None
+    deck_dict = {"Assassin": [], "Illusionist": [], "Ninja": []}
+    current_deck = None
 
-with open("../data/decks.txt", "r", encoding='utf-8') as file:
-    lines = file.readlines()
-    current_hero = None
-    for line in lines:
-        if MONTH_FILTER is not None and line.startswith("2024-"):
-            month = line[5:7]
-            if month == MONTH_FILTER:
-                data_filter = True
+    with open("../data/decks.txt", "r", encoding='utf-8') as file:
+        lines = file.readlines()
+        current_hero = None
+        for line in lines:
+            if current_filter is not None and line.startswith("20") and line[4] == "-":
+                year = line[0:4]
+                month = line[5:7]
+                if int(year) > int(current_filter[0:4]) or (int(year) == int(current_filter[0:4]) and int(month) >= int(current_filter[5:7])):
+                    data_filter = True
+                    continue
+                else:
+                    data_filter = False
+                    continue
+
+            if current_filter is not None and not data_filter:
                 continue
-            else:
-                data_filter = False
-                continue
 
-        if MONTH_FILTER is not None and not data_filter:
-            continue
+            # Checking for deck class
+            if line.startswith("Class: "):
+                hero = line.split("Class: ")[1].replace("\n", "")
+                if hero not in class_dict:
+                    class_dict[hero] = 0
+                    card_dict[hero] = {}
+                    equip_dict[hero] = {}
+                class_dict[hero] += 1
 
-        # Checking for deck class
-        if line.startswith("Class: "):
-            hero = line.split("Class: ")[1].replace("\n", "")
-            if hero not in class_dict:
-                class_dict[hero] = 0
-                card_dict[hero] = {}
-                equip_dict[hero] = {}
-            class_dict[hero] += 1
+                current_deck = {"cards": [], "equips": []}
+                deck_dict[hero].append(current_deck)
+            
+            # Checking for card
+            if line.startswith("("):
+                tmp = line.split(") ", 1)
+                if len(tmp) < 2 or "3-0" in tmp[0]:
+                    continue
+                number = int(tmp[0][1:])
+                card = tmp[1].replace("\n", "")
+                if card not in card_dict[hero]:
+                    card_dict[hero][card] = 0
+                    if card not in all_cards:
+                        all_cards[card] = 0
+                if can_be_played(hero, card):
+                    card_dict[hero][card] += number
+                    all_cards[card] += number
+                    for _ in range(number):
+                        current_deck["cards"].append(card)
+            
+            # Checking for equipments
+            if line.startswith("Equipment: "):
+                line = line.split("Equipment: ")[1]
+                equips = line.replace("\n", "").split(", ")
+                for equip in equips:
+                    if equip not in equip_dict[hero]:
+                        equip_dict[hero][equip] = 0
+                        if equip not in all_cards:
+                            all_cards[equip] = 0
+                    if can_be_played(hero, equip):
+                        equip_dict[hero][equip] += 1
+                        all_cards[equip] += 1
+                        current_deck["equips"].append(equip)
 
-            current_deck = {"cards": [], "equips": []}
-            deck_dict[hero].append(current_deck)
-        
-        # Checking for card
-        if line.startswith("("):
-            tmp = line.split(") ", 1)
-            if len(tmp) < 2 or "3-0" in tmp[0]:
-                continue
-            number = int(tmp[0][1:])
-            card = tmp[1].replace("\n", "")
-            if card not in card_dict[hero]:
-                card_dict[hero][card] = 0
-                if card not in all_cards:
-                    all_cards[card] = 0
-            if can_be_played(hero, card):
-                card_dict[hero][card] += number
-                all_cards[card] += number
-                for _ in range(number):
-                    current_deck["cards"].append(card)
-        
-        # Checking for equipments
-        if line.startswith("Equipment: "):
-            line = line.split("Equipment: ")[1]
-            equips = line.replace("\n", "").split(", ")
-            for equip in equips:
-                if equip not in equip_dict[hero]:
-                    equip_dict[hero][equip] = 0
-                    if equip not in all_cards:
-                        all_cards[equip] = 0
-                if can_be_played(hero, equip):
-                    equip_dict[hero][equip] += 1
-                    all_cards[equip] += 1
-                    current_deck["equips"].append(equip)
+    assassin_cards = card_dict["Assassin"] | equip_dict["Assassin"] 
+    illusionist_cards = card_dict["Illusionist"] | equip_dict["Illusionist"]
+    ninja_cards = card_dict["Ninja"] | equip_dict["Ninja"]
 
-assassin_cards = card_dict["Assassin"] | equip_dict["Assassin"] 
-illusionist_cards = card_dict["Illusionist"] | equip_dict["Illusionist"]
-ninja_cards = card_dict["Ninja"] | equip_dict["Ninja"]
+    decks_cards = pd.DataFrame(index=all_cards.keys(), columns=['all_cards', 'assassin_cards', 'illusionist_cards', 'ninja_cards'])
 
-decks_cards = pd.DataFrame(index=all_cards.keys(), columns=['all_cards', 'assassin_cards', 'illusionist_cards', 'ninja_cards'])
+    for card in all_cards.keys():
+        decks_cards.loc[card, 'all_cards'] = all_cards.get(card, 0)
+        decks_cards.loc[card, 'assassin_cards'] = assassin_cards.get(card, 0)
+        decks_cards.loc[card, 'illusionist_cards'] = illusionist_cards.get(card, 0)
+        decks_cards.loc[card, 'ninja_cards'] = ninja_cards.get(card, 0)
 
-for card in all_cards.keys():
-    decks_cards.loc[card, 'all_cards'] = all_cards.get(card, 0)
-    decks_cards.loc[card, 'assassin_cards'] = assassin_cards.get(card, 0)
-    decks_cards.loc[card, 'illusionist_cards'] = illusionist_cards.get(card, 0)
-    decks_cards.loc[card, 'ninja_cards'] = ninja_cards.get(card, 0)
+    decks_cards.index.name = "Name"
 
-decks_cards.index.name = "Name"
+    complete_cards = cards.merge(decks_cards, left_index=True, right_index=True, how='inner')
 
-complete_cards = cards.merge(decks_cards, left_index=True, right_index=True, how='inner')
+    if current_filter is None:
+        decks_cards.to_csv('../data/decks_cards.csv')
 
-if MONTH_FILTER is None:
-    decks_cards.to_csv('../data/decks_cards.csv')
-
-    with open('../data/deck_stats.json', 'w') as f:
-        json.dump(class_dict, f)
+        with open('../data/deck_stats.json', 'w') as f:
+            json.dump(class_dict, f)
 
 
-    # Creating scv card database
+        # Creating scv card database
 
-    complete_cards.to_csv('../data/complete_cards.csv')
-else:
-    with open('../data/deck_stats_' + MONTH_FILTER + '.json', 'w') as f:
-        json.dump(class_dict, f)
+        complete_cards.to_csv('../data/complete_cards.csv')
 
-    complete_cards.to_csv('../data/complete_cards_' + MONTH_FILTER + '.csv')
+        with open('../data/decks.json', 'w') as f:
+            json.dump(deck_dict, f)
+    else:
+        with open('../data/deck_stats_' + current_filter + '.json', 'w') as f:
+            json.dump(class_dict, f)
 
-with open('../data/decks.json', 'w') as f:
-    json.dump(deck_dict, f)
+        complete_cards.to_csv('../data/complete_cards_' + current_filter + '.csv')
+

@@ -83,10 +83,10 @@ for layout in layouts_average:
 
 # Analysis
 
-with open('../data/deck_stats_06.json', 'r') as f:
+with open('../data/deck_stats_2024-06.json', 'r') as f:
     deck_stats = json.load(f)
 
-file_path = '../data/complete_cards_06.csv'
+file_path = '../data/complete_cards_2024-06.csv'
 with open(file_path, 'r', encoding='utf-8') as file:
     cards = pd.read_csv(file, index_col="Name")
 
