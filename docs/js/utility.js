@@ -8,6 +8,12 @@ document.addEventListener('DOMContentLoaded', () => {
                     img.src = img.getAttribute('data-src');
                 }
             });
+
+            // Prevent default action on click
+            tooltip.addEventListener('click', (event) => {
+                event.preventDefault();
+                event.stopPropagation();
+            });
         }
     });
 });
