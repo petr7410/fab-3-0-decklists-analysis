@@ -13,41 +13,23 @@
 <h2 id="index">Index</h2>
 <ul>
 <li><a href="#introduction">Introduction</a></li>
-<li><a href="#overview-of-files">Overview of Files</a></li>
 <li><a href="#database-attributes">Database Attributes</a></li>
 <li><a href="#analysis-links">Analysis Links</a></li>
+<li><a href="#overview-of-files">Overview of Files</a></li>
 <li><a href="#acknowledgements">Acknowledgements</a></li>
 <li><a href="#support-contributions-and-suggestions">Support, Contributions and Suggestions</a></li>
 </ul>
 <h2 id="introduction">Introduction</h2>
-<p>This project provides an analysis of 3-0 decklists from the Runaway Discord server.</p>
-<p>If you are only interested in the analysis, check the <a href="#analysis-links">Analysis Links</a>. However, it is recommended to at least review the attribute descriptions.</p>
-<p>In the end, this project ended as html page. You can access the analysis folder for md files, but these are using custom css, so they won't render correctly on GitHub.</p>
-<h2 id="overview-of-files">Overview of Files</h2>
-<h3 id="scripts-">scripts/</h3>
-<p>Contains Python scripts used to create files in the analysis folder.</p>
-<p>To run these scripts, you need to have Python installed with the following libraries: <code>pandas</code>, and <code>json</code>.</p>
-<h4 id="create_cards_csv-py">create_cards_csv.py</h4>
-<p>This script processes text files containing card information, calculates the frequency and distribution of cards for each class, and generates a comprehensive CSV file with all card data.</p>
-<h4 id="cards_analysis-py">cards_analysis.py</h4>
-<p>This script loads the deck statistics and card data, calculates the percentage of each class&#39;s deck composition, and sorts and exports the data into a CSV file. It is necessary to fill in the section <em>Setup for md file</em> to get the correct output for each hero.</p>
-<h3 id="data-">data/</h3>
-<p>This directory contains the raw data files, including:</p>
-<ul>
-<li><strong>all_cards.json</strong>: Card data from the <em>the-fab-cube/flesh-and-blood-cards</em> repository.</li>
-<li><strong>complete_cards.csv</strong>: Database created by <em>create_cards_csv.py</em> containing all the data you need for your analysis.</li>
-<li><strong>decks.txt</strong>: Text file with all decks used in this project.</li>
-<li><strong>deck_stats.json</strong>: Representation of each class.</li>
-<li><strong>draft files</strong>: Text files with the settings of the draft distribution. This can be used for further analysis.</li>
-<li>Additional less important files.</li>
-</ul>
+<p>This project analyzes 3-0 decklists from the Runaway Discord server.</p>
+<p>If you&#39;re primarily interested in the analysis, check the <a href="#analysis-links">Analysis Links</a>. However, it is recommended to review the attribute descriptions for a better understanding.</p>
+<p>The project end up as an HTML page. The analysis folder contains Markdown files, but they use custom CSS and won&#39;t render correctly on GitHub.</p>
 <h2 id="database-attributes">Database Attributes</h2>
 <p>Notes:</p>
 <ul>
 <li>Cards unplayable by class were filtered out and are not included in the database.</li>
 <li>Inventory is still considered, so most decks have over 30 cards.</li>
 </ul>
-<p>The main derived attributes of the database are:</p>
+<p>Main derived attributes of the database:</p>
 <ul>
 <li><code>Name</code>: The name of the card.</li>
 <li><code>all_cards</code>: Total count of the card across all decks.</li>
@@ -61,83 +43,113 @@
 </ul>
 <p>Clarifications:</p>
 <ul>
-<li><code>hero_deck_pct</code>: For example, if the value of this attribute is equal to 100%, it means that the number of cards in the database is equal to the number of Assassin decks in the database.</li>
-<li><code>deck_weighted_pct</code>: This attribute is used to compensate for uneven deck representation. It is hard to give it a direct meaning.</li>
+<li><code>hero_deck_pct</code>: A value of 100% means the number of cards in the database is equal to the number of decks for that hero in the database.</li>
+<li><code>deck_weighted_pct</code>: Compensates for uneven deck representation.</li>
 </ul>
 <h2 id="analysis-links">Analysis Links</h2>
-<p>To access detailed analysis and card distribution for each class, refer to the following links:</p>
+<p>Access detailed analysis and card distribution for each class:</p>
 <ul>
 <li><a href="docs/Assassin_info.html">Assassin Analysis</a></li>
 <li><a href="docs/Illusionist_info.html">Illusionist Analysis</a></li>
 <li><a href="docs/Ninja_info.html">Ninja Analysis</a></li>
 </ul>
-<p>To access the complete card distribution statistics for each class:</p>
+<p>Complete card distribution statistics for each class:</p>
 <ul>
-<li><a href="docs/Assassin_all_cards_stats.html">Complete Card Distribution for Assassin</a></li>
-<li><a href="docs/Illusionist_all_cards_stats.html">Complete Card Distribution for Illusionist</a></li>
-<li><a href="docs/Ninja_all_cards_stats.html">Complete Card Distribution for Ninja</a></li>
-<li><a href="docs/all_cards_stats.html">Complete Card Distribution for All cards</a></li>
-<li><a href="docs/shared_cards_analysis.html">Analysis of shared cards across all classes</a></li>
+<li><a href="docs/Assassin_all_cards_stats.html">Assassin Card Distribution</a></li>
+<li><a href="docs/Illusionist_all_cards_stats.html">Illusionist Card Distribution</a></li>
+<li><a href="docs/Ninja_all_cards_stats.html">Ninja Card Distribution</a></li>
+<li><a href="docs/all_cards_stats.html">All Cards Distribution</a></li>
+<li><a href="docs/shared_cards_analysis.html">Shared Cards Analysis</a></li>
 </ul>
-<h3>Draft</h3>
-<p>The following analysis considers the draft file.</p>
-<p>Take this analysis with a grain of salt, as it is based on decks from the newest draft file (v2). However, there is a high chance that some decks used different files (v1).</p>
-<p>Additionally, the sample size is small, as only 3-0 decks from June are considered.</p>
-<h4>Brief Explanation of Data:</h4>
+<h3 id="draft">Draft</h3>
+<p>This analysis considers draft file v2. Results are based on 3-0 decks after May and <em>may include some decks from different versions</em>.</p>
+<p><strong>Brief Explanation of Data:</strong></p>
 <ul>
-<li><strong>Expected number of appearances per draft:</strong> The sum of appearances of all cards is equal to <code>14 * 3 * 8 = 336</code>.</li>
-<li><strong>Pick rate:</strong> <code>number_of_times_picked / (expected_number_of_appearances_per_draft * number_of_win_of_class)</code> shown as a percentage.
-<ul>
-<li>This is the pick rate by the winner. A 100 % pick rate would closely (but not completely) correspond to an instant win card.</li>
-<li>A good pick rate for non-class cards is above 12.5 %, and for class cards, it is above approximately 33.3 % (37.5 %).</li>
+<li><strong>Expected number of appearances per draft:</strong> The sum of appearances of all cards equals <code>14 * 3 * 8 = 336</code>.</li>
+<li><strong>Pick rate:</strong> <code>number_of_times_picked / (expected_number_of_appearances_per_draft * number_of_win_of_class)</code> shown as a percentage.<ul>
+<li>A 100% pick rate closely (but not completely) corresponds to an instant win card.</li>
+<li>A good pick rate is above 12.5% for non-class cards and approximately 33.3% (37.5%) for class cards.</li>
 </ul>
 </li>
-<li><strong>Pick weight:</strong> <code>if (class) {pick_rate * 3} else {pick_rate * 8}</code> metric to compare class and non-class cards.
-<ul>
-<li>Expecting 8 players to compete for non-class cards and 3 players to compete for class cards.</li>
-<li>It is possible to use a different number than 3 (for example, 8/3), but it is normal to end up with some cards from different classes.</li>
-<li>Do not take this attribute too seriously, especially when comparing class and common cards.</li>
+<li><strong>Pick weight:</strong> <code>if (class) {pick_rate * 3} else {pick_rate * 8}</code> - compares class and non-class cards.<ul>
+<li>It is expected that 8 players compete for non-class cards and 3 for class cards.</li>
+<li>This attribute should be used cautiously, especially when comparing class and common cards.</li>
 </ul>
 </li>
 </ul>
-<p>To access stats and brief summary of classes:</p>
+<p>Class summaries and complete card distribution statistics:</p>
 <ul>
-<li><a href="docs/Assassin_draft_analysis.html">Draft: Assassin Brief Summary</a></li>
-<li><a href="docs/Illusionist_draft_analysis.html">Draft: Illusionist Brief Summary</a></li>
-<li><a href="docs/Ninja_draft_analysis.html">Draft: Ninja Brief Summary</a></li>
-</ul>
-<p>To access the complete card distribution statistics for each class:</p>
-<ul>
-<li><a href="docs/Assassin_all_cards_draft.html">Draft: Complete Card Distribution for Assassin</a></li>
-<li><a href="docs/Illusionist_all_cards_draft.html">Draft: Complete Card Distribution for Illusionist</a></li>
-<li><a href="docs/Ninja_all_cards_draft.html">Draft: Complete Card Distribution for Ninja</a></li>
-</ul>
-<p>To access pick rate of non-class cards (Correction of uneven class distribution is not included):</p>
-<ul>
-<li><a href="docs/draft_non-class_cards.html">Draft Non-Class Cards</a></li>
-</ul>
-<p>To access card distribution of the current draft file (v2):</p>
-<ul>
+<li><a href="docs/Assassin_draft_analysis.html">Assassin Draft Summary</a></li>
+<li><a href="docs/Illusionist_draft_analysis.html">Illusionist Draft Summary</a></li>
+<li><a href="docs/Ninja_draft_analysis.html">Ninja Draft Summary</a></li>
+<li><a href="docs/Assassin_all_cards_draft.html">Assassin Draft Card Distribution</a></li>
+<li><a href="docs/Illusionist_all_cards_draft.html">Illusionist Draft Card Distribution</a></li>
+<li><a href="docs/Ninja_all_cards_draft.html">Ninja Draft Card Distribution</a></li>
+<li><a href="docs/draft_non-class_cards.html">Non-Class Cards Draft</a></li>
 <li><a href="docs/draft_analysis.html">Draft File Distribution</a></li>
 </ul>
-<h3>Decks</h3>
-<p>To access the analysis with respect to the deck distribution of classes:</p>
+<h3 id="decks">Decks</h3>
+<p>Analysis of deck distribution for each class:</p>
 <ul>
-<li><a href="docs/Assassin_decks_stats.html">Decks: Assassin Info</a></li>
-<li><a href="docs/Illusionist_decks_stats.html">Decks: Illusionist Info</a></li>
-<li><a href="docs/Ninja_decks_stats.html">Decks: Ninja Info</a></li>
+<li><a href="docs/Assassin_decks_stats.html">Assassin Deck Info</a></li>
+<li><a href="docs/Illusionist_decks_stats.html">Illusionist Deck Info</a></li>
+<li><a href="docs/Ninja_decks_stats.html">Ninja Deck Info</a></li>
 </ul>
-<p>Note: The current method of getting a deck from Fabrary lists only one equipment of the same name.</p>
+<p>Note: The method of obtaining decks from Fabrary lists only one piece of equipment of the same name.</p>
+<h2 id="overview-of-files">Overview of Files</h2>
+<h3 id="scripts-">scripts/</h3>
+<p>Python scripts used to create most of the files in this project.</p>
+<p>Required Python libraries:</p>
+<ul>
+<li><code>pandas</code></li>
+<li><code>json</code></li>
+<li><code>warnings</code></li>
+<li><code>scipy</code></li>
+<li><code>numpy</code></li>
+</ul>
+<p>Additionally, if you wish to generate HTML content from Markdown files, you will need the following libraries (otherwise you will have to remove relevant passages):</p>
+<ul>
+<li><code>markdown</code></li>
+<li><code>mistune</code></li>
+</ul>
+<h4 id="generating-files-to-be-analyzed">Generating Files to be Analyzed</h4>
+<p>Scripts to generate files located in the <code>data</code> folder:</p>
+<ul>
+<li><strong>create_cards_csv.py</strong></li>
+</ul>
+<h4 id="generating-analysis">Generating Analysis</h4>
+<p>Scripts for analysis and report generation:</p>
+<ul>
+<li><strong>cards_analysis.py</strong></li>
+<li><strong>decks_stats.py</strong></li>
+<li><strong>draft_analysis.py</strong></li>
+<li><strong>shared_cards_analysis.py</strong></li>
+</ul>
+<p>Includes HTML file generation.</p>
+<h4 id="utility-scripts">Utility Scripts</h4>
+<ul>
+<li><strong>print_utility.py</strong>: Utility functions used by other scripts.</li>
+<li><strong>run_all_scripts.js</strong>: Executes all scripts in the correct order for data generation and analysis.</li>
+</ul>
+<h3 id="data-">data/</h3>
+<p>Contains raw data files:</p>
+<ul>
+<li><strong>all_cards.json</strong>: Card data from the <em>the-fab-cube/flesh-and-blood-cards</em> repository.</li>
+<li><strong>complete_cards.csv</strong>: Database created by <em>create_cards_csv.py</em>.</li>
+<li><strong>decks.txt</strong>: Text file with all decks used in this project.</li>
+<li><strong>deck_stats.json</strong>: Representation of each class.</li>
+<li><strong>draft files</strong>: Text files with draft distribution settings.</li>
+</ul>
 <h2 id="acknowledgements">Acknowledgements</h2>
 <p>Thank you to:</p>
 <ul>
-<li>The <a href="https://github.com/the-fab-cube/flesh-and-blood-cards">Flesh and Blood Cards</a> for providing open access to card details.</li>
+<li><a href="https://github.com/the-fab-cube/flesh-and-blood-cards">Flesh and Blood Cards</a> for providing open access to card details.</li>
 <li><a href="https://x.com/tcgrunaways">Runaways TCG</a> for gathering an amazing community.</li>
-<li>briguy for creating the amazing draft file.</li>
-<li>All the people who shared their decks on the Runaways Discord server.</li>
+<li>Briguy for creating the amazing draft file.</li>
+<li>Everyone who shared their decks on the Runaways Discord server.</li>
 </ul>
 <h2 id="support-contributions-and-suggestions">Support, Contributions and Suggestions</h2>
-<p>I welcome suggestions for improvements and encourage you to point out any mistakes. If you have any feedback or contributions, please feel free to open an issue or submit a pull request. You can also contact me on Discord: petr7410.</p>
+<p>I welcome suggestions for improvements and encourage you to point out any mistakes. For feedback or contributions, please open an issue or submit a pull request. You can also contact me on Discord: petr7410.</p>
 <script type='text/javascript' src='https://storage.ko-fi.com/cdn/widget/Widget_2.js'></script><script type='text/javascript'>kofiwidget2.init('Support Me on Ko-fi', '#29abe0', 'O4O0ZAHE1');kofiwidget2.draw();</script> 
 </body>
 </html>
