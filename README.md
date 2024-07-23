@@ -42,6 +42,10 @@ Clarifications:
 
 ## Analysis Links
 
+Data visualization:
+
+- [Visualizations](docs/vis.html)
+
 Access detailed analysis and card distribution for each class:
 
 - [Assassin Analysis](docs/Assassin_info.html)

@@ -1,5 +1,7 @@
 import pandas as pd
 import json
+from collections import Counter
+from datetime import datetime
 
 FILTERS = [None, "2024-06"]
 
@@ -69,24 +71,27 @@ for current_filter in FILTERS:
     card_dict = {}
     equip_dict = {}
     all_cards = {}
+    date_dict = {}
     data_filter = False
 
-    deck_dict = {"Assassin": [], "Illusionist": [], "Ninja": []}
+    deck_dict = {}
     current_deck = None
 
     with open("../data/decks.txt", "r", encoding='utf-8') as file:
         lines = file.readlines()
         current_hero = None
         for line in lines:
-            if current_filter is not None and line.startswith("20") and line[4] == "-":
-                year = line[0:4]
-                month = line[5:7]
-                if int(year) > int(current_filter[0:4]) or (int(year) == int(current_filter[0:4]) and int(month) >= int(current_filter[5:7])):
-                    data_filter = True
-                    continue
-                else:
-                    data_filter = False
-                    continue
+            if line.startswith("20") and line[4] == "-":
+                year = int(line[0:4])
+                month = int(line[5:7])
+                day = int(line[8:10])
+                if current_filter is not None:
+                    if year > int(current_filter[0:4]) or (year == int(current_filter[0:4]) and month >= int(current_filter[5:7])):
+                        data_filter = True
+                        continue
+                    else:
+                        data_filter = False
+                        continue
 
             if current_filter is not None and not data_filter:
                 continue
@@ -98,7 +103,10 @@ for current_filter in FILTERS:
                     class_dict[hero] = 0
                     card_dict[hero] = {}
                     equip_dict[hero] = {}
+                    date_dict[hero] = []
+                    deck_dict[hero] = []
                 class_dict[hero] += 1
+                date_dict[hero].append((year, month, day))
 
                 current_deck = {"cards": [], "equips": []}
                 deck_dict[hero].append(current_deck)
@@ -156,7 +164,13 @@ for current_filter in FILTERS:
         with open('../data/deck_stats.json', 'w') as f:
             json.dump(class_dict, f)
 
-
+        with open('../data/decks_by_date_counts.json', 'w') as f:
+            result_dict = {}
+            for name, dates in date_dict.items():
+                date_counts = Counter(dates)
+                result_dict[name] = {datetime(year, month, day).isoformat(): count for (year, month, day), count in date_counts.items()}
+    
+            json.dump(result_dict, f)
         # Creating scv card database
 
         complete_cards.to_csv('../data/complete_cards.csv')
