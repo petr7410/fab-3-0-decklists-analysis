@@ -146,7 +146,6 @@ Contains raw data files:
 Thank you to:
 - [Flesh and Blood Cards](https://github.com/the-fab-cube/flesh-and-blood-cards) for providing open access to card details.
 - [Runaways TCG](https://x.com/tcgrunaways) for gathering an amazing community.
-- Briguy for creating the amazing draft file.
 - Everyone who shared their decks on the Runaways Discord server.
 
 ## Contributions and Suggestions
