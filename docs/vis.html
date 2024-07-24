@@ -32,7 +32,7 @@
             width: 100%;
         }
     </style>
-    <script src="https://cdn.plot.ly/plotly-latest.min.js"></script> <!--For offline propose: <script src="./lib/plotly-v1.58.5.min.js"></script> -->
+    <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
 </head>
 <body>
 
@@ -196,12 +196,12 @@
         // Line charts
         function updateCardsByTypeChart(type, mode) {
             const fileMap = {
-                'red': './vis_data/Number_of_red_cards.json',
-                'yellow': './vis_data/Number_of_yellow_cards.json',
-                'blue': './vis_data/Number_of_blue_cards.json',
-                'equipment': './vis_data/Number_of_equipment_cards.json',
-                'non-equipment': './vis_data/Number_of_non-equipment_cards.json',
-                'all': './vis_data/Number_of_all_cards.json'
+                'red': './vis_data/number_of_red_cards.json',
+                'yellow': './vis_data/number_of_yellow_cards.json',
+                'blue': './vis_data/number_of_blue_cards.json',
+                'equipment': './vis_data/number_of_equipment_cards.json',
+                'non-equipment': './vis_data/number_of_non-equipment_cards.json',
+                'all': './vis_data/number_of_all_cards.json'
             };
             fetch(fileMap[type])
                 .then(response => response.json())
