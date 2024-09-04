@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FaB Draft 3-0 Analysis</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="docs/css/styles.css">
+</head>
+<body>
+<h1 id="3-win-decklists-analysis">3 Win Decklists Analysis</h1>
+<p>Last decklists update: <strong>2024/07/23 20:00 CEST</strong></p>
+<a href="https://github.com/petr7410/fab-3-0-decklists-analysis">Repository link</a>
+<h2 id="index">Index</h2>
+<ul>
+<li><a href="#introduction">Introduction</a></li>
+<li><a href="#database-attributes">Database Attributes</a></li>
+<li><a href="#analysis-links">Analysis Links</a></li>
+<li><a href="#overview-of-files">Overview of Files</a></li>
+<li><a href="#acknowledgements">Acknowledgements</a></li>
+<li><a href="#support-contributions-and-suggestions">Support, Contributions and Suggestions</a></li>
+</ul>
+<h2 id="introduction">Introduction</h2>
+<p>This project analyzes 3-0 decklists from the Runaway Discord server.</p>
+<p>If you&#39;re primarily interested in the analysis, check the <a href="#analysis-links">Analysis Links</a>. However, it is recommended to review the attribute descriptions for a better understanding.</p>
+<p>The project end up as an HTML page. The analysis folder contains Markdown files, but they use custom CSS and won&#39;t render correctly on GitHub.</p>
+<h2 id="database-attributes">Database Attributes</h2>
+<p>Notes:</p>
+<ul>
+<li>Cards unplayable by class were filtered out and are not included in the database.</li>
+<li>Inventory is still considered, so most decks have over 30 cards.</li>
+</ul>
+<p>Main derived attributes of the database:</p>
+<ul>
+<li><code>Name</code>: The name of the card.</li>
+<li><code>all_cards</code>: Total count of the card across all decks.</li>
+<li><code>assassin_cards</code>: Count of the cards in Assassin decks.</li>
+<li><code>illusionist_cards</code>: Count of the cards in Illusionist decks.</li>
+<li><code>ninja_cards</code>: Count of the cards in Ninja decks.</li>
+<li><code>assassin_deck_pct</code>: Average number of times a card is contained in an Assassin deck: (<code>assassin_cards / number_of_assassin_decks</code>).</li>
+<li><code>illusionist_deck_pct</code>: Average number of times a card is contained in an Illusionist deck: (<code>illusionist_cards / number_of_illusionist_decks</code>).</li>
+<li><code>ninja_deck_pct</code>: Average number of times a card is contained in a Ninja deck: (<code>ninja_cards / number_of_ninja_decks</code>).</li>
+<li><code>deck_weighted_pct</code>: Weighted percentage of the card across all decks: (<code>(assassin_deck_pct + illusionist_deck_pct + ninja_deck_pct) / 3</code>).</li>
+</ul>
+<p>Clarifications:</p>
+<ul>
+<li><code>hero_deck_pct</code>: A value of 100% means the number of cards in the database is equal to the number of decks for that hero in the database.</li>
+<li><code>deck_weighted_pct</code>: Compensates for uneven deck representation.</li>
+</ul>
+<h2 id="analysis-links">Analysis Links</h2>
+<p>Data visualization:</p>
+<ul>
+<li><a href="docs/vis.html">Visualizations</a></li>
+</ul>
+<p>Access detailed analysis and card distribution for each class:</p>
+<ul>
+<li><a href="docs/Assassin_info.html">Assassin Analysis</a></li>
+<li><a href="docs/Illusionist_info.html">Illusionist Analysis</a></li>
+<li><a href="docs/Ninja_info.html">Ninja Analysis</a></li>
+</ul>
+<p>Complete card distribution statistics for each class:</p>
+<ul>
+<li><a href="docs/Assassin_all_cards_stats.html">Assassin Card Distribution</a></li>
+<li><a href="docs/Illusionist_all_cards_stats.html">Illusionist Card Distribution</a></li>
+<li><a href="docs/Ninja_all_cards_stats.html">Ninja Card Distribution</a></li>
+<li><a href="docs/all_cards_stats.html">All Cards Distribution</a></li>
+<li><a href="docs/shared_cards_analysis.html">Shared Cards Analysis</a></li>
+</ul>
+<h3 id="draft">Draft</h3>
+<p>This analysis considers draft file v2. Results are based on 3-0 decks after May and <em>may include some decks from different versions</em>.</p>
+<p><strong>Brief Explanation of Data:</strong></p>
+<ul>
+<li><strong>Expected number of appearances per draft:</strong> The sum of appearances of all cards equals <code>14 * 3 * 8 = 336</code>.</li>
+<li><strong>Pick rate:</strong> <code>number_of_times_picked / (expected_number_of_appearances_per_draft * number_of_win_of_class)</code> shown as a percentage.<ul>
+<li>A 100% pick rate closely (but not completely) corresponds to an instant win card.</li>
+<li>A good pick rate is above 12.5% for non-class cards and approximately 33.3% (37.5%) for class cards.</li>
+</ul>
+</li>
+<li><strong>Pick weight:</strong> <code>if (class) {pick_rate * 3} else {pick_rate * 8}</code> - compares class and non-class cards.<ul>
+<li>It is expected that 8 players compete for non-class cards and 3 for class cards.</li>
+<li>This attribute should be used cautiously, especially when comparing class and common cards.</li>
+</ul>
+</li>
+</ul>
+<p>Class summaries and complete card distribution statistics:</p>
+<ul>
+<li><a href="docs/Assassin_draft_analysis.html">Assassin Draft Summary</a></li>
+<li><a href="docs/Illusionist_draft_analysis.html">Illusionist Draft Summary</a></li>
+<li><a href="docs/Ninja_draft_analysis.html">Ninja Draft Summary</a></li>
+<li><a href="docs/Assassin_all_cards_draft.html">Assassin Draft Card Distribution</a></li>
+<li><a href="docs/Illusionist_all_cards_draft.html">Illusionist Draft Card Distribution</a></li>
+<li><a href="docs/Ninja_all_cards_draft.html">Ninja Draft Card Distribution</a></li>
+<li><a href="docs/draft_non-class_cards.html">Non-Class Cards Draft</a></li>
+<li><a href="docs/draft_analysis.html">Draft File Distribution</a></li>
+</ul>
+<h3 id="decks">Decks</h3>
+<p>Analysis of deck distribution for each class:</p>
+<ul>
+<li><a href="docs/Assassin_decks_stats.html">Assassin Deck Info</a></li>
+<li><a href="docs/Illusionist_decks_stats.html">Illusionist Deck Info</a></li>
+<li><a href="docs/Ninja_decks_stats.html">Ninja Deck Info</a></li>
+</ul>
+<p>Note: The method of obtaining decks from Fabrary lists only one piece of equipment of the same name.</p>
+<h2 id="overview-of-files">Overview of Files</h2>
+<h3 id="scripts-">scripts/</h3>
+<p>Python scripts used to create most of the files in this project.</p>
+<p>Required Python libraries:</p>
+<ul>
+<li><code>pandas</code></li>
+<li><code>json</code></li>
+<li><code>warnings</code></li>
+<li><code>scipy</code></li>
+<li><code>numpy</code></li>
+</ul>
+<p>Additionally, if you wish to generate HTML content from Markdown files, you will need the following libraries (otherwise you will have to remove relevant passages):</p>
+<ul>
+<li><code>markdown</code></li>
+<li><code>mistune</code></li>
+</ul>
+<h4 id="generating-files-to-be-analyzed">Generating Files to be Analyzed</h4>
+<p>Scripts to generate files located in the <code>data</code> folder:</p>
+<ul>
+<li><strong>create_cards_csv.py</strong></li>
+</ul>
+<h4 id="generating-analysis">Generating Analysis</h4>
+<p>Scripts for analysis and report generation:</p>
+<ul>
+<li><strong>cards_analysis.py</strong></li>
+<li><strong>decks_stats.py</strong></li>
+<li><strong>draft_analysis.py</strong></li>
+<li><strong>shared_cards_analysis.py</strong></li>
+</ul>
+<p>Includes HTML file generation.</p>
+<h4 id="utility-scripts">Utility Scripts</h4>
+<ul>
+<li><strong>print_utility.py</strong>: Utility functions used by other scripts.</li>
+<li><strong>run_all_scripts.js</strong>: Executes all scripts in the correct order for data generation and analysis.</li>
+</ul>
+<h3 id="data-">data/</h3>
+<p>Contains raw data files:</p>
+<ul>
+<li><strong>all_cards.json</strong>: Card data from the <em>the-fab-cube/flesh-and-blood-cards</em> repository.</li>
+<li><strong>complete_cards.csv</strong>: Database created by <em>create_cards_csv.py</em>.</li>
+<li><strong>decks.txt</strong>: Text file with all decks used in this project.</li>
+<li><strong>deck_stats.json</strong>: Representation of each class.</li>
+<li><strong>draft files</strong>: Text files with draft distribution settings.</li>
+</ul>
+<h2 id="acknowledgements">Acknowledgements</h2>
+<p>Thank you to:</p>
+<ul>
+<li><a href="https://github.com/the-fab-cube/flesh-and-blood-cards">Flesh and Blood Cards</a> for providing open access to card details.</li>
+<li><a href="https://x.com/tcgrunaways">Runaways TCG</a> for gathering an amazing community.</li>
+<li>Everyone who shared their decks on the Runaways Discord server.</li>
+</ul>
+<h2 id="support-contributions-and-suggestions">Support, Contributions and Suggestions</h2>
+<p>I welcome suggestions for improvements and encourage you to point out any mistakes. For feedback or contributions, please open an issue or submit a pull request. You can also contact me on Discord: petr7410.</p>
+<script type='text/javascript' src='https://storage.ko-fi.com/cdn/widget/Widget_2.js'></script><script type='text/javascript'>kofiwidget2.init('Support Me on Ko-fi', '#29abe0', 'O4O0ZAHE1');kofiwidget2.draw();</script> 
+</body>
+</html>
