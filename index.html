@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FaB Draft 3-0 Analysis</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="docs/css/styles.css">
+    <style>
+        .ko-fi-container {
+          position: absolute;
+          top: 10px;
+          right: 10px;
+        }
+    </style>
+</head>
+<body>
+    <h1 id="3-win-decklists-analysis">3 Win Decklists Analysis</h1>
+    <p>Last decklist update: <strong>2024/10/02 22:30 CEST</strong></p>
+    <a href="https://github.com/petr7410/fab-3-0-decklists-analysis/tree/Rosetta">Repository link</a>
+
+    <h2 id="index">Index</h2>
+    <ul>
+        <li><a href="#introduction">Introduction</a></li>
+        <li><a href="#database-attributes">Database Attributes</a></li>
+        <li><a href="#analysis-links">Analysis Links</a></li>
+        <li><a href="#overview-of-files">Overview of Files</a></li>
+        <li><a href="#acknowledgements">Acknowledgements</a></li>
+        <li><a href="#support-contributions-and-suggestions">Support, Contributions and Suggestions</a></li>
+    </ul>
+    <h2 id="introduction">Introduction</h2>
+    <p>This project analyzes 3-0 decklists from the Runaway Discord server.</p>
+    <p>If you're primarily interested in the analysis, check the <a href="#analysis-links">Analysis Links</a>. However, it is recommended to review the attributes calculated based on decks for a better understanding.</p>
+
+    <h2 id="database-attributes">Database Attributes</h2>
+    <h3>Description of all columns in the created main dataset:</h3>
+    <p>Only brief explanation of attributes used by flesh-and-blood-cards, visit their repo for more information.</p>
+
+    <h4>Columns taken from the draft file:</h4>
+    <ol>
+        <li><strong>Name</strong>: The card's official title or name.</li>
+        <li><strong>rarity</strong>: Indicates the rarity of the card (common, rare, mythic)</li>
+        <li><strong>collector_number</strong>: A unique identifier for the card within its set.</li>
+        <li><strong>image_url</strong>: The web address where the card's image is hosted.</li>
+    </ol>
+
+    <h4>Columns taken from the flesh-and-blood-cards (For more details visit <a href="https://github.com/the-fab-cube/flesh-and-blood-cards/blob/develop/documentation/csv-schemas.md">flesh-and-blood-cards repository csv schemas</a>):</h4>
+    <ol>
+        <li><strong>Unique ID</strong>: A unique identifier assigned to each card.</li>
+        <li><strong>Pitch</strong>: Pitch value of the card.</li>
+        <li><strong>Cost</strong>: Cost value of the card.</li>
+        <li><strong>Power</strong>: Power value of the card.</li>
+        <li><strong>Defense</strong>: Defense value of the card.</li>
+        <li><strong>Health</strong>: Health value of the card.</li>
+        <li><strong>Intelligence</strong>: Intelligence value of the card.</li>
+        <li><strong>Types</strong>: The types of the card. (I think this is the most useful column)</li>
+        <li><strong>Card Keywords</strong>: Keywords that appear on the card.</li>
+        <li><strong>Abilities and Effects</strong>: Types of the abilities or effects of the card.</li>
+        <li><strong>Ability and Effect Keywords</strong>: Keywords the card has.</li>
+        <li><strong>Granted Keywords</strong>: Keywords that the card grants.</li>
+        <li><strong>Removed Keywords</strong>: Keywords that the card removes.</li>
+        <li><strong>Interacts with Keywords</strong>: Keywords that the card interacts with.</li>
+        <li><strong>Functional Text</strong>: The text on the card.</li>
+        <li><strong>Type Text</strong>: The type text on the card.</li>
+        <li><strong>Card Played Horizontally</strong>: Is the card played horizontally.</li>
+        <li><strong>Blitz Legal</strong>: Is the card legal in Blitz.</li>
+        <li><strong>CC Legal</strong>: Is the card legal in CC.</li>
+        <li><strong>Commoner Legal</strong>: Is the card legal in Commoner.</li>
+    </ol>
+
+    <h4>Columns calculated based on decks:</h4>
+    <ol>
+        <li><strong>total_count</strong>: The total count of the card in all decks.</li>
+        <li><strong>HERO_total_count</strong>: The total count of the card in HERO decks.</li>
+        <li><strong>draft_average_occurrence</strong>: The average occurrence of the card in one draft.</li>
+        <li><strong>pick_rate</strong>: <code>All Cards / (Draft_Average_Occurrence * Number_of_decks)</code></li>
+        <li><strong>HERO_pick_rate</strong>: <code>HERO Cards / (Draft_Average_Occurrence * Number_of_HERO_decks)</code></li>
+        <li><strong>weighted_pick_rate</strong>: <code>SUM(HERO pick rate) / COUNT(HERO pick rate)</code></li>
+        <li><strong>average_count_per_deck</strong>: <code>All Cards / Number_of_decks</code></li>
+        <li><strong>HERO_average_count_per_deck</strong>: <code>HERO Cards / Number_of_HERO_decks</code></li>
+        <li><strong>average_count_per_normalized_deck</strong>: <code>average_count_per_deck</code>, but total count was calculated with respect to deck size, each card in a 30-card deck increased the total count by 1, but each card in a 35-card deck increased the total count by 1 / 35 * 30. (For equipment this is always empty.)</li>
+        <li><strong>HERO_average_count_per_normalized_deck</strong>: Similar to above but only for HERO decks</li>
+    </ol>
+    <p>Note: Pick rates are calculated using multiple draft files. This means different <i>draft_average_occurrence</i> values could be used. For instance, before the second draft file's release, calculations were based on <i>draft_average_occurrence1</i>. After the second file's release, the first value is used only when <code>sum of all cards draft_average_occurrence1[card] is higher then draft_average_occurrence2[card] + 2.25</code></p>
+    <h5>Examples and Assumptions Under Which This Data Analysis Works</h5>
+    <p>Currently, this section is pretty much simplified talk about pick rate.</p>
+    <ul>
+        <li>Some players are better than others, that is the case for all competitive games. This is not considered in the data.
+            <ul>
+                <li>Sure, if some card is hard to use for most players but is really strong in the right hands, then it may be underrepresented. But that is how data works. Only based on the winning deck I cannot say how strong opponents were.</li>
+            </ul>
+        </li>
+        <li>Let's assume that each card is equally strong.
+            <ul>
+                <li>It does not matter what you pick, and we can work under the expectation that each player picks a random card, so everyone has a deck composed of random cards. Under the assumption of equal skill level, a random player will win:
+                    <ul>
+                        <li>What does that mean: the chance that the card makes it to the winning deck is: <code>probability of card appearing in draft (draft_average_occurrence) / 8</code> and if we divide this number by <code>draft_average_occurrence</code> we get 1 / 8 = 0.125
+                            <ul>
+                                <li>Why this does not hold:
+                                    <ul>
+                                        <li>Equipment: It does not make sense to pick the same equipment multiple times, and Fabrary even doesn't track this on export.</li>
+                                        <li>Class cards: If you draft an unplayable card, it is automatically filtered. You can never play that card, so it does not help you win (Yes, you denied it from your opponents, but there is no way to be sure if you picked this as the last card from the pack or if it was denied from someone) + some players remove this from their deck, so they don't mess up during the creation of the draft deck.</li>
+                                        <li>Not all cards are equally strong -> Yes, that is exactly the case, and that is why we are analyzing things.</li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+                </li>
+            </ul>
+        </li>
+        <li>Does anything change if not all cards are equally strong?
+            <ul>
+                <li>Yes and No. Let's go through some artificial examples:
+                    <ul>
+                        <li>In each draft, there is one card that wins the game, and the rest of the cards have "play this to do nothing" text. The one who picks the win game card wins, and it is not hard to guess that: <code>pick_rate = Card probability = 1</code>, hence we get the 100% pick rate card.</li>
+                        <li>In each draft, there are two cards that win the game (and the rest is the same). Let's work under the assumption that each player has an equal chance of getting this card. <code>P(one player has both of these cards) = 0.125 * 0.125 * 8 = 0.125 and pick_rate = (1*0.875 + 2*0.125) / 2 = 0.56125.</code></li>
+                        <li>Well, it is not really that simple, as even if you have a win game card, the game can end before you draw it.
+                            <ul>
+                                <li>Let's say that the game ends when each player draws half of their deck. If you draw a win card, you win; if nobody draws it, the game is decided by a coin toss. If there is one win card per draft, what are the chances of a player drafting it winning three games in a row?
+                                    <ul>
+                                        <li><code>P(player with win card wins one game) = 0.5 + 0.5 * 0.5 = 0.75 = P1</code>, Chance of winning three games in a row </code>P1 * P1 * P1 = (3/4)**3 = 27/64 = 0.421875</code> and that is the pick_rate of the win card.</li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </li>
+                        <li>I'm not going through the calculation of 2 win cards per draft in this format, but I hope you got the point.</li>
+                    </ul>
+                </li>
+            </ul>
+        </li>
+        <li>In this analysis, we are pretty much working under the assumption that each card in your deck somehow influences your win rate. You have to play your later picks even if they are not so strong. If a card has the text, "If you play this you lose the game," but it is blue three block, then that can be a card you slot into your deck.</li>
+        <li>I know that not everyone is equally strong, but if you can win three games in a row in this competition, then you need to know how to draft a good deck.</li>
+    </ul>
+    </ul>
+    <h2 id="analysis-links">Analysis Links</h2>
+    <h3>Data visualization:</h3>
+    <ul>
+        <li><a href="docs/vis.html">Visualizations</a></li>
+    </ul>
+    <h3 id="draft">Text data for each hero</h3>
+    <p>Access analysis and card distribution for each class:</p>
+    <ul>
+        <li><a href="docs/Aurora_site.html">Aurora Analysis</a></li>
+        <li><a href="docs/Florian_site.html">Florian Analysis</a></li>
+        <li><a href="docs/Oscilio_site.html">Oscilio Analysis</a></li>
+        <li><a href="docs/Verdance_site.html">Verdance Analysis</a></li>
+    </ul>
+    <p>All cards distribution statistics for each class:</p>
+    <ul>
+        <li><a href="docs/Aurora_all_cards.html">Aurora All Cards Distribution</a></li>
+        <li><a href="docs/Florian_all_cards.html">Florian All Cards Distribution</a></li>
+        <li><a href="docs/Oscilio_all_cards.html">Oscilio All Cards Distribution</a></li>
+        <li><a href="docs/Verdance_all_cards.html">Verdance All Cards Distribution</a></li>
+    </ul>
+    <h3 id="draft">Text data for draft and cards by type</h3>
+    <ul>
+        <li><a href="docs/Draft_file_analysis.html">All cards in draft with Average Occurrence per draft</a></li>
+        <li><a href="docs/Cards_by_type_comparison.html">All cards divided based on type</a></li>
+    </ul>
+    <h2 id="overview-of-files">Overview of Files</h2>
+    <h3 id="scripts">scripts/</h3>
+    <p>Python scripts used to create most of the files in this project.</p>
+    <p>Required Python libraries:</p>
+    <ul>
+        <li><code>pandas</code></li>
+        <li><code>markdown</code></li>
+        <li><code>scipy</code></li>
+        <li><code>numpy</code></li>
+    </ul>
+    Work in progress - Main repository will contain universal scripts for analysis, but I still need to figure out some nuances.
+    <h3 id="data"> Data files</h3>
+    <ul>
+        <li><code>all_cards.csv</code> Data from <a href="https://github.com/the-fab-cube/flesh-and-blood-cards">Flesh and Blood Cards</a></li>
+        <li><code>cards_stats.csv</code> Data with all cards from draft file with attributes discussed in Database Attributes</li>
+        <li><code>decks_by_date_counts.json</code> Data used to create a line chart with number of deck over time</li>
+        <li><code>decks_stats.json</code> Data with total count of each hero decks</li>
+        <li><code>decks.json</code> All decks in json format <code>{"hero":[{"cards":[], "equips": []}, {"cards":[], "equips": []}, ...], "hero": ...}</code></li>
+        <li><code>decks.txt</code> Decks export from Fabrary</li>
+        <li><code>ROSdraft_V1_0.csv</code> First draft file</li>
+        <li><code>ROSdraft_V1_1.csv</code> Second draft file</li>
+    </ul>
+    <h2 id="acknowledgements">Acknowledgements</h2>
+    <p>Thank you to:</p>
+    <ul>
+        <li><a href="https://github.com/the-fab-cube/flesh-and-blood-cards">Flesh and Blood Cards</a> for providing open access to card details.</li>
+        <li><a href="https://x.com/tcgrunaways">Runaways TCG</a> for gathering an amazing community.</li>
+        <li>Everyone who shared their decks on the Runaways Discord server.</li>
+    </ul>
+    <h2 id="support-contributions-and-suggestions">Support, Contributions and Suggestions</h2>
+    <p>I welcome suggestions for improvements and encourage you to point out any mistakes. For feedback or contributions, please open an issue or submit a pull request. You can also contact me on Discord: petr7410.</p>
+    <script type='text/javascript' src='https://storage.ko-fi.com/cdn/widget/Widget_2.js'></script><script type='text/javascript'>kofiwidget2.init('Support Me on Ko-fi', '#29abe0', 'O4O0ZAHE1');kofiwidget2.draw();</script>
+    <div class="ko-fi-container">
+        <script type='text/javascript' src='https://storage.ko-fi.com/cdn/widget/Widget_2.js'></script>
+        <script type='text/javascript'>kofiwidget2.init('Support Me on Ko-fi', '#29abe0', 'O4O0ZAHE1');kofiwidget2.draw();</script>
+    </div>
+</body>
+</html>

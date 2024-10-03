@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Visualizations 3-0 Decks</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 20px;
+        }
+        h1 {
+            text-align: center;
+            margin-bottom: 40px;
+        }
+        .chart-container {
+            margin-bottom: 40px;
+        }
+        .chart-row {
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+            margin-bottom: 40px;
+        }
+        .chart {
+            flex: 1;
+            min-width: 45%;
+            margin: 20px;
+        }
+        .full-width {
+            width: 100%;
+        }
+    </style>
+    <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+</head>
+<body>
+
+    <h1>3-0 Decks Statistics</h1>
+
+    <p>
+    Note: 
+    <math xmlns="http://www.w3.org/1998/Math/MathML">
+        <mrow>
+        <mi>Percentage&nbsp;of&nbsp;cards</mi>
+        <mo>=</mo>
+        <mfrac>
+            <mrow>
+            <mi>Number&nbsp;of&nbsp;qualifying&nbsp;cards&nbsp;in&nbsp;class&nbsp;decks</mi>
+            </mrow>
+            <mrow>
+            <mi>Total&nbsp;cards&nbsp;in&nbsp;all&nbsp;class&nbsp;decks</mi>
+            <mo>-</mo>
+            <mi>equipment&nbsp;and&nbsp;unplayable&nbsp;cards</mi>
+            </mrow>
+        </mfrac>
+        <mo>&times;</mo>
+        <mn>100</mn>
+        </mrow>
+    </math>
+    </p>
+      
+    <div class="chart-container">
+        <h2>Number of recorded decks</h2>
+        <div id="deck-statistics-1" class="chart full-width"></div>
+    </div>
+
+    <div class="chart-container">
+        <h2>Pitch Distribution & Defense Distribution</h2>
+        <div class="chart-row">
+            <div id="pitch-distribution" class="chart"></div>
+            <div id="defense-distribution" class="chart"></div>
+        </div>
+    </div>
+
+    <div class="chart-container">
+        <h2>Cost Distribution & Card Types</h2>
+        <div class="chart-row">
+            <div id="cost-distribution" class="chart"></div>
+            <div id="card-types" class="chart"></div>
+        </div>
+    </div>
+
+    <div class="chart-container">
+        <h2>Shared Cards by Rarity + Transcend + Equipment</h2>
+        <div id="cards-classification" class="chart full-width"></div>
+    </div>
+
+    <div class="chart-container">
+        <h2>Number of specified cards in deck</h2>
+        <p>Note: Cumulative Increase represents the graphical visualization of the calculation of discrete expected value.</p>
+        <div id="number-of-cards" class="chart full-width"></div>
+    </div>
+
+    <script>
+        // Function to fetch and render a chart
+        function renderChart(containerId, dataFile) {
+            fetch(dataFile)
+                .then(response => response.json())
+                .then(data => {
+                    Plotly.newPlot(containerId, data.data, data.layout);
+                })
+                .catch(error => {
+                    console.error('Error loading chart data:', error);
+                });
+        }
+
+        // Initial load and render for all charts
+        renderChart('deck-statistics-1', './vis_data/deck_statistics.json');
+        renderChart('pitch-distribution', './vis_data/pitch_distribution.json');
+        renderChart('defense-distribution', './vis_data/defense_distribution.json');
+        renderChart('cost-distribution', './vis_data/cost_distribution.json');
+        renderChart('card-types', './vis_data/card_types_keywords.json');
+
+        // Render common cards initially
+        renderChart('cards-classification', './vis_data/equipment_comparison_classes.json');
+
+        // Function to update the common/rare/mythic cards chart
+        function updateCardsChart(containerId, dataFile, group) {
+            fetch(dataFile)
+                .then(response => response.json())
+                .then(data => {
+                    if (dataFile === './vis_data/equipment_comparison_classes.json') {
+                        data.layout.yaxis.title = "Percentage of equipments";
+                    } else {
+                        data.layout.yaxis.title = "Percentage of cards";
+                    }
+                    let chartData = data.data;
+                    if (group !== 'All') {
+                        // Find the selected group data
+                        const selectedData = data.data.find(trace => trace.name === group);
+                        if (selectedData) {
+                            chartData = [selectedData];
+
+                            // Sorting
+                            let combinedData = chartData[0].x.map((x, i) => {
+                                return { x: x, y: chartData[0].y[i] };
+                            });
+
+                            combinedData.sort((a, b) => b.y - a.y);
+
+                            chartData[0].x = combinedData.map(data => data.x);
+                            chartData[0].y = combinedData.map(data => data.y);
+                        }
+                    }
+                    Plotly.react(containerId, chartData, data.layout);
+                })
+                .catch(error => {
+                    console.error('Error loading chart data:', error);
+                });
+        }
+
+        const cardClassificationContainer = document.getElementById('cards-classification');
+        const chartDropdown = document.createElement('select');
+        const groupDropdown = document.createElement('select');
+
+        const chartOptions = [
+            { value: 'equipment', text: 'Equipment Cards', file: './vis_data/equipment_comparison_classes.json' },
+            { value: 'lightning_cards', text: 'Lightning Cards', file: './vis_data/lightning_cards.json' },
+            { value: 'earth_cards', text: 'Earth Cards', file: './vis_data/earth_cards.json' },
+            { value: 'runeblade_cards', text: 'Runeblade Cards', file: './vis_data/runeblade_cards.json' },
+            { value: 'wizard_cards', text: 'Wizard Cards', file: './vis_data/wizard_cards.json' },
+            { value: 'generic_cards', text: 'Generic Cards', file: './vis_data/generic_cards.json' }
+        ];
+
+        chartOptions.forEach(optionData => {
+            const option = document.createElement('option');
+            option.value = optionData.value;
+            option.text = optionData.text;
+            chartDropdown.appendChild(option);
+        });
+
+         // Populate group dropdown
+         const groupOptions = [
+            { value: 'All', text: 'All' },
+            { value: 'Florian', text: 'Florian' },
+            { value: 'Verdance', text: 'Verdance' },
+            { value: 'Oscilio', text: 'Oscilio' },
+            { value: 'Aurora', text: 'Aurora' },
+        ];
+
+        groupOptions.forEach(optionData => {
+            const option = document.createElement('option');
+            option.value = optionData.value;
+            option.text = optionData.text;
+            groupDropdown.appendChild(option);
+        });
+
+        cardClassificationContainer.parentNode.insertBefore(chartDropdown, cardClassificationContainer);
+        cardClassificationContainer.parentNode.insertBefore(groupDropdown, cardClassificationContainer);
+
+        // Add onchange event for chartDropdown
+        chartDropdown.onchange = function () {
+            updateCardsChart('cards-classification', chartOptions.find(option => option.value === this.value).file, groupDropdown.value);
+        };
+
+        // Add onchange event for groupDropdown
+        groupDropdown.onchange = function () {
+            updateCardsChart('cards-classification', chartOptions.find(option => option.value === chartDropdown.value).file, this.value);
+        };
+
+        // Initial render based on default dropdown values
+        updateCardsChart('cards-classification', './vis_data/equipment_comparison_classes.json', 'All');
+
+        // Line charts
+        function updateCardsByTypeChart(type, mode) {
+            const fileMap = {
+                'red': './vis_data/number_of_red_cards.json',
+                'yellow': './vis_data/number_of_yellow_cards.json',
+                'blue': './vis_data/number_of_blue_cards.json',
+                'lightning': './vis_data/number_of_lightning_cards.json',
+                'earth': './vis_data/number_of_earth_cards.json',
+                'runeblade': './vis_data/number_of_runeblade_cards.json',
+                'wizard': './vis_data/number_of_wizard_cards.json',
+                'generic': './vis_data/number_of_generic_cards.json',
+                'equipment': './vis_data/number_of_equipment_cards.json',
+                'non-equipment': './vis_data/number_of_non-equipment_cards.json',
+                'all': './vis_data/number_of_all_cards.json'
+            };
+            fetch(fileMap[type])
+                .then(response => response.json())
+                .then(data => {
+                    if (mode === 'cumulative') {
+                        data.layout.yaxis.title = 'Expected Value: Cumulative Increase';
+                        data.data.forEach(trace => {
+                            let cumulativeY = [];
+                            let cumulativeSum = 0;
+                            trace.y.forEach((value, index) => {
+                                cumulativeSum += trace.x[index] * value / 100;
+                                cumulativeY.push(cumulativeSum);
+                            });
+                            trace.y = cumulativeY;
+                        });
+                    } else {
+                        data.layout.yaxis.title = 'Percentage of decks';
+                    }
+                    Plotly.react('number-of-cards', data.data, data.layout);
+                })
+                .catch(error => {
+                    console.error('Error loading chart data:', error);
+                });
+        }
+
+        // Add dropdown for cards by type and percentage/cumulative mode
+        const numberOfCardsContainer = document.getElementById('number-of-cards');
+        const typeDropdown = document.createElement('select');
+        const modeDropdown = document.createElement('select');
+
+        typeDropdown.onchange = function () {
+            updateCardsByTypeChart(this.value, modeDropdown.value);
+        };
+
+        modeDropdown.onchange = function () {
+            updateCardsByTypeChart(typeDropdown.value, this.value);
+        };
+
+        const typeOptions = [
+            { value: 'red', text: 'Red Cards' },
+            { value: 'yellow', text: 'Yellow Cards' },
+            { value: 'blue', text: 'Blue Cards' },
+            { value: 'lightning', text: 'Lightning Cards' },
+            { value: 'earth', text: 'Earth Cards' },
+            { value: 'runeblade', text: 'Runeblade Cards' },
+            { value: 'wizard', text: 'Wizard Cards' },
+            { value: 'generic', text: 'Generic Cards' },
+            { value: 'equipment', text: 'Equipment Cards' },
+            { value: 'non-equipment', text: 'Non-Equipment Cards' },
+            { value: 'all', text: 'All Cards' }
+        ];
+
+        const modeOptions = [
+            { value: 'percentage', text: 'Percentage' },
+            { value: 'cumulative', text: 'Cumulative Increase' }
+        ];
+
+        typeOptions.forEach(optionData => {
+            const option = document.createElement('option');
+            option.value = optionData.value;
+            option.text = optionData.text;
+            typeDropdown.appendChild(option);
+        });
+
+        modeOptions.forEach(optionData => {
+            const option = document.createElement('option');
+            option.value = optionData.value;
+            option.text = optionData.text;
+            modeDropdown.appendChild(option);
+        });
+
+        numberOfCardsContainer.parentNode.insertBefore(typeDropdown, numberOfCardsContainer);
+        numberOfCardsContainer.parentNode.insertBefore(modeDropdown, numberOfCardsContainer);
+
+        // Render the initial cards by type chart with default type and mode
+        updateCardsByTypeChart('red', 'percentage');
+    </script>
+
+</body>
+</html>
