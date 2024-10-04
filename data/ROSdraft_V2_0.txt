@@ -1,0 +1,2841 @@
+[Settings]
+{
+    "showSlots": true,
+    "withReplacement": false,
+    "cardBack": "https://d2h5owxb2ypf43.cloudfront.net/cards/cardback.webp",
+}
+[CustomCards]
+[
+    {
+        "name": "Germinate (blue)",
+        "rarity": "mythic",
+        "mana_cost": "3",
+        "collector_number": "ROS004",
+        "type": "Earth, Runeblade, Action",
+        "image_uris": {
+           "en": "https://storage.googleapis.com/fabmaster/cardfaces/2024-ROS/EN/ROS004.png"
+        }
+    },
+    {
+        "name": "Thistle Bloom // Life (yellow)",
+        "rarity": "mythic",
+        "mana_cost": "2",
+        "collector_number": "ROS005",
+        "type": "Runeblade, Action, Earth, Instant",
+        "image_uris": {
+           "en": "https://storage.googleapis.com/fabmaster/cardfaces/2024-ROS/EN/ROS005.png"
+        }
+    },
+    {
+        "name": "Arcane Seeds // Life (red)",
+        "rarity": "rare",
+        "mana_cost": "1",
+        "collector_number": "ROS006",
+        "type": "Runeblade, Action, Earth, Instant",
+        "image_uris": {
+           "en": "https://storage.googleapis.com/fabmaster/cardfaces/2024-ROS/EN/ROS006.png"
+        }
+    },
+    {
+        "name": "Vaporize // Shock (yellow)",
+        "rarity": "mythic",
+        "mana_cost": "2",
+        "collector_number": "ROS011",
+        "type": "Runeblade, Instant, Lightning, Instant",
+        "image_uris": {
+           "en": "https://storage.googleapis.com/fabmaster/cardfaces/2024-ROS/EN/ROS011.png"
+        }
+    },
+    {
+        "name": "Burn Up // Shock (red)",
+        "rarity": "rare",
+        "mana_cost": "1",
+        "collector_number": "ROS012",
+        "type": "Runeblade, Action, Lightning, Instant",
+        "image_uris": {
+           "en": "https://storage.googleapis.com/fabmaster/cardfaces/2024-ROS/EN/ROS012.png"
+        }
+    },
+    {
+        "name": "Heartbeat of Candlehold (blue)",
+        "rarity": "mythic",
+        "mana_cost": "3",
+        "collector_number": "ROS016",
+        "type": "Earth, Wizard, Action",
+        "image_uris": {
+           "en": "https://storage.googleapis.com/fabmaster/cardfaces/2024-ROS/EN/ROS016.png"
+        }
+    },
+    {
+        "name": "Pulsing Aether // Life (red)",
+        "rarity": "rare",
+        "mana_cost": "1",
+        "collector_number": "ROS018",
+        "type": "Wizard, Action, Earth, Instant",
+        "image_uris": {
+           "en": "https://storage.googleapis.com/fabmaster/cardfaces/2024-ROS/EN/ROS018.png"
+        }
+    },
+    {
+        "name": "Sigil of Brilliance (yellow)",
+        "rarity": "mythic",
+        "mana_cost": "2",
+        "collector_number": "ROS022",
+        "type": "Lightning, Wizard, Instant, Aura",
+        "image_uris": {
+           "en": "https://storage.googleapis.com/fabmaster/cardfaces/2024-ROS/EN/ROS022.png"
+        }
+    },
+    {
+        "name": "Null // Shock (yellow)",
+        "rarity": "mythic",
+        "mana_cost": "2",
+        "collector_number": "ROS023",
+        "type": "Wizard, Instant, Lightning, Instant",
+        "image_uris": {
+           "en": "https://storage.googleapis.com/fabmaster/cardfaces/2024-ROS/EN/ROS023.png"
+        }
+    },
+    {
+        "name": "Comet Storm // Shock (red)",
+        "rarity": "rare",
+        "mana_cost": "1",
+        "collector_number": "ROS024",
+        "type": "Wizard, Action, Lightning, Instant",
+        "image_uris": {
+           "en": "https://storage.googleapis.com/fabmaster/cardfaces/2024-ROS/EN/ROS024.png"
+        }
+    },
+    {
+        "name": "Helm of Lignum Vitae",
+        "rarity": "common",
+        "mana_cost": "0",
+        "collector_number": "ROS029",
+        "type": "Earth, Equipment, Head",
+        "image_uris": {
+           "en": "https://storage.googleapis.com/fabmaster/cardfaces/2024-ROS/EN/ROS029.png"
+        }
+    },
+    {
+        "name": "Well Grounded",
+        "rarity": "common",
+        "mana_cost": "0",
+        "collector_number": "ROS030",
+        "type": "Earth, Equipment, Legs",
+        "image_uris": {
+           "en": "https://storage.googleapis.com/fabmaster/cardfaces/2024-ROS/EN/ROS030.png"
+        }
+    },
+    {
+        "name": "Felling of the Crown (red)",
+        "rarity": "mythic",
+        "mana_cost": "1",
+        "collector_number": "ROS031",
+        "type": "Earth, Action, Attack",
+        "image_uris": {
+           "en": "https://storage.googleapis.com/fabmaster/cardfaces/2024-ROS/EN/ROS031.png"
+        }
+    },
+    {
+        "name": "Channel the Millennium Tree (red)",
+        "rarity": "mythic",
+        "mana_cost": "1",
+        "collector_number": "ROS033",
+        "type": "Earth, Action, Aura",
+        "image_uris": {
+           "en": "https://storage.googleapis.com/fabmaster/cardfaces/2024-ROS/EN/ROS033.png"
+        }
+    },
+    {
+        "name": "Seeds of Tomorrow (blue)",
+        "rarity": "mythic",
+        "mana_cost": "3",
+        "collector_number": "ROS035",
+        "type": "Earth, Instant",
+        "image_uris": {
+           "en": "https://storage.googleapis.com/fabmaster/cardfaces/2024-ROS/EN/ROS035.png"
+        }
+    },
+    {
+        "name": "Earth Form (red)",
+        "rarity": "rare",
+        "mana_cost": "1",
+        "collector_number": "ROS036",
+        "type": "Earth, Action, Attack",
+        "image_uris": {
+           "en": "https://storage.googleapis.com/fabmaster/cardfaces/2024-ROS/EN/ROS036.png"
+        }
+    },
+    {
+        "name": "Earth Form (yellow)",
+        "rarity": "rare",
+        "mana_cost": "2",
+        "collector_number": "ROS037",
+        "type": "Earth, Action, Attack",
+        "image_uris": {
+           "en": "https://storage.googleapis.com/fabmaster/cardfaces/2024-ROS/EN/ROS037.png"
+        }
+    },
+    {
+        "name": "Earth Form (blue)",
+        "rarity": "rare",
+        "mana_cost": "3",
+        "collector_number": "ROS038",
+        "type": "Earth, Action, Attack",
+        "image_uris": {
+           "en": "https://storage.googleapis.com/fabmaster/cardfaces/2024-ROS/EN/ROS038.png"
+        }
+    },
+    {
+        "name": "Summer's Fall (red)",
+        "rarity": "rare",
+        "mana_cost": "1",
+        "collector_number": "ROS039",
+        "type": "Earth, Action, Attack",
+        "image_uris": {
+           "en": "https://storage.googleapis.com/fabmaster/cardfaces/2024-ROS/EN/ROS039.png"
+        }
+    },
+    {
+        "name": "Summer's Fall (yellow)",
+        "rarity": "rare",
+        "mana_cost": "2",
+        "collector_number": "ROS040",
+        "type": "Earth, Action, Attack",
+        "image_uris": {
+           "en": "https://storage.googleapis.com/fabmaster/cardfaces/2024-ROS/EN/ROS040.png"
+        }
+    },
+    {
+        "name": "Summer's Fall (blue)",
+        "rarity": "rare",
+        "mana_cost": "3",
+        "collector_number": "ROS041",
+        "type": "Earth, Action, Attack",
+        "image_uris": {
+           "en": "https://storage.googleapis.com/fabmaster/cardfaces/2024-ROS/EN/ROS041.png"
+        }
+    },
+    {
+        "name": "Rootbound Carapace (red)",
+        "rarity": "rare",
+        "mana_cost": "1",
+        "collector_number": "ROS042",
+        "type": "Earth, Defense Reaction",
+        "image_uris": {
+           "en": "https://storage.googleapis.com/fabmaster/cardfaces/2024-ROS/EN/ROS042.png"
+        }
+    },
+    {
+        "name": "Rootbound Carapace (yellow)",
+        "rarity": "rare",
+        "mana_cost": "2",
+        "collector_number": "ROS043",
+        "type": "Earth, Defense Reaction",
+        "image_uris": {
+           "en": "https://storage.googleapis.com/fabmaster/cardfaces/2024-ROS/EN/ROS043.png"
+        }
+    },
+    {
+        "name": "Rootbound Carapace (blue)",
+        "rarity": "rare",
+        "mana_cost": "3",
+        "collector_number": "ROS044",
+        "type": "Earth, Defense Reaction",
+        "image_uris": {
+           "en": "https://storage.googleapis.com/fabmaster/cardfaces/2024-ROS/EN/ROS044.png"
+        }
+    },
+    {
+        "name": "Sigil of Sanctuary (blue)",
+        "rarity": "rare",
+        "mana_cost": "3",
+        "collector_number": "ROS045",
+        "type": "Earth, Instant, Aura",
+        "image_uris": {
+           "en": "https://storage.googleapis.com/fabmaster/cardfaces/2024-ROS/EN/ROS045.png"
+        }
+    },
+    {
+        "name": "Autumn's Touch (red)",
+        "rarity": "common",
+        "mana_cost": "1",
+        "collector_number": "ROS046",
+        "type": "special",
+        "image_uris": {
+           "en": "https://storage.googleapis.com/fabmaster/cardfaces/2024-ROS/EN/ROS046.png"
+        }
+    },
+    {
+        "name": "Autumn's Touch (yellow)",
+        "rarity": "common",
+        "mana_cost": "2",
+        "collector_number": "ROS047",
+        "type": "special",
+        "image_uris": {
+           "en": "https://storage.googleapis.com/fabmaster/cardfaces/2024-ROS/EN/ROS047.png"
+        }
+    },
+    {
+        "name": "Autumn's Touch (blue)",
+        "rarity": "common",
+        "mana_cost": "3",
+        "collector_number": "ROS048",
+        "type": "special",
+        "image_uris": {
+           "en": "https://storage.googleapis.com/fabmaster/cardfaces/2024-ROS/EN/ROS048.png"
+        }
+    },
+    {
+        "name": "Blossoming Decay (red)",
+        "rarity": "common",
+        "mana_cost": "1",
+        "collector_number": "ROS049",
+        "type": "Earth, Action, Attack",
+        "image_uris": {
+           "en": "https://storage.googleapis.com/fabmaster/cardfaces/2024-ROS/EN/ROS049.png"
+        }
+    },
+    {
+        "name": "Blossoming Decay (yellow)",
+        "rarity": "common",
+        "mana_cost": "2",
+        "collector_number": "ROS050",
+        "type": "Earth, Action, Attack",
+        "image_uris": {
+           "en": "https://storage.googleapis.com/fabmaster/cardfaces/2024-ROS/EN/ROS050.png"
+        }
+    },
+    {
+        "name": "Blossoming Decay (blue)",
+        "rarity": "common",
+        "mana_cost": "3",
+        "collector_number": "ROS051",
+        "type": "Earth, Action, Attack",
+        "image_uris": {
+           "en": "https://storage.googleapis.com/fabmaster/cardfaces/2024-ROS/EN/ROS051.png"
+        }
+    },
+    {
+        "name": "Cadaverous Tilling (red)",
+        "rarity": "common",
+        "mana_cost": "1",
+        "collector_number": "ROS052",
+        "type": "Earth, Action, Attack",
+        "image_uris": {
+           "en": "https://storage.googleapis.com/fabmaster/cardfaces/2024-ROS/EN/ROS052.png"
+        }
+    },
+    {
+        "name": "Cadaverous Tilling (yellow)",
+        "rarity": "common",
+        "mana_cost": "2",
+        "collector_number": "ROS053",
+        "type": "Earth, Action, Attack",
+        "image_uris": {
+           "en": "https://storage.googleapis.com/fabmaster/cardfaces/2024-ROS/EN/ROS053.png"
+        }
+    },
+    {
+        "name": "Cadaverous Tilling (blue)",
+        "rarity": "common",
+        "mana_cost": "3",
+        "collector_number": "ROS054",
+        "type": "Earth, Action, Attack",
+        "image_uris": {
+           "en": "https://storage.googleapis.com/fabmaster/cardfaces/2024-ROS/EN/ROS054.png"
+        }
+    },
+    {
+        "name": "Fruits of the Forest (red)",
+        "rarity": "common",
+        "mana_cost": "1",
+        "collector_number": "ROS055",
+        "type": "Earth, Action, Attack",
+        "image_uris": {
+           "en": "https://storage.googleapis.com/fabmaster/cardfaces/2024-ROS/EN/ROS055.png"
+        }
+    },
+    {
+        "name": "Fruits of the Forest (yellow)",
+        "rarity": "common",
+        "mana_cost": "2",
+        "collector_number": "ROS056",
+        "type": "Earth, Action, Attack",
+        "image_uris": {
+           "en": "https://storage.googleapis.com/fabmaster/cardfaces/2024-ROS/EN/ROS056.png"
+        }
+    },
+    {
+        "name": "Fruits of the Forest (blue)",
+        "rarity": "common",
+        "mana_cost": "3",
+        "collector_number": "ROS057",
+        "type": "Earth, Action, Attack",
+        "image_uris": {
+           "en": "https://storage.googleapis.com/fabmaster/cardfaces/2024-ROS/EN/ROS057.png"
+        }
+    },
+    {
+        "name": "Harvest Season (red)",
+        "rarity": "common",
+        "mana_cost": "1",
+        "collector_number": "ROS061",
+        "type": "Earth, Action, Aura",
+        "image_uris": {
+           "en": "https://storage.googleapis.com/fabmaster/cardfaces/2024-ROS/EN/ROS061.png"
+        }
+    },
+    {
+        "name": "Harvest Season (yellow)",
+        "rarity": "common",
+        "mana_cost": "2",
+        "collector_number": "ROS062",
+        "type": "Earth, Action, Aura",
+        "image_uris": {
+           "en": "https://storage.googleapis.com/fabmaster/cardfaces/2024-ROS/EN/ROS062.png"
+        }
+    },
+    {
+        "name": "Harvest Season (blue)",
+        "rarity": "common",
+        "mana_cost": "3",
+        "collector_number": "ROS063",
+        "type": "Earth, Action, Aura",
+        "image_uris": {
+           "en": "https://storage.googleapis.com/fabmaster/cardfaces/2024-ROS/EN/ROS063.png"
+        }
+    },
+    {
+        "name": "Strong Yield (red)",
+        "rarity": "common",
+        "mana_cost": "1",
+        "collector_number": "ROS064",
+        "type": "Earth, Action, Aura",
+        "image_uris": {
+           "en": "https://storage.googleapis.com/fabmaster/cardfaces/2024-ROS/EN/ROS064.png"
+        }
+    },
+    {
+        "name": "Strong Yield (yellow)",
+        "rarity": "common",
+        "mana_cost": "2",
+        "collector_number": "ROS065",
+        "type": "Earth, Action, Aura",
+        "image_uris": {
+           "en": "https://storage.googleapis.com/fabmaster/cardfaces/2024-ROS/EN/ROS065.png"
+        }
+    },
+    {
+        "name": "Strong Yield (blue)",
+        "rarity": "common",
+        "mana_cost": "3",
+        "collector_number": "ROS066",
+        "type": "Earth, Action, Aura",
+        "image_uris": {
+           "en": "https://storage.googleapis.com/fabmaster/cardfaces/2024-ROS/EN/ROS066.png"
+        }
+    },
+    {
+        "name": "Fertile Ground (red)",
+        "rarity": "common",
+        "mana_cost": "1",
+        "collector_number": "ROS067",
+        "type": "Earth, Instant",
+        "image_uris": {
+           "en": "https://storage.googleapis.com/fabmaster/cardfaces/2024-ROS/EN/ROS067.png"
+        }
+    },
+    {
+        "name": "Fertile Ground (yellow)",
+        "rarity": "common",
+        "mana_cost": "2",
+        "collector_number": "ROS068",
+        "type": "Earth, Instant",
+        "image_uris": {
+           "en": "https://storage.googleapis.com/fabmaster/cardfaces/2024-ROS/EN/ROS068.png"
+        }
+    },
+    {
+        "name": "Fertile Ground (blue)",
+        "rarity": "common",
+        "mana_cost": "3",
+        "collector_number": "ROS069",
+        "type": "Earth, Instant",
+        "image_uris": {
+           "en": "https://storage.googleapis.com/fabmaster/cardfaces/2024-ROS/EN/ROS069.png"
+        }
+    },
+    {
+        "name": "Sigil of Earth (blue)",
+        "rarity": "common",
+        "mana_cost": "3",
+        "collector_number": "ROS070",
+        "type": "Earth, Action, Aura",
+        "image_uris": {
+           "en": "https://storage.googleapis.com/fabmaster/cardfaces/2024-ROS/EN/ROS070.png"
+        }
+    },
+    {
+        "name": "Flash of Brilliance",
+        "rarity": "common",
+        "mana_cost": "0",
+        "collector_number": "ROS072",
+        "type": "Lightning, Equipment, Head",
+        "image_uris": {
+           "en": "https://storage.googleapis.com/fabmaster/cardfaces/2024-ROS/EN/ROS072.png"
+        }
+    },
+    {
+        "name": "Twinkle Toes",
+        "rarity": "common",
+        "mana_cost": "0",
+        "collector_number": "ROS073",
+        "type": "Lightning, Equipment, Legs",
+        "image_uris": {
+           "en": "https://storage.googleapis.com/fabmaster/cardfaces/2024-ROS/EN/ROS073.png"
+        }
+    },
+    {
+        "name": "Channel Lightning Valley (yellow)",
+        "rarity": "mythic",
+        "mana_cost": "2",
+        "collector_number": "ROS077",
+        "type": "Lightning, Instant, Aura",
+        "image_uris": {
+           "en": "https://storage.googleapis.com/fabmaster/cardfaces/2024-ROS/EN/ROS077.png"
+        }
+    },
+    {
+        "name": "Blast to Oblivion (red)",
+        "rarity": "rare",
+        "mana_cost": "1",
+        "collector_number": "ROS079",
+        "type": "Lightning, Action, Attack",
+        "image_uris": {
+           "en": "https://storage.googleapis.com/fabmaster/cardfaces/2024-ROS/EN/ROS079.png"
+        }
+    },
+    {
+        "name": "Blast to Oblivion (yellow)",
+        "rarity": "rare",
+        "mana_cost": "2",
+        "collector_number": "ROS080",
+        "type": "Lightning, Action, Attack",
+        "image_uris": {
+           "en": "https://storage.googleapis.com/fabmaster/cardfaces/2024-ROS/EN/ROS080.png"
+        }
+    },
+    {
+        "name": "Blast to Oblivion (blue)",
+        "rarity": "rare",
+        "mana_cost": "3",
+        "collector_number": "ROS081",
+        "type": "Lightning, Action, Attack",
+        "image_uris": {
+           "en": "https://storage.googleapis.com/fabmaster/cardfaces/2024-ROS/EN/ROS081.png"
+        }
+    },
+    {
+        "name": "Lightning Form (red)",
+        "rarity": "rare",
+        "mana_cost": "1",
+        "collector_number": "ROS082",
+        "type": "Lightning, Action, Attack",
+        "image_uris": {
+           "en": "https://storage.googleapis.com/fabmaster/cardfaces/2024-ROS/EN/ROS082.png"
+        }
+    },
+    {
+        "name": "Lightning Form (yellow)",
+        "rarity": "rare",
+        "mana_cost": "2",
+        "collector_number": "ROS083",
+        "type": "Lightning, Action, Attack",
+        "image_uris": {
+           "en": "https://storage.googleapis.com/fabmaster/cardfaces/2024-ROS/EN/ROS083.png"
+        }
+    },
+    {
+        "name": "Lightning Form (blue)",
+        "rarity": "rare",
+        "mana_cost": "3",
+        "collector_number": "ROS084",
+        "type": "Lightning, Action, Attack",
+        "image_uris": {
+           "en": "https://storage.googleapis.com/fabmaster/cardfaces/2024-ROS/EN/ROS084.png"
+        }
+    },
+    {
+        "name": "Sigil of Conductivity (blue)",
+        "rarity": "rare",
+        "mana_cost": "3",
+        "collector_number": "ROS088",
+        "type": "Lightning, Instant, Aura",
+        "image_uris": {
+           "en": "https://storage.googleapis.com/fabmaster/cardfaces/2024-ROS/EN/ROS088.png"
+        }
+    },
+    {
+        "name": "Flittering Charge (red)",
+        "rarity": "common",
+        "mana_cost": "1",
+        "collector_number": "ROS089",
+        "type": "Lightning, Action, Attack",
+        "image_uris": {
+           "en": "https://storage.googleapis.com/fabmaster/cardfaces/2024-ROS/EN/ROS089.png"
+        }
+    },
+    {
+        "name": "Flittering Charge (yellow)",
+        "rarity": "common",
+        "mana_cost": "2",
+        "collector_number": "ROS090",
+        "type": "Lightning, Action, Attack",
+        "image_uris": {
+           "en": "https://storage.googleapis.com/fabmaster/cardfaces/2024-ROS/EN/ROS090.png"
+        }
+    },
+    {
+        "name": "Flittering Charge (blue)",
+        "rarity": "common",
+        "mana_cost": "3",
+        "collector_number": "ROS091",
+        "type": "Lightning, Action, Attack",
+        "image_uris": {
+           "en": "https://storage.googleapis.com/fabmaster/cardfaces/2024-ROS/EN/ROS091.png"
+        }
+    },
+    {
+        "name": "Fry (red)",
+        "rarity": "common",
+        "mana_cost": "1",
+        "collector_number": "ROS092",
+        "type": "special",
+        "image_uris": {
+           "en": "https://storage.googleapis.com/fabmaster/cardfaces/2024-ROS/EN/ROS092.png"
+        }
+    },
+    {
+        "name": "Fry (yellow)",
+        "rarity": "common",
+        "mana_cost": "2",
+        "collector_number": "ROS093",
+        "type": "special",
+        "image_uris": {
+           "en": "https://storage.googleapis.com/fabmaster/cardfaces/2024-ROS/EN/ROS093.png"
+        }
+    },
+    {
+        "name": "Fry (blue)",
+        "rarity": "common",
+        "mana_cost": "3",
+        "collector_number": "ROS094",
+        "type": "Lightning, Action, Attack",
+        "image_uris": {
+           "en": "https://storage.googleapis.com/fabmaster/cardfaces/2024-ROS/EN/ROS094.png"
+        }
+    },
+    {
+        "name": "Heaven's Claws (red)",
+        "rarity": "common",
+        "mana_cost": "1",
+        "collector_number": "ROS095",
+        "type": "special",
+        "image_uris": {
+           "en": "https://storage.googleapis.com/fabmaster/cardfaces/2024-ROS/EN/ROS095.png"
+        }
+    },
+    {
+        "name": "Heaven's Claws (yellow)",
+        "rarity": "common",
+        "mana_cost": "2",
+        "collector_number": "ROS096",
+        "type": "special",
+        "image_uris": {
+           "en": "https://storage.googleapis.com/fabmaster/cardfaces/2024-ROS/EN/ROS096.png"
+        }
+    },
+    {
+        "name": "Heaven's Claws (blue)",
+        "rarity": "common",
+        "mana_cost": "3",
+        "collector_number": "ROS097",
+        "type": "special",
+        "image_uris": {
+           "en": "https://storage.googleapis.com/fabmaster/cardfaces/2024-ROS/EN/ROS097.png"
+        }
+    },
+    {
+        "name": "Lightning Surge (red)",
+        "rarity": "common",
+        "mana_cost": "1",
+        "collector_number": "ROS098",
+        "type": "special",
+        "image_uris": {
+           "en": "https://storage.googleapis.com/fabmaster/cardfaces/2024-ROS/EN/ROS098.png"
+        }
+    },
+    {
+        "name": "Lightning Surge (yellow)",
+        "rarity": "common",
+        "mana_cost": "2",
+        "collector_number": "ROS099",
+        "type": "special",
+        "image_uris": {
+           "en": "https://storage.googleapis.com/fabmaster/cardfaces/2024-ROS/EN/ROS099.png"
+        }
+    },
+    {
+        "name": "Lightning Surge (blue)",
+        "rarity": "common",
+        "mana_cost": "3",
+        "collector_number": "ROS100",
+        "type": "special",
+        "image_uris": {
+           "en": "https://storage.googleapis.com/fabmaster/cardfaces/2024-ROS/EN/ROS100.png"
+        }
+    },
+    {
+        "name": "Second Strike (red)",
+        "rarity": "common",
+        "mana_cost": "1",
+        "collector_number": "ROS101",
+        "type": "Lightning, Action, Attack",
+        "image_uris": {
+           "en": "https://storage.googleapis.com/fabmaster/cardfaces/2024-ROS/EN/ROS101.png"
+        }
+    },
+    {
+        "name": "Second Strike (yellow)",
+        "rarity": "common",
+        "mana_cost": "2",
+        "collector_number": "ROS102",
+        "type": "Lightning, Action, Attack",
+        "image_uris": {
+           "en": "https://storage.googleapis.com/fabmaster/cardfaces/2024-ROS/EN/ROS102.png"
+        }
+    },
+    {
+        "name": "Second Strike (blue)",
+        "rarity": "common",
+        "mana_cost": "3",
+        "collector_number": "ROS103",
+        "type": "Lightning, Action, Attack",
+        "image_uris": {
+           "en": "https://storage.googleapis.com/fabmaster/cardfaces/2024-ROS/EN/ROS103.png"
+        }
+    },
+    {
+        "name": "Trip the Light Fantastic (red)",
+        "rarity": "common",
+        "mana_cost": "1",
+        "collector_number": "ROS104",
+        "type": "Lightning, Action, Attack",
+        "image_uris": {
+           "en": "https://storage.googleapis.com/fabmaster/cardfaces/2024-ROS/EN/ROS104.png"
+        }
+    },
+    {
+        "name": "Trip the Light Fantastic (yellow)",
+        "rarity": "common",
+        "mana_cost": "2",
+        "collector_number": "ROS105",
+        "type": "Lightning, Action, Attack",
+        "image_uris": {
+           "en": "https://storage.googleapis.com/fabmaster/cardfaces/2024-ROS/EN/ROS105.png"
+        }
+    },
+    {
+        "name": "Trip the Light Fantastic (blue)",
+        "rarity": "common",
+        "mana_cost": "3",
+        "collector_number": "ROS106",
+        "type": "Lightning, Action, Attack",
+        "image_uris": {
+           "en": "https://storage.googleapis.com/fabmaster/cardfaces/2024-ROS/EN/ROS106.png"
+        }
+    },
+    {
+        "name": "Flash (red)",
+        "rarity": "common",
+        "mana_cost": "1",
+        "collector_number": "ROS107",
+        "type": "special",
+        "image_uris": {
+           "en": "https://storage.googleapis.com/fabmaster/cardfaces/2024-ROS/EN/ROS107.png"
+        }
+    },
+    {
+        "name": "Flash (yellow)",
+        "rarity": "common",
+        "mana_cost": "2",
+        "collector_number": "ROS108",
+        "type": "special",
+        "image_uris": {
+           "en": "https://storage.googleapis.com/fabmaster/cardfaces/2024-ROS/EN/ROS108.png"
+        }
+    },
+    {
+        "name": "Flash (blue)",
+        "rarity": "common",
+        "mana_cost": "3",
+        "collector_number": "ROS109",
+        "type": "special",
+        "image_uris": {
+           "en": "https://storage.googleapis.com/fabmaster/cardfaces/2024-ROS/EN/ROS109.png"
+        }
+    },
+    {
+        "name": "Electrostatic Discharge (red)",
+        "rarity": "common",
+        "mana_cost": "1",
+        "collector_number": "ROS110",
+        "type": "Lightning, Instant",
+        "image_uris": {
+           "en": "https://storage.googleapis.com/fabmaster/cardfaces/2024-ROS/EN/ROS110.png"
+        }
+    },
+    {
+        "name": "Electrostatic Discharge (yellow)",
+        "rarity": "common",
+        "mana_cost": "2",
+        "collector_number": "ROS111",
+        "type": "Lightning, Instant",
+        "image_uris": {
+           "en": "https://storage.googleapis.com/fabmaster/cardfaces/2024-ROS/EN/ROS111.png"
+        }
+    },
+    {
+        "name": "Electrostatic Discharge (blue)",
+        "rarity": "common",
+        "mana_cost": "3",
+        "collector_number": "ROS112",
+        "type": "Lightning, Instant",
+        "image_uris": {
+           "en": "https://storage.googleapis.com/fabmaster/cardfaces/2024-ROS/EN/ROS112.png"
+        }
+    },
+    {
+        "name": "Sigil of Lightning (blue)",
+        "rarity": "common",
+        "mana_cost": "3",
+        "collector_number": "ROS113",
+        "type": "Lightning, Instant, Aura",
+        "image_uris": {
+           "en": "https://storage.googleapis.com/fabmaster/cardfaces/2024-ROS/EN/ROS113.png"
+        }
+    },
+    {
+        "name": "Bloodtorn Bodice",
+        "rarity": "common",
+        "mana_cost": "0",
+        "collector_number": "ROS115",
+        "type": "Runeblade, Equipment, Chest",
+        "image_uris": {
+           "en": "https://storage.googleapis.com/fabmaster/cardfaces/2024-ROS/EN/ROS115.png"
+        }
+    },
+    {
+        "name": "Runehold Release",
+        "rarity": "common",
+        "mana_cost": "0",
+        "collector_number": "ROS116",
+        "type": "Runeblade, Equipment, Arms",
+        "image_uris": {
+           "en": "https://storage.googleapis.com/fabmaster/cardfaces/2024-ROS/EN/ROS116.png"
+        }
+    },
+    {
+        "name": "Splintering Deadwood (red)",
+        "rarity": "rare",
+        "mana_cost": "1",
+        "collector_number": "ROS121",
+        "type": "Runeblade, Action, Attack",
+        "image_uris": {
+           "en": "https://storage.googleapis.com/fabmaster/cardfaces/2024-ROS/EN/ROS121.png"
+        }
+    },
+    {
+        "name": "Splintering Deadwood (yellow)",
+        "rarity": "rare",
+        "mana_cost": "2",
+        "collector_number": "ROS122",
+        "type": "Runeblade, Action, Attack",
+        "image_uris": {
+           "en": "https://storage.googleapis.com/fabmaster/cardfaces/2024-ROS/EN/ROS122.png"
+        }
+    },
+    {
+        "name": "Splintering Deadwood (blue)",
+        "rarity": "rare",
+        "mana_cost": "3",
+        "collector_number": "ROS123",
+        "type": "Runeblade, Action, Attack",
+        "image_uris": {
+           "en": "https://storage.googleapis.com/fabmaster/cardfaces/2024-ROS/EN/ROS123.png"
+        }
+    },
+    {
+        "name": "Vantage Point (red)",
+        "rarity": "rare",
+        "mana_cost": "1",
+        "collector_number": "ROS124",
+        "type": "Runeblade, Action, Attack",
+        "image_uris": {
+           "en": "https://storage.googleapis.com/fabmaster/cardfaces/2024-ROS/EN/ROS124.png"
+        }
+    },
+    {
+        "name": "Vantage Point (yellow)",
+        "rarity": "rare",
+        "mana_cost": "2",
+        "collector_number": "ROS125",
+        "type": "Runeblade, Action, Attack",
+        "image_uris": {
+           "en": "https://storage.googleapis.com/fabmaster/cardfaces/2024-ROS/EN/ROS125.png"
+        }
+    },
+    {
+        "name": "Vantage Point (blue)",
+        "rarity": "rare",
+        "mana_cost": "3",
+        "collector_number": "ROS126",
+        "type": "Runeblade, Action, Attack",
+        "image_uris": {
+           "en": "https://storage.googleapis.com/fabmaster/cardfaces/2024-ROS/EN/ROS126.png"
+        }
+    },
+    {
+        "name": "Condemn to Slaughter (red)",
+        "rarity": "rare",
+        "mana_cost": "1",
+        "collector_number": "ROS127",
+        "type": "Runeblade, Action",
+        "image_uris": {
+           "en": "https://storage.googleapis.com/fabmaster/cardfaces/2024-ROS/EN/ROS127.png"
+        }
+    },
+    {
+        "name": "Condemn to Slaughter (yellow)",
+        "rarity": "rare",
+        "mana_cost": "2",
+        "collector_number": "ROS128",
+        "type": "Runeblade, Action",
+        "image_uris": {
+           "en": "https://storage.googleapis.com/fabmaster/cardfaces/2024-ROS/EN/ROS128.png"
+        }
+    },
+    {
+        "name": "Condemn to Slaughter (blue)",
+        "rarity": "rare",
+        "mana_cost": "3",
+        "collector_number": "ROS129",
+        "type": "Runeblade, Action",
+        "image_uris": {
+           "en": "https://storage.googleapis.com/fabmaster/cardfaces/2024-ROS/EN/ROS129.png"
+        }
+    },
+    {
+        "name": "Malefic Incantation (red)",
+        "rarity": "rare",
+        "mana_cost": "1",
+        "collector_number": "ROS130",
+        "type": "Runeblade, Action, Aura",
+        "image_uris": {
+           "en": "https://storage.googleapis.com/fabmaster/cardfaces/2024-ROS/EN/ROS130.png"
+        }
+    },
+    {
+        "name": "Malefic Incantation (yellow)",
+        "rarity": "rare",
+        "mana_cost": "2",
+        "collector_number": "ROS131",
+        "type": "Runeblade, Action, Aura",
+        "image_uris": {
+           "en": "https://storage.googleapis.com/fabmaster/cardfaces/2024-ROS/EN/ROS131.png"
+        }
+    },
+    {
+        "name": "Malefic Incantation (blue)",
+        "rarity": "rare",
+        "mana_cost": "3",
+        "collector_number": "ROS132",
+        "type": "Runeblade, Action, Aura",
+        "image_uris": {
+           "en": "https://storage.googleapis.com/fabmaster/cardfaces/2024-ROS/EN/ROS132.png"
+        }
+    },
+    {
+        "name": "Sigil of the Arknight (blue)",
+        "rarity": "rare",
+        "mana_cost": "3",
+        "collector_number": "ROS133",
+        "type": "Runeblade, Action, Aura",
+        "image_uris": {
+           "en": "https://storage.googleapis.com/fabmaster/cardfaces/2024-ROS/EN/ROS133.png"
+        }
+    },
+    {
+        "name": "Hit the High Notes (red)",
+        "rarity": "common",
+        "mana_cost": "1",
+        "collector_number": "ROS140",
+        "type": "Runeblade, Action, Attack",
+        "image_uris": {
+           "en": "https://storage.googleapis.com/fabmaster/cardfaces/2024-ROS/EN/ROS140.png"
+        }
+    },
+    {
+        "name": "Hit the High Notes (yellow)",
+        "rarity": "common",
+        "mana_cost": "2",
+        "collector_number": "ROS141",
+        "type": "Runeblade, Action, Attack",
+        "image_uris": {
+           "en": "https://storage.googleapis.com/fabmaster/cardfaces/2024-ROS/EN/ROS141.png"
+        }
+    },
+    {
+        "name": "Hit the High Notes (blue)",
+        "rarity": "common",
+        "mana_cost": "3",
+        "collector_number": "ROS142",
+        "type": "Runeblade, Action, Attack",
+        "image_uris": {
+           "en": "https://storage.googleapis.com/fabmaster/cardfaces/2024-ROS/EN/ROS142.png"
+        }
+    },
+    {
+        "name": "Hocus Pocus (red)",
+        "rarity": "common",
+        "mana_cost": "1",
+        "collector_number": "ROS143",
+        "type": "Runeblade, Action, Attack",
+        "image_uris": {
+           "en": "https://storage.googleapis.com/fabmaster/cardfaces/2024-ROS/EN/ROS143.png"
+        }
+    },
+    {
+        "name": "Hocus Pocus (yellow)",
+        "rarity": "common",
+        "mana_cost": "2",
+        "collector_number": "ROS144",
+        "type": "Runeblade, Action, Attack",
+        "image_uris": {
+           "en": "https://storage.googleapis.com/fabmaster/cardfaces/2024-ROS/EN/ROS144.png"
+        }
+    },
+    {
+        "name": "Hocus Pocus (blue)",
+        "rarity": "common",
+        "mana_cost": "3",
+        "collector_number": "ROS145",
+        "type": "Runeblade, Action, Attack",
+        "image_uris": {
+           "en": "https://storage.googleapis.com/fabmaster/cardfaces/2024-ROS/EN/ROS145.png"
+        }
+    },
+    {
+        "name": "Meat and Greet (red)",
+        "rarity": "common",
+        "mana_cost": "1",
+        "collector_number": "ROS146",
+        "type": "special",
+        "image_uris": {
+           "en": "https://storage.googleapis.com/fabmaster/cardfaces/2024-ROS/EN/ROS146.png"
+        }
+    },
+    {
+        "name": "Meat and Greet (yellow)",
+        "rarity": "common",
+        "mana_cost": "2",
+        "collector_number": "ROS147",
+        "type": "special",
+        "image_uris": {
+           "en": "https://storage.googleapis.com/fabmaster/cardfaces/2024-ROS/EN/ROS147.png"
+        }
+    },
+    {
+        "name": "Meat and Greet (blue)",
+        "rarity": "common",
+        "mana_cost": "3",
+        "collector_number": "ROS148",
+        "type": "special",
+        "image_uris": {
+           "en": "https://storage.googleapis.com/fabmaster/cardfaces/2024-ROS/EN/ROS148.png"
+        }
+    },
+    {
+        "name": "Runerager Swarm (red)",
+        "rarity": "common",
+        "mana_cost": "1",
+        "collector_number": "ROS149",
+        "type": "Runeblade, Action, Attack",
+        "image_uris": {
+           "en": "https://storage.googleapis.com/fabmaster/cardfaces/2024-ROS/EN/ROS149.png"
+        }
+    },
+    {
+        "name": "Runerager Swarm (yellow)",
+        "rarity": "common",
+        "mana_cost": "2",
+        "collector_number": "ROS150",
+        "type": "Runeblade, Action, Attack",
+        "image_uris": {
+           "en": "https://storage.googleapis.com/fabmaster/cardfaces/2024-ROS/EN/ROS150.png"
+        }
+    },
+    {
+        "name": "Runerager Swarm (blue)",
+        "rarity": "common",
+        "mana_cost": "3",
+        "collector_number": "ROS151",
+        "type": "Runeblade, Action, Attack",
+        "image_uris": {
+           "en": "https://storage.googleapis.com/fabmaster/cardfaces/2024-ROS/EN/ROS151.png"
+        }
+    },
+    {
+        "name": "Arcane Cussing (red)",
+        "rarity": "common",
+        "mana_cost": "1",
+        "collector_number": "ROS152",
+        "type": "Runeblade, Action, Aura",
+        "image_uris": {
+           "en": "https://storage.googleapis.com/fabmaster/cardfaces/2024-ROS/EN/ROS152.png"
+        }
+    },
+    {
+        "name": "Arcane Cussing (yellow)",
+        "rarity": "common",
+        "mana_cost": "2",
+        "collector_number": "ROS153",
+        "type": "Runeblade, Action, Aura",
+        "image_uris": {
+           "en": "https://storage.googleapis.com/fabmaster/cardfaces/2024-ROS/EN/ROS153.png"
+        }
+    },
+    {
+        "name": "Arcane Cussing (blue)",
+        "rarity": "common",
+        "mana_cost": "3",
+        "collector_number": "ROS154",
+        "type": "Runeblade, Action, Aura",
+        "image_uris": {
+           "en": "https://storage.googleapis.com/fabmaster/cardfaces/2024-ROS/EN/ROS154.png"
+        }
+    },
+    {
+        "name": "Deadwood Dirge (red)",
+        "rarity": "common",
+        "mana_cost": "1",
+        "collector_number": "ROS155",
+        "type": "Runeblade, Action",
+        "image_uris": {
+           "en": "https://storage.googleapis.com/fabmaster/cardfaces/2024-ROS/EN/ROS155.png"
+        }
+    },
+    {
+        "name": "Deadwood Dirge (yellow)",
+        "rarity": "common",
+        "mana_cost": "2",
+        "collector_number": "ROS156",
+        "type": "Runeblade, Action",
+        "image_uris": {
+           "en": "https://storage.googleapis.com/fabmaster/cardfaces/2024-ROS/EN/ROS156.png"
+        }
+    },
+    {
+        "name": "Deadwood Dirge (blue)",
+        "rarity": "common",
+        "mana_cost": "3",
+        "collector_number": "ROS157",
+        "type": "Runeblade, Action",
+        "image_uris": {
+           "en": "https://storage.googleapis.com/fabmaster/cardfaces/2024-ROS/EN/ROS157.png"
+        }
+    },
+    {
+        "name": "Oath of the Arknight (red)",
+        "rarity": "common",
+        "mana_cost": "1",
+        "collector_number": "ROS158",
+        "type": "special",
+        "image_uris": {
+           "en": "https://storage.googleapis.com/fabmaster/cardfaces/2024-ROS/EN/ROS158.png"
+        }
+    },
+    {
+        "name": "Oath of the Arknight (yellow)",
+        "rarity": "common",
+        "mana_cost": "2",
+        "collector_number": "ROS159",
+        "type": "special",
+        "image_uris": {
+           "en": "https://storage.googleapis.com/fabmaster/cardfaces/2024-ROS/EN/ROS159.png"
+        }
+    },
+    {
+        "name": "Oath of the Arknight (blue)",
+        "rarity": "common",
+        "mana_cost": "3",
+        "collector_number": "ROS160",
+        "type": "special",
+        "image_uris": {
+           "en": "https://storage.googleapis.com/fabmaster/cardfaces/2024-ROS/EN/ROS160.png"
+        }
+    },
+    {
+        "name": "Sigil of Deadwood (blue)",
+        "rarity": "common",
+        "mana_cost": "3",
+        "collector_number": "ROS161",
+        "type": "Runeblade, Action, Aura",
+        "image_uris": {
+           "en": "https://storage.googleapis.com/fabmaster/cardfaces/2024-ROS/EN/ROS161.png"
+        }
+    },
+    {
+        "name": "Ink-lined Cloak",
+        "rarity": "common",
+        "mana_cost": "0",
+        "collector_number": "ROS164",
+        "type": "Wizard, Equipment, Chest",
+        "image_uris": {
+           "en": "https://storage.googleapis.com/fabmaster/cardfaces/2024-ROS/EN/ROS164.png"
+        }
+    },
+    {
+        "name": "Hold Focus",
+        "rarity": "common",
+        "mana_cost": "0",
+        "collector_number": "ROS165",
+        "type": "Wizard, Equipment, Arms",
+        "image_uris": {
+           "en": "https://storage.googleapis.com/fabmaster/cardfaces/2024-ROS/EN/ROS165.png"
+        }
+    },
+    {
+        "name": "Chorus of the Amphitheater (red)",
+        "rarity": "rare",
+        "mana_cost": "1",
+        "collector_number": "ROS170",
+        "type": "Wizard, Action",
+        "image_uris": {
+           "en": "https://storage.googleapis.com/fabmaster/cardfaces/2024-ROS/EN/ROS170.png"
+        }
+    },
+    {
+        "name": "Chorus of the Amphitheater (yellow)",
+        "rarity": "rare",
+        "mana_cost": "2",
+        "collector_number": "ROS171",
+        "type": "Wizard, Action",
+        "image_uris": {
+           "en": "https://storage.googleapis.com/fabmaster/cardfaces/2024-ROS/EN/ROS171.png"
+        }
+    },
+    {
+        "name": "Chorus of the Amphitheater (blue)",
+        "rarity": "rare",
+        "mana_cost": "3",
+        "collector_number": "ROS172",
+        "type": "Wizard, Action",
+        "image_uris": {
+           "en": "https://storage.googleapis.com/fabmaster/cardfaces/2024-ROS/EN/ROS172.png"
+        }
+    },
+    {
+        "name": "Glyph Overlay (red)",
+        "rarity": "rare",
+        "mana_cost": "1",
+        "collector_number": "ROS173",
+        "type": "Wizard, Action",
+        "image_uris": {
+           "en": "https://storage.googleapis.com/fabmaster/cardfaces/2024-ROS/EN/ROS173.png"
+        }
+    },
+    {
+        "name": "Glyph Overlay (yellow)",
+        "rarity": "rare",
+        "mana_cost": "2",
+        "collector_number": "ROS174",
+        "type": "Wizard, Action",
+        "image_uris": {
+           "en": "https://storage.googleapis.com/fabmaster/cardfaces/2024-ROS/EN/ROS174.png"
+        }
+    },
+    {
+        "name": "Glyph Overlay (blue)",
+        "rarity": "rare",
+        "mana_cost": "3",
+        "collector_number": "ROS175",
+        "type": "Wizard, Action",
+        "image_uris": {
+           "en": "https://storage.googleapis.com/fabmaster/cardfaces/2024-ROS/EN/ROS175.png"
+        }
+    },
+    {
+        "name": "Pop the Bubble (red)",
+        "rarity": "rare",
+        "mana_cost": "1",
+        "collector_number": "ROS176",
+        "type": "Wizard, Action",
+        "image_uris": {
+           "en": "https://storage.googleapis.com/fabmaster/cardfaces/2024-ROS/EN/ROS176.png"
+        }
+    },
+    {
+        "name": "Pop the Bubble (yellow)",
+        "rarity": "rare",
+        "mana_cost": "2",
+        "collector_number": "ROS177",
+        "type": "Wizard, Action",
+        "image_uris": {
+           "en": "https://storage.googleapis.com/fabmaster/cardfaces/2024-ROS/EN/ROS177.png"
+        }
+    },
+    {
+        "name": "Pop the Bubble (blue)",
+        "rarity": "rare",
+        "mana_cost": "3",
+        "collector_number": "ROS178",
+        "type": "Wizard, Action",
+        "image_uris": {
+           "en": "https://storage.googleapis.com/fabmaster/cardfaces/2024-ROS/EN/ROS178.png"
+        }
+    },
+    {
+        "name": "Sigil of Temporal Manipulation (blue)",
+        "rarity": "rare",
+        "mana_cost": "3",
+        "collector_number": "ROS182",
+        "type": "Wizard, Instant, Aura",
+        "image_uris": {
+           "en": "https://storage.googleapis.com/fabmaster/cardfaces/2024-ROS/EN/ROS182.png"
+        }
+    },
+    {
+        "name": "Aether Quickening (red)",
+        "rarity": "common",
+        "mana_cost": "1",
+        "collector_number": "ROS183",
+        "type": "special",
+        "image_uris": {
+           "en": "https://storage.googleapis.com/fabmaster/cardfaces/2024-ROS/EN/ROS183.png"
+        }
+    },
+    {
+        "name": "Aether Quickening (yellow)",
+        "rarity": "common",
+        "mana_cost": "2",
+        "collector_number": "ROS184",
+        "type": "special",
+        "image_uris": {
+           "en": "https://storage.googleapis.com/fabmaster/cardfaces/2024-ROS/EN/ROS184.png"
+        }
+    },
+    {
+        "name": "Aether Quickening (blue)",
+        "rarity": "common",
+        "mana_cost": "3",
+        "collector_number": "ROS185",
+        "type": "special",
+        "image_uris": {
+           "en": "https://storage.googleapis.com/fabmaster/cardfaces/2024-ROS/EN/ROS185.png"
+        }
+    },
+    {
+        "name": "Arcane Twining (red)",
+        "rarity": "common",
+        "mana_cost": "1",
+        "collector_number": "ROS186",
+        "type": "Wizard, Action",
+        "image_uris": {
+           "en": "https://storage.googleapis.com/fabmaster/cardfaces/2024-ROS/EN/ROS186.png"
+        }
+    },
+    {
+        "name": "Arcane Twining (yellow)",
+        "rarity": "common",
+        "mana_cost": "2",
+        "collector_number": "ROS187",
+        "type": "Wizard, Action",
+        "image_uris": {
+           "en": "https://storage.googleapis.com/fabmaster/cardfaces/2024-ROS/EN/ROS187.png"
+        }
+    },
+    {
+        "name": "Arcane Twining (blue)",
+        "rarity": "common",
+        "mana_cost": "3",
+        "collector_number": "ROS188",
+        "type": "Wizard, Action",
+        "image_uris": {
+           "en": "https://storage.googleapis.com/fabmaster/cardfaces/2024-ROS/EN/ROS188.png"
+        }
+    },
+    {
+        "name": "Etchings of Arcana (red)",
+        "rarity": "common",
+        "mana_cost": "1",
+        "collector_number": "ROS189",
+        "type": "Wizard, Action",
+        "image_uris": {
+           "en": "https://storage.googleapis.com/fabmaster/cardfaces/2024-ROS/EN/ROS189.png"
+        }
+    },
+    {
+        "name": "Etchings of Arcana (yellow)",
+        "rarity": "common",
+        "mana_cost": "2",
+        "collector_number": "ROS190",
+        "type": "Wizard, Action",
+        "image_uris": {
+           "en": "https://storage.googleapis.com/fabmaster/cardfaces/2024-ROS/EN/ROS190.png"
+        }
+    },
+    {
+        "name": "Etchings of Arcana (blue)",
+        "rarity": "common",
+        "mana_cost": "3",
+        "collector_number": "ROS191",
+        "type": "Wizard, Action",
+        "image_uris": {
+           "en": "https://storage.googleapis.com/fabmaster/cardfaces/2024-ROS/EN/ROS191.png"
+        }
+    },
+    {
+        "name": "Exploding Aether (red)",
+        "rarity": "common",
+        "mana_cost": "1",
+        "collector_number": "ROS192",
+        "type": "Wizard, Action",
+        "image_uris": {
+           "en": "https://storage.googleapis.com/fabmaster/cardfaces/2024-ROS/EN/ROS192.png"
+        }
+    },
+    {
+        "name": "Exploding Aether (yellow)",
+        "rarity": "common",
+        "mana_cost": "2",
+        "collector_number": "ROS193",
+        "type": "Wizard, Action",
+        "image_uris": {
+           "en": "https://storage.googleapis.com/fabmaster/cardfaces/2024-ROS/EN/ROS193.png"
+        }
+    },
+    {
+        "name": "Exploding Aether (blue)",
+        "rarity": "common",
+        "mana_cost": "3",
+        "collector_number": "ROS194",
+        "type": "Wizard, Action",
+        "image_uris": {
+           "en": "https://storage.googleapis.com/fabmaster/cardfaces/2024-ROS/EN/ROS194.png"
+        }
+    },
+    {
+        "name": "Overflow the Aetherwell (red)",
+        "rarity": "common",
+        "mana_cost": "1",
+        "collector_number": "ROS198",
+        "type": "Wizard, Action",
+        "image_uris": {
+           "en": "https://storage.googleapis.com/fabmaster/cardfaces/2024-ROS/EN/ROS198.png"
+        }
+    },
+    {
+        "name": "Overflow the Aetherwell (yellow)",
+        "rarity": "common",
+        "mana_cost": "2",
+        "collector_number": "ROS199",
+        "type": "Wizard, Action",
+        "image_uris": {
+           "en": "https://storage.googleapis.com/fabmaster/cardfaces/2024-ROS/EN/ROS199.png"
+        }
+    },
+    {
+        "name": "Overflow the Aetherwell (blue)",
+        "rarity": "common",
+        "mana_cost": "3",
+        "collector_number": "ROS200",
+        "type": "Wizard, Action",
+        "image_uris": {
+           "en": "https://storage.googleapis.com/fabmaster/cardfaces/2024-ROS/EN/ROS200.png"
+        }
+    },
+    {
+        "name": "Perennial Aetherbloom (red)",
+        "rarity": "common",
+        "mana_cost": "1",
+        "collector_number": "ROS201",
+        "type": "Wizard, Action",
+        "image_uris": {
+           "en": "https://storage.googleapis.com/fabmaster/cardfaces/2024-ROS/EN/ROS201.png"
+        }
+    },
+    {
+        "name": "Perennial Aetherbloom (yellow)",
+        "rarity": "common",
+        "mana_cost": "2",
+        "collector_number": "ROS202",
+        "type": "Wizard, Action",
+        "image_uris": {
+           "en": "https://storage.googleapis.com/fabmaster/cardfaces/2024-ROS/EN/ROS202.png"
+        }
+    },
+    {
+        "name": "Perennial Aetherbloom (blue)",
+        "rarity": "common",
+        "mana_cost": "3",
+        "collector_number": "ROS203",
+        "type": "Wizard, Action",
+        "image_uris": {
+           "en": "https://storage.googleapis.com/fabmaster/cardfaces/2024-ROS/EN/ROS203.png"
+        }
+    },
+    {
+        "name": "Photon Splicing (red)",
+        "rarity": "common",
+        "mana_cost": "1",
+        "collector_number": "ROS204",
+        "type": "Wizard, Action",
+        "image_uris": {
+           "en": "https://storage.googleapis.com/fabmaster/cardfaces/2024-ROS/EN/ROS204.png"
+        }
+    },
+    {
+        "name": "Photon Splicing (yellow)",
+        "rarity": "common",
+        "mana_cost": "2",
+        "collector_number": "ROS205",
+        "type": "Wizard, Action",
+        "image_uris": {
+           "en": "https://storage.googleapis.com/fabmaster/cardfaces/2024-ROS/EN/ROS205.png"
+        }
+    },
+    {
+        "name": "Photon Splicing (blue)",
+        "rarity": "common",
+        "mana_cost": "3",
+        "collector_number": "ROS206",
+        "type": "Wizard, Action",
+        "image_uris": {
+           "en": "https://storage.googleapis.com/fabmaster/cardfaces/2024-ROS/EN/ROS206.png"
+        }
+    },
+    {
+        "name": "Trailblazing Aether (red)",
+        "rarity": "common",
+        "mana_cost": "1",
+        "collector_number": "ROS207",
+        "type": "Wizard, Action",
+        "image_uris": {
+           "en": "https://storage.googleapis.com/fabmaster/cardfaces/2024-ROS/EN/ROS207.png"
+        }
+    },
+    {
+        "name": "Trailblazing Aether (yellow)",
+        "rarity": "common",
+        "mana_cost": "2",
+        "collector_number": "ROS208",
+        "type": "Wizard, Action",
+        "image_uris": {
+           "en": "https://storage.googleapis.com/fabmaster/cardfaces/2024-ROS/EN/ROS208.png"
+        }
+    },
+    {
+        "name": "Trailblazing Aether (blue)",
+        "rarity": "common",
+        "mana_cost": "3",
+        "collector_number": "ROS209",
+        "type": "Wizard, Action",
+        "image_uris": {
+           "en": "https://storage.googleapis.com/fabmaster/cardfaces/2024-ROS/EN/ROS209.png"
+        }
+    },
+    {
+        "name": "Sigil of Forethought (blue)",
+        "rarity": "common",
+        "mana_cost": "3",
+        "collector_number": "ROS210",
+        "type": "Wizard, Instant, Aura",
+        "image_uris": {
+           "en": "https://storage.googleapis.com/fabmaster/cardfaces/2024-ROS/EN/ROS210.png"
+        }
+    },
+    {
+        "name": "Bruised Leather",
+        "rarity": "common",
+        "mana_cost": "0",
+        "collector_number": "ROS213",
+        "type": "Generic, Equipment, Chest",
+        "image_uris": {
+           "en": "https://storage.googleapis.com/fabmaster/cardfaces/2024-ROS/EN/ROS213.png"
+        }
+    },
+    {
+        "name": "Runaways",
+        "rarity": "common",
+        "mana_cost": "0",
+        "collector_number": "ROS215",
+        "type": "special",
+        "image_uris": {
+           "en": "https://storage.googleapis.com/fabmaster/cardfaces/2024-ROS/EN/ROS215.png"
+        }
+    },
+    {
+        "name": "Hand Behind the Pen (red)",
+        "rarity": "rare",
+        "mana_cost": "1",
+        "collector_number": "ROS220",
+        "type": "Generic, Action, Attack",
+        "image_uris": {
+           "en": "https://storage.googleapis.com/fabmaster/cardfaces/2024-ROS/EN/ROS220.png"
+        }
+    },
+    {
+        "name": "Smash Up (red)",
+        "rarity": "rare",
+        "mana_cost": "1",
+        "collector_number": "ROS221",
+        "type": "Generic, Action, Attack",
+        "image_uris": {
+           "en": "https://storage.googleapis.com/fabmaster/cardfaces/2024-ROS/EN/ROS221.png"
+        }
+    },
+    {
+        "name": "Tongue Tied (red)",
+        "rarity": "rare",
+        "mana_cost": "1",
+        "collector_number": "ROS222",
+        "type": "Generic, Action, Attack",
+        "image_uris": {
+           "en": "https://storage.googleapis.com/fabmaster/cardfaces/2024-ROS/EN/ROS222.png"
+        }
+    },
+    {
+        "name": "Sigil of Cycles (blue)",
+        "rarity": "rare",
+        "mana_cost": "3",
+        "collector_number": "ROS226",
+        "type": "Generic, Action, Aura",
+        "image_uris": {
+           "en": "https://storage.googleapis.com/fabmaster/cardfaces/2024-ROS/EN/ROS226.png"
+        }
+    },
+    {
+        "name": "Fyendal's Fighting Spirit (red)",
+        "rarity": "common",
+        "mana_cost": "1",
+        "collector_number": "ROS227",
+        "type": "special",
+        "image_uris": {
+           "en": "https://storage.googleapis.com/fabmaster/cardfaces/2024-ROS/EN/ROS227.png"
+        }
+    },
+    {
+        "name": "Fyendal's Fighting Spirit (yellow)",
+        "rarity": "common",
+        "mana_cost": "2",
+        "collector_number": "ROS228",
+        "type": "special",
+        "image_uris": {
+           "en": "https://storage.googleapis.com/fabmaster/cardfaces/2024-ROS/EN/ROS228.png"
+        }
+    },
+    {
+        "name": "Fyendal's Fighting Spirit (blue)",
+        "rarity": "common",
+        "mana_cost": "3",
+        "collector_number": "ROS229",
+        "type": "special",
+        "image_uris": {
+           "en": "https://storage.googleapis.com/fabmaster/cardfaces/2024-ROS/EN/ROS229.png"
+        }
+    },
+    {
+        "name": "Sigil of Fyendal (blue)",
+        "rarity": "common",
+        "mana_cost": "3",
+        "collector_number": "ROS230",
+        "type": "Generic, Action, Aura",
+        "image_uris": {
+           "en": "https://storage.googleapis.com/fabmaster/cardfaces/2024-ROS/EN/ROS230.png"
+        }
+    },
+    {
+        "name": "Arc Lightning (yellow)",
+        "rarity": "mythic",
+        "mana_cost": "2",
+        "collector_number": "ROS010",
+        "type": "Lightning, Runeblade, Action",
+        "image_uris": {
+           "en": "https://storage.googleapis.com/fabmaster/cardfaces/2024-ROS/EN/ROS010.png"
+        }
+    },
+    {
+        "name": "Rampant Growth // Life (yellow)",
+        "rarity": "mythic",
+        "mana_cost": "2",
+        "collector_number": "ROS017",
+        "type": "Wizard, Instant, Earth, Instant",
+        "image_uris": {
+           "en": "https://storage.googleapis.com/fabmaster/cardfaces/2024-ROS/EN/ROS017.png"
+        }
+    },
+    {
+        "name": "Plow Under (yellow)",
+        "rarity": "mythic",
+        "mana_cost": "2",
+        "collector_number": "ROS032",
+        "type": "Earth, Action, Attack",
+        "image_uris": {
+           "en": "https://storage.googleapis.com/fabmaster/cardfaces/2024-ROS/EN/ROS032.png"
+        }
+    },
+    {
+        "name": "Earth's Embrace (blue)",
+        "rarity": "mythic",
+        "mana_cost": "3",
+        "collector_number": "ROS034",
+        "type": "Earth, Action, Aura",
+        "image_uris": {
+           "en": "https://storage.googleapis.com/fabmaster/cardfaces/2024-ROS/EN/ROS034.png"
+        }
+    },
+    {
+        "name": "Strength of Four Seasons (red)",
+        "rarity": "common",
+        "mana_cost": "1",
+        "collector_number": "ROS058",
+        "type": "Earth, Action, Attack",
+        "image_uris": {
+           "en": "https://storage.googleapis.com/fabmaster/cardfaces/2024-ROS/EN/ROS058.png"
+        }
+    },
+    {
+        "name": "Strength of Four Seasons (yellow)",
+        "rarity": "common",
+        "mana_cost": "2",
+        "collector_number": "ROS059",
+        "type": "Earth, Action, Attack",
+        "image_uris": {
+           "en": "https://storage.googleapis.com/fabmaster/cardfaces/2024-ROS/EN/ROS059.png"
+        }
+    },
+    {
+        "name": "Strength of Four Seasons (blue)",
+        "rarity": "common",
+        "mana_cost": "3",
+        "collector_number": "ROS060",
+        "type": "Earth, Action, Attack",
+        "image_uris": {
+           "en": "https://storage.googleapis.com/fabmaster/cardfaces/2024-ROS/EN/ROS060.png"
+        }
+    },
+    {
+        "name": "Current Funnel (blue)",
+        "rarity": "mythic",
+        "mana_cost": "3",
+        "collector_number": "ROS074",
+        "type": "Lightning, Action, Attack",
+        "image_uris": {
+           "en": "https://storage.googleapis.com/fabmaster/cardfaces/2024-ROS/EN/ROS074.png"
+        }
+    },
+    {
+        "name": "Eclectic Magnetism (red)",
+        "rarity": "mythic",
+        "mana_cost": "1",
+        "collector_number": "ROS075",
+        "type": "Lightning, Action, Attack",
+        "image_uris": {
+           "en": "https://storage.googleapis.com/fabmaster/cardfaces/2024-ROS/EN/ROS075.png"
+        }
+    },
+    {
+        "name": "Gone in a Flash (red)",
+        "rarity": "mythic",
+        "mana_cost": "1",
+        "collector_number": "ROS076",
+        "type": "Lightning, Action, Attack",
+        "image_uris": {
+           "en": "https://storage.googleapis.com/fabmaster/cardfaces/2024-ROS/EN/ROS076.png"
+        }
+    },
+    {
+        "name": "High Voltage (blue)",
+        "rarity": "mythic",
+        "mana_cost": "3",
+        "collector_number": "ROS078",
+        "type": "Lightning, Instant",
+        "image_uris": {
+           "en": "https://storage.googleapis.com/fabmaster/cardfaces/2024-ROS/EN/ROS078.png"
+        }
+    },
+    {
+        "name": "Electromagnetic Somersault (red)",
+        "rarity": "rare",
+        "mana_cost": "1",
+        "collector_number": "ROS085",
+        "type": "Lightning, Instant",
+        "image_uris": {
+           "en": "https://storage.googleapis.com/fabmaster/cardfaces/2024-ROS/EN/ROS085.png"
+        }
+    },
+    {
+        "name": "Electromagnetic Somersault (yellow)",
+        "rarity": "rare",
+        "mana_cost": "2",
+        "collector_number": "ROS086",
+        "type": "Lightning, Instant",
+        "image_uris": {
+           "en": "https://storage.googleapis.com/fabmaster/cardfaces/2024-ROS/EN/ROS086.png"
+        }
+    },
+    {
+        "name": "Electromagnetic Somersault (blue)",
+        "rarity": "rare",
+        "mana_cost": "3",
+        "collector_number": "ROS087",
+        "type": "Lightning, Instant",
+        "image_uris": {
+           "en": "https://storage.googleapis.com/fabmaster/cardfaces/2024-ROS/EN/ROS087.png"
+        }
+    },
+    {
+        "name": "Snuff Out (red)",
+        "rarity": "mythic",
+        "mana_cost": "1",
+        "collector_number": "ROS117",
+        "type": "Runeblade, Action, Attack",
+        "image_uris": {
+           "en": "https://storage.googleapis.com/fabmaster/cardfaces/2024-ROS/EN/ROS117.png"
+        }
+    },
+    {
+        "name": "Machinations of Dominion (blue)",
+        "rarity": "mythic",
+        "mana_cost": "3",
+        "collector_number": "ROS118",
+        "type": "Runeblade, Action",
+        "image_uris": {
+           "en": "https://storage.googleapis.com/fabmaster/cardfaces/2024-ROS/EN/ROS118.png"
+        }
+    },
+    {
+        "name": "Succumb to Temptation (yellow)",
+        "rarity": "mythic",
+        "mana_cost": "2",
+        "collector_number": "ROS119",
+        "type": "Runeblade, Action",
+        "image_uris": {
+           "en": "https://storage.googleapis.com/fabmaster/cardfaces/2024-ROS/EN/ROS119.png"
+        }
+    },
+    {
+        "name": "Haunting Rendition (red)",
+        "rarity": "mythic",
+        "mana_cost": "1",
+        "collector_number": "ROS120",
+        "type": "Runeblade, Block",
+        "image_uris": {
+           "en": "https://storage.googleapis.com/fabmaster/cardfaces/2024-ROS/EN/ROS120.png"
+        }
+    },
+    {
+        "name": "Arcanic Spike (red)",
+        "rarity": "common",
+        "mana_cost": "1",
+        "collector_number": "ROS134",
+        "type": "Runeblade, Action, Attack",
+        "image_uris": {
+           "en": "https://storage.googleapis.com/fabmaster/cardfaces/2024-ROS/EN/ROS134.png"
+        }
+    },
+    {
+        "name": "Arcanic Spike (yellow)",
+        "rarity": "common",
+        "mana_cost": "2",
+        "collector_number": "ROS135",
+        "type": "Runeblade, Action, Attack",
+        "image_uris": {
+           "en": "https://storage.googleapis.com/fabmaster/cardfaces/2024-ROS/EN/ROS135.png"
+        }
+    },
+    {
+        "name": "Arcanic Spike (blue)",
+        "rarity": "common",
+        "mana_cost": "3",
+        "collector_number": "ROS136",
+        "type": "Runeblade, Action, Attack",
+        "image_uris": {
+           "en": "https://storage.googleapis.com/fabmaster/cardfaces/2024-ROS/EN/ROS136.png"
+        }
+    },
+    {
+        "name": "Consuming Volition (red)",
+        "rarity": "common",
+        "mana_cost": "1",
+        "collector_number": "ROS137",
+        "type": "Runeblade, Action, Attack",
+        "image_uris": {
+           "en": "https://storage.googleapis.com/fabmaster/cardfaces/2024-ROS/EN/ROS137.png"
+        }
+    },
+    {
+        "name": "Consuming Volition (yellow)",
+        "rarity": "common",
+        "mana_cost": "2",
+        "collector_number": "ROS138",
+        "type": "Runeblade, Action, Attack",
+        "image_uris": {
+           "en": "https://storage.googleapis.com/fabmaster/cardfaces/2024-ROS/EN/ROS138.png"
+        }
+    },
+    {
+        "name": "Consuming Volition (blue)",
+        "rarity": "common",
+        "mana_cost": "3",
+        "collector_number": "ROS139",
+        "type": "Runeblade, Action, Attack",
+        "image_uris": {
+           "en": "https://storage.googleapis.com/fabmaster/cardfaces/2024-ROS/EN/ROS139.png"
+        }
+    },
+    {
+        "name": "Destructive Aethertide (blue)",
+        "rarity": "mythic",
+        "mana_cost": "3",
+        "collector_number": "ROS166",
+        "type": "Wizard, Action",
+        "image_uris": {
+           "en": "https://storage.googleapis.com/fabmaster/cardfaces/2024-ROS/EN/ROS166.png"
+        }
+    },
+    {
+        "name": "Eternal Inferno (red)",
+        "rarity": "mythic",
+        "mana_cost": "1",
+        "collector_number": "ROS167",
+        "type": "Wizard, Action",
+        "image_uris": {
+           "en": "https://storage.googleapis.com/fabmaster/cardfaces/2024-ROS/EN/ROS167.png"
+        }
+    },
+    {
+        "name": "Sigil of Aether (blue)",
+        "rarity": "mythic",
+        "mana_cost": "3",
+        "collector_number": "ROS168",
+        "type": "Wizard, Instant, Aura",
+        "image_uris": {
+           "en": "https://storage.googleapis.com/fabmaster/cardfaces/2024-ROS/EN/ROS168.png"
+        }
+    },
+    {
+        "name": "Mental Block (blue)",
+        "rarity": "mythic",
+        "mana_cost": "3",
+        "collector_number": "ROS169",
+        "type": "Wizard, Block",
+        "image_uris": {
+           "en": "https://storage.googleapis.com/fabmaster/cardfaces/2024-ROS/EN/ROS169.png"
+        }
+    },
+    {
+        "name": "Save the Thought (red)",
+        "rarity": "rare",
+        "mana_cost": "1",
+        "collector_number": "ROS179",
+        "type": "Wizard, Instant",
+        "image_uris": {
+           "en": "https://storage.googleapis.com/fabmaster/cardfaces/2024-ROS/EN/ROS179.png"
+        }
+    },
+    {
+        "name": "Save the Thought (yellow)",
+        "rarity": "rare",
+        "mana_cost": "2",
+        "collector_number": "ROS180",
+        "type": "Wizard, Instant",
+        "image_uris": {
+           "en": "https://storage.googleapis.com/fabmaster/cardfaces/2024-ROS/EN/ROS180.png"
+        }
+    },
+    {
+        "name": "Save the Thought (blue)",
+        "rarity": "rare",
+        "mana_cost": "3",
+        "collector_number": "ROS181",
+        "type": "Wizard, Instant",
+        "image_uris": {
+           "en": "https://storage.googleapis.com/fabmaster/cardfaces/2024-ROS/EN/ROS181.png"
+        }
+    },
+    {
+        "name": "Open the Flood Gates (red)",
+        "rarity": "common",
+        "mana_cost": "1",
+        "collector_number": "ROS195",
+        "type": "Wizard, Action",
+        "image_uris": {
+           "en": "https://storage.googleapis.com/fabmaster/cardfaces/2024-ROS/EN/ROS195.png"
+        }
+    },
+    {
+        "name": "Open the Flood Gates (yellow)",
+        "rarity": "common",
+        "mana_cost": "2",
+        "collector_number": "ROS196",
+        "type": "Wizard, Action",
+        "image_uris": {
+           "en": "https://storage.googleapis.com/fabmaster/cardfaces/2024-ROS/EN/ROS196.png"
+        }
+    },
+    {
+        "name": "Open the Flood Gates (blue)",
+        "rarity": "common",
+        "mana_cost": "3",
+        "collector_number": "ROS197",
+        "type": "Wizard, Action",
+        "image_uris": {
+           "en": "https://storage.googleapis.com/fabmaster/cardfaces/2024-ROS/EN/ROS197.png"
+        }
+    },
+    {
+        "name": "Hood of Second Thoughts",
+        "rarity": "common",
+        "mana_cost": "0",
+        "collector_number": "ROS212",
+        "type": "Generic, Equipment, Head",
+        "image_uris": {
+           "en": "https://storage.googleapis.com/fabmaster/cardfaces/2024-ROS/EN/ROS212.png"
+        }
+    },
+    {
+        "name": "Four Finger Gloves",
+        "rarity": "common",
+        "mana_cost": "0",
+        "collector_number": "ROS214",
+        "type": "Generic, Equipment, Arms",
+        "image_uris": {
+           "en": "https://storage.googleapis.com/fabmaster/cardfaces/2024-ROS/EN/ROS214.png"
+        }
+    },
+    {
+        "name": "Cut Through the Facade (red)",
+        "rarity": "mythic",
+        "mana_cost": "1",
+        "collector_number": "ROS216",
+        "type": "Generic, Action, Attack",
+        "image_uris": {
+           "en": "https://storage.googleapis.com/fabmaster/cardfaces/2024-ROS/EN/ROS216.png"
+        }
+    },
+    {
+        "name": "Ten Foot Tall and Bulletproof (red)",
+        "rarity": "mythic",
+        "mana_cost": "1",
+        "collector_number": "ROS217",
+        "type": "Generic, Action, Attack",
+        "image_uris": {
+           "en": "https://storage.googleapis.com/fabmaster/cardfaces/2024-ROS/EN/ROS217.png"
+        }
+    },
+    {
+        "name": "Call to the Grave (blue)",
+        "rarity": "mythic",
+        "mana_cost": "3",
+        "collector_number": "ROS218",
+        "type": "Generic, Action",
+        "image_uris": {
+           "en": "https://storage.googleapis.com/fabmaster/cardfaces/2024-ROS/EN/ROS218.png"
+        }
+    },
+    {
+        "name": "Truce (blue)",
+        "rarity": "mythic",
+        "mana_cost": "3",
+        "collector_number": "ROS219",
+        "type": "Generic, Action, Aura",
+        "image_uris": {
+           "en": "https://storage.googleapis.com/fabmaster/cardfaces/2024-ROS/EN/ROS219.png"
+        }
+    },
+    {
+        "name": "Count Your Blessings (red)",
+        "rarity": "rare",
+        "mana_cost": "1",
+        "collector_number": "ROS223",
+        "type": "Generic, Instant",
+        "image_uris": {
+           "en": "https://storage.googleapis.com/fabmaster/cardfaces/2024-ROS/EN/ROS223.png"
+        }
+    },
+    {
+        "name": "Count Your Blessings (yellow)",
+        "rarity": "rare",
+        "mana_cost": "2",
+        "collector_number": "ROS224",
+        "type": "Generic, Instant",
+        "image_uris": {
+           "en": "https://storage.googleapis.com/fabmaster/cardfaces/2024-ROS/EN/ROS224.png"
+        }
+    },
+    {
+        "name": "Count Your Blessings (blue)",
+        "rarity": "rare",
+        "mana_cost": "3",
+        "collector_number": "ROS225",
+        "type": "Generic, Instant",
+        "image_uris": {
+           "en": "https://storage.googleapis.com/fabmaster/cardfaces/2024-ROS/EN/ROS225.png"
+        }
+    },
+    {
+        "name": "Arcane Polarity (red)",
+        "rarity": "common",
+        "mana_cost": "1",
+        "collector_number": "ROS231",
+        "type": "Generic, Instant",
+        "image_uris": {
+           "en": "https://storage.googleapis.com/fabmaster/cardfaces/2024-ROS/EN/ROS231.png"
+        }
+    },
+    {
+        "name": "Arcane Polarity (yellow)",
+        "rarity": "common",
+        "mana_cost": "2",
+        "collector_number": "ROS232",
+        "type": "Generic, Instant",
+        "image_uris": {
+           "en": "https://storage.googleapis.com/fabmaster/cardfaces/2024-ROS/EN/ROS232.png"
+        }
+    },
+    {
+        "name": "Arcane Polarity (blue)",
+        "rarity": "common",
+        "mana_cost": "3",
+        "collector_number": "ROS233",
+        "type": "Generic, Instant",
+        "image_uris": {
+           "en": "https://storage.googleapis.com/fabmaster/cardfaces/2024-ROS/EN/ROS233.png"
+        }
+    },
+    {
+        "name": "Brush Off (red)",
+        "rarity": "common",
+        "mana_cost": "1",
+        "collector_number": "ROS234",
+        "type": "Generic, Instant",
+        "image_uris": {
+           "en": "https://storage.googleapis.com/fabmaster/cardfaces/2024-ROS/EN/ROS234.png"
+        }
+    },
+    {
+        "name": "Brush Off (yellow)",
+        "rarity": "common",
+        "mana_cost": "2",
+        "collector_number": "ROS235",
+        "type": "Generic, Instant",
+        "image_uris": {
+           "en": "https://storage.googleapis.com/fabmaster/cardfaces/2024-ROS/EN/ROS235.png"
+        }
+    },
+    {
+        "name": "Brush Off (blue)",
+        "rarity": "common",
+        "mana_cost": "3",
+        "collector_number": "ROS236",
+        "type": "Generic, Instant",
+        "image_uris": {
+           "en": "https://storage.googleapis.com/fabmaster/cardfaces/2024-ROS/EN/ROS236.png"
+        }
+    },
+]
+[Layouts]
+   - oxjmzgtcrniv (227601)
+       2 Lightning
+       2 Earth
+       1 Generic
+       2 Runeblade
+       3 Wizard
+       1 Equipment
+       2 Rare
+       1 RFCommon
+   - yczawkapzjco (227341)
+       2 Lightning
+       2 Earth
+       1 Generic
+       3 Runeblade
+       2 Wizard
+       1 Equipment
+       2 Rare
+       1 RFCommon
+   - wmiegitzfjfo (63379)
+       2 Lightning
+       2 Earth
+       1 Generic
+       3 Runeblade
+       2 Wizard
+       1 Equipment
+       2 Rare
+       1 RFRare
+   - jfiyuffhnkpi (63350)
+       2 Lightning
+       2 Earth
+       1 Generic
+       2 Runeblade
+       3 Wizard
+       1 Equipment
+       2 Rare
+       1 RFRare
+   - daojhkaqrrqa (60793)
+       1 Lightning
+       2 Earth
+       1 Generic
+       3 Runeblade
+       3 Wizard
+       1 Equipment
+       2 Rare
+       1 RFCommon
+   - prpbvkepiizr (60676)
+       2 Lightning
+       1 Earth
+       1 Generic
+       3 Runeblade
+       3 Wizard
+       1 Equipment
+       2 Rare
+       1 RFCommon
+   - otrhfvbvyndv (53636)
+       2 Lightning
+       2 Earth
+       1 Generic
+       2 Runeblade
+       3 Wizard
+       1 Equipment
+       1 Rare
+       1 Majestic
+       1 RFCommon
+   - gibneqwmqegb (53573)
+       2 Lightning
+       2 Earth
+       1 Generic
+       3 Runeblade
+       2 Wizard
+       1 Equipment
+       1 Rare
+       1 Majestic
+       1 RFCommon
+   - czyqnfiwduap (30692)
+       2 Lightning
+       2 Earth
+       3 Runeblade
+       3 Wizard
+       1 Equipment
+       2 Rare
+       1 RFCommon
+   - zujwsugkzohe (16976)
+       1 Lightning
+       2 Earth
+       1 Generic
+       3 Runeblade
+       3 Wizard
+       1 Equipment
+       2 Rare
+       1 RFRare
+   - bdomqfsdiiuy (16869)
+       2 Lightning
+       1 Earth
+       1 Generic
+       3 Runeblade
+       3 Wizard
+       1 Equipment
+       2 Rare
+       1 RFRare
+   - eostcwqswptc (14806)
+       2 Lightning
+       2 Earth
+       1 Generic
+       2 Runeblade
+       3 Wizard
+       1 Equipment
+       1 Rare
+       1 Majestic
+       1 RFRare
+   - ocvwzzybtwhe (14729)
+       2 Lightning
+       2 Earth
+       1 Generic
+       3 Runeblade
+       2 Wizard
+       1 Equipment
+       1 Rare
+       1 Majestic
+       1 RFRare
+   - mkxqccaumxci (14348)
+       1 Lightning
+       2 Earth
+       1 Generic
+       3 Runeblade
+       3 Wizard
+       1 Equipment
+       1 Rare
+       1 Majestic
+       1 RFCommon
+   - vevufcfqirqa (14210)
+       2 Lightning
+       1 Earth
+       1 Generic
+       3 Runeblade
+       3 Wizard
+       1 Equipment
+       1 Rare
+       1 Majestic
+       1 RFCommon
+   - ilujnfmrkpsn (12675)
+       2 Lightning
+       2 Earth
+       1 Generic
+       3 Runeblade
+       2 Wizard
+       1 Equipment
+       2 Rare
+       1 RFMajestic
+   - jjmumwyeosgi (12608)
+       2 Lightning
+       2 Earth
+       1 Generic
+       2 Runeblade
+       3 Wizard
+       1 Equipment
+       2 Rare
+       1 RFMajestic
+   - nkuripmsdupt (8359)
+       2 Lightning
+       2 Earth
+       3 Runeblade
+       3 Wizard
+       1 Equipment
+       2 Rare
+       1 RFRare
+   - oddcgdeslubc (7232)
+       2 Lightning
+       2 Earth
+       3 Runeblade
+       3 Wizard
+       1 Equipment
+       1 Rare
+       1 Majestic
+       1 RFCommon
+   - hclghiqnriyu (3933)
+       2 Lightning
+       1 Earth
+       1 Generic
+       3 Runeblade
+       3 Wizard
+       1 Equipment
+       1 Rare
+       1 Majestic
+       1 RFRare
+   - wworiucgbgyi (3895)
+       1 Lightning
+       2 Earth
+       1 Generic
+       3 Runeblade
+       3 Wizard
+       1 Equipment
+       1 Rare
+       1 Majestic
+       1 RFRare
+   - maklwnhadyki (3420)
+       1 Lightning
+       2 Earth
+       1 Generic
+       3 Runeblade
+       3 Wizard
+       1 Equipment
+       2 Rare
+       1 RFMajestic
+   - ukddbgyloaek (3308)
+       2 Lightning
+       1 Earth
+       1 Generic
+       3 Runeblade
+       3 Wizard
+       1 Equipment
+       2 Rare
+       1 RFMajestic
+   - ijfyhbgfvutr (2997)
+       2 Lightning
+       2 Earth
+       1 Generic
+       3 Runeblade
+       2 Wizard
+       1 Equipment
+       1 Rare
+       1 Majestic
+       1 RFMajestic
+   - mdkzdgnlqzow (2971)
+       2 Lightning
+       2 Earth
+       1 Generic
+       2 Runeblade
+       3 Wizard
+       1 Equipment
+       1 Rare
+       1 Majestic
+       1 RFMajestic
+   - bjtfseoeftat (2006)
+       2 Lightning
+       2 Earth
+       3 Runeblade
+       3 Wizard
+       1 Equipment
+       1 Rare
+       1 Majestic
+       1 RFRare
+   - kszayrhepvvf (1645)
+       2 Lightning
+       2 Earth
+       3 Runeblade
+       3 Wizard
+       1 Equipment
+       2 Rare
+       1 RFMajestic
+   - utlunaelhzzh (784)
+       2 Lightning
+       1 Earth
+       1 Generic
+       3 Runeblade
+       3 Wizard
+       1 Equipment
+       1 Rare
+       1 Majestic
+       1 RFMajestic
+   - kurjxsmvyrqd (779)
+       1 Lightning
+       2 Earth
+       1 Generic
+       3 Runeblade
+       3 Wizard
+       1 Equipment
+       1 Rare
+       1 Majestic
+       1 RFMajestic
+   - mlhamekzyhbp (409)
+       2 Lightning
+       2 Earth
+       3 Runeblade
+       3 Wizard
+       1 Equipment
+       1 Rare
+       1 Majestic
+       1 RFMajestic
+[Lightning]
+4 Flittering Charge (red)
+4 Flittering Charge (yellow)
+4 Flittering Charge (blue)
+4 Fry (red)
+4 Fry (yellow)
+4 Fry (blue)
+4 Heaven's Claws (red)
+4 Heaven's Claws (yellow)
+4 Heaven's Claws (blue)
+4 Lightning Surge (red)
+4 Lightning Surge (yellow)
+4 Lightning Surge (blue)
+4 Second Strike (red)
+2 Second Strike (yellow)
+4 Second Strike (blue)
+4 Trip the Light Fantastic (red)
+4 Trip the Light Fantastic (yellow)
+4 Trip the Light Fantastic (blue)
+4 Flash (red)
+4 Flash (yellow)
+2 Flash (blue)
+4 Electrostatic Discharge (red)
+4 Electrostatic Discharge (yellow)
+4 Electrostatic Discharge (blue)
+8 Sigil of Lightning (blue)
+[Earth]
+4 Autumn's Touch (red)
+4 Autumn's Touch (yellow)
+4 Autumn's Touch (blue)
+4 Blossoming Decay (red)
+4 Blossoming Decay (yellow)
+4 Blossoming Decay (blue)
+4 Cadaverous Tilling (red)
+4 Cadaverous Tilling (yellow)
+4 Cadaverous Tilling (blue)
+4 Fruits of the Forest (red)
+4 Fruits of the Forest (yellow)
+4 Fruits of the Forest (blue)
+4 Harvest Season (red)
+4 Harvest Season (yellow)
+4 Harvest Season (blue)
+4 Strong Yield (red)
+2 Strong Yield (yellow)
+4 Strong Yield (blue)
+4 Fertile Ground (red)
+4 Fertile Ground (yellow)
+4 Fertile Ground (blue)
+8 Sigil of Earth (blue)
+4 Strength of Four Seasons (red)
+2 Strength of Four Seasons (yellow)
+4 Strength of Four Seasons (blue)
+[Generic]
+4 Fyendal's Fighting Spirit (red)
+4 Fyendal's Fighting Spirit (yellow)
+4 Fyendal's Fighting Spirit (blue)
+8 Sigil of Fyendal (blue)
+4 Arcane Polarity (red)
+4 Arcane Polarity (yellow)
+4 Arcane Polarity (blue)
+4 Brush Off (red)
+4 Brush Off (yellow)
+2 Brush Off (blue)
+[Runeblade]
+4 Hit the High Notes (red)
+4 Hit the High Notes (yellow)
+4 Hit the High Notes (blue)
+4 Hocus Pocus (red)
+4 Hocus Pocus (yellow)
+4 Hocus Pocus (blue)
+6 Meat and Greet (red)
+4 Meat and Greet (yellow)
+4 Meat and Greet (blue)
+6 Runerager Swarm (red)
+4 Runerager Swarm (yellow)
+4 Runerager Swarm (blue)
+4 Arcane Cussing (red)
+4 Arcane Cussing (yellow)
+4 Arcane Cussing (blue)
+6 Deadwood Dirge (red)
+4 Deadwood Dirge (yellow)
+4 Deadwood Dirge (blue)
+4 Oath of the Arknight (red)
+4 Oath of the Arknight (yellow)
+4 Oath of the Arknight (blue)
+8 Sigil of Deadwood (blue)
+4 Arcanic Spike (red)
+4 Arcanic Spike (yellow)
+4 Arcanic Spike (blue)
+4 Consuming Volition (red)
+4 Consuming Volition (yellow)
+4 Consuming Volition (blue)
+[Wizard]
+4 Aether Quickening (red)
+4 Aether Quickening (yellow)
+4 Aether Quickening (blue)
+4 Arcane Twining (red)
+4 Arcane Twining (yellow)
+4 Arcane Twining (blue)
+4 Etchings of Arcana (red)
+4 Etchings of Arcana (yellow)
+4 Etchings of Arcana (blue)
+4 Exploding Aether (red)
+4 Exploding Aether (yellow)
+4 Exploding Aether (blue)
+4 Overflow the Aetherwell (red)
+4 Overflow the Aetherwell (yellow)
+4 Overflow the Aetherwell (blue)
+4 Perennial Aetherbloom (red)
+4 Perennial Aetherbloom (yellow)
+4 Perennial Aetherbloom (blue)
+4 Photon Splicing (red)
+4 Photon Splicing (yellow)
+4 Photon Splicing (blue)
+6 Trailblazing Aether (red)
+4 Trailblazing Aether (yellow)
+4 Trailblazing Aether (blue)
+8 Sigil of Forethought (blue)
+6 Open the Flood Gates (red)
+4 Open the Flood Gates (yellow)
+4 Open the Flood Gates (blue)
+[Equipment]
+8 Helm of Lignum Vitae
+8 Well Grounded
+8 Flash of Brilliance
+8 Twinkle Toes
+4 Bloodtorn Bodice
+4 Runehold Release
+6 Ink-lined Cloak
+4 Hold Focus
+4 Bruised Leather
+4 Runaways
+4 Hood of Second Thoughts
+4 Four Finger Gloves
+[Rare]
+3 Arcane Seeds // Life (red)
+3 Burn Up // Shock (red)
+3 Pulsing Aether // Life (red)
+3 Comet Storm // Shock (red)
+2 Earth Form (red)
+2 Earth Form (yellow)
+2 Earth Form (blue)
+2 Summer's Fall (red)
+2 Summer's Fall (yellow)
+2 Summer's Fall (blue)
+2 Rootbound Carapace (red)
+2 Rootbound Carapace (yellow)
+2 Rootbound Carapace (blue)
+3 Sigil of Sanctuary (blue)
+2 Blast to Oblivion (red)
+2 Blast to Oblivion (yellow)
+2 Blast to Oblivion (blue)
+2 Lightning Form (red)
+2 Lightning Form (yellow)
+2 Lightning Form (blue)
+3 Sigil of Conductivity (blue)
+2 Splintering Deadwood (red)
+2 Splintering Deadwood (yellow)
+2 Splintering Deadwood (blue)
+2 Vantage Point (red)
+2 Vantage Point (yellow)
+2 Vantage Point (blue)
+2 Condemn to Slaughter (red)
+2 Condemn to Slaughter (yellow)
+2 Condemn to Slaughter (blue)
+2 Malefic Incantation (red)
+2 Malefic Incantation (yellow)
+2 Malefic Incantation (blue)
+2 Sigil of the Arknight (blue)
+2 Chorus of the Amphitheater (red)
+2 Chorus of the Amphitheater (yellow)
+2 Chorus of the Amphitheater (blue)
+2 Glyph Overlay (red)
+2 Glyph Overlay (yellow)
+2 Glyph Overlay (blue)
+2 Pop the Bubble (red)
+2 Pop the Bubble (yellow)
+2 Pop the Bubble (blue)
+2 Sigil of Temporal Manipulation (blue)
+2 Hand Behind the Pen (red)
+2 Smash Up (red)
+2 Tongue Tied (red)
+3 Sigil of Cycles (blue)
+2 Electromagnetic Somersault (red)
+2 Electromagnetic Somersault (yellow)
+2 Electromagnetic Somersault (blue)
+2 Save the Thought (red)
+2 Save the Thought (yellow)
+2 Save the Thought (blue)
+2 Count Your Blessings (red)
+2 Count Your Blessings (yellow)
+2 Count Your Blessings (blue)
+[Majestic]
+1 Germinate (blue)
+1 Thistle Bloom // Life (yellow)
+1 Vaporize // Shock (yellow)
+1 Heartbeat of Candlehold (blue)
+1 Sigil of Brilliance (yellow)
+1 Null // Shock (yellow)
+1 Felling of the Crown (red)
+1 Channel the Millennium Tree (red)
+1 Seeds of Tomorrow (blue)
+1 Channel Lightning Valley (yellow)
+1 Arc Lightning (yellow)
+1 Rampant Growth // Life (yellow)
+1 Plow Under (yellow)
+1 Earth's Embrace (blue)
+1 Current Funnel (blue)
+1 Eclectic Magnetism (red)
+1 Gone in a Flash (red)
+1 High Voltage (blue)
+1 Snuff Out (red)
+1 Machinations of Dominion (blue)
+1 Succumb to Temptation (yellow)
+1 Haunting Rendition (red)
+1 Destructive Aethertide (blue)
+1 Eternal Inferno (red)
+1 Sigil of Aether (blue)
+1 Mental Block (blue)
+1 Cut Through the Facade (red)
+1 Ten Foot Tall and Bulletproof (red)
+1 Call to the Grave (blue)
+1 Truce (blue)
+[RFCommon]
+1 Blossoming Decay (red)
+1 Blossoming Decay (yellow)
+1 Blossoming Decay (blue)
+1 Cadaverous Tilling (red)
+1 Cadaverous Tilling (yellow)
+1 Cadaverous Tilling (blue)
+1 Fruits of the Forest (red)
+1 Fruits of the Forest (yellow)
+1 Fruits of the Forest (blue)
+1 Harvest Season (red)
+1 Harvest Season (yellow)
+1 Harvest Season (blue)
+1 Strong Yield (red)
+1 Strong Yield (yellow)
+1 Strong Yield (blue)
+1 Fertile Ground (red)
+1 Fertile Ground (yellow)
+1 Fertile Ground (blue)
+1 Sigil of Earth (blue)
+1 Flittering Charge (red)
+1 Flittering Charge (yellow)
+1 Flittering Charge (blue)
+1 Fry (red)
+1 Fry (yellow)
+1 Fry (blue)
+1 Second Strike (red)
+1 Second Strike (yellow)
+1 Second Strike (blue)
+1 Trip the Light Fantastic (red)
+1 Trip the Light Fantastic (yellow)
+1 Trip the Light Fantastic (blue)
+1 Flash (red)
+1 Flash (yellow)
+1 Flash (blue)
+1 Electrostatic Discharge (red)
+1 Electrostatic Discharge (yellow)
+1 Electrostatic Discharge (blue)
+1 Sigil of Lightning (blue)
+1 Hit the High Notes (red)
+1 Hit the High Notes (yellow)
+1 Hit the High Notes (blue)
+1 Hocus Pocus (red)
+1 Hocus Pocus (yellow)
+1 Hocus Pocus (blue)
+1 Runerager Swarm (red)
+1 Runerager Swarm (yellow)
+1 Runerager Swarm (blue)
+1 Arcane Cussing (red)
+1 Arcane Cussing (yellow)
+1 Arcane Cussing (blue)
+1 Deadwood Dirge (red)
+1 Deadwood Dirge (yellow)
+1 Deadwood Dirge (blue)
+1 Sigil of Deadwood (blue)
+1 Arcane Twining (red)
+1 Arcane Twining (yellow)
+1 Arcane Twining (blue)
+1 Etchings of Arcana (red)
+1 Etchings of Arcana (yellow)
+1 Etchings of Arcana (blue)
+1 Exploding Aether (red)
+1 Exploding Aether (yellow)
+1 Exploding Aether (blue)
+1 Overflow the Aetherwell (red)
+1 Overflow the Aetherwell (yellow)
+1 Overflow the Aetherwell (blue)
+1 Perennial Aetherbloom (red)
+1 Perennial Aetherbloom (yellow)
+1 Perennial Aetherbloom (blue)
+1 Photon Splicing (red)
+1 Photon Splicing (yellow)
+1 Photon Splicing (blue)
+1 Trailblazing Aether (red)
+1 Trailblazing Aether (yellow)
+1 Trailblazing Aether (blue)
+1 Sigil of Forethought (blue)
+1 Sigil of Fyendal (blue)
+1 Strength of Four Seasons (red)
+1 Strength of Four Seasons (yellow)
+1 Strength of Four Seasons (blue)
+1 Arcanic Spike (red)
+1 Arcanic Spike (yellow)
+1 Arcanic Spike (blue)
+1 Open the Flood Gates (red)
+1 Open the Flood Gates (yellow)
+1 Open the Flood Gates (blue)
+1 Arcane Polarity (red)
+1 Arcane Polarity (yellow)
+1 Arcane Polarity (blue)
+[RFRare]
+1 Arcane Seeds // Life (red)
+1 Burn Up // Shock (red)
+1 Pulsing Aether // Life (red)
+1 Comet Storm // Shock (red)
+1 Earth Form (red)
+1 Earth Form (yellow)
+1 Earth Form (blue)
+1 Summer's Fall (red)
+1 Summer's Fall (yellow)
+1 Summer's Fall (blue)
+1 Rootbound Carapace (red)
+1 Rootbound Carapace (yellow)
+1 Rootbound Carapace (blue)
+1 Sigil of Sanctuary (blue)
+1 Blast to Oblivion (red)
+1 Blast to Oblivion (yellow)
+1 Blast to Oblivion (blue)
+1 Lightning Form (red)
+1 Lightning Form (yellow)
+1 Lightning Form (blue)
+1 Sigil of Conductivity (blue)
+1 Splintering Deadwood (red)
+1 Splintering Deadwood (yellow)
+1 Splintering Deadwood (blue)
+1 Vantage Point (red)
+1 Vantage Point (yellow)
+1 Vantage Point (blue)
+1 Condemn to Slaughter (red)
+1 Condemn to Slaughter (yellow)
+1 Condemn to Slaughter (blue)
+1 Malefic Incantation (red)
+1 Malefic Incantation (yellow)
+1 Malefic Incantation (blue)
+1 Sigil of the Arknight (blue)
+1 Chorus of the Amphitheater (red)
+1 Chorus of the Amphitheater (yellow)
+1 Chorus of the Amphitheater (blue)
+1 Glyph Overlay (red)
+1 Glyph Overlay (yellow)
+1 Glyph Overlay (blue)
+1 Pop the Bubble (red)
+1 Pop the Bubble (yellow)
+1 Pop the Bubble (blue)
+1 Sigil of Temporal Manipulation (blue)
+1 Hand Behind the Pen (red)
+1 Smash Up (red)
+1 Tongue Tied (red)
+1 Sigil of Cycles (blue)
+1 Electromagnetic Somersault (red)
+1 Electromagnetic Somersault (yellow)
+1 Electromagnetic Somersault (blue)
+1 Save the Thought (red)
+1 Save the Thought (yellow)
+1 Save the Thought (blue)
+1 Count Your Blessings (red)
+1 Count Your Blessings (yellow)
+1 Count Your Blessings (blue)
+[RFMajestic]
+1 Germinate (blue)
+1 Thistle Bloom // Life (yellow)
+1 Vaporize // Shock (yellow)
+1 Heartbeat of Candlehold (blue)
+1 Sigil of Brilliance (yellow)
+1 Null // Shock (yellow)
+1 Felling of the Crown (red)
+1 Channel the Millennium Tree (red)
+1 Seeds of Tomorrow (blue)
+1 Channel Lightning Valley (yellow)
+1 Arc Lightning (yellow)
+1 Rampant Growth // Life (yellow)
+1 Plow Under (yellow)
+1 Earth's Embrace (blue)
+1 Current Funnel (blue)
+1 Eclectic Magnetism (red)
+1 Gone in a Flash (red)
+1 High Voltage (blue)
+1 Snuff Out (red)
+1 Machinations of Dominion (blue)
+1 Succumb to Temptation (yellow)
+1 Haunting Rendition (red)
+1 Destructive Aethertide (blue)
+1 Eternal Inferno (red)
+1 Sigil of Aether (blue)
+1 Mental Block (blue)
+1 Cut Through the Facade (red)
+1 Ten Foot Tall and Bulletproof (red)
+1 Call to the Grave (blue)
+1 Truce (blue)

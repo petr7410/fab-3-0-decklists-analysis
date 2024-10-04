@@ -45,6 +45,9 @@ def add_html_format(msg, title):
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>{title}</title>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/2.1.8/css/dataTables.dataTables.min.css"/>
+    <script type="text/javascript" src="https://cdn.datatables.net/2.1.8/js/dataTables.min.js"></script>
     <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
@@ -54,6 +57,17 @@ def add_html_format(msg, title):
 \n        </div>
     </div>
     <script type="module" src="js/utility.js"></script>
+    <script>
+    $(document).ready(function() {
+        $('table.dataTable').DataTable({
+            "paging": true,
+            "searching": true,
+            "ordering": true,
+            "info": true,
+            "lengthMenu": [10, 25, 50, 250]
+        });
+    });
+    </script>
 </body>
 </html>"""
     return head + msg + tail

@@ -35,7 +35,7 @@ def create_site(site_config, name):
         msg += process_card_group(filtered_cards, group_config)
 
     with open(f'../docs/{name}.html', 'w') as f:
-        f.write(add_html_format(markdown.markdown(msg, extensions=['tables']), site_config["name"]))
+        f.write(add_html_format(markdown.markdown(msg, extensions=['tables']).replace('<!-- dataTable -->\n<table>', '<table class="dataTable">'), site_config["name"]))
 
 
 def process_card_group(cards, group_config):
@@ -85,13 +85,15 @@ def process_card_group(cards, group_config):
     card_group_filtered = card_group_filtered.reset_index()
     
     msg = ""
+    if "data_table" in group_config and group_config["data_table"]:
+        msg += "<!-- dataTable -->\n" 
     if "group_by" in group_config and not group_config["group_by"]["columns"]:
         for index, row in card_group_filtered.iterrows():
             for i in range (len(group_config["data"])):
                 if "data_name" in group_config:
-                    msg += f"{group_config["data_name"][i]}: **{round(row[group_config["data"][i]], 3)}**, "
+                    msg += f'{group_config["data_name"][i]}: **{round(row[group_config["data"][i]], 3)}**, '
                 else:
-                    msg += f"{group_config["data"][i]}: **{round(row[group_config["data"][i]], 3)}**, "
+                    msg += f'{group_config["data"][i]}: **{round(row[group_config["data"][i]], 3)}**, '
             msg = msg[:-2]
             msg += "  \n"
         return msg

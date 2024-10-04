@@ -13,7 +13,7 @@ with open('init.json', 'r') as init_file:
 # ---------------------------   EXTRACTING PROBABILITIES BASED ON THE DRAFT FILE     -------------------------------------
 # Load card draft data
 draft_files_prob_distribution = []
-for file_path in init_data['files']['draft_files']:   # TODO this was changed from draft_file to draft_files
+for file_path in init_data['files']['draft_files']:
     with open(file_path, 'r') as file:
         lines = file.readlines()
 
