@@ -8,6 +8,7 @@
         "decks": "../data/decks.txt",
         "draft_files": ["../data/ROSdraft_V1_0.txt", "../data/ROSdraft_V1_1.txt", "../data/ROSdraft_V2_0.txt"]
     },
+    "draft_file_date": ["Bonus element as 0 is evaluated as False", "2024-09-20 23:03:59", "2024-10-03 17:07:59"],
     "save": {
         "decks_stats": "../data/decks_stats.json",
         "decks_by_date_counts": "../data/decks_by_date_counts.json",

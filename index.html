@@ -16,8 +16,7 @@
 </head>
 <body>
     <h1 id="3-win-decklists-analysis">3 Win Decklists Analysis</h1>
-    <p>Last decklist update: All decks before release of the third draft file</p>
-    <!--<p>Last decklist update: <strong>2024/10/02 22:30 CEST</strong></p>-->
+    <p>Last decklist update: <strong>2024/10/06 20:00 CEST</strong></p>
     <a href="https://github.com/petr7410/fab-3-0-decklists-analysis/tree/Rosetta">Repository link</a>
 
     <h2 id="index">Index</h2>
@@ -73,16 +72,16 @@
     <ol>
         <li><strong>total_count</strong>: The total count of the card in all decks.</li>
         <li><strong>HERO_total_count</strong>: The total count of the card in HERO decks.</li>
-        <li><strong>draft_average_occurrence</strong>: The average occurrence of the card in one draft.</li>
-        <li><strong>pick_rate</strong>: <code>All Cards / (Draft_Average_Occurrence * Number_of_decks)</code></li>
-        <li><strong>HERO_pick_rate</strong>: <code>HERO Cards / (Draft_Average_Occurrence * Number_of_HERO_decks)</code></li>
-        <li><strong>weighted_pick_rate</strong>: <code>SUM(HERO pick rate) / COUNT(HERO pick rate)</code></li>
-        <li><strong>average_count_per_deck</strong>: <code>All Cards / Number_of_decks</code></li>
-        <li><strong>HERO_average_count_per_deck</strong>: <code>HERO Cards / Number_of_HERO_decks</code></li>
+        <li><strong>draft_average_occurrenceX</strong>: The average occurrence of the card in Xth draft.</li>
+        <li><strong>pick_rate</strong>: <code>total_count / (draft_average_occurrence * Number_of_decks)</code></li>
+        <li><strong>HERO_pick_rate</strong>: <code>HERO_total_count / (draft_average_occurrence * Number_of_HERO_decks)</code></li>
+        <li><strong>weighted_pick_rate</strong>: <code>SUM(HERO_pick_rate) / COUNT(HERO_pick_rate)</code></li>
+        <li><strong>average_count_per_deck</strong>: <code>total_count / Number_of_decks</code></li>
+        <li><strong>HERO_average_count_per_deck</strong>: <code>HERO_total_count / Number_of_HERO_decks</code></li>
         <li><strong>average_count_per_normalized_deck</strong>: <code>average_count_per_deck</code>, but total count was calculated with respect to deck size, each card in a 30-card deck increased the total count by 1, but each card in a 35-card deck increased the total count by 1 / 35 * 30. (For equipment this is always empty.)</li>
         <li><strong>HERO_average_count_per_normalized_deck</strong>: Similar to above but only for HERO decks</li>
     </ol>
-    <p>Note: Pick rates are calculated using multiple draft files. This means different <i>draft_average_occurrence</i> values could be used. For instance, before the second draft file's release, calculations were based on <i>draft_average_occurrence1</i>. After the second file's release, the first value is used only when <code>sum of all cards draft_average_occurrence1[card] is higher then draft_average_occurrence2[card] + 2.25</code></p>
+    <p>Note: Pick rates are calculated using multiple draft files. The <code>draft_average_occurrenceX</code> is selected according to the release date of the file (if a file hasn't been released yet, it cannot be chosen). Afterward, drafts are prioritized based on the higher total <code>draft_average_occurrenceX</code> of all cards in a deck. Newer draft files are given preference by adding the maximum of <code>draft_average_occurrenceX_newer - draft_average_occurrenceX_older</code> recorded before the release of the newer file to the <code>draft_average_occurrenceX_newer</code>.</p>
     <h5>Examples and Assumptions Under Which This Data Analysis Works</h5>
     <p>Currently, this section is pretty much simplified talk about pick rate.</p>
     <ul>

@@ -139,7 +139,7 @@ def cannot_be_played(hero, card):
     return False
 
 # Utility function to filter based on date
-def is_date_between_filters(line):
+def is_date_between_filters(line, draft=False):
     # Strip the newline at the end and extract the first part as the date
     date_str = line.strip()[:19]  # Extract the date part 'YYYY-MM-DD hh:mm:ss'
     
@@ -149,8 +149,12 @@ def is_date_between_filters(line):
     except ValueError:
         return False, None, None, None
     
-    start_filter = init_data["date_range"]["start_date"]
-    end_filter = init_data["date_range"]["end_date"]
+    if draft:
+        start_filter = ""
+        end_filter = init_data["draft_file_date"][draft]
+    else:
+        start_filter = init_data["date_range"]["start_date"]
+        end_filter = init_data["date_range"]["end_date"]
     
     # Parse the filters if they are not None
     if start_filter:
@@ -184,13 +188,12 @@ all_cards = {}
 date_dict = {}
 data_filter = False
 date = False
-
 deck_dict = {}
+deck_draft = [[] for _ in range(len(init_data["draft_file_date"]))]
 current_deck = None
 
 with open(init_data['files']['decks'], "r", encoding='utf-8') as file:
     lines = file.readlines()
-    current_hero = None
     for line in lines:
         if line.startswith("20") and line[4] == "-" and line[7] == "-":   # TODO not an ideal solution
             if date and line == date:
@@ -213,8 +216,15 @@ with open(init_data['files']['decks'], "r", encoding='utf-8') as file:
             class_dict[hero] += 1
             date_dict[hero].append((year, month, day))
 
-            current_deck = {"cards": [], "equips": []}
+            current_deck = {"cards": [], "equips": [], "hero": hero} # TODO This is a redundant information contained in the output file, consider removing this
             deck_dict[hero].append(current_deck)
+
+            for i in range(len(deck_draft)):
+                if i == 2:
+                    deck_draft[i].append(current_deck)
+                elif is_date_between_filters(date, i+1)[0]:
+                    deck_draft[i].append(current_deck)
+                    break
         
         # Checking for card
         if line.startswith("("):
@@ -249,13 +259,9 @@ with open(init_data['files']['decks'], "r", encoding='utf-8') as file:
 
 # Creating normalized deck data with different weight of cards based on the deck size
 normalized_cards = {"all": {}}
-deck_count_resp_draft = {"all": [0] * len(draft_files_prob_distribution)}
-first_draft_decks = {"Florian": 20, "Verdance": 17, "Oscilio": 16, "Aurora": 9}  # TODO this is not universally usable
 for hero in deck_dict:
     normalized_cards[hero] = {}
-    deck_count_resp_draft[hero] = [0] * len(draft_files_prob_distribution)
     for deck in deck_dict[hero]:
-        draft_file_average = [0] * len(draft_files_prob_distribution)  #TODO rename this
         for card in deck["cards"]:
             if card not in normalized_cards[hero]:
                 normalized_cards[hero][card] = 0
@@ -263,24 +269,42 @@ for hero in deck_dict:
                 normalized_cards["all"][card] = 0
             normalized_cards[hero][card] += 1 / len(deck["cards"]) * 30
             normalized_cards["all"][card] += 1 / len(deck["cards"]) * 30
-            for i in range(len(draft_files_prob_distribution)):
+
+
+def find_highest_index_and_update_corrections(values, correction_list, index):
+    highest_value = values[0]
+    highest_index = 0
+
+    for j in range(1, index + 1):
+        current_value = values[j]
+        correction = correction_list[j][highest_index]
+        if current_value + correction > highest_value:
+            highest_value = current_value
+            highest_index = j
+
+    for j in range(index + 1, len(values)):
+        correction_list[j][highest_index] = max(correction_list[j][highest_index], values[j] - values[highest_index])
+
+    return highest_index
+
+
+threshold_list = [[float(0)] * i for i in range(len(deck_draft))]
+deck_count_resp_draft = {"all": [0] * len(draft_files_prob_distribution)}
+for j in range(len(deck_draft)):
+    for deck in deck_draft[j]:
+        draft_file_average = [0] * len(deck_draft)
+        for card in deck["cards"]:
+            for i in range(len(deck_draft)):
                 draft_file_average[i] += draft_files_prob_distribution[i][card]
         for card in deck["equips"]:
             for i in range(len(draft_files_prob_distribution)):
                 draft_file_average[i] += draft_files_prob_distribution[i][card]
-        """Part below is not universally usable!!!"""
-        if first_draft_decks[hero] > 0:
-            first_draft_decks[hero] -= 1
-            index = 0
-        else:
-            if draft_file_average[0] > draft_file_average[1] + 2.25:
-                index = 0
-            else:
-                index = 1
-        deck_count_resp_draft[hero][index] += 1
+        
+        index = find_highest_index_and_update_corrections(draft_file_average, threshold_list, j)
+        if deck["hero"] not in deck_count_resp_draft:
+            deck_count_resp_draft[deck["hero"]] = [0] * len(draft_files_prob_distribution)
+        deck_count_resp_draft[deck["hero"]][index] += 1
         deck_count_resp_draft["all"][index] += 1
-        #deck_count_resp_draft[hero][draft_file_average.index(max(draft_file_average))] += 1
-        #deck_count_resp_draft["all"][draft_file_average.index(max(draft_file_average))] += 1
 
 heroes = card_dict.keys()
 

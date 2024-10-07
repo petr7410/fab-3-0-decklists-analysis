@@ -7303,3 +7303,1741 @@ Equipment: Flash of Brilliance, Runehold Release, Twinkle Toes
 See the full deck @ https://fabrary.net/decks/01J99A5MNZJ4T3E3F37XGFHTAE
 
 
+2024-10-03 17:38:56
+Made with ❤️ at the FaBrary
+
+New Aurora Draft Deck
+
+Class: Runeblade
+Hero: Aurora
+Weapons: Star Fall
+Equipment: Bruised Leather, Flash of Brilliance, Four Finger Gloves
+
+(1) Arcanic Spike (red)
+(1) Blast to Oblivion (red)
+(2) Burn Up // Shock (red)
+(1) Electrostatic Discharge (red)
+(1) Flittering Charge (red)
+(1) Fry (red)
+(2) Hand Behind the Pen (red)
+(1) Heaven's Claws (red)
+(1) Hit the High Notes (red)
+(2) Hocus Pocus (red)
+(1) Tongue Tied (red)
+(2) Flittering Charge (yellow)
+(2) Heaven's Claws (yellow)
+(1) Hit the High Notes (yellow)
+(2) Lightning Form (yellow)
+(2) Second Strike (yellow)
+(1) Trip the Light Fantastic (yellow)
+(1) Arcane Cussing (blue)
+(1) Count Your Blessings (blue)
+(2) Current Funnel (blue)
+(1) Electrostatic Discharge (blue)
+(2) Flash (blue)
+(1) Fyendal's Fighting Spirit (blue)
+(1) Glyph Overlay (blue)
+(1) Heaven's Claws (blue)
+(1) Lightning Form (blue)
+(1) Pop the Bubble (blue)
+(1) Second Strike (blue)
+(1) Sigil of Lightning (blue)
+(1) Sigil of the Arknight (blue)
+
+
+See the full deck @ https://fabrary.net/decks/01J99D5Y2XVZMKEGN1R5HR1WXW
+
+
+2024-10-03 18:00:26
+Made with ❤️ at the FaBrary
+
+New Aurora Draft Deck
+
+Class: Runeblade
+Hero: Aurora
+Weapons: Star Fall
+Equipment: Flash of Brilliance, Runehold Release, Twinkle Toes
+
+(1) Arcane Polarity (red)
+(1) Brush Off (red)
+(1) Consuming Volition (red)
+(1) Electromagnetic Somersault (red)
+(2) Electrostatic Discharge (red)
+(1) Flittering Charge (red)
+(1) Fry (red)
+(1) Fyendal's Fighting Spirit (red)
+(1) Hit the High Notes (red)
+(1) Oath of the Arknight (red)
+(1) Snuff Out (red)
+(1) Ten Foot Tall and Bulletproof (red)
+(2) Trip the Light Fantastic (red)
+(1) Arcane Polarity (yellow)
+(1) Blast to Oblivion (yellow)
+(1) Flittering Charge (yellow)
+(1) Fry (yellow)
+(1) Heaven's Claws (yellow)
+(1) Hit the High Notes (yellow)
+(1) Runerager Swarm (yellow)
+(1) Splintering Deadwood (yellow)
+(1) Trip the Light Fantastic (yellow)
+(1) Arcane Cussing (blue)
+(1) Arcane Polarity (blue)
+(1) Arcanic Spike (blue)
+(1) Condemn to Slaughter (blue)
+(1) Consuming Volition (blue)
+(1) Deadwood Dirge (blue)
+(1) Flash (blue)
+(1) Heaven's Claws (blue)
+(1) Hocus Pocus (blue)
+(1) Lightning Surge (blue)
+(1) Runerager Swarm (blue)
+(1) Second Strike (blue)
+(1) Sigil of Conductivity (blue)
+(1) Trip the Light Fantastic (blue)
+
+
+See the full deck @ https://fabrary.net/decks/01J99E12T8DDKKP1AQP0S9A9WX
+
+
+2024-10-03 18:55:29
+Made with ❤️ at the FaBrary
+
+New Verdance Draft Deck
+
+Class: Wizard
+Hero: Verdance
+Weapons: Staff of Verdant Shoots
+Equipment: Helm of Lignum Vitae, Hold Focus, Well Grounded
+
+(2) Arcane Polarity (red)
+(1) Arcane Twining (red)
+(1) Earth Form (red)
+(1) Etchings of Arcana (red)
+(1) Exploding Aether (red)
+(1) Fertile Ground (red)
+(1) Fyendal's Fighting Spirit (red)
+(1) Rootbound Carapace (red)
+(1) Save the Thought (red)
+(1) Arcane Polarity (yellow)
+(1) Blossoming Decay (yellow)
+(1) Etchings of Arcana (yellow)
+(1) Exploding Aether (yellow)
+(1) Fruits of the Forest (yellow)
+(1) Perennial Aetherbloom (yellow)
+(3) Photon Splicing (yellow)
+(1) Aether Quickening (blue)
+(1) Brush Off (blue)
+(1) Etchings of Arcana (blue)
+(1) Fertile Ground (blue)
+(1) Fyendal's Fighting Spirit (blue)
+(1) Heartbeat of Candlehold (blue)
+(1) Perennial Aetherbloom (blue)
+(1) Photon Splicing (blue)
+(1) Pop the Bubble (blue)
+(3) Sigil of Earth (blue)
+(1) Sigil of Fyendal (blue)
+(1) Sigil of Sanctuary (blue)
+(1) Sigil of Temporal Manipulation (blue)
+
+
+See the full deck @ https://fabrary.net/decks/01J99FXE8T9K1A5WKPN003DWQ9
+
+
+2024-10-03 19:36:37
+Made with ❤️ at the FaBrary
+
+New Florian Draft Deck
+
+Class: Runeblade
+Hero: Florian
+Weapons: Rotwood Reaper
+Equipment: Helm of Lignum Vitae, Runaways
+
+(1) Arcane Seeds // Life (red)
+(2) Autumn's Touch (red)
+(1) Blossoming Decay (red)
+(1) Count Your Blessings (red)
+(1) Fruits of the Forest (red)
+(3) Harvest Season (red)
+(1) Oath of the Arknight (red)
+(2) Strength of Four Seasons (red)
+(1) Arcane Twining (yellow)
+(2) Autumn's Touch (yellow)
+(1) Blossoming Decay (yellow)
+(1) Brush Off (yellow)
+(1) Cadaverous Tilling (yellow)
+(2) Consuming Volition (yellow)
+(1) Earth Form (yellow)
+(1) Fruits of the Forest (yellow)
+(1) Fyendal's Fighting Spirit (yellow)
+(1) Harvest Season (yellow)
+(1) Strength of Four Seasons (yellow)
+(1) Strong Yield (yellow)
+(1) Summer's Fall (yellow)
+(1) Autumn's Touch (blue)
+(1) Deadwood Dirge (blue)
+(1) Earth Form (blue)
+(1) Fertile Ground (blue)
+(1) Harvest Season (blue)
+(1) Oath of the Arknight (blue)
+(1) Rootbound Carapace (blue)
+(1) Sigil of Deadwood (blue)
+(1) Sigil of Sanctuary (blue)
+(1) Strong Yield (blue)
+(1) Summer's Fall (blue)
+(2) Vantage Point (blue)
+
+
+See the full deck @ https://fabrary.net/decks/01J99KRDVSRC7QZ72F2K223RQ9
+
+
+2024-10-03 21:20:47
+Made with ❤️ at the FaBrary
+
+New Verdance Draft Deck
+
+Class: Wizard
+Hero: Verdance
+Weapons: Rotwood Reaper, Staff of Verdant Shoots, Star Fall, Volzar, the Lightning Rod
+Equipment: Flash of Brilliance, Helm of Lignum Vitae, Ink-lined Cloak, Runaways
+
+(1) Aether Quickening (red)
+(1) Arcane Twining (red)
+(1) Brush Off (red)
+(1) Earth Form (red)
+(2) Etchings of Arcana (red)
+(1) Fruits of the Forest (red)
+(1) Chorus of the Amphitheater (red)
+(2) Perennial Aetherbloom (red)
+(1) Photon Splicing (red)
+(2) Pulsing Aether // Life (red)
+(1) Tongue Tied (red)
+(1) Trailblazing Aether (red)
+(1) Perennial Aetherbloom (yellow)
+(1) Trailblazing Aether (yellow)
+(1) Aether Quickening (blue)
+(2) Arcane Twining (blue)
+(1) Autumn's Touch (blue)
+(1) Exploding Aether (blue)
+(1) Harvest Season (blue)
+(1) Open the Flood Gates (blue)
+(2) Photon Splicing (blue)
+(1) Sigil of Earth (blue)
+(3) Trailblazing Aether (blue)
+
+
+See the full deck @ https://fabrary.net/decks/01J99V06NJZT4C5TMKN6MTDFCA
+
+
+2024-10-03 21:36:38
+Made with ❤️ at the FaBrary
+
+New Verdance Draft Deck
+
+Class: Wizard
+Hero: Verdance
+Weapons: Rotwood Reaper, Staff of Verdant Shoots, Star Fall, Volzar, the Lightning Rod
+Equipment: Ink-lined Cloak, Well Grounded
+
+(1) Aether Quickening (red)
+(1) Arcane Twining (red)
+(1) Blossoming Decay (red)
+(2) Etchings of Arcana (red)
+(1) Exploding Aether (red)
+(1) Fertile Ground (red)
+(1) Fruits of the Forest (red)
+(1) Channel the Millennium Tree (red)
+(1) Perennial Aetherbloom (red)
+(1) Photon Splicing (red)
+(1) Strength of Four Seasons (red)
+(1) Trailblazing Aether (red)
+(1) Arcane Polarity (yellow)
+(1) Blossoming Decay (yellow)
+(1) Exploding Aether (yellow)
+(2) Fertile Ground (yellow)
+(1) Fruits of the Forest (yellow)
+(1) Overflow the Aetherwell (yellow)
+(1) Photon Splicing (yellow)
+(1) Pop the Bubble (yellow)
+(1) Rootbound Carapace (yellow)
+(1) Trailblazing Aether (yellow)
+(1) Arcane Twining (blue)
+(1) Blossoming Decay (blue)
+(1) Cadaverous Tilling (blue)
+(1) Exploding Aether (blue)
+(1) Fyendal's Fighting Spirit (blue)
+(1) Glyph Overlay (blue)
+(1) Perennial Aetherbloom (blue)
+(1) Photon Splicing (blue)
+(1) Pop the Bubble (blue)
+(1) Rootbound Carapace (blue)
+(1) Save the Thought (blue)
+(1) Sigil of Deadwood (blue)
+(1) Sigil of Fyendal (blue)
+(2) Sigil of Temporal Manipulation (blue)
+(1) Strong Yield (blue)
+
+
+See the full deck @ https://fabrary.net/decks/01J99VJ9W156VXNE3HFFR29309
+
+
+2024-10-03 21:38:58
+Made with ❤️ at the FaBrary
+
+New Verdance Draft Deck
+
+Class: Wizard
+Hero: Verdance
+Weapons: Staff of Verdant Shoots
+Equipment: Helm of Lignum Vitae, Hold Focus, Ink-lined Cloak, Runaways, Well Grounded
+
+(1) Aether Quickening (red)
+(1) Brush Off (red)
+(1) Cadaverous Tilling (red)
+(2) Fruits of the Forest (red)
+(2) Pulsing Aether // Life (red)
+(1) Rootbound Carapace (red)
+(2) Strength of Four Seasons (red)
+(2) Strong Yield (red)
+(1) Aether Quickening (yellow)
+(1) Arcane Polarity (yellow)
+(1) Arcane Twining (yellow)
+(1) Cadaverous Tilling (yellow)
+(1) Fertile Ground (yellow)
+(1) Fruits of the Forest (yellow)
+(2) Perennial Aetherbloom (yellow)
+(1) Summer's Fall (yellow)
+(2) Trailblazing Aether (yellow)
+(1) Aether Quickening (blue)
+(1) Cadaverous Tilling (blue)
+(2) Etchings of Arcana (blue)
+(1) Open the Flood Gates (blue)
+(1) Perennial Aetherbloom (blue)
+(1) Sigil of Earth (blue)
+(1) Sigil of Forethought (blue)
+(1) Strength of Four Seasons (blue)
+(1) Trailblazing Aether (blue)
+
+
+See the full deck @ https://fabrary.net/decks/01J99RNY9AXP2C2SCX4R4ZD0FK
+
+
+2024-10-03 22:23:04
+Made with ❤️ at the FaBrary
+
+New Aurora Draft Deck
+
+Class: Runeblade
+Hero: Aurora
+Weapons: Star Fall
+Equipment: Four Finger Gloves, Hood of Second Thoughts, Twinkle Toes
+
+(1) Burn Up // Shock (red)
+(1) Deadwood Dirge (red)
+(1) Electrostatic Discharge (red)
+(1) Flittering Charge (red)
+(1) Heaven's Claws (red)
+(1) Hit the High Notes (red)
+(2) Hocus Pocus (red)
+(1) Lightning Surge (red)
+(1) Malefic Incantation (red)
+(1) Oath of the Arknight (red)
+(1) Second Strike (red)
+(1) Arcanic Spike (yellow)
+(1) Brush Off (yellow)
+(1) Electromagnetic Somersault (yellow)
+(1) Fyendal's Fighting Spirit (yellow)
+(1) Heaven's Claws (yellow)
+(1) Hit the High Notes (yellow)
+(1) Splintering Deadwood (yellow)
+(1) Vaporize // Shock (yellow)
+(3) Arcanic Spike (blue)
+(1) Fyendal's Fighting Spirit (blue)
+(1) Hit the High Notes (blue)
+(2) Hocus Pocus (blue)
+(1) Lightning Surge (blue)
+(1) Runerager Swarm (blue)
+(1) Second Strike (blue)
+(1) Trip the Light Fantastic (blue)
+
+
+See the full deck @ https://fabrary.net/decks/01J99XBFWXRRN2FNDPHVA9W65R
+
+
+2024-10-03 23:49:23
+Made with ❤️ at the FaBrary
+
+New Florian Draft Deck
+
+Class: Runeblade
+Hero: Florian
+Weapons: Rotwood Reaper
+Equipment: Bloodtorn Bodice, Helm of Lignum Vitae, Runaways, Runehold Release
+
+(1) Arcane Cussing (red)
+(1) Arcane Seeds // Life (red)
+(1) Arcanic Spike (red)
+(1) Consuming Volition (red)
+(1) Deadwood Dirge (red)
+(1) Hit the High Notes (red)
+(1) Runerager Swarm (red)
+(1) Strong Yield (red)
+(1) Arcane Cussing (yellow)
+(1) Arcane Polarity (yellow)
+(1) Blossoming Decay (yellow)
+(1) Brush Off (yellow)
+(1) Deadwood Dirge (yellow)
+(1) Fyendal's Fighting Spirit (yellow)
+(1) Hit the High Notes (yellow)
+(1) Meat and Greet (yellow)
+(1) Splintering Deadwood (yellow)
+(1) Strength of Four Seasons (yellow)
+(1) Arcanic Spike (blue)
+(1) Autumn's Touch (blue)
+(1) Blossoming Decay (blue)
+(1) Condemn to Slaughter (blue)
+(1) Deadwood Dirge (blue)
+(1) Fruits of the Forest (blue)
+(1) Germinate (blue)
+(1) Harvest Season (blue)
+(1) Hit the High Notes (blue)
+(1) Sigil of Earth (blue)
+(1) Splintering Deadwood (blue)
+(1) Strong Yield (blue)
+
+
+See the full deck @ https://fabrary.net/decks/01J9A0ZWQE794TSFX8WAR3WASJ
+
+
+2024-10-03 23:55:41
+Made with ❤️ at the FaBrary
+
+draft 20241003 (3-0)
+
+Class: Runeblade
+Hero: Florian
+Weapons: Rotwood Reaper
+Equipment: Bloodtorn Bodice, Runehold Release
+
+(1) Arcane Cussing (red)
+(1) Arcane Polarity (red)
+(1) Arcane Seeds // Life (red)
+(1) Arcanic Spike (red)
+(3) Condemn to Slaughter (red)
+(1) Deadwood Dirge (red)
+(1) Harvest Season (red)
+(1) Haunting Rendition (red)
+(2) Hit the High Notes (red)
+(1) Hocus Pocus (red)
+(1) Meat and Greet (red)
+(1) Oath of the Arknight (red)
+(2) Runerager Swarm (red)
+(1) Vantage Point (red)
+(2) Arcanic Spike (yellow)
+(2) Hit the High Notes (yellow)
+(2) Meat and Greet (yellow)
+(1) Oath of the Arknight (yellow)
+(1) Splintering Deadwood (yellow)
+(2) Arcane Cussing (blue)
+(1) Consuming Volition (blue)
+(1) Hocus Pocus (blue)
+(1) Meat and Greet (blue)
+(1) Runerager Swarm (blue)
+(3) Sigil of Deadwood (blue)
+(1) Splintering Deadwood (blue)
+
+
+See the full deck @ https://fabrary.net/decks/01J9A2C55PM0RDSJB46G4MJ6SD
+
+
+2024-10-04 00:51:16
+Made with ❤️ at the FaBrary
+
+New Florian Draft Deck
+
+Class: Runeblade
+Hero: Florian
+Weapons: Rotwood Reaper
+Equipment: Hood of Second Thoughts, Runehold Release, Well Grounded
+
+(1) Condemn to Slaughter (red)
+(1) Deadwood Dirge (red)
+(1) Earth Form (red)
+(1) Fruits of the Forest (red)
+(1) Fyendal's Fighting Spirit (red)
+(1) Harvest Season (red)
+(1) Haunting Rendition (red)
+(2) Hocus Pocus (red)
+(1) Rootbound Carapace (red)
+(1) Strength of Four Seasons (red)
+(1) Vantage Point (red)
+(1) Aether Quickening (yellow)
+(1) Arcane Cussing (yellow)
+(1) Arcane Polarity (yellow)
+(1) Blossoming Decay (yellow)
+(1) Deadwood Dirge (yellow)
+(1) Fruits of the Forest (yellow)
+(1) Fyendal's Fighting Spirit (yellow)
+(2) Harvest Season (yellow)
+(1) Hocus Pocus (yellow)
+(1) Oath of the Arknight (yellow)
+(1) Photon Splicing (yellow)
+(1) Runerager Swarm (yellow)
+(1) Strong Yield (yellow)
+(1) Brush Off (blue)
+(1) Cadaverous Tilling (blue)
+(1) Deadwood Dirge (blue)
+(1) Fyendal's Fighting Spirit (blue)
+(1) Heaven's Claws (blue)
+(1) Hocus Pocus (blue)
+(1) Oath of the Arknight (blue)
+(1) Photon Splicing (blue)
+(1) Sigil of Deadwood (blue)
+(1) Sigil of Temporal Manipulation (blue)
+(1) Strong Yield (blue)
+(1) Trailblazing Aether (blue)
+(1) Vantage Point (blue)
+
+
+See the full deck @ https://fabrary.net/decks/01J9A5MN46MNXFP5DMAR0QYAFE
+
+
+2024-10-04 01:27:18
+Made with ❤️ at the FaBrary
+
+New Verdance Draft Deck
+
+Class: Wizard
+Hero: Verdance
+Weapons: Staff of Verdant Shoots
+Equipment: Helm of Lignum Vitae, Hold Focus, Ink-lined Cloak
+
+(3) Arcane Twining (red)
+(1) Etchings of Arcana (red)
+(2) Exploding Aether (red)
+(1) Fruits of the Forest (red)
+(1) Fyendal's Fighting Spirit (red)
+(1) Harvest Season (red)
+(1) Open the Flood Gates (red)
+(2) Perennial Aetherbloom (red)
+(2) Photon Splicing (red)
+(1) Pop the Bubble (red)
+(1) Pulsing Aether // Life (red)
+(1) Exploding Aether (yellow)
+(1) Flash (yellow)
+(1) Trailblazing Aether (yellow)
+(1) Aether Quickening (blue)
+(3) Arcane Twining (blue)
+(2) Etchings of Arcana (blue)
+(1) Fertile Ground (blue)
+(1) Fruits of the Forest (blue)
+(1) Harvest Season (blue)
+(1) Chorus of the Amphitheater (blue)
+(1) Open the Flood Gates (blue)
+(1) Overflow the Aetherwell (blue)
+(1) Perennial Aetherbloom (blue)
+(1) Photon Splicing (blue)
+(1) Sigil of Aether (blue)
+(1) Sigil of Cycles (blue)
+(1) Sigil of Earth (blue)
+(1) Sigil of Forethought (blue)
+(1) Strength of Four Seasons (blue)
+(1) Trailblazing Aether (blue)
+
+
+See the full deck @ https://fabrary.net/decks/01J9A758HVX3QEJBD5ZYPXEYQN
+
+
+2024-10-04 01:45:59
+Made with ❤️ at the FaBrary
+
+Draft Florian - 03/10 (3-0)
+
+Class: Runeblade
+Hero: Florian
+Weapons: Rotwood Reaper
+Equipment: Bloodtorn Bodice, Four Finger Gloves, Helm of Lignum Vitae, Well Grounded
+
+(2) Arcanic Spike (red)
+(1) Autumn's Touch (red)
+(1) Cadaverous Tilling (red)
+(2) Deadwood Dirge (red)
+(1) Fertile Ground (red)
+(1) Harvest Season (red)
+(1) Hit the High Notes (red)
+(1) Runerager Swarm (red)
+(1) Blossoming Decay (yellow)
+(1) Cadaverous Tilling (yellow)
+(1) Deadwood Dirge (yellow)
+(1) Fruits of the Forest (yellow)
+(1) Harvest Season (yellow)
+(1) Meat and Greet (yellow)
+(1) Oath of the Arknight (yellow)
+(1) Runerager Swarm (yellow)
+(1) Arcane Cussing (blue)
+(1) Arcanic Spike (blue)
+(1) Autumn's Touch (blue)
+(1) Germinate (blue)
+(2) Hocus Pocus (blue)
+(2) Runerager Swarm (blue)
+(1) Sigil of Deadwood (blue)
+(3) Sigil of Fyendal (blue)
+(1) Strength of Four Seasons (blue)
+
+
+See the full deck @ https://fabrary.net/decks/01J9A88BM2QBGQCGQ3AQA4H6Y4
+
+
+2024-10-04 02:07:52
+Made with ❤️ at the FaBrary
+
+New Verdance Draft Deck
+
+Class: Wizard
+Hero: Verdance
+Weapons: Staff of Verdant Shoots
+Equipment: Helm of Lignum Vitae, Hold Focus
+
+(1) Arcane Twining (red)
+(2) Autumn's Touch (red)
+(1) Blossoming Decay (red)
+(1) Brush Off (red)
+(1) Fertile Ground (red)
+(1) Fruits of the Forest (red)
+(1) Channel the Millennium Tree (red)
+(1) Meat and Greet (red)
+(1) Open the Flood Gates (red)
+(2) Overflow the Aetherwell (red)
+(1) Save the Thought (red)
+(1) Arcane Polarity (yellow)
+(1) Arcane Twining (yellow)
+(1) Etchings of Arcana (yellow)
+(1) Flash (yellow)
+(1) Chorus of the Amphitheater (yellow)
+(2) Overflow the Aetherwell (yellow)
+(1) Perennial Aetherbloom (yellow)
+(1) Photon Splicing (yellow)
+(1) Summer's Fall (yellow)
+(3) Arcane Polarity (blue)
+(1) Earth Form (blue)
+(1) Fertile Ground (blue)
+(1) Fruits of the Forest (blue)
+(2) Hit the High Notes (blue)
+(1) Lightning Form (blue)
+(1) Overflow the Aetherwell (blue)
+(1) Photon Splicing (blue)
+(1) Sigil of Earth (blue)
+(1) Sigil of Forethought (blue)
+(1) Strength of Four Seasons (blue)
+(1) Strong Yield (blue)
+(2) Trailblazing Aether (blue)
+
+
+See the full deck @ https://fabrary.net/decks/01J9AACAA6GCRBEQAH29H8EPWY
+
+
+2024-10-04 02:39:45
+Made with ❤️ at the FaBrary
+
+New Verdance Draft Deck
+
+Class: Wizard
+Hero: Verdance
+Weapons: Staff of Verdant Shoots
+Equipment: Bruised Leather, Hold Focus, Well Grounded
+
+(1) Arcane Polarity (red)
+(1) Autumn's Touch (red)
+(1) Cadaverous Tilling (red)
+(1) Etchings of Arcana (red)
+(1) Exploding Aether (red)
+(1) Fruits of the Forest (red)
+(1) Hand Behind the Pen (red)
+(2) Open the Flood Gates (red)
+(1) Perennial Aetherbloom (red)
+(1) Photon Splicing (red)
+(1) Summer's Fall (red)
+(1) Trailblazing Aether (red)
+(1) Arcane Twining (yellow)
+(2) Harvest Season (yellow)
+(1) Chorus of the Amphitheater (yellow)
+(1) Overflow the Aetherwell (yellow)
+(1) Photon Splicing (yellow)
+(1) Plow Under (yellow)
+(1) Trailblazing Aether (yellow)
+(1) Aether Quickening (blue)
+(1) Arcane Twining (blue)
+(1) Blossoming Decay (blue)
+(1) Cadaverous Tilling (blue)
+(1) Exploding Aether (blue)
+(1) Harvest Season (blue)
+(1) Chorus of the Amphitheater (blue)
+(1) Perennial Aetherbloom (blue)
+(2) Photon Splicing (blue)
+(1) Rootbound Carapace (blue)
+(1) Sigil of Earth (blue)
+(2) Trailblazing Aether (blue)
+
+
+See the full deck @ https://fabrary.net/decks/01J9ABVDA573SK2AD4VVYW99ZV
+
+
+2024-10-04 12:00:53
+Made with ❤️ at the FaBrary
+
+New Florian Draft Deck
+
+Class: Runeblade
+Hero: Florian
+Weapons: Rotwood Reaper
+Equipment: Bloodtorn Bodice, Hood of Second Thoughts, Well Grounded
+
+(1) Arcane Cussing (red)
+(1) Arcane Polarity (red)
+(1) Arcane Seeds // Life (red)
+(1) Arcanic Spike (red)
+(1) Autumn's Touch (red)
+(1) Cadaverous Tilling (red)
+(1) Count Your Blessings (red)
+(1) Fruits of the Forest (red)
+(1) Fyendal's Fighting Spirit (red)
+(1) Hocus Pocus (red)
+(1) Meat and Greet (red)
+(1) Strong Yield (red)
+(1) Summer's Fall (red)
+(1) Vantage Point (red)
+(1) Count Your Blessings (yellow)
+(1) Deadwood Dirge (yellow)
+(1) Fruits of the Forest (yellow)
+(1) Splintering Deadwood (yellow)
+(1) Strength of Four Seasons (yellow)
+(1) Cadaverous Tilling (blue)
+(1) Fertile Ground (blue)
+(2) Fyendal's Fighting Spirit (blue)
+(1) Harvest Season (blue)
+(3) Meat and Greet (blue)
+(1) Oath of the Arknight (blue)
+(2) Sigil of Deadwood (blue)
+(1) Sigil of Earth (blue)
+(1) Sigil of Fyendal (blue)
+(1) Summer's Fall (blue)
+
+
+See the full deck @ https://fabrary.net/decks/01J9BB2S9HTBQ04JH9FGBZAGEG
+
+
+2024-10-04 12:20:23
+https://fabrary.net/decks/01J9BD5AWPHDHXX36XSN0YTD5Q
+
+
+2024-10-04 13:27:02
+Made with ❤️ at the FaBrary
+
+New Oscilio Draft Deck
+
+Class: Wizard
+Hero: Oscilio
+Weapons: Volzar, the Lightning Rod
+Equipment: Flash of Brilliance, Four Finger Gloves, Twinkle Toes
+
+(2) Aether Quickening (red)
+(1) Arcane Cussing (red)
+(1) Arcane Polarity (red)
+(1) Comet Storm // Shock (red)
+(2) Fry (red)
+(1) Heaven's Claws (red)
+(2) Lightning Surge (red)
+(1) Trailblazing Aether (red)
+(1) Trip the Light Fantastic (red)
+(1) Aether Quickening (yellow)
+(1) Arcane Polarity (yellow)
+(1) Brush Off (yellow)
+(1) Exploding Aether (yellow)
+(1) Flash (yellow)
+(1) Fry (yellow)
+(2) Overflow the Aetherwell (yellow)
+(1) Photon Splicing (yellow)
+(1) Trip the Light Fantastic (yellow)
+(1) Aether Quickening (blue)
+(2) Flittering Charge (blue)
+(1) Fry (blue)
+(1) Glyph Overlay (blue)
+(1) Heaven's Claws (blue)
+(2) Open the Flood Gates (blue)
+(2) Overflow the Aetherwell (blue)
+(1) Sigil of Conductivity (blue)
+(4) Sigil of Lightning (blue)
+(1) Trip the Light Fantastic (blue)
+
+
+See the full deck @ https://fabrary.net/decks/01J9BHC26MJJAMYPJNE2RZF818
+
+
+2024-10-04 16:01:25
+Made with ❤️ at the FaBrary
+
+New Verdance Draft Deck
+
+Class: Wizard
+Hero: Verdance
+Weapons: Staff of Verdant Shoots
+Equipment: Bruised Leather, Four Finger Gloves, Hood of Second Thoughts
+
+(2) Aether Quickening (red)
+(1) Autumn's Touch (red)
+(2) Blossoming Decay (red)
+(1) Cadaverous Tilling (red)
+(1) Etchings of Arcana (red)
+(2) Exploding Aether (red)
+(1) Fyendal's Fighting Spirit (red)
+(2) Perennial Aetherbloom (red)
+(1) Photon Splicing (red)
+(2) Trailblazing Aether (red)
+(1) Aether Quickening (yellow)
+(1) Arcane Twining (yellow)
+(1) Count Your Blessings (yellow)
+(1) Etchings of Arcana (yellow)
+(1) Exploding Aether (yellow)
+(1) Fruits of the Forest (yellow)
+(1) Chorus of the Amphitheater (yellow)
+(1) Perennial Aetherbloom (yellow)
+(1) Photon Splicing (yellow)
+(1) Trailblazing Aether (yellow)
+(2) Aether Quickening (blue)
+(1) Arcane Twining (blue)
+(1) Count Your Blessings (blue)
+(1) Exploding Aether (blue)
+(1) Fertile Ground (blue)
+(1) Photon Splicing (blue)
+(1) Sigil of Forethought (blue)
+(1) Sigil of Fyendal (blue)
+(1) Strength of Four Seasons (blue)
+
+
+See the full deck @ https://fabrary.net/decks/01J9BRWGCV4WY69VB5ZHPBCY2P
+
+
+2024-10-04 18:54:09
+Made with ❤️ at the FaBrary
+
+New Florian Draft Deck
+
+Class: Runeblade
+Hero: Florian
+Weapons: Rotwood Reaper
+Equipment: Bloodtorn Bodice, Four Finger Gloves, Helm of Lignum Vitae, Well Grounded
+
+(2) Arcane Polarity (red)
+(1) Arcanic Spike (red)
+(2) Cadaverous Tilling (red)
+(1) Earth Form (red)
+(2) Fyendal's Fighting Spirit (red)
+(1) Harvest Season (red)
+(1) Meat and Greet (red)
+(1) Arcane Cussing (yellow)
+(1) Arcane Polarity (yellow)
+(1) Arcanic Spike (yellow)
+(1) Autumn's Touch (yellow)
+(1) Blossoming Decay (yellow)
+(1) Brush Off (yellow)
+(1) Deadwood Dirge (yellow)
+(1) Harvest Season (yellow)
+(1) Meat and Greet (yellow)
+(1) Oath of the Arknight (yellow)
+(1) Strong Yield (yellow)
+(1) Vantage Point (yellow)
+(1) Autumn's Touch (blue)
+(1) Consuming Volition (blue)
+(1) Earth Form (blue)
+(1) Fyendal's Fighting Spirit (blue)
+(1) Oath of the Arknight (blue)
+(1) Runerager Swarm (blue)
+(1) Sigil of Cycles (blue)
+(1) Sigil of Deadwood (blue)
+(1) Sigil of Earth (blue)
+(1) Sigil of Sanctuary (blue)
+(1) Strength of Four Seasons (blue)
+
+
+See the full deck @ https://fabrary.net/decks/01J9C3FBFEF22VH37S965W27CN
+
+
+2024-10-04 19:24:16
+Made with ❤️ at the FaBrary
+
+New Florian Draft Deck
+
+Class: Runeblade
+Hero: Florian
+Weapons: Rotwood Reaper
+Equipment: Four Finger Gloves, Hood of Second Thoughts, Well Grounded
+
+(2) Arcane Polarity (red)
+(1) Autumn's Touch (red)
+(1) Deadwood Dirge (red)
+(2) Harvest Season (red)
+(1) Runerager Swarm (red)
+(2) Summer's Fall (red)
+(1) Tongue Tied (red)
+(2) Arcane Polarity (yellow)
+(2) Autumn's Touch (yellow)
+(1) Brush Off (yellow)
+(1) Condemn to Slaughter (yellow)
+(1) Fertile Ground (yellow)
+(1) Fruits of the Forest (yellow)
+(1) Fyendal's Fighting Spirit (yellow)
+(1) Harvest Season (yellow)
+(2) Meat and Greet (yellow)
+(1) Oath of the Arknight (yellow)
+(1) Strong Yield (yellow)
+(1) Arcanic Spike (blue)
+(1) Autumn's Touch (blue)
+(1) Fruits of the Forest (blue)
+(2) Harvest Season (blue)
+(1) Hocus Pocus (blue)
+(1) Oath of the Arknight (blue)
+(1) Seeds of Tomorrow (blue)
+(2) Sigil of Earth (blue)
+
+
+See the full deck @ https://fabrary.net/decks/01J9C58M2ES6T32PVEBWBQS19J
+
+
+2024-10-04 19:32:02
+Made with ❤️ at the FaBrary
+
+New Oscilio Draft Deck
+
+Class: Wizard
+Hero: Oscilio
+Weapons: Volzar, the Lightning Rod
+Equipment: Four Finger Gloves, Hold Focus, Hood of Second Thoughts, Well Grounded
+
+(1) Arcane Twining (red)
+(1) Blast to Oblivion (red)
+(1) Comet Storm // Shock (red)
+(1) Electrostatic Discharge (red)
+(3) Etchings of Arcana (red)
+(1) Exploding Aether (red)
+(1) Flash (red)
+(1) Fry (red)
+(2) Overflow the Aetherwell (red)
+(2) Perennial Aetherbloom (red)
+(1) Pop the Bubble (red)
+(1) Trip the Light Fantastic (red)
+(1) Aether Quickening (yellow)
+(1) Arcane Twining (yellow)
+(3) Exploding Aether (yellow)
+(1) Heaven's Claws (yellow)
+(1) Chorus of the Amphitheater (yellow)
+(1) Perennial Aetherbloom (yellow)
+(1) Photon Splicing (yellow)
+(1) Trailblazing Aether (yellow)
+(2) Aether Quickening (blue)
+(1) Arcane Polarity (blue)
+(1) Arcane Twining (blue)
+(1) High Voltage (blue)
+(2) Perennial Aetherbloom (blue)
+(1) Sigil of Conductivity (blue)
+(1) Sigil of Forethought (blue)
+(2) Sigil of Lightning (blue)
+(1) Trailblazing Aether (blue)
+
+
+See the full deck @ https://fabrary.net/decks/01J9C6FRFHMQGGG7BTGEZ9QMCQ
+
+
+2024-10-04 19:40:54
+Made with ❤️ at the FaBrary
+
+New Florian Draft Deck
+
+Class: Runeblade
+Hero: Florian
+Weapons: Rotwood Reaper
+Equipment: Well Grounded
+
+(1) Arcane Cussing (red)
+(1) Arcane Polarity (red)
+(1) Cadaverous Tilling (red)
+(1) Hand Behind the Pen (red)
+(1) Hocus Pocus (red)
+(2) Meat and Greet (red)
+(4) Runerager Swarm (red)
+(1) Autumn's Touch (yellow)
+(1) Condemn to Slaughter (yellow)
+(1) Deadwood Dirge (yellow)
+(2) Fruits of the Forest (yellow)
+(2) Malefic Incantation (yellow)
+(2) Runerager Swarm (yellow)
+(1) Summer's Fall (yellow)
+(1) Arcanic Spike (blue)
+(1) Cadaverous Tilling (blue)
+(1) Fruits of the Forest (blue)
+(1) Oath of the Arknight (blue)
+(1) Runerager Swarm (blue)
+(2) Sigil of Deadwood (blue)
+(2) Sigil of Earth (blue)
+(1) Strength of Four Seasons (blue)
+
+
+See the full deck @ https://fabrary.net/decks/01J9BHCJ6TNVX5X7QSTD8AW4HF
+
+
+2024-10-04 20:47:21
+Made with ❤️ at the FaBrary
+
+New Oscilio Draft Deck
+
+Class: Wizard
+Hero: Oscilio
+Weapons: Volzar, the Lightning Rod
+Equipment: Hold Focus, Ink-lined Cloak, Twinkle Toes
+
+(1) Arcane Polarity (red)
+(1) Brush Off (red)
+(1) Electrostatic Discharge (red)
+(1) Eternal Inferno (red)
+(1) Etchings of Arcana (red)
+(1) Flash (red)
+(1) Flittering Charge (red)
+(1) Glyph Overlay (red)
+(1) Open the Flood Gates (red)
+(4) Photon Splicing (red)
+(1) Save the Thought (red)
+(2) Trailblazing Aether (red)
+(1) Arcane Twining (yellow)
+(1) Electrostatic Discharge (yellow)
+(2) Exploding Aether (yellow)
+(1) Lightning Surge (yellow)
+(2) Open the Flood Gates (yellow)
+(1) Overflow the Aetherwell (yellow)
+(1) Perennial Aetherbloom (yellow)
+(1) Photon Splicing (yellow)
+(1) Trailblazing Aether (yellow)
+(2) Etchings of Arcana (blue)
+(1) Flittering Charge (blue)
+(1) Harvest Season (blue)
+(1) Overflow the Aetherwell (blue)
+(2) Photon Splicing (blue)
+(1) Sigil of Forethought (blue)
+(1) Sigil of Fyendal (blue)
+(1) Sigil of Lightning (blue)
+(1) Trailblazing Aether (blue)
+(1) Trip the Light Fantastic (blue)
+
+
+See the full deck @ https://fabrary.net/decks/01J9CBWVHA2EXPP8J3WGF86CGV
+
+
+2024-10-04 20:51:51
+https://fabrary.net/decks/01J9C9034TVP1KTGCDG04741KK
+
+
+2024-10-04 21:58:00
+Made with ❤️ at the FaBrary
+
+Verdance mono arcane draft
+
+Class: Wizard
+Hero: Verdance
+Weapons: Staff of Verdant Shoots
+Equipment: Bruised Leather, Ink-lined Cloak
+
+(2) Aether Quickening (red)
+(1) Arcane Twining (red)
+(2) Etchings of Arcana (red)
+(1) Exploding Aether (red)
+(1) Perennial Aetherbloom (red)
+(2) Pulsing Aether // Life (red)
+(4) Trailblazing Aether (red)
+(1) Aether Quickening (yellow)
+(1) Arcane Polarity (yellow)
+(1) Arcane Twining (yellow)
+(1) Blast to Oblivion (yellow)
+(1) Etchings of Arcana (yellow)
+(1) Exploding Aether (yellow)
+(1) Lightning Surge (yellow)
+(1) Overflow the Aetherwell (yellow)
+(2) Perennial Aetherbloom (yellow)
+(3) Trailblazing Aether (yellow)
+(1) Aether Quickening (blue)
+(1) Etchings of Arcana (blue)
+(1) Flittering Charge (blue)
+(1) Harvest Season (blue)
+(1) Chorus of the Amphitheater (blue)
+(1) Open the Flood Gates (blue)
+(1) Perennial Aetherbloom (blue)
+(1) Photon Splicing (blue)
+(1) Save the Thought (blue)
+(1) Sigil of Earth (blue)
+(3) Sigil of Forethought (blue)
+(1) Sigil of Temporal Manipulation (blue)
+
+
+See the full deck @ https://fabrary.net/decks/01J9CF3XWZY7CPET07YTPDM0HV
+
+
+2024-10-04 23:02:11
+Made with ❤️ at the FaBrary
+
+New Oscilio Draft Deck
+
+Class: Wizard
+Hero: Oscilio
+Weapons: Volzar, the Lightning Rod
+Equipment: Flash of Brilliance, Ink-lined Cloak, Twinkle Toes
+
+(1) Aether Quickening (red)
+(1) Brush Off (red)
+(2) Comet Storm // Shock (red)
+(1) Etchings of Arcana (red)
+(2) Exploding Aether (red)
+(1) Flash (red)
+(1) Flittering Charge (red)
+(1) Fry (red)
+(1) Perennial Aetherbloom (red)
+(2) Photon Splicing (red)
+(1) Trailblazing Aether (red)
+(1) Arcane Cussing (yellow)
+(1) Arcane Polarity (yellow)
+(1) Arcane Twining (yellow)
+(1) Etchings of Arcana (yellow)
+(1) Exploding Aether (yellow)
+(1) Flittering Charge (yellow)
+(1) Heaven's Claws (yellow)
+(1) Hocus Pocus (yellow)
+(1) Null // Shock (yellow)
+(1) Aether Quickening (blue)
+(1) Arcane Twining (blue)
+(2) Electrostatic Discharge (blue)
+(2) Photon Splicing (blue)
+(1) Pop the Bubble (blue)
+(2) Sigil of Conductivity (blue)
+(1) Sigil of Forethought (blue)
+(3) Sigil of Fyendal (blue)
+(2) Sigil of Lightning (blue)
+
+
+See the full deck @ https://fabrary.net/decks/01J9CJJHMB72WVJ39FDCGE0MFB
+
+
+2024-10-04 23:18:20
+Made with ❤️ at the FaBrary
+
+draft04/10
+
+Class: Runeblade
+Hero: Aurora
+Weapons: Star Fall
+Equipment: Bloodtorn Bodice, Flash of Brilliance, Runehold Release, Twinkle Toes
+
+(1) Arcane Cussing (red)
+(1) Burn Up // Shock (red)
+(2) Electrostatic Discharge (red)
+(1) Haunting Rendition (red)
+(2) Hit the High Notes (red)
+(2) Hocus Pocus (red)
+(2) Lightning Surge (red)
+(4) Meat and Greet (red)
+(1) Runerager Swarm (red)
+(1) Trip the Light Fantastic (red)
+(1) Consuming Volition (yellow)
+(2) Electrostatic Discharge (yellow)
+(1) Flash (yellow)
+(2) Flittering Charge (yellow)
+(1) Oath of the Arknight (yellow)
+(1) Splintering Deadwood (yellow)
+(1) Electrostatic Discharge (blue)
+(2) Flash (blue)
+(2) Flittering Charge (blue)
+(1) Machinations of Dominion (blue)
+(3) Meat and Greet (blue)
+(1) Oath of the Arknight (blue)
+(1) Second Strike (blue)
+(1) Sigil of Lightning (blue)
+(1) Trip the Light Fantastic (blue)
+
+
+See the full deck @ https://fabrary.net/decks/01J9CJ1YFW2SMJV39YC8J0GSM3
+
+
+2024-10-05 01:57:58
+Made with ❤️ at the FaBrary
+
+New Verdance Draft Deck
+
+Class: Wizard
+Hero: Verdance
+Weapons: Staff of Verdant Shoots
+Equipment: Four Finger Gloves, Well Grounded
+
+(1) Autumn's Touch (red)
+(1) Fertile Ground (red)
+(1) Overflow the Aetherwell (red)
+(1) Photon Splicing (red)
+(1) Pop the Bubble (red)
+(1) Save the Thought (red)
+(1) Strength of Four Seasons (red)
+(1) Strong Yield (red)
+(1) Summer's Fall (red)
+(1) Ten Foot Tall and Bulletproof (red)
+(2) Trailblazing Aether (red)
+(1) Arcane Twining (yellow)
+(1) Cadaverous Tilling (yellow)
+(2) Fruits of the Forest (yellow)
+(1) Fyendal's Fighting Spirit (yellow)
+(1) Open the Flood Gates (yellow)
+(1) Overflow the Aetherwell (yellow)
+(1) Perennial Aetherbloom (yellow)
+(1) Pop the Bubble (yellow)
+(2) Trailblazing Aether (yellow)
+(1) Arcane Twining (blue)
+(3) Etchings of Arcana (blue)
+(1) Fertile Ground (blue)
+(1) Fruits of the Forest (blue)
+(1) Fyendal's Fighting Spirit (blue)
+(1) Chorus of the Amphitheater (blue)
+(2) Open the Flood Gates (blue)
+(1) Overflow the Aetherwell (blue)
+(1) Perennial Aetherbloom (blue)
+(1) Photon Splicing (blue)
+(1) Seeds of Tomorrow (blue)
+(1) Sigil of Aether (blue)
+
+
+See the full deck @ https://fabrary.net/decks/01J9CVXGAP8GFJBP12SZE43TFJ
+
+
+2024-10-05 02:46:53
+Made with ❤️ at the FaBrary
+
+New Florian Draft Deck
+
+Class: Runeblade
+Hero: Florian
+Weapons: Rotwood Reaper
+Equipment: Bloodtorn Bodice, Helm of Lignum Vitae, Runehold Release, Well Grounded
+
+(1) Arcane Cussing (red)
+(1) Consuming Volition (red)
+(1) Deadwood Dirge (red)
+(2) Earth Form (red)
+(1) Fertile Ground (red)
+(2) Fruits of the Forest (red)
+(1) Harvest Season (red)
+(2) Meat and Greet (red)
+(2) Oath of the Arknight (red)
+(1) Summer's Fall (red)
+(1) Arcane Polarity (yellow)
+(1) Cadaverous Tilling (yellow)
+(2) Earth Form (yellow)
+(1) Hocus Pocus (yellow)
+(2) Splintering Deadwood (yellow)
+(2) Arcane Polarity (blue)
+(2) Autumn's Touch (blue)
+(1) Hit the High Notes (blue)
+(2) Hocus Pocus (blue)
+(1) Meat and Greet (blue)
+(1) Rootbound Carapace (blue)
+(1) Runerager Swarm (blue)
+(1) Sigil of Deadwood (blue)
+(1) Splintering Deadwood (blue)
+(1) Strong Yield (blue)
+
+
+See the full deck @ https://fabrary.net/decks/01J9CXFMA7FJMY8JWR6FT5NY9Z
+
+
+2024-10-05 05:33:42
+Made with ❤️ at the FaBrary
+
+New Verdance Draft Deck
+
+Class: Wizard
+Hero: Verdance
+Weapons: Staff of Verdant Shoots
+Equipment: Bruised Leather, Hood of Second Thoughts, Ink-lined Cloak, Runaways, Well Grounded
+
+(1) Aether Quickening (red)
+(1) Arcane Polarity (red)
+(1) Brush Off (red)
+(2) Fruits of the Forest (red)
+(2) Perennial Aetherbloom (red)
+(2) Pulsing Aether // Life (red)
+(1) Aether Quickening (yellow)
+(1) Blossoming Decay (yellow)
+(1) Cadaverous Tilling (yellow)
+(1) Etchings of Arcana (yellow)
+(1) Fertile Ground (yellow)
+(2) Fruits of the Forest (yellow)
+(1) Open the Flood Gates (yellow)
+(1) Overflow the Aetherwell (yellow)
+(2) Perennial Aetherbloom (yellow)
+(1) Pop the Bubble (yellow)
+(2) Aether Quickening (blue)
+(1) Blossoming Decay (blue)
+(2) Cadaverous Tilling (blue)
+(1) Etchings of Arcana (blue)
+(1) Fyendal's Fighting Spirit (blue)
+(1) Chorus of the Amphitheater (blue)
+(1) Open the Flood Gates (blue)
+(2) Overflow the Aetherwell (blue)
+(1) Perennial Aetherbloom (blue)
+(1) Photon Splicing (blue)
+(1) Pop the Bubble (blue)
+(1) Sigil of Fyendal (blue)
+(1) Trailblazing Aether (blue)
+
+
+See the full deck @ https://fabrary.net/decks/01J9D8RPCDT4SFDKXV6F203ZAV
+
+
+2024-10-05 06:11:40
+https://fabrary.net/decks/01J9DBQ5V1G57QXH85QQ6ERB0P
+
+
+2024-10-05 14:36:33
+Made with ❤️ at the FaBrary
+
+Florian 
+
+Class: Runeblade
+Hero: Florian
+Weapons: Rotwood Reaper
+Equipment: Hood of Second Thoughts, Runehold Release, Well Grounded
+
+(1) Arcane Cussing (red)
+(2) Arcane Seeds // Life (red)
+(1) Arcanic Spike (red)
+(3) Cadaverous Tilling (red)
+(1) Condemn to Slaughter (red)
+(1) Consuming Volition (red)
+(2) Fertile Ground (red)
+(1) Fruits of the Forest (red)
+(1) Fyendal's Fighting Spirit (red)
+(1) Harvest Season (red)
+(2) Runerager Swarm (red)
+(2) Strong Yield (red)
+(2) Arcane Cussing (yellow)
+(1) Arcanic Spike (yellow)
+(2) Blossoming Decay (yellow)
+(1) Harvest Season (yellow)
+(1) Arcanic Spike (blue)
+(1) Autumn's Touch (blue)
+(1) Blossoming Decay (blue)
+(1) Condemn to Slaughter (blue)
+(1) Consuming Volition (blue)
+(2) Deadwood Dirge (blue)
+(1) Hit the High Notes (blue)
+(1) Hocus Pocus (blue)
+(1) Malefic Incantation (blue)
+(1) Meat and Greet (blue)
+(1) Oath of the Arknight (blue)
+(2) Sigil of Deadwood (blue)
+
+
+See the full deck @ https://fabrary.net/decks/01J9E7GFN1SKGHZFMRK0JGNY2N
+
+
+2024-10-05 16:34:25
+Made with ❤️ at the FaBrary
+
+New Florian Draft Deck
+
+Class: Runeblade
+Hero: Florian
+Weapons: Rotwood Reaper
+Equipment: Bloodtorn Bodice, Hood of Second Thoughts, Well Grounded
+
+(2) Arcane Seeds // Life (red)
+(1) Blossoming Decay (red)
+(1) Cadaverous Tilling (red)
+(1) Count Your Blessings (red)
+(1) Fertile Ground (red)
+(1) Oath of the Arknight (red)
+(1) Runerager Swarm (red)
+(1) Smash Up (red)
+(1) Trailblazing Aether (red)
+(1) Arcane Polarity (yellow)
+(1) Arcane Twining (yellow)
+(1) Blossoming Decay (yellow)
+(1) Fertile Ground (yellow)
+(1) Fruits of the Forest (yellow)
+(1) Fyendal's Fighting Spirit (yellow)
+(1) Hit the High Notes (yellow)
+(1) Hocus Pocus (yellow)
+(1) Open the Flood Gates (yellow)
+(2) Runerager Swarm (yellow)
+(1) Second Strike (yellow)
+(1) Strong Yield (yellow)
+(1) Arcane Cussing (blue)
+(1) Earth's Embrace (blue)
+(1) Etchings of Arcana (blue)
+(1) Exploding Aether (blue)
+(1) Flittering Charge (blue)
+(3) Hit the High Notes (blue)
+(1) Open the Flood Gates (blue)
+(2) Runerager Swarm (blue)
+(1) Second Strike (blue)
+(1) Sigil of Deadwood (blue)
+(1) Sigil of Earth (blue)
+(1) Sigil of Fyendal (blue)
+(1) Strength of Four Seasons (blue)
+
+
+See the full deck @ https://fabrary.net/decks/01J9ECE3WE67JD0FBATTYZV5TR
+
+
+2024-10-05 18:18:41
+Made with ❤️ at the FaBrary
+
+draft 20241005-1 (3-0)
+
+Class: Wizard
+Hero: Verdance
+Weapons: Staff of Verdant Shoots
+Equipment: Four Finger Gloves, Hood of Second Thoughts, Ink-lined Cloak, Runaways
+
+(1) Arcane Twining (red)
+(1) Etchings of Arcana (red)
+(1) Glyph Overlay (red)
+(1) Chorus of the Amphitheater (red)
+(2) Overflow the Aetherwell (red)
+(2) Photon Splicing (red)
+(1) Pulsing Aether // Life (red)
+(2) Trailblazing Aether (red)
+(1) Brush Off (yellow)
+(2) Glyph Overlay (yellow)
+(1) Perennial Aetherbloom (yellow)
+(1) Save the Thought (yellow)
+(2) Trailblazing Aether (yellow)
+(1) Aether Quickening (blue)
+(1) Arcane Twining (blue)
+(1) Etchings of Arcana (blue)
+(1) Glyph Overlay (blue)
+(1) Chorus of the Amphitheater (blue)
+(1) Overflow the Aetherwell (blue)
+(2) Perennial Aetherbloom (blue)
+(1) Photon Splicing (blue)
+(3) Sigil of Fyendal (blue)
+(1) Sigil of Sanctuary (blue)
+(1) Sigil of Temporal Manipulation (blue)
+(1) Trailblazing Aether (blue)
+
+
+See the full deck @ https://fabrary.net/decks/01J9EMT37GJRXVJWJMT8JCDETN
+
+
+2024-10-05 19:14:21
+Made with ❤️ at the FaBrary
+
+New Florian Draft Deck
+
+Class: Runeblade
+Hero: Florian
+Weapons: Rotwood Reaper
+Equipment: Four Finger Gloves, Helm of Lignum Vitae, Well Grounded
+
+(1) Arcane Seeds // Life (red)
+(1) Blossoming Decay (red)
+(1) Consuming Volition (red)
+(1) Deadwood Dirge (red)
+(1) Fruits of the Forest (red)
+(1) Fyendal's Fighting Spirit (red)
+(1) Harvest Season (red)
+(1) Meat and Greet (red)
+(1) Oath of the Arknight (red)
+(1) Rootbound Carapace (red)
+(1) Strong Yield (red)
+(1) Arcane Cussing (yellow)
+(2) Autumn's Touch (yellow)
+(1) Brush Off (yellow)
+(1) Cadaverous Tilling (yellow)
+(1) Fertile Ground (yellow)
+(1) Fruits of the Forest (yellow)
+(1) Harvest Season (yellow)
+(2) Hocus Pocus (yellow)
+(1) Meat and Greet (yellow)
+(1) Arcane Polarity (blue)
+(1) Autumn's Touch (blue)
+(1) Brush Off (blue)
+(1) Consuming Volition (blue)
+(1) Fyendal's Fighting Spirit (blue)
+(1) Hocus Pocus (blue)
+(1) Sigil of Deadwood (blue)
+(1) Sigil of Earth (blue)
+(1) Sigil of the Arknight (blue)
+(1) Strength of Four Seasons (blue)
+
+
+See the full deck @ https://fabrary.net/decks/01J9EPQHPQR194G4STFYT3TFRY
+
+
+2024-10-05 20:27:38
+Made with ❤️ at the FaBrary
+
+New Florian Draft Deck
+
+Class: Runeblade
+Hero: Florian
+Weapons: Rotwood Reaper
+Equipment: Bruised Leather, Four Finger Gloves, Helm of Lignum Vitae, Runaways
+
+(1) Arcanic Spike (red)
+(1) Autumn's Touch (red)
+(1) Earth Form (red)
+(1) Fruits of the Forest (red)
+(1) Fyendal's Fighting Spirit (red)
+(2) Harvest Season (red)
+(1) Hocus Pocus (red)
+(1) Runerager Swarm (red)
+(1) Strength of Four Seasons (red)
+(1) Strong Yield (red)
+(1) Summer's Fall (red)
+(1) Tongue Tied (red)
+(1) Arcane Polarity (yellow)
+(1) Cadaverous Tilling (yellow)
+(1) Earth Form (yellow)
+(1) Oath of the Arknight (yellow)
+(1) Strong Yield (yellow)
+(1) Arcane Polarity (blue)
+(1) Arcanic Spike (blue)
+(1) Cadaverous Tilling (blue)
+(2) Condemn to Slaughter (blue)
+(2) Consuming Volition (blue)
+(2) Deadwood Dirge (blue)
+(1) Fertile Ground (blue)
+(1) Hit the High Notes (blue)
+(1) Hocus Pocus (blue)
+(1) Meat and Greet (blue)
+(1) Oath of the Arknight (blue)
+(1) Runerager Swarm (blue)
+(1) Strength of Four Seasons (blue)
+
+
+See the full deck @ https://fabrary.net/decks/01J9ETRNH0YPB1YQME0XFW989E
+
+
+2024-10-05 21:03:50
+Made with ❤️ at the FaBrary
+
+New Florian Draft Deck
+
+Class: Runeblade
+Hero: Florian
+Weapons: Rotwood Reaper
+Equipment: Bruised Leather, Helm of Lignum Vitae, Runehold Release, Well Grounded
+
+(1) Arcane Cussing (red)
+(1) Autumn's Touch (red)
+(1) Brush Off (red)
+(1) Deadwood Dirge (red)
+(1) Runerager Swarm (red)
+(1) Strength of Four Seasons (red)
+(1) Tongue Tied (red)
+(2) Arcane Cussing (yellow)
+(1) Autumn's Touch (yellow)
+(1) Blossoming Decay (yellow)
+(1) Brush Off (yellow)
+(1) Deadwood Dirge (yellow)
+(2) Fruits of the Forest (yellow)
+(1) Oath of the Arknight (yellow)
+(2) Runerager Swarm (yellow)
+(1) Strength of Four Seasons (yellow)
+(1) Autumn's Touch (blue)
+(1) Blossoming Decay (blue)
+(1) Cadaverous Tilling (blue)
+(1) Deadwood Dirge (blue)
+(1) Earth Form (blue)
+(1) Earth's Embrace (blue)
+(1) Fertile Ground (blue)
+(1) Fruits of the Forest (blue)
+(1) Oath of the Arknight (blue)
+(2) Sigil of Deadwood (blue)
+(1) Sigil of Earth (blue)
+(1) Sigil of Fyendal (blue)
+(1) Sigil of Sanctuary (blue)
+(1) Strength of Four Seasons (blue)
+
+
+See the full deck @ https://fabrary.net/decks/01J9EW53006Q642AAFH8YQ5JP0
+
+
+2024-10-05 23:35:32
+Made with ❤️ at the FaBrary
+
+New Florian Draft Deck
+
+Class: Runeblade
+Hero: Florian
+Weapons: Rotwood Reaper
+Equipment: Runehold Release, Well Grounded
+
+(2) Arcane Seeds // Life (red)
+(1) Blossoming Decay (red)
+(1) Brush Off (red)
+(1) Consuming Volition (red)
+(1) Fruits of the Forest (red)
+(1) Hocus Pocus (red)
+(1) Rootbound Carapace (red)
+(1) Runerager Swarm (red)
+(1) Summer's Fall (red)
+(1) Arcane Polarity (yellow)
+(1) Autumn's Touch (yellow)
+(1) Blossoming Decay (yellow)
+(1) Brush Off (yellow)
+(1) Cadaverous Tilling (yellow)
+(1) Consuming Volition (yellow)
+(1) Fertile Ground (yellow)
+(2) Fruits of the Forest (yellow)
+(3) Harvest Season (yellow)
+(2) Hocus Pocus (yellow)
+(1) Meat and Greet (yellow)
+(1) Strong Yield (yellow)
+(1) Summer's Fall (yellow)
+(1) Arcanic Spike (blue)
+(1) Autumn's Touch (blue)
+(2) Cadaverous Tilling (blue)
+(1) Consuming Volition (blue)
+(1) Meat and Greet (blue)
+(1) Oath of the Arknight (blue)
+(1) Sigil of Earth (blue)
+(1) Strong Yield (blue)
+(1) Vantage Point (blue)
+
+
+See the full deck @ https://fabrary.net/decks/01J9F6AFG0Z5HQFAKVFKDFXVQ2
+
+
+2024-10-06 09:33:20
+Made with ❤️ at the FaBrary
+
+Runaways Draft 10/6/24 1:00am
+
+Class: Wizard
+Hero: Verdance
+Weapons: Staff of Verdant Shoots
+Equipment: Helm of Lignum Vitae, Ink-lined Cloak
+
+(1) Brush Off (red)
+(3) Exploding Aether (red)
+(1) Hand Behind the Pen (red)
+(1) Harvest Season (red)
+(1) Open the Flood Gates (red)
+(2) Photon Splicing (red)
+(2) Pulsing Aether // Life (red)
+(3) Trailblazing Aether (red)
+(1) Fyendal's Fighting Spirit (yellow)
+(1) Chorus of the Amphitheater (yellow)
+(2) Overflow the Aetherwell (yellow)
+(1) Photon Splicing (yellow)
+(1) Pop the Bubble (yellow)
+(1) Strong Yield (yellow)
+(1) Aether Quickening (blue)
+(2) Arcane Polarity (blue)
+(1) Arcane Twining (blue)
+(1) Call to the Grave (blue)
+(1) Earth Form (blue)
+(1) Etchings of Arcana (blue)
+(1) Exploding Aether (blue)
+(1) Chorus of the Amphitheater (blue)
+(1) Overflow the Aetherwell (blue)
+(1) Trailblazing Aether (blue)
+
+
+See the full deck @ https://fabrary.net/decks/01J9G7HJQ9QVJ64RWRH0VXSWVD
+
+
+2024-10-06 18:19:20
+Made with ❤️ at the FaBrary
+
+New Verdance Draft Deck Recording 1
+
+Class: Wizard
+Hero: Verdance
+Weapons: Staff of Verdant Shoots
+Equipment: Helm of Lignum Vitae, Hold Focus, Ink-lined Cloak
+
+(1) Aether Quickening (red)
+(1) Arcane Twining (red)
+(1) Autumn's Touch (red)
+(1) Count Your Blessings (red)
+(1) Exploding Aether (red)
+(1) Fruits of the Forest (red)
+(2) Overflow the Aetherwell (red)
+(2) Perennial Aetherbloom (red)
+(2) Photon Splicing (red)
+(1) Summer's Fall (red)
+(2) Trailblazing Aether (red)
+(1) Fruits of the Forest (yellow)
+(1) Perennial Aetherbloom (yellow)
+(2) Photon Splicing (yellow)
+(1) Trailblazing Aether (yellow)
+(1) Arcane Polarity (blue)
+(1) Fertile Ground (blue)
+(1) Fruits of the Forest (blue)
+(1) Harvest Season (blue)
+(1) Heartbeat of Candlehold (blue)
+(1) Open the Flood Gates (blue)
+(1) Overflow the Aetherwell (blue)
+(1) Perennial Aetherbloom (blue)
+(1) Photon Splicing (blue)
+(1) Pop the Bubble (blue)
+(1) Sigil of Earth (blue)
+(1) Sigil of Fyendal (blue)
+(1) Trailblazing Aether (blue)
+(1) Truce (blue)
+
+
+See the full deck @ https://fabrary.net/decks/01J9H5Z1AYGKMYNDJKPFGQ3KQB
+
+
+2024-10-06 19:54:42
+Made with ❤️ at the FaBrary
+
+New Verdance Draft Deck
+
+Class: Wizard
+Hero: Verdance
+Weapons: Staff of Verdant Shoots
+Equipment: Bruised Leather, Helm of Lignum Vitae, Hold Focus
+
+(2) Aether Quickening (red)
+(1) Autumn's Touch (red)
+(1) Blossoming Decay (red)
+(1) Cadaverous Tilling (red)
+(1) Count Your Blessings (red)
+(1) Etchings of Arcana (red)
+(1) Fruits of the Forest (red)
+(1) Perennial Aetherbloom (red)
+(1) Photon Splicing (red)
+(1) Pop the Bubble (red)
+(1) Trailblazing Aether (red)
+(1) Arcane Polarity (yellow)
+(1) Blossoming Decay (yellow)
+(2) Brush Off (yellow)
+(1) Count Your Blessings (yellow)
+(1) Perennial Aetherbloom (yellow)
+(1) Pop the Bubble (yellow)
+(1) Trailblazing Aether (yellow)
+(2) Aether Quickening (blue)
+(1) Arcane Polarity (blue)
+(1) Arcane Twining (blue)
+(1) Autumn's Touch (blue)
+(2) Blossoming Decay (blue)
+(1) Brush Off (blue)
+(2) Exploding Aether (blue)
+(1) Fertile Ground (blue)
+(1) Fruits of the Forest (blue)
+(1) Harvest Season (blue)
+(1) Mental Block (blue)
+(1) Open the Flood Gates (blue)
+(1) Seeds of Tomorrow (blue)
+(1) Sigil of Fyendal (blue)
+(1) Strength of Four Seasons (blue)
+
+
+See the full deck @ https://fabrary.net/decks/01J9HD1VJ2C6A85BESB1TJM09Y
+
+
