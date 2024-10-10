@@ -105,9 +105,16 @@ def process_card_group(cards, group_config):
     for j in range (len(group_config["data"])):
         msg += group_config["data_name"][j]
         msg += " | "
+    if "bonus_data" in group_config:
+        for j in range (len(group_config["bonus_data"])):
+            msg += group_config["bonus_data"][j]
+            msg += " | "
     msg += "  \n| :---: | "
     for _ in range (len(group_config["data"])):
         msg += ":---: | "
+    if "bonus_data" in group_config:
+        for _ in range (len(group_config["bonus_data"])):
+            msg += ":---: | "
     msg += "  \n"
     for index, row in card_group_filtered.iterrows():
         msg += "| "
@@ -125,6 +132,11 @@ def process_card_group(cards, group_config):
                 msg += str(round(row[group_config["data"][i]], 3)) + " | "
             else:
                 msg += str(round(row[group_config["data"][i]], 3)) + " | "
+
+        if "bonus_data" in group_config:
+            for i in range (len(group_config["bonus_data"])):
+                msg += str(row[group_config["bonus_data"][i]]) + " | "
+
         msg += "  \n"
     msg += "\n\n"
     return msg

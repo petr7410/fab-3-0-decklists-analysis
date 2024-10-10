@@ -63,8 +63,26 @@ def add_html_format(msg, title):
             "paging": true,
             "searching": true,
             "ordering": true,
+            "order": [],
             "info": true,
-            "lengthMenu": [10, 25, 50, 250]
+            "lengthMenu": [10, 25, 50, 250],
+            "columnDefs": [
+                {
+                    "targets": -3,
+                    "visible": false,
+                    "searchable": true
+                },
+                {
+                    "targets": -2,
+                    "visible": false,
+                    "searchable": true
+                },
+                {
+                    "targets": -1,
+                    "visible": false,
+                    "searchable": true
+                }
+            ]
         });
     });
     </script>

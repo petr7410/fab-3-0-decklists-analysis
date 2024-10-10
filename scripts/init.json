@@ -93,10 +93,11 @@
                         "Types": ["Equipment"]
                     },
                     "sort": "Florian_pick_rate",
-                    "limit": 20,
-                    "data": ["Florian_average_count_per_deck", "Florian_pick_rate", "Florian_total_count"],
-                    "data_name": ["Florian average number of card per deck", "Florian Pick rate", "Florian Overall number"],
-                    "name": "Top 20 common cards"
+                    "data": ["Florian_average_count_per_deck", "Florian_average_count_per_normalized_deck", "Florian_pick_rate", "Florian_total_count"],
+                    "data_name": ["Florian average number of card per deck", "Florian average number of card per 30-card deck", "Florian Pick rate", "Florian Overall number"],
+                    "bonus_data": ["rarity", "Types", "Card Keywords"],
+                    "name": "Top 20 common cards",
+                    "data_table": true
                 },
                 "rare_cards": {
                     "filter": {
@@ -106,9 +107,11 @@
                         "Types": ["Equipment"]
                     },
                     "sort": "Florian_pick_rate",
-                    "data": ["Florian_average_count_per_deck", "Florian_pick_rate", "Florian_total_count"],
-                    "data_name": ["Florian average number of card per deck", "Florian Pick rate", "Florian Overall number"],
-                    "name": "Rare Cards"
+                    "data": ["Florian_average_count_per_deck", "Florian_average_count_per_normalized_deck", "Florian_pick_rate", "Florian_total_count"],
+                    "data_name": ["Florian average number of card per deck", "Florian average number of card per 30-card deck", "Florian Pick rate", "Florian Overall number"],
+                    "bonus_data": ["rarity", "Types", "Card Keywords"],
+                    "name": "Rare Cards",
+                    "data_table": true
                 },
                 "mythic_cards": {
                     "filter": {
@@ -118,9 +121,11 @@
                         "Types": ["Equipment"]
                     },
                     "sort": "Florian_pick_rate",
-                    "data": ["Florian_average_count_per_deck", "Florian_pick_rate", "Florian_total_count"],
-                    "data_name": ["Florian average number of card per deck", "Florian Pick rate", "Florian Overall number"],
-                    "name": "Mythic cards"
+                    "data": ["Florian_average_count_per_deck", "Florian_average_count_per_normalized_deck", "Florian_pick_rate", "Florian_total_count"],
+                    "data_name": ["Florian average number of card per deck", "Florian average number of card per 30-card deck", "Florian Pick rate", "Florian Overall number"],
+                    "bonus_data": ["rarity", "Types", "Card Keywords"],
+                    "name": "Mythic cards",
+                    "data_table": true
                 },
                 "equipment_cards": {
                     "filter": {
@@ -129,7 +134,9 @@
                     "sort": "Florian_pick_rate",
                     "data": ["Florian_average_count_per_deck", "Florian_pick_rate", "Florian_total_count"],
                     "data_name": ["Florian average number of card per deck", "Florian Pick rate", "Florian Overall number"],
-                    "name": "Equipment Cards"
+                    "bonus_data": ["rarity", "Types", "Card Keywords"],
+                    "name": "Equipment Cards",
+                    "data_table": true
                 },
                 "attack_action_cards": {
                     "filter": {
@@ -308,10 +315,11 @@
                         "Types": ["Equipment"]
                     },
                     "sort": "Verdance_pick_rate",
-                    "limit": 20,
-                    "data": ["Verdance_average_count_per_deck", "Verdance_pick_rate", "Verdance_total_count"],
-                    "data_name": ["Verdance average number of card per deck", "Verdance Pick rate", "Verdance Overall number"],
-                    "name": "Top 20 common cards"
+                    "data": ["Verdance_average_count_per_deck", "Verdance_average_count_per_normalized_deck", "Verdance_pick_rate", "Verdance_total_count"],
+                    "data_name": ["Verdance average number of card per deck", "Verdance average number of card per 30-card deck", "Verdance Pick rate", "Verdance Overall number"],
+                    "bonus_data": ["rarity", "Types", "Card Keywords"],
+                    "name": "Top 20 common cards",
+                    "data_table": true
                 },
                 "rare_cards": {
                     "filter": {
@@ -321,9 +329,11 @@
                         "Types": ["Equipment"]
                     },
                     "sort": "Verdance_pick_rate",
-                    "data": ["Verdance_average_count_per_deck", "Verdance_pick_rate", "Verdance_total_count"],
-                    "data_name": ["Verdance average number of card per deck", "Verdance Pick rate", "Verdance Overall number"],
-                    "name": "Rare Cards"
+                    "data": ["Verdance_average_count_per_deck", "Verdance_average_count_per_normalized_deck", "Verdance_pick_rate", "Verdance_total_count"],
+                    "data_name": ["Verdance average number of card per deck", "Verdance average number of card per 30-card deck", "Verdance Pick rate", "Verdance Overall number"],
+                    "bonus_data": ["rarity", "Types", "Card Keywords"],
+                    "name": "Rare Cards",
+                    "data_table": true
                 },
                 "mythic_cards": {
                     "filter": {
@@ -333,9 +343,11 @@
                         "Types": ["Equipment"]
                     },
                     "sort": "Verdance_pick_rate",
-                    "data": ["Verdance_average_count_per_deck", "Verdance_pick_rate", "Verdance_total_count"],
-                    "data_name": ["Verdance average number of card per deck", "Verdance Pick rate", "Verdance Overall number"],
-                    "name": "Mythic cards"
+                    "data": ["Verdance_average_count_per_deck", "Verdance_average_count_per_normalized_deck", "Verdance_pick_rate", "Verdance_total_count"],
+                    "data_name": ["Verdance average number of card per deck", "Verdance average number of card per 30-card deck", "Verdance Pick rate", "Verdance Overall number"],
+                    "bonus_data": ["rarity", "Types", "Card Keywords"],
+                    "name": "Mythic cards",
+                    "data_table": true
                 },
                 "equipment_cards": {
                     "filter": {
@@ -344,7 +356,9 @@
                     "sort": "Verdance_pick_rate",
                     "data": ["Verdance_average_count_per_deck", "Verdance_pick_rate", "Verdance_total_count"],
                     "data_name": ["Verdance average number of card per deck", "Verdance Pick rate", "Verdance Overall number"],
-                    "name": "Equipment Cards"
+                    "bonus_data": ["rarity", "Types", "Card Keywords"],
+                    "name": "Equipment Cards",
+                    "data_table": true
                 },
                 "attack_action_cards": {
                     "filter": {
@@ -523,10 +537,11 @@
                         "Types": ["Equipment"]
                     },
                     "sort": "Oscilio_pick_rate",
-                    "limit": 20,
-                    "data": ["Oscilio_average_count_per_deck", "Oscilio_pick_rate", "Oscilio_total_count"],
-                    "data_name": ["Oscilio average number of card per deck", "Oscilio Pick rate", "Oscilio Overall number"],
-                    "name": "Top 20 common cards"
+                    "data": ["Oscilio_average_count_per_deck", "Oscilio_average_count_per_normalized_deck", "Oscilio_pick_rate", "Oscilio_total_count"],
+                    "data_name": ["Oscilio average number of card per deck", "Oscilio average number of card per 30-card deck", "Oscilio Pick rate", "Oscilio Overall number"],
+                    "bonus_data": ["rarity", "Types", "Card Keywords"],
+                    "name": "Top 20 common cards",
+                    "data_table": true
                 },
                 "rare_cards": {
                     "filter": {
@@ -536,9 +551,11 @@
                         "Types": ["Equipment"]
                     },
                     "sort": "Oscilio_pick_rate",
-                    "data": ["Oscilio_average_count_per_deck", "Oscilio_pick_rate", "Oscilio_total_count"],
-                    "data_name": ["Oscilio average number of card per deck", "Oscilio Pick rate", "Oscilio Overall number"],
-                    "name": "Rare Cards"
+                    "data": ["Oscilio_average_count_per_deck", "Oscilio_average_count_per_normalized_deck", "Oscilio_pick_rate", "Oscilio_total_count"],
+                    "data_name": ["Oscilio average number of card per deck", "Oscilio average number of card per 30-card deck", "Oscilio Pick rate", "Oscilio Overall number"],
+                    "bonus_data": ["rarity", "Types", "Card Keywords"],
+                    "name": "Rare Cards",
+                    "data_table": true
                 },
                 "mythic_cards": {
                     "filter": {
@@ -548,9 +565,11 @@
                         "Types": ["Equipment"]
                     },
                     "sort": "Oscilio_pick_rate",
-                    "data": ["Oscilio_average_count_per_deck", "Oscilio_pick_rate", "Oscilio_total_count"],
-                    "data_name": ["Oscilio average number of card per deck", "Oscilio Pick rate", "Oscilio Overall number"],
-                    "name": "Mythic cards"
+                    "data": ["Oscilio_average_count_per_deck", "Oscilio_average_count_per_normalized_deck", "Oscilio_pick_rate", "Oscilio_total_count"],
+                    "data_name": ["Oscilio average number of card per deck", "Oscilio average number of card per 30-card deck", "Oscilio Pick rate", "Oscilio Overall number"],
+                    "bonus_data": ["rarity", "Types", "Card Keywords"],
+                    "name": "Mythic cards",
+                    "data_table": true
                 },
                 "equipment_cards": {
                     "filter": {
@@ -559,7 +578,9 @@
                     "sort": "Oscilio_pick_rate",
                     "data": ["Oscilio_average_count_per_deck", "Oscilio_pick_rate", "Oscilio_total_count"],
                     "data_name": ["Oscilio average number of card per deck", "Oscilio Pick rate", "Oscilio Overall number"],
-                    "name": "Equipment Cards"
+                    "bonus_data": ["rarity", "Types", "Card Keywords"],
+                    "name": "Equipment Cards",
+                    "data_table": true
                 },
                 "attack_action_cards": {
                     "filter": {
@@ -738,10 +759,11 @@
                         "Types": ["Equipment"]
                     },
                     "sort": "Aurora_pick_rate",
-                    "limit": 20,
-                    "data": ["Aurora_average_count_per_deck", "Aurora_pick_rate", "Aurora_total_count"],
-                    "data_name": ["Aurora average number of card per deck", "Aurora Pick rate", "Aurora Overall number"],
-                    "name": "Top 20 common cards"
+                    "data": ["Aurora_average_count_per_deck", "Aurora_average_count_per_normalized_deck", "Aurora_pick_rate", "Aurora_total_count"],
+                    "data_name": ["Aurora average number of card per deck", "Aurora average number of card per 30-card deck", "Aurora Pick rate", "Aurora Overall number"],
+                    "bonus_data": ["rarity", "Types", "Card Keywords"],
+                    "name": "Top 20 common cards",
+                    "data_table": true
                 },
                 "rare_cards": {
                     "filter": {
@@ -751,9 +773,11 @@
                         "Types": ["Equipment"]
                     },
                     "sort": "Aurora_pick_rate",
-                    "data": ["Aurora_average_count_per_deck", "Aurora_pick_rate", "Aurora_total_count"],
-                    "data_name": ["Aurora average number of card per deck", "Aurora Pick rate", "Aurora Overall number"],
-                    "name": "Rare Cards"
+                    "data": ["Aurora_average_count_per_deck", "Aurora_average_count_per_normalized_deck", "Aurora_pick_rate", "Aurora_total_count"],
+                    "data_name": ["Aurora average number of card per deck", "Aurora average number of card per 30-card deck", "Aurora Pick rate", "Aurora Overall number"],
+                    "bonus_data": ["rarity", "Types", "Card Keywords"],
+                    "name": "Rare Cards",
+                    "data_table": true
                 },
                 "mythic_cards": {
                     "filter": {
@@ -763,9 +787,11 @@
                         "Types": ["Equipment"]
                     },
                     "sort": "Aurora_pick_rate",
-                    "data": ["Aurora_average_count_per_deck", "Aurora_pick_rate", "Aurora_total_count"],
-                    "data_name": ["Aurora average number of card per deck", "Aurora Pick rate", "Aurora Overall number"],
-                    "name": "Mythic cards"
+                    "data": ["Aurora_average_count_per_deck", "Aurora_average_count_per_normalized_deck", "Aurora_pick_rate", "Aurora_total_count"],
+                    "data_name": ["Aurora average number of card per deck", "Aurora average number of card per 30-card deck", "Aurora Pick rate", "Aurora Overall number"],
+                    "bonus_data": ["rarity", "Types", "Card Keywords"],
+                    "name": "Mythic cards",
+                    "data_table": true
                 },
                 "equipment_cards": {
                     "filter": {
@@ -774,7 +800,9 @@
                     "sort": "Aurora_pick_rate",
                     "data": ["Aurora_average_count_per_deck", "Aurora_pick_rate", "Aurora_total_count"],
                     "data_name": ["Aurora average number of card per deck", "Aurora Pick rate", "Aurora Overall number"],
-                    "name": "Equipment Cards"
+                    "bonus_data": ["rarity", "Types", "Card Keywords"],
+                    "name": "Equipment Cards",
+                    "data_table": true
                 },
                 "attack_action_cards": {
                     "filter": {
@@ -906,11 +934,13 @@
                 "Types": ["Wizard", "Lightning"]
             },
             "data": {
-                "common_cards": {
+                "all_cards": {
                     "sort": "Florian_pick_rate",
-                    "data": ["Florian_average_count_per_deck", "Florian_pick_rate", "Florian_total_count"],
-                    "data_name": ["Florian average number of card per deck", "Florian Pick rate", "Florian Overall number"],
-                    "name": "All cards"
+                    "data": ["Florian_average_count_per_deck", "Florian_average_count_per_normalized_deck", "Florian_pick_rate", "Florian_total_count"],
+                    "data_name": ["Florian average number of card per deck", "Florian average number of card per 30-card deck", "Florian Pick rate", "Florian Overall number"],
+                    "bonus_data": ["rarity", "Types", "Card Keywords"],
+                    "name": "All cards",
+                    "data_table": true
                 }
             }
         },
@@ -920,11 +950,13 @@
                 "Types": ["Runeblade", "Lightning"]
             },
             "data": {
-                "common_cards": {
+                "all_cards": {
                     "sort": "Verdance_pick_rate",
-                    "data": ["Verdance_average_count_per_deck", "Verdance_pick_rate", "Verdance_total_count"],
-                    "data_name": ["Verdance average number of card per deck", "Verdance Pick rate", "Verdance Overall number"],
-                    "name": "All cards"
+                    "data": ["Verdance_average_count_per_deck", "Verdance_average_count_per_normalized_deck", "Verdance_pick_rate", "Verdance_total_count"],
+                    "data_name": ["Verdance average number of card per deck", "Verdance average number of card per 30-card deck", "Verdance Pick rate", "Verdance Overall number"],
+                    "bonus_data": ["rarity", "Types", "Card Keywords"],
+                    "name": "All cards",
+                    "data_table": true
                 }
             }
         },
@@ -934,11 +966,13 @@
                 "Types": ["Runeblade", "Earth"]
             },
             "data": {
-                "common_cards": {
+                "all_cards": {
                     "sort": "Oscilio_pick_rate",
-                    "data": ["Oscilio_average_count_per_deck", "Oscilio_pick_rate", "Oscilio_total_count"],
-                    "data_name": ["Oscilio average number of card per deck", "Oscilio Pick rate", "Oscilio Overall number"],
-                    "name": "All cards"
+                    "data": ["Oscilio_average_count_per_deck", "Oscilio_average_count_per_normalized_deck", "Oscilio_pick_rate", "Oscilio_total_count"],
+                    "data_name": ["Oscilio average number of card per deck", "Oscilio average number of card per 30-card deck", "Oscilio Pick rate", "Oscilio Overall number"],
+                    "bonus_data": ["rarity", "Types", "Card Keywords"],
+                    "name": "All cards",
+                    "data_table": true
                 }
             }
         },
@@ -948,11 +982,13 @@
                 "Types": ["Wizard", "Earth"]
             },
             "data": {
-                "common_cards": {
+                "all_cards": {
                     "sort": "Aurora_pick_rate",
-                    "data": ["Aurora_average_count_per_deck", "Aurora_pick_rate", "Aurora_total_count"],
-                    "data_name": ["Aurora average number of card per deck", "Aurora Pick rate", "Aurora Overall number"],
-                    "name": "All cards"
+                    "data": ["Aurora_average_count_per_deck", "Aurora_average_count_per_normalized_deck", "Aurora_pick_rate", "Aurora_total_count"],
+                    "data_name": ["Aurora average number of card per deck", "Aurora average number of card per 30-card deck", "Aurora Pick rate", "Aurora Overall number"],
+                    "bonus_data": ["rarity", "Types", "Card Keywords"],
+                    "name": "All cards",
+                    "data_table": true
                 }
             }
         },
@@ -964,54 +1000,66 @@
                         "Types": ["Equipment"]
                     },
                     "sort": "pick_rate",
-                    "data": ["pick_rate", "weighted_pick_rate", "total_count"],
-                    "data_name": ["Pick rate", "Weighted pick rate", "Overall number"],
-                    "name": "Equipment cards"
+                    "data": ["pick_rate", "weighted_pick_rate", "average_count_per_deck", "total_count"],
+                    "data_name": ["Pick rate", "Weighted pick rate", "Average number of card per deck", "Overall number"],
+                    "bonus_data": ["rarity", "Types", "Card Keywords"],
+                    "name": "Equipment cards",
+                    "data_table": true
                 },
                 "generic_cards": {
                     "filter": {
                         "Types": ["Generic"]
                     },
                     "sort": "pick_rate",
-                    "data": ["pick_rate", "weighted_pick_rate", "total_count"],
-                    "data_name": ["Pick rate", "Weighted pick rate", "Overall number"],
-                    "name": "Generic cards"
+                    "data": ["pick_rate", "weighted_pick_rate", "average_count_per_deck", "average_count_per_normalized_deck", "total_count"],
+                    "data_name": ["Pick rate", "Weighted pick rate", "Average number of card per deck", "Average number of card per 30-card deck", "Overall number"],
+                    "bonus_data": ["rarity", "Types", "Card Keywords"],
+                    "name": "Generic cards",
+                    "data_table": true
                 },
                 "lightning_cards": {
                     "filter": {
                         "Types": ["Lightning"]
                     },
                     "sort": "pick_rate",
-                    "data": ["pick_rate", "weighted_pick_rate", "total_count"],
-                    "data_name": ["Pick rate", "Weighted pick rate", "Overall number"],
-                    "name": "Lightning cards"
+                    "data": ["pick_rate", "weighted_pick_rate", "average_count_per_deck", "average_count_per_normalized_deck", "total_count"],
+                    "data_name": ["Pick rate", "Weighted pick rate", "Average number of card per deck", "Average number of card per 30-card deck", "Overall number"],
+                    "bonus_data": ["rarity", "Types", "Card Keywords"],
+                    "name": "Lightning cards",
+                    "data_table": true
                 },
                 "earth_cards": {
                     "filter": {
                         "Types": ["Earth"]
                     },
                     "sort": "pick_rate",
-                    "data": ["pick_rate", "weighted_pick_rate", "total_count"],
-                    "data_name": ["Pick rate", "Weighted pick rate", "Overall number"],
-                    "name": "Earth cards"
+                    "data": ["pick_rate", "weighted_pick_rate", "average_count_per_deck", "average_count_per_normalized_deck", "total_count"],
+                    "data_name": ["Pick rate", "Weighted pick rate", "Average number of card per deck", "Average number of card per 30-card deck", "Overall number"],
+                    "bonus_data": ["rarity", "Types", "Card Keywords"],
+                    "name": "Earth cards",
+                    "data_table": true
                 },
                 "runeblade_cards": {
                     "filter": {
                         "Types": ["Runeblade"]
                     },
                     "sort": "pick_rate",
-                    "data": ["pick_rate", "weighted_pick_rate", "total_count"],
-                    "data_name": ["Pick rate", "Weighted pick rate", "Overall number"],
-                    "name": "Runeblade cards"
+                    "data": ["pick_rate", "weighted_pick_rate", "average_count_per_deck", "average_count_per_normalized_deck", "total_count"],
+                    "data_name": ["Pick rate", "Weighted pick rate", "Average number of card per deck", "Average number of card per 30-card deck", "Overall number"],
+                    "bonus_data": ["rarity", "Types", "Card Keywords"],
+                    "name": "Runeblade cards",
+                    "data_table": true
                 },
                 "wizard_cards": {
                     "filter": {
                         "Types": ["Wizard"]
                     },
                     "sort": "pick_rate",
-                    "data": ["pick_rate", "weighted_pick_rate", "total_count"],
-                    "data_name": ["Pick rate", "Weighted pick rate", "Overall number"],
-                    "name": "Wizard cards"
+                    "data": ["pick_rate", "weighted_pick_rate", "average_count_per_deck", "average_count_per_normalized_deck", "total_count"],
+                    "data_name": ["Pick rate", "Weighted pick rate", "Average number of card per deck", "Average number of card per 30-card deck", "Overall number"],
+                    "bonus_data": ["rarity", "Types", "Card Keywords"],
+                    "name": "Wizard cards",
+                    "data_table": true
                 }
             }
         },
@@ -1022,6 +1070,7 @@
                     "sort": "weighted_pick_rate",
                     "data": ["weighted_pick_rate", "pick_rate", "total_count", "average_count_per_deck", "average_count_per_normalized_deck", "draft_average_occurrence1", "draft_average_occurrence2", "draft_average_occurrence3"],
                     "data_name": ["Weighted pick rate", "Pick rate", "Overall number", "Average number of card per deck", "Average number of card per 30-card deck", "First Draft File average occurrence", "Second Draft File average occurrence", "Third Draft File average occurrence"],
+                    "bonus_data": ["rarity", "Types", "Card Keywords"],
                     "name": "All cards",
                     "data_table": true
                 }
