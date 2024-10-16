@@ -1,10 +1,11 @@
 # 3 Win Decklists Analysis
 
-To view images in the analysis links, [visit the 3-0 Decklists Analysis](https://petr7410.github.io/fab-3-0-decklists-analysis).
+This branch contains data from the old F&B expansion. This means that this data is no longer accessible on the web page. If you want to view this data, please visit [Accessibility](#accessibility).
 
 ## Index
 
 - [Introduction](#introduction)
+- [Accessibility](#accessibility)
 - [Database Attributes](#database-attributes)
 - [Analysis Links](#analysis-links)
 - [Overview of Files](#overview-of-files)
@@ -18,6 +19,21 @@ This project analyzes 3-0 decklists from the Runaway Discord server.
 If you're primarily interested in the analysis, check the [Analysis Links](#analysis-links). However, it is recommended to review the attribute descriptions for a better understanding.
 
 The project end up as an HTML page. The analysis folder contains Markdown files, but they use custom CSS and won't render correctly on GitHub.
+
+## Accessibility
+
+If you are interested in the data but not in the analysis, you can either **clone** this repository or simply **download** what you need from the `data` folder (and potentially the `scripts` folder).
+
+If you are interested in text-based analysis, the easiest way to access it is to download the relevant `.md` files from the `analysis` folder and open them in any Markdown viewer. Note that GitHub does not support custom styles for Markdown files for security reasons, so they appear incorrectly on GitHub. You won't miss out on anything other than visualization, as PtM was originally created to be viewed as Markdown, and all HTML files are pretty much generated from these Markdown files.
+
+If you are interested in the web-based interface:
+1. **Clone** the repository or **download** `index.html` and the `docs` folder.
+2. Navigate to the folder containing `index.html`. Ensure that the `docs` folder is inside it.
+3. Create a local server in this folder. There are multiple ways to do this. I'm using `py -m http.server` (only if you have Python installed), but you can also use `Simple Web Server`, `Simple HTTP Server`, or even the Chrome extension `Web Server for Chrome`.
+4. Navigate to the URL of your server at `/index.html`. (For Python method: If you see the message: `Serving HTTP on :: port 8000`, then go to `http://localhost:8000/index.html`.)
+5. Now you have access to the final version of PtM before the switch to Rosetta. Congratulations!
+
+**Note:** You should be able to view HTML pages in a browser without a local server, but `vis.html` will not load correctly.
 
 ## Database Attributes
 
