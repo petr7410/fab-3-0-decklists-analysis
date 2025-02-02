@@ -4,6 +4,7 @@ from collections import Counter
 from datetime import datetime
 import json
 from scipy.stats import hypergeom
+import re
 
 warnings.simplefilter(action='ignore', category=Warning)
 
@@ -129,14 +130,26 @@ cards = cards.merge(all_cards, left_index=True, right_index=True, how='inner')
 cards.drop(columns=['Name'], inplace=True)
 cards.index.name = "Name"
 
-# Utility function to filter unplayable cards
-def cannot_be_played(hero, card):
+def cannot_be_played(hero, card): # TODO this was completely reworked compared to the last version and this still miss some scalability
     card = cards.loc[card]
-    for condition in init_data["cannot_be_played_conditions"][hero]:
-        types = card["Types"].split(", ")
-        if condition in types:
-            return True
-    return False
+    card_types = set(card["Types"].split(", "))
+
+    cannot_conditions = init_data.get("cannot_be_played_conditions", {}).get(hero, [])
+    can_conditions = init_data.get("can_be_played_conditions", {}).get(hero, [])
+
+    cannot_sets = [set(cond.split(", ")) for cond in cannot_conditions]
+    can_sets = [set(cond.split(", ")) for cond in can_conditions]
+
+    # If any disallowed set is fully contained in the card's types, reject the card
+    if any(cannot_set.issubset(card_types) for cannot_set in cannot_sets):
+        return True
+
+    # If any allowed set is fully contained in the card's types, accept the card
+    if any(can_set.issubset(card_types) for can_set in can_sets):
+        return False
+
+    # Default behavior: If neither rule applies, consider it unplayable
+    return True
 
 # Utility function to filter based on date
 def is_date_between_filters(line, draft=False):
@@ -191,6 +204,8 @@ date = False
 deck_dict = {}
 deck_draft = [[] for _ in range(len(init_data["draft_file_date"]))]
 current_deck = None
+in_equipment_section = True
+pattern = re.compile(r"^\d+x\s+(.+)$")
 
 with open(init_data['files']['decks'], "r", encoding='utf-8') as file:
     lines = file.readlines()
@@ -220,42 +235,48 @@ with open(init_data['files']['decks'], "r", encoding='utf-8') as file:
             deck_dict[hero].append(current_deck)
 
             for i in range(len(deck_draft)):
-                if i == 2:
+                if i == len(deck_draft) - 1: # TODO Please check why this as I no longer remember how this exactly works
                     deck_draft[i].append(current_deck)
                 elif is_date_between_filters(date, i+1)[0]:
                     deck_draft[i].append(current_deck)
                     break
-        
-        # Checking for card
-        if line.startswith("("):
-            tmp = line.split(") ")
-            if len(tmp) < 2 or "3-0" in tmp[0] or len(tmp) > 3:   # TODO not an ideal solution
-                continue
-            number = int(tmp[0][1:])
-            card = tmp[1].replace("\n", "")
-            if card not in card_dict[hero]:
-                card_dict[hero][card] = 0
-                if card not in all_cards:
-                    all_cards[card] = 0
-            if not cannot_be_played(hero, card):
-                card_dict[hero][card] += number
-                all_cards[card] += number
-                for _ in range(number):
-                    current_deck["cards"].append(card)
-        
-        # Checking for equipments
-        if line.startswith("Equipment: "):
-            line = line.split("Equipment: ")[1]
-            equips = line.replace("\n", "").split(", ")
-            for equip in equips:
-                if equip not in equip_dict[hero]:
-                    equip_dict[hero][equip] = 0
-                    if equip not in all_cards:
-                        all_cards[equip] = 0
-                if not cannot_be_played(hero, equip):
-                    equip_dict[hero][equip] += 1
-                    all_cards[equip] += 1
-                    current_deck["equips"].append(equip)
+
+        # Toggle sections based on headers
+        if line.startswith("Arena cards"):
+            in_equipment_section = True
+            continue
+
+        if line.startswith("Deck cards"):
+            in_equipment_section = False
+            continue
+
+        # Parse equipment lines in the "Arena cards" section
+        match = pattern.match(line)
+        if match:
+            tmp = line.split(" ", 1)
+            number = int(tmp[0][:-1])  # Extract count (e.g., "1x" -> 1)
+            card = match.group(1).strip()  # Extract card name
+            if in_equipment_section:
+                if card in init_data["weapons"]:
+                    continue
+                if card not in equip_dict[hero]:
+                    equip_dict[hero][card] = 0
+                    if card not in all_cards:
+                        all_cards[card] = 0
+                if not cannot_be_played(hero, card):
+                    equip_dict[hero][card] += number # TODO There is no way to gain advantage by having the same equipment twice other then denying it from other players, so this is maybe not wanted
+                    all_cards[card] += number
+                    current_deck["equips"].append(card)
+            else:
+                if card not in card_dict[hero]:
+                    card_dict[hero][card] = 0
+                    if card not in all_cards:
+                        all_cards[card] = 0
+                if not cannot_be_played(hero, card):
+                    card_dict[hero][card] += number
+                    all_cards[card] += number
+                    for _ in range(number):
+                        current_deck["cards"].append(card)
 
 # Creating normalized deck data with different weight of cards based on the deck size
 normalized_cards = {"all": {}}
@@ -339,7 +360,7 @@ for hero in heroes:
         for i in range(len(deck_count_resp_draft["all"]))
     )
     decks_cards[hero + "_pick_rate"] = decks_cards[hero + '_total_count'] / sum_of_products
-    decks_cards[hero + "_average_count_per_deck"] = decks_cards[hero + '_total_count'] / class_dict[hero]
+    decks_cards[hero + "_average_count_per_deck"] = decks_cards[hero + '_total_count'] / class_dict[hero] # TODO this does not work correctly
 
 decks_cards["weighted_pick_rate"] = decks_cards[[hero + "_pick_rate" for hero in heroes]].mean(axis=1)
 

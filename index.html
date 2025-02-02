@@ -9,7 +9,7 @@
 </head>
 <body>
     <h1 id="3-win-decklists-analysis">3 Win Decklists Analysis</h1>
-    <p>Last decklist update: <strong>2025/01/01 00:00 CEST</strong></p>
+    <p>Last decklist update: <strong>2025/02/02 20:30 CEST</strong></p>
     <a href="https://github.com/petr7410/fab-3-0-decklists-analysis/tree/Rosetta">Repository link</a>
 
     <h2 id="index">Index</h2>
@@ -91,7 +91,7 @@
                             <ul>
                                 <li>Why this does not hold:
                                     <ul>
-                                        <li>Equipment: It does not make sense to pick the same equipment multiple times, and Fabrary even doesn't track this on export.</li>
+                                        <li>Equipment: Having the same equipment multiple times does not give you any advantage, other then denying it from the other players.</li>
                                         <li>Class cards: If you draft an unplayable card, it is automatically filtered. You can never play that card, so it does not help you win (Yes, you denied it from your opponents, but there is no way to be sure if you picked this as the last card from the pack or if it was denied from someone) + some players remove this from their deck, so they don't mess up during the creation of the draft deck.</li>
                                         <li>Not all cards are equally strong -> Yes, that is exactly the case, and that is why we are analyzing things.</li>
                                     </ul>
@@ -134,22 +134,20 @@
     <h3 id="draft">Text data for each hero</h3>
     <p>Access analysis and card distribution for each class:</p>
     <ul>
-        <li><a href="docs/Aurora_site.html">Aurora Analysis</a></li>
-        <li><a href="docs/Florian_site.html">Florian Analysis</a></li>
-        <li><a href="docs/Oscilio_site.html">Oscilio Analysis</a></li>
-        <li><a href="docs/Verdance_site.html">Verdance Analysis</a></li>
+        <li><a href="docs/Fang_site.html">Fang Analysis</a></li>
+        <li><a href="docs/Arakni, Web of Deceit_site.html">Arakni, Web of Deceit Analysis</a></li>
+        <li><a href="docs/Cindra_site.html">Cindra Analysis</a></li>
     </ul>
     <p>All cards distribution statistics for each class:</p>
     <ul>
-        <li><a href="docs/Aurora_all_cards.html">Aurora All Cards Distribution</a></li>
-        <li><a href="docs/Florian_all_cards.html">Florian All Cards Distribution</a></li>
-        <li><a href="docs/Oscilio_all_cards.html">Oscilio All Cards Distribution</a></li>
-        <li><a href="docs/Verdance_all_cards.html">Verdance All Cards Distribution</a></li>
+        <li><a href="docs/Fang_all_cards.html">Fang All Cards Distribution</a></li>
+        <li><a href="docs/Arakni, Web of Deceit_all_cards.html">Arakni, Web of Deceit All Cards Distribution</a></li>
+        <li><a href="docs/Cindra_all_cards.html">Cindra All Cards Distribution</a></li>
     </ul>
     <h3 id="draft">Text data for draft and cards by type</h3>
     <ul>
         <li><a href="docs/Draft_file_analysis.html">All cards in draft with Average Occurrence per draft</a></li>
-        <li><a href="docs/Cards_by_type_comparison.html">All cards divided based on type</a></li>
+        <li><a href="docs/Cards_by_type_comparison.html">All shared cards divided based on type</a></li>
     </ul>
     <h2 id="overview-of-files">Overview of Files</h2>
     <h3 id="scripts">scripts/</h3>
@@ -170,8 +168,7 @@
         <li><code>decks_stats.json</code> Data with total count of each hero decks</li>
         <li><code>decks.json</code> All decks in json format <code>{"hero":[{"cards":[], "equips": []}, {"cards":[], "equips": []}, ...], "hero": ...}</code></li>
         <li><code>decks.txt</code> Decks export from Fabrary</li>
-        <li><code>ROSdraft_V1_0.csv</code> First draft file</li>
-        <li><code>ROSdraft_V1_1.csv</code> Second draft file</li>
+        <li><code>HNTdraft_V0_2.txt</code> First draft file</li>
     </ul>
     <h2 id="acknowledgements">Acknowledgements</h2>
     <p>Thank you to:</p>

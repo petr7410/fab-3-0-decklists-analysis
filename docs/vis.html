@@ -82,7 +82,7 @@
     </div>
 
     <div class="chart-container">
-        <h2>Shared Cards by Rarity + Transcend + Equipment</h2>
+        <h2>Shared Cards by Rarity + Equipment</h2>
         <div id="cards-classification" class="chart full-width"></div>
     </div>
 
@@ -156,10 +156,9 @@
 
         const chartOptions = [
             { value: 'equipment', text: 'Equipment Cards', file: './vis_data/equipment_comparison_classes.json' },
-            { value: 'lightning_cards', text: 'Lightning Cards', file: './vis_data/lightning_cards.json' },
-            { value: 'earth_cards', text: 'Earth Cards', file: './vis_data/earth_cards.json' },
-            { value: 'runeblade_cards', text: 'Runeblade Cards', file: './vis_data/runeblade_cards.json' },
-            { value: 'wizard_cards', text: 'Wizard Cards', file: './vis_data/wizard_cards.json' },
+            { value: 'pure_draconic_cards', text: 'Pure Draconic Cards', file: './vis_data/pure_draconic_cards.json' },
+            { value: 'ninja_assassin_cards', text: 'Ninja/Assassin Cards', file: './vis_data/ninja_assassin_cards.json' },
+            { value: 'warrior_assassin_cards', text: 'Warrior/Assassin Cards', file: './vis_data/warrior_assassin_cards.json' },
             { value: 'generic_cards', text: 'Generic Cards', file: './vis_data/generic_cards.json' }
         ];
 
@@ -173,10 +172,9 @@
          // Populate group dropdown
          const groupOptions = [
             { value: 'All', text: 'All' },
-            { value: 'Florian', text: 'Florian' },
-            { value: 'Verdance', text: 'Verdance' },
-            { value: 'Oscilio', text: 'Oscilio' },
-            { value: 'Aurora', text: 'Aurora' },
+            { value: 'Fang', text: 'Fang' },
+            { value: 'Cindra', text: 'Cindra' },
+            { value: 'Arakni, Web of Deceit', text: 'Arakni, Web of Deceit' },
         ];
 
         groupOptions.forEach(optionData => {
@@ -208,10 +206,10 @@
                 'red': './vis_data/number_of_red_cards.json',
                 'yellow': './vis_data/number_of_yellow_cards.json',
                 'blue': './vis_data/number_of_blue_cards.json',
-                'lightning': './vis_data/number_of_lightning_cards.json',
-                'earth': './vis_data/number_of_earth_cards.json',
-                'runeblade': './vis_data/number_of_runeblade_cards.json',
-                'wizard': './vis_data/number_of_wizard_cards.json',
+                'draconic': './vis_data/number_of_draconic_cards.json',
+                'warrior': './vis_data/number_of_warrior_cards.json',
+                'ninja': './vis_data/number_of_ninja_cards.json',
+                'assassin': './vis_data/number_of_assassin_cards.json',
                 'generic': './vis_data/number_of_generic_cards.json',
                 'equipment': './vis_data/number_of_equipment_cards.json',
                 'non-equipment': './vis_data/number_of_non-equipment_cards.json',
@@ -258,10 +256,10 @@
             { value: 'red', text: 'Red Cards' },
             { value: 'yellow', text: 'Yellow Cards' },
             { value: 'blue', text: 'Blue Cards' },
-            { value: 'lightning', text: 'Lightning Cards' },
-            { value: 'earth', text: 'Earth Cards' },
-            { value: 'runeblade', text: 'Runeblade Cards' },
-            { value: 'wizard', text: 'Wizard Cards' },
+            { value: 'draconic', text: 'Draconic Cards' },
+            { value: 'warrior', text: 'Warrior Cards' },
+            { value: 'ninja', text: 'Ninja Cards' },
+            { value: 'assassin', text: 'Assassin Cards' },
             { value: 'generic', text: 'Generic Cards' },
             { value: 'equipment', text: 'Equipment Cards' },
             { value: 'non-equipment', text: 'Non-Equipment Cards' },

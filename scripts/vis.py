@@ -22,18 +22,17 @@ all_equips = cards[cards["Types"].str.contains("Equipment")]
 
 def calculate_totals(df):
     totals = {
-        'number_of_Florian': df['Florian_total_count'].sum(),
-        'number_of_Verdance': df['Verdance_total_count'].sum(),
-        'number_of_Oscilio': df['Oscilio_total_count'].sum(),
-        'number_of_Aurora': df['Aurora_total_count'].sum()
+        'number_of_Fang': df['Fang_total_count'].sum(),
+        'number_of_Cindra': df['Cindra_total_count'].sum(),
+        'number_of_Arakni, Web of Deceit': df['Arakni, Web of Deceit_total_count'].sum(),
     }
     return totals
 
 def add_percentages(df, totals):
-    for col in ['Florian_total_count', 'Verdance_total_count', 'Oscilio_total_count', 'Aurora_total_count']:
+    for col in ['Fang_total_count', 'Cindra_total_count', 'Arakni, Web of Deceit_total_count']:
         pct_col = col.replace('count', 'pct')
         df[pct_col] = (df[col] / totals[f'number_of_{col.split("_")[0]}'] * 100).round(2)
-    df['weighted_pct'] = ((df['Florian_total_pct'] + df['Verdance_total_pct'] + df['Oscilio_total_pct'] + df['Aurora_total_pct']) / 4).round(2)
+    df['weighted_pct'] = ((df['Fang_total_pct'] + df['Cindra_total_pct'] + df['Arakni, Web of Deceit_total_pct']) / 4).round(2)
     return df
 
 # Calculate totals
@@ -63,13 +62,13 @@ def group_and_sum(df, group_by_col, sum_cols):
     grouped[group_by_col] = grouped[group_by_col].apply(lambda x: str(int(x)) if x not in pitchList else x)
     return grouped
 
-grouped_sum_pitch = group_and_sum(all_cards, 'Pitch', ["Florian_total_pct", "Verdance_total_pct", "Oscilio_total_pct", "Aurora_total_pct"])
-grouped_sum_defense = group_and_sum(all_cards, 'Defense', ["Florian_total_pct", "Verdance_total_pct", "Oscilio_total_pct", "Aurora_total_pct"])
-grouped_sum_cost = group_and_sum(all_cards, 'Cost', ["Florian_total_pct", "Verdance_total_pct", "Oscilio_total_pct", "Aurora_total_pct"])
+grouped_sum_pitch = group_and_sum(all_cards, 'Pitch', ["Fang_total_pct", "Cindra_total_pct", "Arakni, Web of Deceit_total_pct"])
+grouped_sum_defense = group_and_sum(all_cards, 'Defense', ["Fang_total_pct", "Cindra_total_pct", "Arakni, Web of Deceit_total_pct"])
+grouped_sum_cost = group_and_sum(all_cards, 'Cost', ["Fang_total_pct", "Cindra_total_pct", "Arakni, Web of Deceit_total_pct"])
 
 # Calculate percentages for each class
 def calculate_percentages(df, col_name):
-    types = ["Action", "Attack Reaction", "Instant", "Defense Reaction", "Block"] #Earth, Lightning, Wizard, Runeblade
+    types = ["Action", "Attack Reaction", "Instant", "Defense Reaction", "Block"]
     #keywords = ["Transcend", "Go again", "Stealth", "Ward", "Combo"]
     percentages = []
     
@@ -90,50 +89,59 @@ def calculate_percentages(df, col_name):
 card_types = ["Attack Action", "Non-Attack Action", "Attack Reaction", "Instant", "Defense Reaction", "Block"]
 card_types_data = {
     "Card Type": card_types,
-    "Florian": calculate_percentages(all_cards, 'Florian_total_pct'),
-    "Verdance": calculate_percentages(all_cards, 'Verdance_total_pct'),
-    "Oscilio": calculate_percentages(all_cards, 'Oscilio_total_pct'),
-    "Aurora": calculate_percentages(all_cards, 'Aurora_total_pct')
+    "Fang": calculate_percentages(all_cards, 'Fang_total_pct'),
+    "Cindra": calculate_percentages(all_cards, 'Cindra_total_pct'),
+    "Arakni, Web of Deceit": calculate_percentages(all_cards, 'Arakni, Web of Deceit_total_pct'),
 }
 card_types_df = pd.DataFrame(card_types_data)
 
 # Prepare equipment data
 all_equips = all_equips.reset_index()
-data = {"Name": [], "Florian": [], "Verdance": [], "Oscilio": [], "Aurora": []}
+data = {"Name": [], "Fang": [], "Cindra": [], "Arakni, Web of Deceit": []}
 
 for _, row in all_equips.iterrows():
     name = row['Name']
     data["Name"].append(name)
-    data["Florian"].append(row['Florian_total_pct'])
-    data["Verdance"].append(row['Verdance_total_pct'])
-    data["Oscilio"].append(row['Oscilio_total_pct'])
-    data["Aurora"].append(row['Aurora_total_pct'])
+    data["Fang"].append(row['Fang_total_pct'])
+    data["Cindra"].append(row['Cindra_total_pct'])
+    data["Arakni, Web of Deceit"].append(row['Arakni, Web of Deceit_total_pct'])
     
 equips_df = pd.DataFrame(data)
 
 
-# Function to prepare comparison data by rarity
-def prepare_data(df, type, heroes): #consider using rarity
-    #cards_by_rarity = df[df["rarity"] == rarity].sort_values(by="weighted_pct", ascending=False).reset_index()
-    selected_cards = df[df['Types'].str.contains(type)].sort_values(by="weighted_pct", ascending=False).reset_index()
+#consider using rarity
+def prepare_data(df, types_include, types_exclude, heroes): 
+    # Has to include all types from the type_include
+    if types_include:
+        for t in types_include:
+            df = df[df['Types'].str.contains(t)]
+
+    # Apply negative filter (exclude rows containing any type in types_exclude)
+    if types_exclude:
+        df = df[~df['Types'].str.contains('|'.join(types_exclude))]
+
+    selected_cards = df.sort_values(by="weighted_pct", ascending=False).reset_index()
+
+    # Prepare the data dictionary
     data = {"Name": []}
     for hero in heroes:
         data[hero] = []
+
+    # Populate the data dictionary
     for _, row in selected_cards.iterrows():
         data["Name"].append(row['Name'])
         for hero in heroes:
             data[hero].append(row[hero + '_total_pct'])
+
     return pd.DataFrame(data)
 
-#all_lightning_cards = all_cards[all_cards["Type"] == "Lightning"]
-lightning_df = prepare_data(all_cards, "Lightning", ["Oscilio", "Aurora"])
-earth_df = prepare_data(all_cards, "Earth", ["Florian", "Verdance"])
-runeblade_df = prepare_data(all_cards, "Runeblade", ["Florian", "Aurora"])
-wizard_df = prepare_data(all_cards, "Wizard", ["Verdance", "Oscilio"])
-generic_df = prepare_data(all_cards, "Generic", ["Florian", "Verdance", "Oscilio", "Aurora"])
+draconic_df = prepare_data(all_cards, ["Draconic"], ["Warrior", "Ninja"], ["Fang", "Cindra"])
+ninja_assassin_df = prepare_data(all_cards, ["Ninja", "Assassin"], [], ["Cindra", "Arakni, Web of Deceit"])
+warrior_assassin_df = prepare_data(all_cards, ["Warrior", "Assassin"], [], ["Fang", "Arakni, Web of Deceit"])
+generic_df = prepare_data(all_cards, ["Generic"], [], ["Fang", "Cindra", "Arakni, Web of Deceit"])
 
 # Define colors for each group
-custom_color_sequence = ['red', 'green', 'blue', "yellow"]
+custom_color_sequence = ['red', 'yellow', 'blue']
 
 # Function to create a Plotly bar figure
 def create_bar_figure(data, x_col, y_cols, title, yaxis_title, colors):
@@ -151,16 +159,15 @@ def save_chart_as_json(fig, filename):
 
 # Create and save figures
 figures = {
-    "pitch_distribution": (grouped_sum_pitch, "Pitch", ["Florian_total_pct", "Verdance_total_pct", "Oscilio_total_pct", "Aurora_total_pct"], "Percentage of cards", "Pitch Distribution", custom_color_sequence),
-    "defense_distribution": (grouped_sum_defense, "Defense", ["Florian_total_pct", "Verdance_total_pct", "Oscilio_total_pct", "Aurora_total_pct"], "Percentage of cards", "Defense Distribution", custom_color_sequence),
-    "cost_distribution": (grouped_sum_cost, "Cost", ["Florian_total_pct", "Verdance_total_pct", "Oscilio_total_pct", "Aurora_total_pct"], "Percentage of cards", "Cost Distribution", custom_color_sequence),
-    "card_types_keywords": (card_types_df, "Card Type", ["Florian", "Verdance", "Oscilio", "Aurora"], "Percentage of cards", "Card Types and Keywords", custom_color_sequence),
-    "equipment_comparison_classes": (equips_df, "Name", ["Florian", "Verdance", "Oscilio", "Aurora"], "Percentage of equipments", "Equipment Distribution Across Classes", custom_color_sequence),
-    "lightning_cards": (lightning_df, "Name", ["Oscilio", "Aurora"], "Percentage of cards", "Lightning Cards", ["blue", "yellow"]),
-    "earth_cards": (earth_df, "Name", ["Florian", "Verdance"], "Percentage of cards", "Earth Cards", ["red", "green"]),
-    "runeblade_cards": (runeblade_df, "Name", ["Florian", "Aurora"], "Percentage of cards", "Runeblade Cards", ["red", "yellow"]),
-    "wizard_cards": (wizard_df, "Name", ["Verdance", "Oscilio"], "Percentage of cards", "Wizard Cards", ["green", "blue"]),
-    "generic_cards": (generic_df, "Name", ["Florian", "Verdance", "Oscilio", "Aurora"], "Percentage of cards", "Generic Cards", custom_color_sequence),
+    "pitch_distribution": (grouped_sum_pitch, "Pitch", ["Fang_total_pct", "Cindra_total_pct", "Arakni, Web of Deceit_total_pct"], "Percentage of cards", "Pitch Distribution", custom_color_sequence),
+    "defense_distribution": (grouped_sum_defense, "Defense", ["Fang_total_pct", "Cindra_total_pct", "Arakni, Web of Deceit_total_pct"], "Percentage of cards", "Defense Distribution", custom_color_sequence),
+    "cost_distribution": (grouped_sum_cost, "Cost", ["Fang_total_pct", "Cindra_total_pct", "Arakni, Web of Deceit_total_pct"], "Percentage of cards", "Cost Distribution", custom_color_sequence),
+    "card_types_keywords": (card_types_df, "Card Type", ["Fang", "Cindra", "Arakni, Web of Deceit"], "Percentage of cards", "Card Types and Keywords", custom_color_sequence),
+    "equipment_comparison_classes": (equips_df, "Name", ["Fang", "Cindra", "Arakni, Web of Deceit"], "Percentage of equipments", "Equipment Distribution Across Classes", custom_color_sequence),
+    "pure_draconic_cards": (draconic_df, "Name", ["Fang", "Cindra"], "Percentage of cards", "Pure Draconic Cards", ["red", "yellow"]),
+    "ninja_assassin_cards": (ninja_assassin_df, "Name", ["Cindra", "Arakni, Web of Deceit"], "Percentage of cards", "Ninja/Assassin Cards", ["yellow", "blue"]),
+    "warrior_assassin_cards": (warrior_assassin_df, "Name", ["Fang", "Arakni, Web of Deceit"], "Percentage of cards", "Warrior/Assassin Cards", ["red", "blue"]),
+    "generic_cards": (generic_df, "Name", ["Fang", "Cindra", "Arakni, Web of Deceit"], "Percentage of cards", "Generic Cards", custom_color_sequence),
 }
 
 for filename, (data, x_col, y_col_list, yaxis_title, title, custom_color_sequence) in figures.items():
@@ -210,7 +217,7 @@ df['cumulative_count'] = df.groupby('name')['count'].cumsum()
 fig = px.line(df, x='date', y='cumulative_count', color='name', title='Cumulative Number of Decks Over Time', labels={
                      "cumulative_count": "Number of decks",
                      "date": "Date"
-                 },color_discrete_sequence=["yellow", "red", "blue", "green"])
+                 },color_discrete_sequence=["blue", "yellow", "red"])
 
 # Saving chart
 save_chart_as_json(fig, '../docs/vis_data/deck_statistics.json')
@@ -220,19 +227,19 @@ with open('../data/decks.json', 'r') as f:
     decks = json.load(f)
 
 # Calculating relevant stats
-heroes = ["Florian", "Verdance", "Oscilio", "Aurora"]
+heroes = ["Fang", "Cindra", "Arakni, Web of Deceit"]
 
-red_stats = {"Florian": {}, "Verdance": {}, "Oscilio": {}, "Aurora": {}}
-yellow_stats = {"Florian": {}, "Verdance": {}, "Oscilio": {}, "Aurora": {}}
-blue_stats = {"Florian": {}, "Verdance": {}, "Oscilio": {}, "Aurora": {}}
-lightning_stats = {"Florian": {}, "Verdance": {}, "Oscilio": {}, "Aurora": {}}
-earth_stats = {"Florian": {}, "Verdance": {}, "Oscilio": {}, "Aurora": {}}
-runeblade_stats = {"Florian": {}, "Verdance": {}, "Oscilio": {}, "Aurora": {}}
-wizard_stats = {"Florian": {}, "Verdance": {}, "Oscilio": {}, "Aurora": {}}
-generic_stats = {"Florian": {}, "Verdance": {}, "Oscilio": {}, "Aurora": {}}
-equip_stats = {"Florian": {}, "Verdance": {}, "Oscilio": {}, "Aurora": {}}
-card_stats = {"Florian": {}, "Verdance": {}, "Oscilio": {}, "Aurora": {}}
-total_stats = {"Florian": {}, "Verdance": {}, "Oscilio": {}, "Aurora": {}}
+red_stats = {"Fang": {}, "Cindra": {}, "Arakni, Web of Deceit": {}}
+yellow_stats = {"Fang": {}, "Cindra": {}, "Arakni, Web of Deceit": {}}
+blue_stats = {"Fang": {}, "Cindra": {}, "Arakni, Web of Deceit": {}}
+draconic_stats = {"Fang": {}, "Cindra": {}, "Arakni, Web of Deceit": {}}
+warrior_stats = {"Fang": {}, "Cindra": {}, "Arakni, Web of Deceit": {}}
+ninja_stats = {"Fang": {}, "Cindra": {}, "Arakni, Web of Deceit": {}}
+assassin_stats = {"Fang": {}, "Cindra": {}, "Arakni, Web of Deceit": {}}
+generic_stats = {"Fang": {}, "Cindra": {}, "Arakni, Web of Deceit": {}}
+equip_stats = {"Fang": {}, "Cindra": {}, "Arakni, Web of Deceit": {}}
+card_stats = {"Fang": {}, "Cindra": {}, "Arakni, Web of Deceit": {}}
+total_stats = {"Fang": {}, "Cindra": {}, "Arakni, Web of Deceit": {}}
 
 for hero in heroes:
     msg = f'# {hero} decks analysis  \n'
@@ -241,10 +248,10 @@ for hero in heroes:
         red_cards_number = 0
         yellow_cards_number = 0
         blue_cards_number = 0
-        lightning_card_number = 0
-        earth_card_number = 0
-        runeblade_card_number = 0
-        wizard_card_number = 0
+        draconic_card_number = 0
+        warrior_card_number = 0
+        ninja_card_number = 0
+        assassin_card_number = 0
         generic_card_number = 0
         for card in deck["cards"]:
             match cards.loc[card]["Pitch"]:
@@ -255,14 +262,14 @@ for hero in heroes:
                 case 3: 
                     blue_cards_number += 1
             card_types = cards.loc[card]["Types"]
-            if "Lightning" in card_types:
-                lightning_card_number += 1
-            if "Earth" in card_types:
-                earth_card_number += 1
-            if "Runeblade" in card_types:
-                runeblade_card_number += 1
-            if "Wizard" in card_types:
-                wizard_card_number += 1
+            if "Draconic" in card_types:
+                draconic_card_number += 1
+            if "Warrior" in card_types:
+                warrior_card_number += 1
+            if "Ninja" in card_types:
+                ninja_card_number += 1
+            if "Assassin" in card_types:
+                assassin_card_number += 1
             if "Generic" in card_types:
                 generic_card_number += 1
 
@@ -278,21 +285,21 @@ for hero in heroes:
             blue_stats[hero][blue_cards_number] = 0
         blue_stats[hero][blue_cards_number] += 1
 
-        if lightning_card_number not in lightning_stats[hero]:
-            lightning_stats[hero][lightning_card_number] = 0
-        lightning_stats[hero][lightning_card_number] += 1
+        if draconic_card_number not in draconic_stats[hero]:
+            draconic_stats[hero][draconic_card_number] = 0
+        draconic_stats[hero][draconic_card_number] += 1
 
-        if earth_card_number not in earth_stats[hero]:
-            earth_stats[hero][earth_card_number] = 0
-        earth_stats[hero][earth_card_number] += 1
+        if warrior_card_number not in warrior_stats[hero]:
+            warrior_stats[hero][warrior_card_number] = 0
+        warrior_stats[hero][warrior_card_number] += 1
 
-        if runeblade_card_number not in runeblade_stats[hero]:
-            runeblade_stats[hero][runeblade_card_number] = 0
-        runeblade_stats[hero][runeblade_card_number] += 1
+        if ninja_card_number not in ninja_stats[hero]:
+            ninja_stats[hero][ninja_card_number] = 0
+        ninja_stats[hero][ninja_card_number] += 1
 
-        if wizard_card_number not in wizard_stats[hero]:
-            wizard_stats[hero][wizard_card_number] = 0
-        wizard_stats[hero][wizard_card_number] += 1
+        if assassin_card_number not in assassin_stats[hero]:
+            assassin_stats[hero][assassin_card_number] = 0
+        assassin_stats[hero][assassin_card_number] += 1
 
         if generic_card_number not in generic_stats[hero]:
             generic_stats[hero][generic_card_number] = 0
@@ -310,18 +317,10 @@ for hero in heroes:
             total_stats[hero][len(deck["equips"]) + len(deck["cards"])] = 0
         total_stats[hero][len(deck["equips"]) + len(deck["cards"])] += 1
 
-# Correction
-lightning_stats["Florian"][0] = 0
-wizard_stats["Florian"][0] = 0
-
-lightning_stats["Verdance"][0] = 0
-runeblade_stats["Verdance"][0] = 0
-
-earth_stats["Oscilio"][0] = 0
-runeblade_stats["Oscilio"][0] = 0
-
-earth_stats["Aurora"][0] = 0
-wizard_stats["Aurora"][0] = 0
+# Correction to avoid initial spike if the class cannot play cards
+ninja_stats["Fang"][0] = 0
+warrior_stats["Cindra"][0] = 0
+draconic_stats["Arakni, Web of Deceit"][0] = 0
 
 # Function to create a DataFrame from the dictionary using global min and max
 def create_dataframe(data_dict):
@@ -355,10 +354,10 @@ data_dicts = {
     "Number of red cards": red_stats,
     "Number of yellow cards": yellow_stats,
     "Number of blue cards": blue_stats,
-    "Number of lightning cards": lightning_stats,
-    "Number of earth cards": earth_stats,
-    "Number of runeblade cards": runeblade_stats,
-    "Number of wizard cards": wizard_stats,
+    "Number of draconic cards": draconic_stats,
+    "Number of warrior cards": warrior_stats,
+    "Number of ninja cards": ninja_stats,
+    "Number of assassin cards": assassin_stats,
     "Number of generic cards": generic_stats,
     "Number of equipment cards": equip_stats,
     "Number of non-equipment cards": card_stats,
