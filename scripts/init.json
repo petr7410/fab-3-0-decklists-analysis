@@ -103,7 +103,7 @@
                     "data": ["Fang_average_count_per_deck", "Fang_average_count_per_normalized_deck", "Fang_pick_rate", "Fang_total_count"],
                     "data_name": ["Fang average number of card per deck", "Fang average number of card per 30-card deck", "Fang Pick rate", "Fang Overall number"],
                     "bonus_data": ["rarity", "Types", "Card Keywords"],
-                    "name": "Top 20 common cards",
+                    "name": "Common cards",
                     "data_table": true
                 },
                 "rare_cards": {
@@ -117,7 +117,7 @@
                     "data": ["Fang_average_count_per_deck", "Fang_average_count_per_normalized_deck", "Fang_pick_rate", "Fang_total_count"],
                     "data_name": ["Fang average number of card per deck", "Fang average number of card per 30-card deck", "Fang Pick rate", "Fang Overall number"],
                     "bonus_data": ["rarity", "Types", "Card Keywords"],
-                    "name": "Rare Cards",
+                    "name": "Rare cards",
                     "data_table": true
                 },
                 "mythic_cards": {
@@ -142,7 +142,7 @@
                     "data": ["Fang_average_count_per_deck", "Fang_pick_rate", "Fang_total_count"],
                     "data_name": ["Fang average number of card per deck", "Fang Pick rate", "Fang Overall number"],
                     "bonus_data": ["rarity", "Types", "Card Keywords"],
-                    "name": "Equipment Cards",
+                    "name": "Equipment cards",
                     "data_table": true
                 },
                 "attack_action_cards": {
@@ -360,7 +360,7 @@
                     "data": ["Cindra_average_count_per_deck", "Cindra_average_count_per_normalized_deck", "Cindra_pick_rate", "Cindra_total_count"],
                     "data_name": ["Cindra average number of card per deck", "Cindra average number of card per 30-card deck", "Cindra Pick rate", "Cindra Overall number"],
                     "bonus_data": ["rarity", "Types", "Card Keywords"],
-                    "name": "Top 20 common cards",
+                    "name": "Common cards",
                     "data_table": true
                 },
                 "rare_cards": {
@@ -374,7 +374,7 @@
                     "data": ["Cindra_average_count_per_deck", "Cindra_average_count_per_normalized_deck", "Cindra_pick_rate", "Cindra_total_count"],
                     "data_name": ["Cindra average number of card per deck", "Cindra average number of card per 30-card deck", "Cindra Pick rate", "Cindra Overall number"],
                     "bonus_data": ["rarity", "Types", "Card Keywords"],
-                    "name": "Rare Cards",
+                    "name": "Rare cards",
                     "data_table": true
                 },
                 "mythic_cards": {
@@ -399,7 +399,7 @@
                     "data": ["Cindra_average_count_per_deck", "Cindra_pick_rate", "Cindra_total_count"],
                     "data_name": ["Cindra average number of card per deck", "Cindra Pick rate", "Cindra Overall number"],
                     "bonus_data": ["rarity", "Types", "Card Keywords"],
-                    "name": "Equipment Cards",
+                    "name": "Equipment cards",
                     "data_table": true
                 },
                 "attack_action_cards": {
@@ -614,7 +614,7 @@
                     "data": ["Arakni, Web of Deceit_average_count_per_deck", "Arakni, Web of Deceit_average_count_per_normalized_deck", "Arakni, Web of Deceit_pick_rate", "Arakni, Web of Deceit_total_count"],
                     "data_name": ["Arakni, Web of Deceit average number of card per deck", "Arakni, Web of Deceit average number of card per 30-card deck", "Arakni, Web of Deceit Pick rate", "Arakni, Web of Deceit Overall number"],
                     "bonus_data": ["rarity", "Types", "Card Keywords"],
-                    "name": "Top 20 common cards",
+                    "name": "Common cards",
                     "data_table": true
                 },
                 "rare_cards": {
@@ -628,7 +628,7 @@
                     "data": ["Arakni, Web of Deceit_average_count_per_deck", "Arakni, Web of Deceit_average_count_per_normalized_deck", "Arakni, Web of Deceit_pick_rate", "Arakni, Web of Deceit_total_count"],
                     "data_name": ["Arakni, Web of Deceit average number of card per deck", "Arakni, Web of Deceit average number of card per 30-card deck", "Arakni, Web of Deceit Pick rate", "Arakni, Web of Deceit Overall number"],
                     "bonus_data": ["rarity", "Types", "Card Keywords"],
-                    "name": "Rare Cards",
+                    "name": "Rare cards",
                     "data_table": true
                 },
                 "mythic_cards": {
@@ -653,7 +653,7 @@
                     "data": ["Arakni, Web of Deceit_average_count_per_deck", "Arakni, Web of Deceit_pick_rate", "Arakni, Web of Deceit_total_count"],
                     "data_name": ["Arakni, Web of Deceit average number of card per deck", "Arakni, Web of Deceit Pick rate", "Arakni, Web of Deceit Overall number"],
                     "bonus_data": ["rarity", "Types", "Card Keywords"],
-                    "name": "Equipment Cards",
+                    "name": "Equipment cards",
                     "data_table": true
                 },
                 "attack_action_cards": {

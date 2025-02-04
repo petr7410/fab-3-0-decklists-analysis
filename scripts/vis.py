@@ -141,7 +141,7 @@ warrior_assassin_df = prepare_data(all_cards, ["Warrior", "Assassin"], [], ["Fan
 generic_df = prepare_data(all_cards, ["Generic"], [], ["Fang", "Cindra", "Arakni, Web of Deceit"])
 
 # Define colors for each group
-custom_color_sequence = ['red', 'yellow', 'blue']
+custom_color_sequence = ['red', '#ffd901', 'blue']
 
 # Function to create a Plotly bar figure
 def create_bar_figure(data, x_col, y_cols, title, yaxis_title, colors):
@@ -164,8 +164,8 @@ figures = {
     "cost_distribution": (grouped_sum_cost, "Cost", ["Fang_total_pct", "Cindra_total_pct", "Arakni, Web of Deceit_total_pct"], "Percentage of cards", "Cost Distribution", custom_color_sequence),
     "card_types_keywords": (card_types_df, "Card Type", ["Fang", "Cindra", "Arakni, Web of Deceit"], "Percentage of cards", "Card Types and Keywords", custom_color_sequence),
     "equipment_comparison_classes": (equips_df, "Name", ["Fang", "Cindra", "Arakni, Web of Deceit"], "Percentage of equipments", "Equipment Distribution Across Classes", custom_color_sequence),
-    "pure_draconic_cards": (draconic_df, "Name", ["Fang", "Cindra"], "Percentage of cards", "Pure Draconic Cards", ["red", "yellow"]),
-    "ninja_assassin_cards": (ninja_assassin_df, "Name", ["Cindra", "Arakni, Web of Deceit"], "Percentage of cards", "Ninja/Assassin Cards", ["yellow", "blue"]),
+    "pure_draconic_cards": (draconic_df, "Name", ["Fang", "Cindra"], "Percentage of cards", "Pure Draconic Cards", ["red", "#ffd901"]),
+    "ninja_assassin_cards": (ninja_assassin_df, "Name", ["Cindra", "Arakni, Web of Deceit"], "Percentage of cards", "Ninja/Assassin Cards", ["#ffd901", "blue"]),
     "warrior_assassin_cards": (warrior_assassin_df, "Name", ["Fang", "Arakni, Web of Deceit"], "Percentage of cards", "Warrior/Assassin Cards", ["red", "blue"]),
     "generic_cards": (generic_df, "Name", ["Fang", "Cindra", "Arakni, Web of Deceit"], "Percentage of cards", "Generic Cards", custom_color_sequence),
 }
@@ -187,37 +187,23 @@ for name, date_counts in decks_by_date_counts.items():
 
 df = pd.DataFrame(data, columns=['date', 'name', 'count'])
 
-# Determine the overall minimum and maximum dates
-start_date = df['date'].min()
-end_date = df['date'].max()
+# Generate a full date range
+date_range = pd.date_range(df['date'].min(), df['date'].max())
 
-# Ensure each key has entries at the overall minimum and maximum dates
-new_data = []
-for name in df['name'].unique():
-    name_df = df[df['name'] == name]
-    
-    if start_date not in name_df['date'].values:
-        new_data.append((start_date, name, 0))
-        
-    if end_date not in name_df['date'].values:
-        new_data.append((end_date, name, 0))
+# Ensure each name has all dates
+all_names = df['name'].unique()
+full_index = pd.MultiIndex.from_product([all_names, date_range], names=['name', 'date'])
 
-# Append the new data to the DataFrame
-if new_data:
-    new_df = pd.DataFrame(new_data, columns=['date', 'name', 'count'])
-    df = pd.concat([df, new_df])
-
-# Sort the DataFrame by date
-df = df.sort_values(['name', 'date'])
+# Reindex the DataFrame to fill missing dates
+df = df.set_index(['name', 'date']).reindex(full_index, fill_value=0).reset_index()
 
 # Calculate the cumulative count for each name
 df['cumulative_count'] = df.groupby('name')['count'].cumsum()
 
 # Create the line chart
-fig = px.line(df, x='date', y='cumulative_count', color='name', title='Cumulative Number of Decks Over Time', labels={
-                     "cumulative_count": "Number of decks",
-                     "date": "Date"
-                 },color_discrete_sequence=["blue", "yellow", "red"])
+fig = px.line(df, x='date', y='cumulative_count', color='name', title='Cumulative Number of Decks Over Time',
+              labels={"cumulative_count": "Number of decks", "date": "Date"},
+              color_discrete_sequence=["blue", "red", "#ffd901"])
 
 # Saving chart
 save_chart_as_json(fig, '../docs/vis_data/deck_statistics.json')

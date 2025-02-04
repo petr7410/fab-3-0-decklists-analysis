@@ -3145,3 +3145,191 @@ Made with ❤️ at the FaBrary
 See the full deck @ https://fabrary.net/decks/01JK40C35CQKG606GM1GCBPJ2J
 
 
+2025-02-03 07:31:16
+Name: New Fang Draft Deck
+Hero: Fang
+Format: Draft
+
+Arena cards
+1x Blade Beckoner Helm
+2x Obsidian Fire Vein
+1x Red Alert Boots
+1x Red Alert Gloves
+1x Red Alert Vest
+
+Deck cards
+1x Blaze Headlong (red)
+1x Blistering Blade (red)
+1x Cut Deep (red)
+1x Hunt a Killer (red)
+1x Hunt the Hunter (red)
+1x Knife Through Butter (red)
+1x March of Loyalty (red)
+1x Pledge Fealty (red)
+1x Proclaim Vengeance (red)
+1x Pursue to the Edge of Oblivion (red)
+1x Rake Over the Coals (red)
+1x Savor Bloodshed (red)
+1x Scalding Iron (red)
+1x Searing Gaze (red)
+1x Sigil of Solace (red)
+1x Sizzling Steel (red)
+1x Smoke Out (red)
+2x Sworn Vengeance (red)
+1x Tooth of the Dragon (red)
+1x Agility Stance (yellow)
+1x Hunt a Killer (yellow)
+1x Incision (yellow)
+2x Knife Through Butter (yellow)
+1x Perforate (yellow)
+1x Scar Tissue (yellow)
+1x Sworn Vengeance (yellow)
+3x Cut Deep (blue)
+1x Hunt a Killer (blue)
+1x Knife Through Butter (blue)
+1x Point of Engagement (blue)
+1x Sworn Vengeance (blue)
+1x To the Point (blue)
+1x Trot Along (blue)
+
+Made with ❤️ at the FaBrary
+See the full deck @ https://fabrary.net/decks/01JK559HM2EX43MFAV81CFJMG4
+
+
+2025-02-03 17:35:13
+Name: New Fang Draft Deck
+Hero: Fang
+Format: Draft
+
+Arena cards
+1x Blade Beckoner Plating
+2x Obsidian Fire Vein
+1x Red Alert Boots
+1x Red Alert Gloves
+
+Deck cards
+2x Blessing of Vynserakai (red)
+1x Cut Deep (red)
+1x Drop of Dragon Blood (red)
+1x For the Emperor (red)
+1x Hunt a Killer (red)
+1x Imperial Intent (red)
+1x Orb-Weaver Spinneret (red)
+1x Outed (red)
+3x Pledge Fealty (red)
+3x Point of Engagement (red)
+1x Proclaim Vengeance (red)
+1x Pursue to the Edge of Oblivion (red)
+1x Pursue to the Pits of Despair (red)
+1x Scalding Iron (red)
+1x Searing Gaze (red)
+2x Sworn Vengeance (red)
+1x Tag the Target (red)
+3x To the Point (red)
+1x Twist and Turn (red)
+1x Incision (yellow)
+1x Pick Up the Point (yellow)
+1x Tag the Target (yellow)
+1x Cut from the Same Cloth (blue)
+1x Power Stance (blue)
+1x Put in Context (blue)
+1x Scar Tissue (blue)
+2x Sworn Vengeance (blue)
+1x Take a Stab (blue)
+2x Twist and Turn (blue)
+
+Made with ❤️ at the FaBrary
+See the full deck @ https://fabrary.net/decks/01JK67B1TNX6VG7ZX8EEV5MEHB
+
+
+2025-02-03 18:35:52
+Name: New Cindra Draft Deck
+Hero: Cindra
+Format: Draft
+
+Arena cards
+1x Coat of Allegiance
+2x Kunai of Retribution
+1x Leap Frog Leggings
+1x Leap Frog Vocal Sac
+1x Red Alert Gloves
+
+Deck cards
+2x Blaze Headlong (red)
+1x Blood Drop (red)
+2x Blood Line (red)
+2x Compounding Anger (red)
+1x Dragon Power (red)
+1x Dust Runner Outlaw (red)
+1x Fire Tenet: Strike First (red)
+1x For the Dracai (red)
+1x For the Realm (red)
+1x Hot on Their Heels (red)
+1x Hunt to the Ends of Rathe (red)
+2x Lava Vein Loyalty (red)
+1x March of Loyalty (red)
+1x Ronin Renegade (red)
+1x Silver Talons (red)
+1x Smoke Out (red)
+3x Tag the Target (red)
+1x Trap and Release (red)
+1x Wrath of Retribution (red)
+1x Dragon Power (yellow)
+1x Fire Tenet: Strike First (yellow)
+1x Plunge the Prospect (yellow)
+1x Tag the Target (yellow)
+1x Trap and Release (yellow)
+1x Diced (blue)
+3x Grow Claws (blue)
+1x Nip at the Heels (blue)
+1x Relentless Pursuit (blue)
+1x Tag the Target (blue)
+
+Made with ❤️ at the FaBrary
+See the full deck @ https://fabrary.net/decks/01JK6B7AZYE5QNNSTMFF6D2QZA
+
+
+2025-02-03 21:04:13
+Name: Cindra 3-0
+Hero: Cindra
+Format: Draft
+
+Arena cards
+1x Danger Digits
+1x Heart of Vengeance
+2x Kunai of Retribution
+1x Leap Frog Leggings
+1x Vow of Vengeance
+
+Deck cards
+2x Blaze Headlong (red)
+3x Blood Line (red)
+2x Blood Runs Deep (red)
+1x Cinderskin Devotion (red)
+1x Display Loyalty (red)
+1x Dust Runner Outlaw (red)
+4x Fire Tenet: Strike First (red)
+2x Grow Claws (red)
+1x Hot on Their Heels (red)
+1x Lava Vein Loyalty (red)
+2x Mark with Magma (red)
+2x Ronin Renegade (red)
+1x Silver Talons (red)
+1x Trap and Release (red)
+1x Dragon Power (yellow)
+2x Fire Tenet: Strike First (yellow)
+1x Grow Claws (yellow)
+1x Grow Wings (yellow)
+1x Tag the Target (yellow)
+1x Dragon Power (blue)
+1x Fire Tenet: Strike First (blue)
+1x Grow Wings (blue)
+1x Poisoned Blade (blue)
+1x Silver Talons (blue)
+1x Throw Yourself at Them (blue)
+2x Trap and Release (blue)
+
+Made with ❤️ at the FaBrary
+See the full deck @ https://fabrary.net/decks/01JK6PJRH4Y5RT7Q3TQP3PW6E0
+
+
