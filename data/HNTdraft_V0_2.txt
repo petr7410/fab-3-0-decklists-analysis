@@ -973,7 +973,7 @@
         "collector_number": "HNT116",
         "type": "Warrior, Attack Reaction",
         "image_uris": {
-           "en": "https://storage.googleapis.com/fabmaster/cardfaces/2025-HNT/ENspecial"
+           "en": "https://storage.googleapis.com/fabmaster/cardfaces/2025-HNT/EN/HNT116.png"
         }
     },
     {

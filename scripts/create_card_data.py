@@ -315,7 +315,9 @@ for j in range(len(deck_draft)):
     for deck in deck_draft[j]:
         draft_file_average = [0] * len(deck_draft)
         for card in deck["cards"]:
-            for i in range(len(deck_draft)):
+            if card == "Cracked Bauble (yellow)": #Fix for Cracked Bauble as it cannot be drafted
+                continue
+            for i in range(len(deck_draft)):                    
                 draft_file_average[i] += draft_files_prob_distribution[i][card]
         for card in deck["equips"]:
             for i in range(len(draft_files_prob_distribution)):
