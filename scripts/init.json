@@ -6,9 +6,9 @@
     "files": {
         "all_cards": "../data/all_cards.csv",
         "decks": "../data/decks.txt",
-        "draft_files": ["../data/HNTdraft_V0_2.txt", "../data/HNTdraft_V1_0.txt"]
+        "draft_files": ["../data/HNTdraft_V0_2.txt", "../data/HNTdraft_V1_0.txt", "../data/HNTdraft_V1_1.txt"]
     },
-    "draft_file_date": ["2025-01-01 0:00:00", "2025-01-30 16:00:00"],
+    "draft_file_date": ["2025-01-01 0:00:00", "2025-01-30 16:00:00", "2025-02-25 00:00:00"],
     "save": {
         "decks_stats": "../data/decks_stats.json",
         "decks_by_date_counts": "../data/decks_by_date_counts.json",
@@ -921,8 +921,8 @@
             "data": {
                 "all_cards": {
                     "sort": "weighted_pick_rate",
-                    "data": ["weighted_pick_rate", "pick_rate", "total_count", "average_count_per_deck", "average_count_per_normalized_deck", "draft_average_occurrence1", "draft_average_occurrence2"],
-                    "data_name": ["Weighted pick rate", "Pick rate", "Overall number", "Average number of card per deck", "Average number of card per 30-card deck", "First Draft File average occurrence", "Second Draft File average occurrence"],
+                    "data": ["weighted_pick_rate", "pick_rate", "total_count", "average_count_per_deck", "average_count_per_normalized_deck", "draft_average_occurrence1", "draft_average_occurrence2", "draft_average_occurrence3"],
+                    "data_name": ["Weighted pick rate", "Pick rate", "Overall number", "Average number of card per deck", "Average number of card per 30-card deck", "First Draft File average occurrence", "Second Draft File average occurrence", "Third Draft File average occurrence"],
                     "bonus_data": ["rarity", "Types", "Card Keywords"],
                     "name": "All cards",
                     "data_table": true

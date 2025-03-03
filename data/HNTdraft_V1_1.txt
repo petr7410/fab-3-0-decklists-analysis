@@ -1,0 +1,3712 @@
+[Settings]
+{
+    "showSlots": true,
+    "withReplacement": false,
+    "cardBack": "https://d2h5owxb2ypf43.cloudfront.net/cards/cardback.webp",
+}
+[CustomCards]
+[
+    {
+        "name": "Kiss of Death (red)",
+        "rarity": "mythic",
+        "mana_cost": "1",
+        "collector_number": "HNT012",
+        "type": "Assassin, Action, Dagger, Attack",
+        "image_uris": {
+           "en": "https://storage.googleapis.com/fabmaster/cardfaces/2025-HNT/EN/HNT012.png"
+        }
+    },
+    {
+        "name": "Under the Trap-Door (blue)",
+        "rarity": "mythic",
+        "mana_cost": "3",
+        "collector_number": "HNT013",
+        "type": "Assassin, Action, Attack",
+        "image_uris": {
+           "en": "https://storage.googleapis.com/fabmaster/cardfaces/2025-HNT/EN/HNT013.png"
+        }
+    },
+    {
+        "name": "Take Up the Mantle (yellow)",
+        "rarity": "mythic",
+        "mana_cost": "2",
+        "collector_number": "HNT014",
+        "type": "Assassin, Attack Reaction",
+        "image_uris": {
+           "en": "https://storage.googleapis.com/fabmaster/cardfaces/2025-HNT/EN/HNT014.png"
+        }
+    },
+    {
+        "name": "Tarantula Toxin (red)",
+        "rarity": "mythic",
+        "mana_cost": "1",
+        "collector_number": "HNT015",
+        "type": "Assassin, Attack Reaction",
+        "image_uris": {
+           "en": "https://storage.googleapis.com/fabmaster/cardfaces/2025-HNT/EN/HNT015.png"
+        }
+    },
+    {
+        "name": "Anaphylactic Shock (blue)",
+        "rarity": "mythic",
+        "mana_cost": "3",
+        "collector_number": "HNT016",
+        "type": "Assassin, Instant, Trap",
+        "image_uris": {
+           "en": "https://storage.googleapis.com/fabmaster/cardfaces/2025-HNT/EN/HNT016.png"
+        }
+    },
+    {
+        "name": "Bite (red)",
+        "rarity": "rare",
+        "mana_cost": "1",
+        "collector_number": "HNT017",
+        "type": "Assassin, Action, Attack",
+        "image_uris": {
+           "en": "https://storage.googleapis.com/fabmaster/cardfaces/2025-HNT/EN/HNT017.png"
+        }
+    },
+    {
+        "name": "Bite (yellow)",
+        "rarity": "rare",
+        "mana_cost": "2",
+        "collector_number": "HNT018",
+        "type": "Assassin, Action, Attack",
+        "image_uris": {
+           "en": "https://storage.googleapis.com/fabmaster/cardfaces/2025-HNT/EN/HNT018.png"
+        }
+    },
+    {
+        "name": "Bite (blue)",
+        "rarity": "rare",
+        "mana_cost": "3",
+        "collector_number": "HNT019",
+        "type": "Assassin, Action, Attack",
+        "image_uris": {
+           "en": "https://storage.googleapis.com/fabmaster/cardfaces/2025-HNT/EN/HNT019.png"
+        }
+    },
+    {
+        "name": "Whittle from Bone (red)",
+        "rarity": "rare",
+        "mana_cost": "1",
+        "collector_number": "HNT020",
+        "type": "Assassin, Action, Attack",
+        "image_uris": {
+           "en": "https://storage.googleapis.com/fabmaster/cardfaces/2025-HNT/EN/HNT020.png"
+        }
+    },
+    {
+        "name": "Whittle from Bone (yellow)",
+        "rarity": "rare",
+        "mana_cost": "2",
+        "collector_number": "HNT021",
+        "type": "Assassin, Action, Attack",
+        "image_uris": {
+           "en": "https://storage.googleapis.com/fabmaster/cardfaces/2025-HNT/EN/HNT021.png"
+        }
+    },
+    {
+        "name": "Whittle from Bone (blue)",
+        "rarity": "rare",
+        "mana_cost": "3",
+        "collector_number": "HNT022",
+        "type": "Assassin, Action, Attack",
+        "image_uris": {
+           "en": "https://storage.googleapis.com/fabmaster/cardfaces/2025-HNT/EN/HNT022.png"
+        }
+    },
+    {
+        "name": "Stains of the Redback (red)",
+        "rarity": "rare",
+        "mana_cost": "1",
+        "collector_number": "HNT023",
+        "type": "Assassin, Attack Reaction",
+        "image_uris": {
+           "en": "https://storage.googleapis.com/fabmaster/cardfaces/2025-HNT/EN/HNT023.png"
+        }
+    },
+    {
+        "name": "Stains of the Redback (yellow)",
+        "rarity": "rare",
+        "mana_cost": "2",
+        "collector_number": "HNT024",
+        "type": "Assassin, Attack Reaction",
+        "image_uris": {
+           "en": "https://storage.googleapis.com/fabmaster/cardfaces/2025-HNT/EN/HNT024.png"
+        }
+    },
+    {
+        "name": "Stains of the Redback (blue)",
+        "rarity": "rare",
+        "mana_cost": "3",
+        "collector_number": "HNT025",
+        "type": "Assassin, Attack Reaction",
+        "image_uris": {
+           "en": "https://storage.googleapis.com/fabmaster/cardfaces/2025-HNT/EN/HNT025.png"
+        }
+    },
+    {
+        "name": "Orb-Weaver Spinneret (red)",
+        "rarity": "rare",
+        "mana_cost": "1",
+        "collector_number": "HNT026",
+        "type": "Assassin, Action",
+        "image_uris": {
+           "en": "https://storage.googleapis.com/fabmaster/cardfaces/2025-HNT/EN/HNT026.png"
+        }
+    },
+    {
+        "name": "Orb-Weaver Spinneret (yellow)",
+        "rarity": "rare",
+        "mana_cost": "2",
+        "collector_number": "HNT027",
+        "type": "Assassin, Action",
+        "image_uris": {
+           "en": "https://storage.googleapis.com/fabmaster/cardfaces/2025-HNT/EN/HNT027.png"
+        }
+    },
+    {
+        "name": "Orb-Weaver Spinneret (blue)",
+        "rarity": "rare",
+        "mana_cost": "3",
+        "collector_number": "HNT028",
+        "type": "Assassin, Action",
+        "image_uris": {
+           "en": "https://storage.googleapis.com/fabmaster/cardfaces/2025-HNT/EN/HNT028.png"
+        }
+    },
+    {
+        "name": "Back Stab (red)",
+        "rarity": "common",
+        "mana_cost": "1",
+        "collector_number": "HNT029",
+        "type": "Assassin, Action, Attack",
+        "image_uris": {
+           "en": "https://storage.googleapis.com/fabmaster/cardfaces/2025-HNT/EN/HNT029.png"
+        }
+    },
+    {
+        "name": "Defang the Dragon (red)",
+        "rarity": "common",
+        "mana_cost": "1",
+        "collector_number": "HNT030",
+        "type": "Assassin, Action, Attack",
+        "image_uris": {
+           "en": "https://storage.googleapis.com/fabmaster/cardfaces/2025-HNT/EN/HNT030.png"
+        }
+    },
+    {
+        "name": "Extinguish the Flames (red)",
+        "rarity": "common",
+        "mana_cost": "1",
+        "collector_number": "HNT031",
+        "type": "Assassin, Action, Attack",
+        "image_uris": {
+           "en": "https://storage.googleapis.com/fabmaster/cardfaces/2025-HNT/EN/HNT031.png"
+        }
+    },
+    {
+        "name": "Mark of the Black Widow (red)",
+        "rarity": "common",
+        "mana_cost": "1",
+        "collector_number": "HNT032",
+        "type": "Assassin, Action, Attack",
+        "image_uris": {
+           "en": "https://storage.googleapis.com/fabmaster/cardfaces/2025-HNT/EN/HNT032.png"
+        }
+    },
+    {
+        "name": "Mark of the Black Widow (yellow)",
+        "rarity": "common",
+        "mana_cost": "2",
+        "collector_number": "HNT033",
+        "type": "Assassin, Action, Attack",
+        "image_uris": {
+           "en": "https://storage.googleapis.com/fabmaster/cardfaces/2025-HNT/EN/HNT033.png"
+        }
+    },
+    {
+        "name": "Mark of the Black Widow (blue)",
+        "rarity": "common",
+        "mana_cost": "3",
+        "collector_number": "HNT034",
+        "type": "Assassin, Action, Attack",
+        "image_uris": {
+           "en": "https://storage.googleapis.com/fabmaster/cardfaces/2025-HNT/EN/HNT034.png"
+        }
+    },
+    {
+        "name": "Mark of the Funnel Web (red)",
+        "rarity": "common",
+        "mana_cost": "1",
+        "collector_number": "HNT035",
+        "type": "Assassin, Action, Attack",
+        "image_uris": {
+           "en": "https://storage.googleapis.com/fabmaster/cardfaces/2025-HNT/EN/HNT035.png"
+        }
+    },
+    {
+        "name": "Mark of the Funnel Web (yellow)",
+        "rarity": "common",
+        "mana_cost": "2",
+        "collector_number": "HNT036",
+        "type": "Assassin, Action, Attack",
+        "image_uris": {
+           "en": "https://storage.googleapis.com/fabmaster/cardfaces/2025-HNT/EN/HNT036.png"
+        }
+    },
+    {
+        "name": "Mark of the Funnel Web (blue)",
+        "rarity": "common",
+        "mana_cost": "3",
+        "collector_number": "HNT037",
+        "type": "Assassin, Action, Attack",
+        "image_uris": {
+           "en": "https://storage.googleapis.com/fabmaster/cardfaces/2025-HNT/EN/HNT037.png"
+        }
+    },
+    {
+        "name": "Mark the Prey (red)",
+        "rarity": "common",
+        "mana_cost": "1",
+        "collector_number": "HNT038",
+        "type": "Assassin, Action, Attack",
+        "image_uris": {
+           "en": "https://storage.googleapis.com/fabmaster/cardfaces/2025-HNT/EN/HNT038.png"
+        }
+    },
+    {
+        "name": "Mark the Prey (yellow)",
+        "rarity": "common",
+        "mana_cost": "2",
+        "collector_number": "HNT039",
+        "type": "Assassin, Action, Attack",
+        "image_uris": {
+           "en": "https://storage.googleapis.com/fabmaster/cardfaces/2025-HNT/EN/HNT039.png"
+        }
+    },
+    {
+        "name": "Mark the Prey (blue)",
+        "rarity": "common",
+        "mana_cost": "3",
+        "collector_number": "HNT040",
+        "type": "Assassin, Action, Attack",
+        "image_uris": {
+           "en": "https://storage.googleapis.com/fabmaster/cardfaces/2025-HNT/EN/HNT040.png"
+        }
+    },
+    {
+        "name": "Plunge the Prospect (red)",
+        "rarity": "common",
+        "mana_cost": "1",
+        "collector_number": "HNT041",
+        "type": "Assassin, Action, Attack",
+        "image_uris": {
+           "en": "https://storage.googleapis.com/fabmaster/cardfaces/2025-HNT/EN/HNT041.png"
+        }
+    },
+    {
+        "name": "Plunge the Prospect (yellow)",
+        "rarity": "common",
+        "mana_cost": "2",
+        "collector_number": "HNT042",
+        "type": "Assassin, Action, Attack",
+        "image_uris": {
+           "en": "https://storage.googleapis.com/fabmaster/cardfaces/2025-HNT/EN/HNT042.png"
+        }
+    },
+    {
+        "name": "Plunge the Prospect (blue)",
+        "rarity": "common",
+        "mana_cost": "3",
+        "collector_number": "HNT043",
+        "type": "Assassin, Action, Attack",
+        "image_uris": {
+           "en": "https://storage.googleapis.com/fabmaster/cardfaces/2025-HNT/EN/HNT043.png"
+        }
+    },
+    {
+        "name": "Reaper's Call (red)",
+        "rarity": "common",
+        "mana_cost": "1",
+        "collector_number": "HNT044",
+        "type": "Assassin, Action, Attack",
+        "image_uris": {
+           "en": "https://storage.googleapis.com/fabmaster/cardfaces/2025-HNT/EN/HNT044.png"
+        }
+    },
+    {
+        "name": "Reaper's Call (yellow)",
+        "rarity": "common",
+        "mana_cost": "2",
+        "collector_number": "HNT045",
+        "type": "Assassin, Action, Attack",
+        "image_uris": {
+           "en": "https://storage.googleapis.com/fabmaster/cardfaces/2025-HNT/EN/HNT045.png"
+        }
+    },
+    {
+        "name": "Reaper's Call (blue)",
+        "rarity": "common",
+        "mana_cost": "3",
+        "collector_number": "HNT046",
+        "type": "Assassin, Action, Attack",
+        "image_uris": {
+           "en": "https://storage.googleapis.com/fabmaster/cardfaces/2025-HNT/EN/HNT046.png"
+        }
+    },
+    {
+        "name": "Scuttle the Canal (red)",
+        "rarity": "common",
+        "mana_cost": "1",
+        "collector_number": "HNT047",
+        "type": "Assassin, Action, Attack",
+        "image_uris": {
+           "en": "https://storage.googleapis.com/fabmaster/cardfaces/2025-HNT/EN/HNT047.png"
+        }
+    },
+    {
+        "name": "Scuttle the Canal (yellow)",
+        "rarity": "common",
+        "mana_cost": "2",
+        "collector_number": "HNT048",
+        "type": "Assassin, Action, Attack",
+        "image_uris": {
+           "en": "https://storage.googleapis.com/fabmaster/cardfaces/2025-HNT/EN/HNT048.png"
+        }
+    },
+    {
+        "name": "Scuttle the Canal (blue)",
+        "rarity": "common",
+        "mana_cost": "3",
+        "collector_number": "HNT049",
+        "type": "Assassin, Action, Attack",
+        "image_uris": {
+           "en": "https://storage.googleapis.com/fabmaster/cardfaces/2025-HNT/EN/HNT049.png"
+        }
+    },
+    {
+        "name": "Razor's Edge (red)",
+        "rarity": "common",
+        "mana_cost": "1",
+        "collector_number": "HNT050",
+        "type": "Assassin, Attack Reaction",
+        "image_uris": {
+           "en": "https://storage.googleapis.com/fabmaster/cardfaces/2025-HNT/EN/HNT050.png"
+        }
+    },
+    {
+        "name": "Two Sides to the Blade (red)",
+        "rarity": "common",
+        "mana_cost": "1",
+        "collector_number": "HNT051",
+        "type": "Assassin, Attack Reaction",
+        "image_uris": {
+           "en": "https://storage.googleapis.com/fabmaster/cardfaces/2025-HNT/EN/HNT051.png"
+        }
+    },
+    {
+        "name": "Hunted or Hunter (red)",
+        "rarity": "common",
+        "mana_cost": "1",
+        "collector_number": "HNT052",
+        "type": "Assassin, Defense Reaction, Trap",
+        "image_uris": {
+           "en": "https://storage.googleapis.com/fabmaster/cardfaces/2025-HNT/EN/HNT052.png"
+        }
+    },
+    {
+        "name": "Blood Runs Deep (red)",
+        "rarity": "mythic",
+        "mana_cost": "1",
+        "collector_number": "HNT057",
+        "type": "Draconic, Ninja, Action, Attack",
+        "image_uris": {
+           "en": "https://storage.googleapis.com/fabmaster/cardfaces/2025-HNT/EN/HNT057.png"
+        }
+    },
+    {
+        "name": "Ignite (red)",
+        "rarity": "mythic",
+        "mana_cost": "1",
+        "collector_number": "HNT058",
+        "type": "Draconic, Ninja, Action, Attack",
+        "image_uris": {
+           "en": "https://storage.googleapis.com/fabmaster/cardfaces/2025-HNT/EN/HNT058.png"
+        }
+    },
+    {
+        "name": "Demonstrate Devotion (red)",
+        "rarity": "rare",
+        "mana_cost": "1",
+        "collector_number": "HNT059",
+        "type": "Draconic, Ninja, Action, Attack",
+        "image_uris": {
+           "en": "https://storage.googleapis.com/fabmaster/cardfaces/2025-HNT/EN/HNT059.png"
+        }
+    },
+    {
+        "name": "Display Loyalty (red)",
+        "rarity": "rare",
+        "mana_cost": "1",
+        "collector_number": "HNT060",
+        "type": "Draconic, Ninja, Action, Attack",
+        "image_uris": {
+           "en": "https://storage.googleapis.com/fabmaster/cardfaces/2025-HNT/EN/HNT060.png"
+        }
+    },
+    {
+        "name": "Wrath of Retribution (red)",
+        "rarity": "rare",
+        "mana_cost": "1",
+        "collector_number": "HNT061",
+        "type": "Draconic, Ninja, Action, Attack",
+        "image_uris": {
+           "en": "https://storage.googleapis.com/fabmaster/cardfaces/2025-HNT/EN/HNT061.png"
+        }
+    },
+    {
+        "name": "Blood Drop (red)",
+        "rarity": "common",
+        "mana_cost": "1",
+        "collector_number": "HNT062",
+        "type": "Draconic, Ninja, Action, Attack",
+        "image_uris": {
+           "en": "https://storage.googleapis.com/fabmaster/cardfaces/2025-HNT/EN/HNT062.png"
+        }
+    },
+    {
+        "name": "Blood Line (red)",
+        "rarity": "common",
+        "mana_cost": "1",
+        "collector_number": "HNT063",
+        "type": "Draconic, Ninja, Action, Attack",
+        "image_uris": {
+           "en": "https://storage.googleapis.com/fabmaster/cardfaces/2025-HNT/EN/HNT063.png"
+        }
+    },
+    {
+        "name": "Burning Blade Dance (red)",
+        "rarity": "common",
+        "mana_cost": "1",
+        "collector_number": "HNT064",
+        "type": "Draconic, Ninja, Action, Attack",
+        "image_uris": {
+           "en": "https://storage.googleapis.com/fabmaster/cardfaces/2025-HNT/EN/HNT064.png"
+        }
+    },
+    {
+        "name": "Cinderskin Devotion (red)",
+        "rarity": "common",
+        "mana_cost": "1",
+        "collector_number": "HNT065",
+        "type": "Draconic, Ninja, Action, Attack",
+        "image_uris": {
+           "en": "https://storage.googleapis.com/fabmaster/cardfaces/2025-HNT/EN/HNT065.png"
+        }
+    },
+    {
+        "name": "Dust Runner Outlaw (red)",
+        "rarity": "common",
+        "mana_cost": "1",
+        "collector_number": "HNT066",
+        "type": "Draconic, Ninja, Action, Attack",
+        "image_uris": {
+           "en": "https://storage.googleapis.com/fabmaster/cardfaces/2025-HNT/EN/HNT066.png"
+        }
+    },
+    {
+        "name": "Hot on Their Heels (red)",
+        "rarity": "common",
+        "mana_cost": "1",
+        "collector_number": "HNT067",
+        "type": "Draconic, Ninja, Action, Attack",
+        "image_uris": {
+           "en": "https://storage.googleapis.com/fabmaster/cardfaces/2025-HNT/EN/HNT067.png"
+        }
+    },
+    {
+        "name": "Lava Vein Loyalty (red)",
+        "rarity": "common",
+        "mana_cost": "1",
+        "collector_number": "HNT068",
+        "type": "Draconic, Ninja, Action, Attack",
+        "image_uris": {
+           "en": "https://storage.googleapis.com/fabmaster/cardfaces/2025-HNT/EN/HNT068.png"
+        }
+    },
+    {
+        "name": "Mark with Magma (red)",
+        "rarity": "common",
+        "mana_cost": "1",
+        "collector_number": "HNT069",
+        "type": "Draconic, Ninja, Action, Attack",
+        "image_uris": {
+           "en": "https://storage.googleapis.com/fabmaster/cardfaces/2025-HNT/EN/HNT069.png"
+        }
+    },
+    {
+        "name": "Ronin Renegade (red)",
+        "rarity": "common",
+        "mana_cost": "1",
+        "collector_number": "HNT070",
+        "type": "Draconic, Ninja, Action, Attack",
+        "image_uris": {
+           "en": "https://storage.googleapis.com/fabmaster/cardfaces/2025-HNT/EN/HNT070.png"
+        }
+    },
+    {
+        "name": "Art of the Dragon: Blood (red)",
+        "rarity": "mythic",
+        "mana_cost": "1",
+        "collector_number": "HNT071",
+        "type": "Ninja, Action, Attack",
+        "image_uris": {
+           "en": "https://storage.googleapis.com/fabmaster/cardfaces/2025-HNT/EN/HNT071.png"
+        }
+    },
+    {
+        "name": "Devotion Never Dies (red)",
+        "rarity": "mythic",
+        "mana_cost": "1",
+        "collector_number": "HNT072",
+        "type": "Ninja, Action, Attack",
+        "image_uris": {
+           "en": "https://storage.googleapis.com/fabmaster/cardfaces/2025-HNT/EN/HNT072.png"
+        }
+    },
+    {
+        "name": "Prowess of Agility (blue)",
+        "rarity": "mythic",
+        "mana_cost": "3",
+        "collector_number": "HNT073",
+        "type": "Ninja, Action, Aura",
+        "image_uris": {
+           "en": "https://storage.googleapis.com/fabmaster/cardfaces/2025-HNT/EN/HNT073.png"
+        }
+    },
+    {
+        "name": "Art of the Dragon: Claw (red)",
+        "rarity": "rare",
+        "mana_cost": "1",
+        "collector_number": "HNT074",
+        "type": "Ninja, Action, Attack",
+        "image_uris": {
+           "en": "https://storage.googleapis.com/fabmaster/cardfaces/2025-HNT/EN/HNT074.png"
+        }
+    },
+    {
+        "name": "Art of the Dragon: Fire (red)",
+        "rarity": "rare",
+        "mana_cost": "1",
+        "collector_number": "HNT075",
+        "type": "Ninja, Action, Attack",
+        "image_uris": {
+           "en": "https://storage.googleapis.com/fabmaster/cardfaces/2025-HNT/EN/HNT075.png"
+        }
+    },
+    {
+        "name": "Art of the Dragon: Scale (red)",
+        "rarity": "rare",
+        "mana_cost": "1",
+        "collector_number": "HNT076",
+        "type": "Ninja, Action, Attack",
+        "image_uris": {
+           "en": "https://storage.googleapis.com/fabmaster/cardfaces/2025-HNT/EN/HNT076.png"
+        }
+    },
+    {
+        "name": "Dragon Power (red)",
+        "rarity": "rare",
+        "mana_cost": "1",
+        "collector_number": "HNT077",
+        "type": "Ninja, Action, Attack",
+        "image_uris": {
+           "en": "https://storage.googleapis.com/fabmaster/cardfaces/2025-HNT/EN/HNT077.png"
+        }
+    },
+    {
+        "name": "Dragon Power (yellow)",
+        "rarity": "rare",
+        "mana_cost": "2",
+        "collector_number": "HNT078",
+        "type": "Ninja, Action, Attack",
+        "image_uris": {
+           "en": "https://storage.googleapis.com/fabmaster/cardfaces/2025-HNT/EN/HNT078.png"
+        }
+    },
+    {
+        "name": "Dragon Power (blue)",
+        "rarity": "rare",
+        "mana_cost": "3",
+        "collector_number": "HNT079",
+        "type": "Ninja, Action, Attack",
+        "image_uris": {
+           "en": "https://storage.googleapis.com/fabmaster/cardfaces/2025-HNT/EN/HNT079.png"
+        }
+    },
+    {
+        "name": "Silver Talons (red)",
+        "rarity": "rare",
+        "mana_cost": "1",
+        "collector_number": "HNT080",
+        "type": "Ninja, Action, Attack",
+        "image_uris": {
+           "en": "https://storage.googleapis.com/fabmaster/cardfaces/2025-HNT/EN/HNT080.png"
+        }
+    },
+    {
+        "name": "Silver Talons (yellow)",
+        "rarity": "rare",
+        "mana_cost": "2",
+        "collector_number": "HNT081",
+        "type": "Ninja, Action, Attack",
+        "image_uris": {
+           "en": "https://storage.googleapis.com/fabmaster/cardfaces/2025-HNT/EN/HNT081.png"
+        }
+    },
+    {
+        "name": "Silver Talons (blue)",
+        "rarity": "rare",
+        "mana_cost": "3",
+        "collector_number": "HNT082",
+        "type": "Ninja, Action, Attack",
+        "image_uris": {
+           "en": "https://storage.googleapis.com/fabmaster/cardfaces/2025-HNT/EN/HNT082.png"
+        }
+    },
+    {
+        "name": "Fire Tenet: Strike First (red)",
+        "rarity": "common",
+        "mana_cost": "1",
+        "collector_number": "HNT083",
+        "type": "Ninja, Action, Attack",
+        "image_uris": {
+           "en": "https://storage.googleapis.com/fabmaster/cardfaces/2025-HNT/EN/HNT083.png"
+        }
+    },
+    {
+        "name": "Fire Tenet: Strike First (yellow)",
+        "rarity": "common",
+        "mana_cost": "2",
+        "collector_number": "HNT084",
+        "type": "Ninja, Action, Attack",
+        "image_uris": {
+           "en": "https://storage.googleapis.com/fabmaster/cardfaces/2025-HNT/EN/HNT084.png"
+        }
+    },
+    {
+        "name": "Fire Tenet: Strike First (blue)",
+        "rarity": "common",
+        "mana_cost": "3",
+        "collector_number": "HNT085",
+        "type": "Ninja, Action, Attack",
+        "image_uris": {
+           "en": "https://storage.googleapis.com/fabmaster/cardfaces/2025-HNT/EN/HNT085.png"
+        }
+    },
+    {
+        "name": "Grow Claws (red)",
+        "rarity": "common",
+        "mana_cost": "1",
+        "collector_number": "HNT086",
+        "type": "Ninja, Action, Attack",
+        "image_uris": {
+           "en": "https://storage.googleapis.com/fabmaster/cardfaces/2025-HNT/EN/HNT086.png"
+        }
+    },
+    {
+        "name": "Grow Claws (yellow)",
+        "rarity": "common",
+        "mana_cost": "2",
+        "collector_number": "HNT087",
+        "type": "Ninja, Action, Attack",
+        "image_uris": {
+           "en": "https://storage.googleapis.com/fabmaster/cardfaces/2025-HNT/EN/HNT087.png"
+        }
+    },
+    {
+        "name": "Grow Claws (blue)",
+        "rarity": "common",
+        "mana_cost": "3",
+        "collector_number": "HNT088",
+        "type": "Ninja, Action, Attack",
+        "image_uris": {
+           "en": "https://storage.googleapis.com/fabmaster/cardfaces/2025-HNT/EN/HNT088.png"
+        }
+    },
+    {
+        "name": "Grow Wings (red)",
+        "rarity": "common",
+        "mana_cost": "1",
+        "collector_number": "HNT089",
+        "type": "Ninja, Action, Attack",
+        "image_uris": {
+           "en": "https://storage.googleapis.com/fabmaster/cardfaces/2025-HNT/EN/HNT089.png"
+        }
+    },
+    {
+        "name": "Grow Wings (yellow)",
+        "rarity": "common",
+        "mana_cost": "2",
+        "collector_number": "HNT090",
+        "type": "Ninja, Action, Attack",
+        "image_uris": {
+           "en": "https://storage.googleapis.com/fabmaster/cardfaces/2025-HNT/EN/HNT090.png"
+        }
+    },
+    {
+        "name": "Grow Wings (blue)",
+        "rarity": "common",
+        "mana_cost": "3",
+        "collector_number": "HNT091",
+        "type": "Ninja, Action, Attack",
+        "image_uris": {
+           "en": "https://storage.googleapis.com/fabmaster/cardfaces/2025-HNT/EN/HNT091.png"
+        }
+    },
+    {
+        "name": "Tag the Target (red)",
+        "rarity": "common",
+        "mana_cost": "1",
+        "collector_number": "HNT092",
+        "type": "Ninja, Action, Attack",
+        "image_uris": {
+           "en": "https://storage.googleapis.com/fabmaster/cardfaces/2025-HNT/EN/HNT092.png"
+        }
+    },
+    {
+        "name": "Tag the Target (yellow)",
+        "rarity": "common",
+        "mana_cost": "2",
+        "collector_number": "HNT093",
+        "type": "Ninja, Action, Attack",
+        "image_uris": {
+           "en": "https://storage.googleapis.com/fabmaster/cardfaces/2025-HNT/EN/HNT093.png"
+        }
+    },
+    {
+        "name": "Tag the Target (blue)",
+        "rarity": "common",
+        "mana_cost": "3",
+        "collector_number": "HNT094",
+        "type": "Ninja, Action, Attack",
+        "image_uris": {
+           "en": "https://storage.googleapis.com/fabmaster/cardfaces/2025-HNT/EN/HNT094.png"
+        }
+    },
+    {
+        "name": "Trap and Release (red)",
+        "rarity": "common",
+        "mana_cost": "1",
+        "collector_number": "HNT095",
+        "type": "Ninja, Action, Attack",
+        "image_uris": {
+           "en": "https://storage.googleapis.com/fabmaster/cardfaces/2025-HNT/EN/HNT095.png"
+        }
+    },
+    {
+        "name": "Trap and Release (yellow)",
+        "rarity": "common",
+        "mana_cost": "2",
+        "collector_number": "HNT096",
+        "type": "Ninja, Action, Attack",
+        "image_uris": {
+           "en": "https://storage.googleapis.com/fabmaster/cardfaces/2025-HNT/EN/HNT096.png"
+        }
+    },
+    {
+        "name": "Trap and Release (blue)",
+        "rarity": "common",
+        "mana_cost": "3",
+        "collector_number": "HNT097",
+        "type": "Ninja, Action, Attack",
+        "image_uris": {
+           "en": "https://storage.googleapis.com/fabmaster/cardfaces/2025-HNT/EN/HNT097.png"
+        }
+    },
+    {
+        "name": "Hunt's End (red)",
+        "rarity": "mythic",
+        "mana_cost": "1",
+        "collector_number": "HNT101",
+        "type": "Draconic, Warrior, Attack Reaction",
+        "image_uris": {
+           "en": "https://storage.googleapis.com/fabmaster/cardfaces/2025-HNT/EN/HNT101.png"
+        }
+    },
+    {
+        "name": "Long Whisker Loyalty (red)",
+        "rarity": "mythic",
+        "mana_cost": "1",
+        "collector_number": "HNT102",
+        "type": "Draconic, Warrior, Attack Reaction",
+        "image_uris": {
+           "en": "https://storage.googleapis.com/fabmaster/cardfaces/2025-HNT/EN/HNT102.png"
+        }
+    },
+    {
+        "name": "Affirm Loyalty (red)",
+        "rarity": "rare",
+        "mana_cost": "1",
+        "collector_number": "HNT103",
+        "type": "Draconic, Warrior, Attack Reaction",
+        "image_uris": {
+           "en": "https://storage.googleapis.com/fabmaster/cardfaces/2025-HNT/EN/HNT103.png"
+        }
+    },
+    {
+        "name": "Endear Devotion (red)",
+        "rarity": "rare",
+        "mana_cost": "1",
+        "collector_number": "HNT104",
+        "type": "Draconic, Warrior, Attack Reaction",
+        "image_uris": {
+           "en": "https://storage.googleapis.com/fabmaster/cardfaces/2025-HNT/EN/HNT104.png"
+        }
+    },
+    {
+        "name": "Fire and Brimstone (red)",
+        "rarity": "rare",
+        "mana_cost": "1",
+        "collector_number": "HNT105",
+        "type": "Draconic, Warrior, Attack Reaction",
+        "image_uris": {
+           "en": "https://storage.googleapis.com/fabmaster/cardfaces/2025-HNT/EN/HNT105.png"
+        }
+    },
+    {
+        "name": "Blistering Blade (red)",
+        "rarity": "common",
+        "mana_cost": "1",
+        "collector_number": "HNT106",
+        "type": "Draconic, Warrior, Attack Reaction",
+        "image_uris": {
+           "en": "https://storage.googleapis.com/fabmaster/cardfaces/2025-HNT/EN/HNT106.png"
+        }
+    },
+    {
+        "name": "Brothers of Flame (red)",
+        "rarity": "common",
+        "mana_cost": "1",
+        "collector_number": "HNT107",
+        "type": "Draconic, Warrior, Attack Reaction",
+        "image_uris": {
+           "en": "https://storage.googleapis.com/fabmaster/cardfaces/2025-HNT/EN/HNT107.png"
+        }
+    },
+    {
+        "name": "Dynastic Dedication (red)",
+        "rarity": "common",
+        "mana_cost": "1",
+        "collector_number": "HNT108",
+        "type": "Draconic, Warrior, Attack Reaction",
+        "image_uris": {
+           "en": "https://storage.googleapis.com/fabmaster/cardfaces/2025-HNT/EN/HNT108.png"
+        }
+    },
+    {
+        "name": "Imperial Intent (red)",
+        "rarity": "common",
+        "mana_cost": "1",
+        "collector_number": "HNT109",
+        "type": "Draconic, Warrior, Attack Reaction",
+        "image_uris": {
+           "en": "https://storage.googleapis.com/fabmaster/cardfaces/2025-HNT/EN/HNT109.png"
+        }
+    },
+    {
+        "name": "Scalding Iron (red)",
+        "rarity": "common",
+        "mana_cost": "1",
+        "collector_number": "HNT110",
+        "type": "Draconic, Warrior, Attack Reaction",
+        "image_uris": {
+           "en": "https://storage.googleapis.com/fabmaster/cardfaces/2025-HNT/EN/HNT110.png"
+        }
+    },
+    {
+        "name": "Searing Gaze (red)",
+        "rarity": "common",
+        "mana_cost": "1",
+        "collector_number": "HNT111",
+        "type": "Draconic, Warrior, Attack Reaction",
+        "image_uris": {
+           "en": "https://storage.googleapis.com/fabmaster/cardfaces/2025-HNT/EN/HNT111.png"
+        }
+    },
+    {
+        "name": "Sisters of Fire (red)",
+        "rarity": "common",
+        "mana_cost": "1",
+        "collector_number": "HNT112",
+        "type": "Draconic, Warrior, Attack Reaction",
+        "image_uris": {
+           "en": "https://storage.googleapis.com/fabmaster/cardfaces/2025-HNT/EN/HNT112.png"
+        }
+    },
+    {
+        "name": "Sizzling Steel (red)",
+        "rarity": "common",
+        "mana_cost": "1",
+        "collector_number": "HNT113",
+        "type": "Draconic, Warrior, Attack Reaction",
+        "image_uris": {
+           "en": "https://storage.googleapis.com/fabmaster/cardfaces/2025-HNT/EN/HNT113.png"
+        }
+    },
+    {
+        "name": "Stabbing Pain (red)",
+        "rarity": "common",
+        "mana_cost": "1",
+        "collector_number": "HNT114",
+        "type": "Draconic, Warrior, Attack Reaction",
+        "image_uris": {
+           "en": "https://storage.googleapis.com/fabmaster/cardfaces/2025-HNT/EN/HNT114.png"
+        }
+    },
+    {
+        "name": "Jagged Edge (red)",
+        "rarity": "mythic",
+        "mana_cost": "1",
+        "collector_number": "HNT116",
+        "type": "Warrior, Attack Reaction",
+        "image_uris": {
+           "en": "https://storage.googleapis.com/fabmaster/cardfaces/2025-HNT/EN/HNT116.png"
+        }
+    },
+    {
+        "name": "Provoke (blue)",
+        "rarity": "mythic",
+        "mana_cost": "3",
+        "collector_number": "HNT117",
+        "type": "Warrior, Attack Reaction",
+        "image_uris": {
+           "en": "https://storage.googleapis.com/fabmaster/cardfaces/2025-HNT/EN/HNT117.png"
+        }
+    },
+    {
+        "name": "Sharpened Senses (yellow)",
+        "rarity": "mythic",
+        "mana_cost": "2",
+        "collector_number": "HNT118",
+        "type": "Warrior, Action, Aura",
+        "image_uris": {
+           "en": "https://storage.googleapis.com/fabmaster/cardfaces/2025-HNT/EN/HNT118.png"
+        }
+    },
+    {
+        "name": "Diced (red)",
+        "rarity": "rare",
+        "mana_cost": "1",
+        "collector_number": "HNT119",
+        "type": "Warrior, Attack Reaction",
+        "image_uris": {
+           "en": "https://storage.googleapis.com/fabmaster/cardfaces/2025-HNT/EN/HNT119.png"
+        }
+    },
+    {
+        "name": "Diced (yellow)",
+        "rarity": "rare",
+        "mana_cost": "2",
+        "collector_number": "HNT120",
+        "type": "Warrior, Attack Reaction",
+        "image_uris": {
+           "en": "https://storage.googleapis.com/fabmaster/cardfaces/2025-HNT/EN/HNT120.png"
+        }
+    },
+    {
+        "name": "Diced (blue)",
+        "rarity": "rare",
+        "mana_cost": "3",
+        "collector_number": "HNT121",
+        "type": "Warrior, Attack Reaction",
+        "image_uris": {
+           "en": "https://storage.googleapis.com/fabmaster/cardfaces/2025-HNT/EN/HNT121.png"
+        }
+    },
+    {
+        "name": "Twist and Turn (red)",
+        "rarity": "rare",
+        "mana_cost": "1",
+        "collector_number": "HNT122",
+        "type": "Warrior, Action",
+        "image_uris": {
+           "en": "https://storage.googleapis.com/fabmaster/cardfaces/2025-HNT/EN/HNT122.png"
+        }
+    },
+    {
+        "name": "Twist and Turn (yellow)",
+        "rarity": "rare",
+        "mana_cost": "2",
+        "collector_number": "HNT123",
+        "type": "Warrior, Action",
+        "image_uris": {
+           "en": "https://storage.googleapis.com/fabmaster/cardfaces/2025-HNT/EN/HNT123.png"
+        }
+    },
+    {
+        "name": "Twist and Turn (blue)",
+        "rarity": "rare",
+        "mana_cost": "3",
+        "collector_number": "HNT124",
+        "type": "Warrior, Action",
+        "image_uris": {
+           "en": "https://storage.googleapis.com/fabmaster/cardfaces/2025-HNT/EN/HNT124.png"
+        }
+    },
+    {
+        "name": "Agility Stance (yellow)",
+        "rarity": "rare",
+        "mana_cost": "2",
+        "collector_number": "HNT125",
+        "type": "Warrior, Action, Aura",
+        "image_uris": {
+           "en": "https://storage.googleapis.com/fabmaster/cardfaces/2025-HNT/EN/HNT125.png"
+        }
+    },
+    {
+        "name": "Flurry Stance (red)",
+        "rarity": "rare",
+        "mana_cost": "1",
+        "collector_number": "HNT126",
+        "type": "Warrior, Action, Aura",
+        "image_uris": {
+           "en": "https://storage.googleapis.com/fabmaster/cardfaces/2025-HNT/EN/HNT126.png"
+        }
+    },
+    {
+        "name": "Power Stance (blue)",
+        "rarity": "rare",
+        "mana_cost": "3",
+        "collector_number": "HNT127",
+        "type": "Warrior, Action, Aura",
+        "image_uris": {
+           "en": "https://storage.googleapis.com/fabmaster/cardfaces/2025-HNT/EN/HNT127.png"
+        }
+    },
+    {
+        "name": "Cut Deep (red)",
+        "rarity": "common",
+        "mana_cost": "1",
+        "collector_number": "HNT128",
+        "type": "Warrior, Action",
+        "image_uris": {
+           "en": "https://storage.googleapis.com/fabmaster/cardfaces/2025-HNT/EN/HNT128.png"
+        }
+    },
+    {
+        "name": "Cut Deep (yellow)",
+        "rarity": "common",
+        "mana_cost": "2",
+        "collector_number": "HNT129",
+        "type": "Warrior, Action",
+        "image_uris": {
+           "en": "https://storage.googleapis.com/fabmaster/cardfaces/2025-HNT/EN/HNT129.png"
+        }
+    },
+    {
+        "name": "Cut Deep (blue)",
+        "rarity": "common",
+        "mana_cost": "3",
+        "collector_number": "HNT130",
+        "type": "Warrior, Action",
+        "image_uris": {
+           "en": "https://storage.googleapis.com/fabmaster/cardfaces/2025-HNT/EN/HNT130.png"
+        }
+    },
+    {
+        "name": "Hunt a Killer (red)",
+        "rarity": "common",
+        "mana_cost": "1",
+        "collector_number": "HNT131",
+        "type": "Warrior, Action",
+        "image_uris": {
+           "en": "https://storage.googleapis.com/fabmaster/cardfaces/2025-HNT/EN/HNT131.png"
+        }
+    },
+    {
+        "name": "Hunt a Killer (yellow)",
+        "rarity": "common",
+        "mana_cost": "2",
+        "collector_number": "HNT132",
+        "type": "Warrior, Action",
+        "image_uris": {
+           "en": "https://storage.googleapis.com/fabmaster/cardfaces/2025-HNT/EN/HNT132.png"
+        }
+    },
+    {
+        "name": "Hunt a Killer (blue)",
+        "rarity": "common",
+        "mana_cost": "3",
+        "collector_number": "HNT133",
+        "type": "Warrior, Action",
+        "image_uris": {
+           "en": "https://storage.googleapis.com/fabmaster/cardfaces/2025-HNT/EN/HNT133.png"
+        }
+    },
+    {
+        "name": "Knife Through Butter (red)",
+        "rarity": "common",
+        "mana_cost": "1",
+        "collector_number": "HNT134",
+        "type": "Warrior, Action",
+        "image_uris": {
+           "en": "https://storage.googleapis.com/fabmaster/cardfaces/2025-HNT/EN/HNT134.png"
+        }
+    },
+    {
+        "name": "Knife Through Butter (yellow)",
+        "rarity": "common",
+        "mana_cost": "2",
+        "collector_number": "HNT135",
+        "type": "Warrior, Action",
+        "image_uris": {
+           "en": "https://storage.googleapis.com/fabmaster/cardfaces/2025-HNT/EN/HNT135.png"
+        }
+    },
+    {
+        "name": "Knife Through Butter (blue)",
+        "rarity": "common",
+        "mana_cost": "3",
+        "collector_number": "HNT136",
+        "type": "Warrior, Action",
+        "image_uris": {
+           "en": "https://storage.googleapis.com/fabmaster/cardfaces/2025-HNT/EN/HNT136.png"
+        }
+    },
+    {
+        "name": "Point of Engagement (red)",
+        "rarity": "common",
+        "mana_cost": "1",
+        "collector_number": "HNT137",
+        "type": "Warrior, Action",
+        "image_uris": {
+           "en": "https://storage.googleapis.com/fabmaster/cardfaces/2025-HNT/EN/HNT137.png"
+        }
+    },
+    {
+        "name": "Point of Engagement (yellow)",
+        "rarity": "common",
+        "mana_cost": "2",
+        "collector_number": "HNT138",
+        "type": "Warrior, Action",
+        "image_uris": {
+           "en": "https://storage.googleapis.com/fabmaster/cardfaces/2025-HNT/EN/HNT138.png"
+        }
+    },
+    {
+        "name": "Point of Engagement (blue)",
+        "rarity": "common",
+        "mana_cost": "3",
+        "collector_number": "HNT139",
+        "type": "Warrior, Action",
+        "image_uris": {
+           "en": "https://storage.googleapis.com/fabmaster/cardfaces/2025-HNT/EN/HNT139.png"
+        }
+    },
+    {
+        "name": "Sworn Vengeance (red)",
+        "rarity": "common",
+        "mana_cost": "1",
+        "collector_number": "HNT140",
+        "type": "Warrior, Action",
+        "image_uris": {
+           "en": "https://storage.googleapis.com/fabmaster/cardfaces/2025-HNT/EN/HNT140.png"
+        }
+    },
+    {
+        "name": "Sworn Vengeance (yellow)",
+        "rarity": "common",
+        "mana_cost": "2",
+        "collector_number": "HNT141",
+        "type": "Warrior, Action",
+        "image_uris": {
+           "en": "https://storage.googleapis.com/fabmaster/cardfaces/2025-HNT/EN/HNT141.png"
+        }
+    },
+    {
+        "name": "Sworn Vengeance (blue)",
+        "rarity": "common",
+        "mana_cost": "3",
+        "collector_number": "HNT142",
+        "type": "Warrior, Action",
+        "image_uris": {
+           "en": "https://storage.googleapis.com/fabmaster/cardfaces/2025-HNT/EN/HNT142.png"
+        }
+    },
+    {
+        "name": "Vow of Vengeance",
+        "rarity": "common",
+        "mana_cost": "0",
+        "collector_number": "HNT144",
+        "type": "Draconic, Equipment, Head",
+        "image_uris": {
+           "en": "https://storage.googleapis.com/fabmaster/cardfaces/2025-HNT/EN/HNT144.png"
+        }
+    },
+    {
+        "name": "Heart of Vengeance",
+        "rarity": "common",
+        "mana_cost": "0",
+        "collector_number": "HNT145",
+        "type": "Draconic, Equipment, Chest",
+        "image_uris": {
+           "en": "https://storage.googleapis.com/fabmaster/cardfaces/2025-HNT/EN/HNT145.png"
+        }
+    },
+    {
+        "name": "Hand of Vengeance",
+        "rarity": "common",
+        "mana_cost": "0",
+        "collector_number": "HNT146",
+        "type": "Draconic, Equipment, Arms",
+        "image_uris": {
+           "en": "https://storage.googleapis.com/fabmaster/cardfaces/2025-HNT/EN/HNT146.png"
+        }
+    },
+    {
+        "name": "Path of Vengeance",
+        "rarity": "common",
+        "mana_cost": "0",
+        "collector_number": "HNT147",
+        "type": "Draconic, Equipment, Legs",
+        "image_uris": {
+           "en": "https://storage.googleapis.com/fabmaster/cardfaces/2025-HNT/EN/HNT147.png"
+        }
+    },
+    {
+        "name": "Coat of Allegiance",
+        "rarity": "common",
+        "mana_cost": "0",
+        "collector_number": "HNT148",
+        "type": "Draconic, Equipment, Chest",
+        "image_uris": {
+           "en": "https://storage.googleapis.com/fabmaster/cardfaces/2025-HNT/EN/HNT148.png"
+        }
+    },
+    {
+        "name": "Oath of Loyalty (red)",
+        "rarity": "mythic",
+        "mana_cost": "1",
+        "collector_number": "HNT149",
+        "type": "Draconic, Action, Attack",
+        "image_uris": {
+           "en": "https://storage.googleapis.com/fabmaster/cardfaces/2025-HNT/EN/HNT149.png"
+        }
+    },
+    {
+        "name": "Loyalty Beyond the Grave (red)",
+        "rarity": "mythic",
+        "mana_cost": "1",
+        "collector_number": "HNT150",
+        "type": "Draconic, Defense Reaction",
+        "image_uris": {
+           "en": "https://storage.googleapis.com/fabmaster/cardfaces/2025-HNT/EN/HNT150.png"
+        }
+    },
+    {
+        "name": "Compounding Anger (red)",
+        "rarity": "rare",
+        "mana_cost": "1",
+        "collector_number": "HNT151",
+        "type": "Draconic, Action, Attack",
+        "image_uris": {
+           "en": "https://storage.googleapis.com/fabmaster/cardfaces/2025-HNT/EN/HNT151.png"
+        }
+    },
+    {
+        "name": "Hunt to the Ends of Rathe (red)",
+        "rarity": "rare",
+        "mana_cost": "1",
+        "collector_number": "HNT152",
+        "type": "Draconic, Action, Attack",
+        "image_uris": {
+           "en": "https://storage.googleapis.com/fabmaster/cardfaces/2025-HNT/EN/HNT152.png"
+        }
+    },
+    {
+        "name": "March of Loyalty (red)",
+        "rarity": "rare",
+        "mana_cost": "1",
+        "collector_number": "HNT153",
+        "type": "Draconic, Action, Attack",
+        "image_uris": {
+           "en": "https://storage.googleapis.com/fabmaster/cardfaces/2025-HNT/EN/HNT153.png"
+        }
+    },
+    {
+        "name": "Bubble to the Surface (red)",
+        "rarity": "rare",
+        "mana_cost": "1",
+        "collector_number": "HNT154",
+        "type": "Draconic, Instant",
+        "image_uris": {
+           "en": "https://storage.googleapis.com/fabmaster/cardfaces/2025-HNT/EN/HNT154.png"
+        }
+    },
+    {
+        "name": "Drop of Dragon Blood (red)",
+        "rarity": "rare",
+        "mana_cost": "1",
+        "collector_number": "HNT155",
+        "type": "Draconic, Instant",
+        "image_uris": {
+           "en": "https://storage.googleapis.com/fabmaster/cardfaces/2025-HNT/EN/HNT155.png"
+        }
+    },
+    {
+        "name": "Rake Over the Coals (red)",
+        "rarity": "rare",
+        "mana_cost": "1",
+        "collector_number": "HNT156",
+        "type": "Draconic, Instant",
+        "image_uris": {
+           "en": "https://storage.googleapis.com/fabmaster/cardfaces/2025-HNT/EN/HNT156.png"
+        }
+    },
+    {
+        "name": "Blaze Headlong (red)",
+        "rarity": "common",
+        "mana_cost": "1",
+        "collector_number": "HNT157",
+        "type": "Draconic, Action, Attack",
+        "image_uris": {
+           "en": "https://storage.googleapis.com/fabmaster/cardfaces/2025-HNT/EN/HNT157.png"
+        }
+    },
+    {
+        "name": "For the Dracai (red)",
+        "rarity": "common",
+        "mana_cost": "1",
+        "collector_number": "HNT158",
+        "type": "Draconic, Action, Attack",
+        "image_uris": {
+           "en": "https://storage.googleapis.com/fabmaster/cardfaces/2025-HNT/EN/HNT158.png"
+        }
+    },
+    {
+        "name": "For the Emperor (red)",
+        "rarity": "common",
+        "mana_cost": "1",
+        "collector_number": "HNT159",
+        "type": "Draconic, Action, Attack",
+        "image_uris": {
+           "en": "https://storage.googleapis.com/fabmaster/cardfaces/2025-HNT/EN/HNT159.png"
+        }
+    },
+    {
+        "name": "For the Realm (red)",
+        "rarity": "common",
+        "mana_cost": "1",
+        "collector_number": "HNT160",
+        "type": "Draconic, Action, Attack",
+        "image_uris": {
+           "en": "https://storage.googleapis.com/fabmaster/cardfaces/2025-HNT/EN/HNT160.png"
+        }
+    },
+    {
+        "name": "Hunt the Hunter (red)",
+        "rarity": "common",
+        "mana_cost": "1",
+        "collector_number": "HNT161",
+        "type": "Draconic, Action, Attack",
+        "image_uris": {
+           "en": "https://storage.googleapis.com/fabmaster/cardfaces/2025-HNT/EN/HNT161.png"
+        }
+    },
+    {
+        "name": "Smoke Out (red)",
+        "rarity": "common",
+        "mana_cost": "1",
+        "collector_number": "HNT162",
+        "type": "Draconic, Defense Reaction",
+        "image_uris": {
+           "en": "https://storage.googleapis.com/fabmaster/cardfaces/2025-HNT/EN/HNT162.png"
+        }
+    },
+    {
+        "name": "Blessing of Vynserakai (red)",
+        "rarity": "common",
+        "mana_cost": "1",
+        "collector_number": "HNT163",
+        "type": "Draconic, Action, Aura",
+        "image_uris": {
+           "en": "https://storage.googleapis.com/fabmaster/cardfaces/2025-HNT/EN/HNT163.png"
+        }
+    },
+    {
+        "name": "Pledge Fealty (red)",
+        "rarity": "common",
+        "mana_cost": "1",
+        "collector_number": "HNT164",
+        "type": "Draconic, Instant",
+        "image_uris": {
+           "en": "https://storage.googleapis.com/fabmaster/cardfaces/2025-HNT/EN/HNT164.png"
+        }
+    },
+    {
+        "name": "Proclaim Vengeance (red)",
+        "rarity": "common",
+        "mana_cost": "1",
+        "collector_number": "HNT165",
+        "type": "Draconic, Instant",
+        "image_uris": {
+           "en": "https://storage.googleapis.com/fabmaster/cardfaces/2025-HNT/EN/HNT165.png"
+        }
+    },
+    {
+        "name": "Tooth of the Dragon (red)",
+        "rarity": "common",
+        "mana_cost": "1",
+        "collector_number": "HNT166",
+        "type": "Draconic, Instant",
+        "image_uris": {
+           "en": "https://storage.googleapis.com/fabmaster/cardfaces/2025-HNT/EN/HNT166.png"
+        }
+    },
+    {
+        "name": "Leap Frog Vocal Sac",
+        "rarity": "common",
+        "mana_cost": "0",
+        "collector_number": "HNT169",
+        "type": "Assassin, Ninja, Equipment, Head",
+        "image_uris": {
+           "en": "https://storage.googleapis.com/fabmaster/cardfaces/2025-HNT/EN/HNT169.png"
+        }
+    },
+    {
+        "name": "Leap Frog Slime Skin",
+        "rarity": "common",
+        "mana_cost": "0",
+        "collector_number": "HNT170",
+        "type": "Assassin, Ninja, Equipment, Chest",
+        "image_uris": {
+           "en": "https://storage.googleapis.com/fabmaster/cardfaces/2025-HNT/EN/HNT170.png"
+        }
+    },
+    {
+        "name": "Leap Frog Gloves",
+        "rarity": "common",
+        "mana_cost": "0",
+        "collector_number": "HNT171",
+        "type": "Assassin, Ninja, Equipment, Arms",
+        "image_uris": {
+           "en": "https://storage.googleapis.com/fabmaster/cardfaces/2025-HNT/EN/HNT171.png"
+        }
+    },
+    {
+        "name": "Leap Frog Leggings",
+        "rarity": "common",
+        "mana_cost": "0",
+        "collector_number": "HNT172",
+        "type": "Assassin, Ninja, Equipment, Legs",
+        "image_uris": {
+           "en": "https://storage.googleapis.com/fabmaster/cardfaces/2025-HNT/EN/HNT172.png"
+        }
+    },
+    {
+        "name": "Danger Digits",
+        "rarity": "common",
+        "mana_cost": "0",
+        "collector_number": "HNT173",
+        "type": "Assassin, Ninja, Equipment, Arms",
+        "image_uris": {
+           "en": "https://storage.googleapis.com/fabmaster/cardfaces/2025-HNT/EN/HNT173.png"
+        }
+    },
+    {
+        "name": "Pain in the Backside (red)",
+        "rarity": "mythic",
+        "mana_cost": "1",
+        "collector_number": "HNT174",
+        "type": "Assassin, Ninja, Action, Attack",
+        "image_uris": {
+           "en": "https://storage.googleapis.com/fabmaster/cardfaces/2025-HNT/EN/HNT174.png"
+        }
+    },
+    {
+        "name": "Throw Dagger (blue)",
+        "rarity": "mythic",
+        "mana_cost": "3",
+        "collector_number": "HNT175",
+        "type": "Assassin, Ninja, Attack Reaction",
+        "image_uris": {
+           "en": "https://storage.googleapis.com/fabmaster/cardfaces/2025-HNT/EN/HNT175.png"
+        }
+    },
+    {
+        "name": "Cut Through (red)",
+        "rarity": "rare",
+        "mana_cost": "1",
+        "collector_number": "HNT176",
+        "type": "Assassin, Ninja, Action, Attack",
+        "image_uris": {
+           "en": "https://storage.googleapis.com/fabmaster/cardfaces/2025-HNT/EN/HNT176.png"
+        }
+    },
+    {
+        "name": "Cut Through (yellow)",
+        "rarity": "rare",
+        "mana_cost": "2",
+        "collector_number": "HNT177",
+        "type": "Assassin, Ninja, Action, Attack",
+        "image_uris": {
+           "en": "https://storage.googleapis.com/fabmaster/cardfaces/2025-HNT/EN/HNT177.png"
+        }
+    },
+    {
+        "name": "Cut Through (blue)",
+        "rarity": "rare",
+        "mana_cost": "3",
+        "collector_number": "HNT178",
+        "type": "Assassin, Ninja, Action, Attack",
+        "image_uris": {
+           "en": "https://storage.googleapis.com/fabmaster/cardfaces/2025-HNT/EN/HNT178.png"
+        }
+    },
+    {
+        "name": "Up Sticks and Run (red)",
+        "rarity": "rare",
+        "mana_cost": "1",
+        "collector_number": "HNT179",
+        "type": "Assassin, Ninja, Action",
+        "image_uris": {
+           "en": "https://storage.googleapis.com/fabmaster/cardfaces/2025-HNT/EN/HNT179.png"
+        }
+    },
+    {
+        "name": "Up Sticks and Run (yellow)",
+        "rarity": "rare",
+        "mana_cost": "2",
+        "collector_number": "HNT180",
+        "type": "Assassin, Ninja, Action",
+        "image_uris": {
+           "en": "https://storage.googleapis.com/fabmaster/cardfaces/2025-HNT/EN/HNT180.png"
+        }
+    },
+    {
+        "name": "Up Sticks and Run (blue)",
+        "rarity": "rare",
+        "mana_cost": "3",
+        "collector_number": "HNT181",
+        "type": "Assassin, Ninja, Action",
+        "image_uris": {
+           "en": "https://storage.googleapis.com/fabmaster/cardfaces/2025-HNT/EN/HNT181.png"
+        }
+    },
+    {
+        "name": "Pick Up the Point (red)",
+        "rarity": "common",
+        "mana_cost": "1",
+        "collector_number": "HNT182",
+        "type": "Assassin, Ninja, Action, Attack",
+        "image_uris": {
+           "en": "https://storage.googleapis.com/fabmaster/cardfaces/2025-HNT/EN/HNT182.png"
+        }
+    },
+    {
+        "name": "Pick Up the Point (yellow)",
+        "rarity": "common",
+        "mana_cost": "2",
+        "collector_number": "HNT183",
+        "type": "Assassin, Ninja, Action, Attack",
+        "image_uris": {
+           "en": "https://storage.googleapis.com/fabmaster/cardfaces/2025-HNT/EN/HNT183.png"
+        }
+    },
+    {
+        "name": "Pick Up the Point (blue)",
+        "rarity": "common",
+        "mana_cost": "3",
+        "collector_number": "HNT184",
+        "type": "Assassin, Ninja, Action, Attack",
+        "image_uris": {
+           "en": "https://storage.googleapis.com/fabmaster/cardfaces/2025-HNT/EN/HNT184.png"
+        }
+    },
+    {
+        "name": "Poisoned Blade (red)",
+        "rarity": "common",
+        "mana_cost": "1",
+        "collector_number": "HNT185",
+        "type": "Assassin, Ninja, Action, Attack",
+        "image_uris": {
+           "en": "https://storage.googleapis.com/fabmaster/cardfaces/2025-HNT/EN/HNT185.png"
+        }
+    },
+    {
+        "name": "Poisoned Blade (yellow)",
+        "rarity": "common",
+        "mana_cost": "2",
+        "collector_number": "HNT186",
+        "type": "Assassin, Ninja, Action, Attack",
+        "image_uris": {
+           "en": "https://storage.googleapis.com/fabmaster/cardfaces/2025-HNT/EN/HNT186.png"
+        }
+    },
+    {
+        "name": "Poisoned Blade (blue)",
+        "rarity": "common",
+        "mana_cost": "3",
+        "collector_number": "HNT187",
+        "type": "Assassin, Ninja, Action, Attack",
+        "image_uris": {
+           "en": "https://storage.googleapis.com/fabmaster/cardfaces/2025-HNT/EN/HNT187.png"
+        }
+    },
+    {
+        "name": "Throw Yourself at Them (red)",
+        "rarity": "common",
+        "mana_cost": "1",
+        "collector_number": "HNT188",
+        "type": "Assassin, Ninja, Action, Attack",
+        "image_uris": {
+           "en": "https://storage.googleapis.com/fabmaster/cardfaces/2025-HNT/EN/HNT188.png"
+        }
+    },
+    {
+        "name": "Throw Yourself at Them (yellow)",
+        "rarity": "common",
+        "mana_cost": "2",
+        "collector_number": "HNT189",
+        "type": "Assassin, Ninja, Action, Attack",
+        "image_uris": {
+           "en": "https://storage.googleapis.com/fabmaster/cardfaces/2025-HNT/EN/HNT189.png"
+        }
+    },
+    {
+        "name": "Throw Yourself at Them (blue)",
+        "rarity": "common",
+        "mana_cost": "3",
+        "collector_number": "HNT190",
+        "type": "Assassin, Ninja, Action, Attack",
+        "image_uris": {
+           "en": "https://storage.googleapis.com/fabmaster/cardfaces/2025-HNT/EN/HNT190.png"
+        }
+    },
+    {
+        "name": "Lair of the Spider (red)",
+        "rarity": "common",
+        "mana_cost": "1",
+        "collector_number": "HNT191",
+        "type": "Assassin, Ninja, Defense Reaction, Trap",
+        "image_uris": {
+           "en": "https://storage.googleapis.com/fabmaster/cardfaces/2025-HNT/EN/HNT191.png"
+        }
+    },
+    {
+        "name": "Red Alert Visor",
+        "rarity": "common",
+        "mana_cost": "0",
+        "collector_number": "HNT192",
+        "type": "Assassin, Warrior, Equipment, Head",
+        "image_uris": {
+           "en": "https://storage.googleapis.com/fabmaster/cardfaces/2025-HNT/EN/HNT192.png"
+        }
+    },
+    {
+        "name": "Red Alert Vest",
+        "rarity": "common",
+        "mana_cost": "0",
+        "collector_number": "HNT193",
+        "type": "Assassin, Warrior, Equipment, Chest",
+        "image_uris": {
+           "en": "https://storage.googleapis.com/fabmaster/cardfaces/2025-HNT/EN/HNT193.png"
+        }
+    },
+    {
+        "name": "Red Alert Gloves",
+        "rarity": "common",
+        "mana_cost": "0",
+        "collector_number": "HNT194",
+        "type": "Assassin, Warrior, Equipment, Arms",
+        "image_uris": {
+           "en": "https://storage.googleapis.com/fabmaster/cardfaces/2025-HNT/EN/HNT194.png"
+        }
+    },
+    {
+        "name": "Red Alert Boots",
+        "rarity": "common",
+        "mana_cost": "0",
+        "collector_number": "HNT195",
+        "type": "Assassin, Warrior, Equipment, Legs",
+        "image_uris": {
+           "en": "https://storage.googleapis.com/fabmaster/cardfaces/2025-HNT/EN/HNT195.png"
+        }
+    },
+    {
+        "name": "Starting Point",
+        "rarity": "common",
+        "mana_cost": "0",
+        "collector_number": "HNT196",
+        "type": "Assassin, Warrior, Equipment, Legs",
+        "image_uris": {
+           "en": "https://storage.googleapis.com/fabmaster/cardfaces/2025-HNT/EN/HNT196.png"
+        }
+    },
+    {
+        "name": "Perforate (yellow)",
+        "rarity": "mythic",
+        "mana_cost": "2",
+        "collector_number": "HNT197",
+        "type": "Assassin, Warrior, Attack Reaction",
+        "image_uris": {
+           "en": "https://storage.googleapis.com/fabmaster/cardfaces/2025-HNT/EN/HNT197.png"
+        }
+    },
+    {
+        "name": "Savor Bloodshed (red)",
+        "rarity": "mythic",
+        "mana_cost": "1",
+        "collector_number": "HNT198",
+        "type": "Assassin, Warrior, Action",
+        "image_uris": {
+           "en": "https://storage.googleapis.com/fabmaster/cardfaces/2025-HNT/EN/HNT198.png"
+        }
+    },
+    {
+        "name": "To the Point (red)",
+        "rarity": "rare",
+        "mana_cost": "1",
+        "collector_number": "HNT199",
+        "type": "Assassin, Warrior, Attack Reaction",
+        "image_uris": {
+           "en": "https://storage.googleapis.com/fabmaster/cardfaces/2025-HNT/EN/HNT199.png"
+        }
+    },
+    {
+        "name": "To the Point (yellow)",
+        "rarity": "rare",
+        "mana_cost": "2",
+        "collector_number": "HNT200",
+        "type": "Assassin, Warrior, Attack Reaction",
+        "image_uris": {
+           "en": "https://storage.googleapis.com/fabmaster/cardfaces/2025-HNT/EN/HNT200.png"
+        }
+    },
+    {
+        "name": "To the Point (blue)",
+        "rarity": "rare",
+        "mana_cost": "3",
+        "collector_number": "HNT201",
+        "type": "Assassin, Warrior, Attack Reaction",
+        "image_uris": {
+           "en": "https://storage.googleapis.com/fabmaster/cardfaces/2025-HNT/EN/HNT201.png"
+        }
+    },
+    {
+        "name": "Cut from the Same Cloth (red)",
+        "rarity": "rare",
+        "mana_cost": "1",
+        "collector_number": "HNT202",
+        "type": "Assassin, Warrior, Action",
+        "image_uris": {
+           "en": "https://storage.googleapis.com/fabmaster/cardfaces/2025-HNT/EN/HNT202.png"
+        }
+    },
+    {
+        "name": "Cut from the Same Cloth (yellow)",
+        "rarity": "rare",
+        "mana_cost": "2",
+        "collector_number": "HNT203",
+        "type": "Assassin, Warrior, Action",
+        "image_uris": {
+           "en": "https://storage.googleapis.com/fabmaster/cardfaces/2025-HNT/EN/HNT203.png"
+        }
+    },
+    {
+        "name": "Cut from the Same Cloth (blue)",
+        "rarity": "rare",
+        "mana_cost": "3",
+        "collector_number": "HNT204",
+        "type": "Assassin, Warrior, Action",
+        "image_uris": {
+           "en": "https://storage.googleapis.com/fabmaster/cardfaces/2025-HNT/EN/HNT204.png"
+        }
+    },
+    {
+        "name": "Incision (red)",
+        "rarity": "common",
+        "mana_cost": "1",
+        "collector_number": "HNT205",
+        "type": "Assassin, Warrior, Attack Reaction",
+        "image_uris": {
+           "en": "https://storage.googleapis.com/fabmaster/cardfaces/2025-HNT/EN/HNT205.png"
+        }
+    },
+    {
+        "name": "Incision (yellow)",
+        "rarity": "common",
+        "mana_cost": "2",
+        "collector_number": "HNT206",
+        "type": "Assassin, Warrior, Attack Reaction",
+        "image_uris": {
+           "en": "https://storage.googleapis.com/fabmaster/cardfaces/2025-HNT/EN/HNT206.png"
+        }
+    },
+    {
+        "name": "Incision (blue)",
+        "rarity": "common",
+        "mana_cost": "3",
+        "collector_number": "HNT207",
+        "type": "Assassin, Warrior, Attack Reaction",
+        "image_uris": {
+           "en": "https://storage.googleapis.com/fabmaster/cardfaces/2025-HNT/EN/HNT207.png"
+        }
+    },
+    {
+        "name": "Scar Tissue (red)",
+        "rarity": "common",
+        "mana_cost": "1",
+        "collector_number": "HNT208",
+        "type": "Assassin, Warrior, Attack Reaction",
+        "image_uris": {
+           "en": "https://storage.googleapis.com/fabmaster/cardfaces/2025-HNT/EN/HNT208.png"
+        }
+    },
+    {
+        "name": "Scar Tissue (yellow)",
+        "rarity": "common",
+        "mana_cost": "2",
+        "collector_number": "HNT209",
+        "type": "Assassin, Warrior, Attack Reaction",
+        "image_uris": {
+           "en": "https://storage.googleapis.com/fabmaster/cardfaces/2025-HNT/EN/HNT209.png"
+        }
+    },
+    {
+        "name": "Scar Tissue (blue)",
+        "rarity": "common",
+        "mana_cost": "3",
+        "collector_number": "HNT210",
+        "type": "Assassin, Warrior, Attack Reaction",
+        "image_uris": {
+           "en": "https://storage.googleapis.com/fabmaster/cardfaces/2025-HNT/EN/HNT210.png"
+        }
+    },
+    {
+        "name": "Take a Stab (red)",
+        "rarity": "common",
+        "mana_cost": "1",
+        "collector_number": "HNT211",
+        "type": "Assassin, Warrior, Attack Reaction",
+        "image_uris": {
+           "en": "https://storage.googleapis.com/fabmaster/cardfaces/2025-HNT/EN/HNT211.png"
+        }
+    },
+    {
+        "name": "Take a Stab (yellow)",
+        "rarity": "common",
+        "mana_cost": "2",
+        "collector_number": "HNT212",
+        "type": "Assassin, Warrior, Attack Reaction",
+        "image_uris": {
+           "en": "https://storage.googleapis.com/fabmaster/cardfaces/2025-HNT/EN/HNT212.png"
+        }
+    },
+    {
+        "name": "Take a Stab (blue)",
+        "rarity": "common",
+        "mana_cost": "3",
+        "collector_number": "HNT213",
+        "type": "Assassin, Warrior, Attack Reaction",
+        "image_uris": {
+           "en": "https://storage.googleapis.com/fabmaster/cardfaces/2025-HNT/EN/HNT213.png"
+        }
+    },
+    {
+        "name": "Den of the Spider (red)",
+        "rarity": "common",
+        "mana_cost": "1",
+        "collector_number": "HNT214",
+        "type": "Assassin, Warrior, Defense Reaction, Trap",
+        "image_uris": {
+           "en": "https://storage.googleapis.com/fabmaster/cardfaces/2025-HNT/EN/HNT214.png"
+        }
+    },
+    {
+        "name": "Blade Beckoner Helm",
+        "rarity": "rare",
+        "mana_cost": "0",
+        "collector_number": "HNT216",
+        "type": "Generic, Equipment, Head",
+        "image_uris": {
+           "en": "https://storage.googleapis.com/fabmaster/cardfaces/2025-HNT/EN/HNT216.png"
+        }
+    },
+    {
+        "name": "Blade Beckoner Plating",
+        "rarity": "rare",
+        "mana_cost": "0",
+        "collector_number": "HNT217",
+        "type": "Generic, Equipment, Chest",
+        "image_uris": {
+           "en": "https://storage.googleapis.com/fabmaster/cardfaces/2025-HNT/EN/HNT217.png"
+        }
+    },
+    {
+        "name": "Blade Beckoner Gauntlets",
+        "rarity": "rare",
+        "mana_cost": "0",
+        "collector_number": "HNT218",
+        "type": "Generic, Equipment, Arms",
+        "image_uris": {
+           "en": "https://storage.googleapis.com/fabmaster/cardfaces/2025-HNT/EN/HNT218.png"
+        }
+    },
+    {
+        "name": "Blade Beckoner Boots",
+        "rarity": "rare",
+        "mana_cost": "0",
+        "collector_number": "HNT219",
+        "type": "Generic, Equipment, Legs",
+        "image_uris": {
+           "en": "https://storage.googleapis.com/fabmaster/cardfaces/2025-HNT/EN/HNT219.png"
+        }
+    },
+    {
+        "name": "Bunker Beard",
+        "rarity": "common",
+        "mana_cost": "0",
+        "collector_number": "HNT220",
+        "type": "Generic, Equipment, Head",
+        "image_uris": {
+           "en": "https://storage.googleapis.com/fabmaster/cardfaces/2025-HNT/EN/HNT220.png"
+        }
+    },
+    {
+        "name": "Rotten Remains (blue)",
+        "rarity": "mythic",
+        "mana_cost": "3",
+        "collector_number": "HNT221",
+        "type": "Generic, Action, Attack",
+        "image_uris": {
+           "en": "https://storage.googleapis.com/fabmaster/cardfaces/2025-HNT/EN/HNT221.png"
+        }
+    },
+    {
+        "name": "Shelter from the Storm (red)",
+        "rarity": "mythic",
+        "mana_cost": "1",
+        "collector_number": "HNT222",
+        "type": "Generic, Defense Reaction",
+        "image_uris": {
+           "en": "https://storage.googleapis.com/fabmaster/cardfaces/2025-HNT/EN/HNT222.png"
+        }
+    },
+    {
+        "name": "Dual Threat (yellow)",
+        "rarity": "mythic",
+        "mana_cost": "2",
+        "collector_number": "HNT223",
+        "type": "Generic, Action",
+        "image_uris": {
+           "en": "https://storage.googleapis.com/fabmaster/cardfaces/2025-HNT/EN/HNT223.png"
+        }
+    },
+    {
+        "name": "Pursue to the Edge of Oblivion (red)",
+        "rarity": "rare",
+        "mana_cost": "1",
+        "collector_number": "HNT224",
+        "type": "Generic, Action, Attack",
+        "image_uris": {
+           "en": "https://storage.googleapis.com/fabmaster/cardfaces/2025-HNT/EN/HNT224.png"
+        }
+    },
+    {
+        "name": "Pursue to the Pits of Despair (red)",
+        "rarity": "rare",
+        "mana_cost": "1",
+        "collector_number": "HNT225",
+        "type": "Generic, Action, Attack",
+        "image_uris": {
+           "en": "https://storage.googleapis.com/fabmaster/cardfaces/2025-HNT/EN/HNT225.png"
+        }
+    },
+    {
+        "name": "Sound the Alarm (red)",
+        "rarity": "rare",
+        "mana_cost": "1",
+        "collector_number": "HNT226",
+        "type": "Generic, Action, Attack",
+        "image_uris": {
+           "en": "https://storage.googleapis.com/fabmaster/cardfaces/2025-HNT/EN/HNT226.png"
+        }
+    },
+    {
+        "name": "Razor Reflex (red)",
+        "rarity": "rare",
+        "mana_cost": "1",
+        "collector_number": "HNT227",
+        "type": "Generic, Attack Reaction",
+        "image_uris": {
+           "en": "https://storage.googleapis.com/fabmaster/cardfaces/2025-HNT/EN/HNT227.png"
+        }
+    },
+    {
+        "name": "Imperial Seal of Command (red)",
+        "rarity": "rare",
+        "mana_cost": "1",
+        "collector_number": "HNT228",
+        "type": "Generic, Action, Item",
+        "image_uris": {
+           "en": "https://storage.googleapis.com/fabmaster/cardfaces/2025-HNT/EN/HNT228.png"
+        }
+    },
+    {
+        "name": "Relentless Pursuit (blue)",
+        "rarity": "rare",
+        "mana_cost": "3",
+        "collector_number": "HNT229",
+        "type": "Generic, Action",
+        "image_uris": {
+           "en": "https://storage.googleapis.com/fabmaster/cardfaces/2025-HNT/EN/HNT229.png"
+        }
+    },
+    {
+        "name": "Calming Breeze (red)",
+        "rarity": "rare",
+        "mana_cost": "1",
+        "collector_number": "HNT230",
+        "type": "Generic, Instant",
+        "image_uris": {
+           "en": "https://storage.googleapis.com/fabmaster/cardfaces/2025-HNT/EN/HNT230.png"
+        }
+    },
+    {
+        "name": "Sigil of Solace (red)",
+        "rarity": "rare",
+        "mana_cost": "1",
+        "collector_number": "HNT231",
+        "type": "Generic, Instant",
+        "image_uris": {
+           "en": "https://storage.googleapis.com/fabmaster/cardfaces/2025-HNT/EN/HNT231.png"
+        }
+    },
+    {
+        "name": "Tip-Off (red)",
+        "rarity": "common",
+        "mana_cost": "1",
+        "collector_number": "HNT232",
+        "type": "Generic, Action, Attack",
+        "image_uris": {
+           "en": "https://storage.googleapis.com/fabmaster/cardfaces/2025-HNT/EN/HNT232.png"
+        }
+    },
+    {
+        "name": "Tip-Off (yellow)",
+        "rarity": "common",
+        "mana_cost": "2",
+        "collector_number": "HNT233",
+        "type": "Generic, Action, Attack",
+        "image_uris": {
+           "en": "https://storage.googleapis.com/fabmaster/cardfaces/2025-HNT/EN/HNT233.png"
+        }
+    },
+    {
+        "name": "Tip-Off (blue)",
+        "rarity": "common",
+        "mana_cost": "3",
+        "collector_number": "HNT234",
+        "type": "Generic, Action, Attack",
+        "image_uris": {
+           "en": "https://storage.googleapis.com/fabmaster/cardfaces/2025-HNT/EN/HNT234.png"
+        }
+    },
+    {
+        "name": "Outed (red)",
+        "rarity": "common",
+        "mana_cost": "1",
+        "collector_number": "HNT235",
+        "type": "Generic, Action, Attack",
+        "image_uris": {
+           "en": "https://storage.googleapis.com/fabmaster/cardfaces/2025-HNT/EN/HNT235.png"
+        }
+    },
+    {
+        "name": "Lay Low (yellow)",
+        "rarity": "common",
+        "mana_cost": "2",
+        "collector_number": "HNT236",
+        "type": "Generic, Defense Reaction",
+        "image_uris": {
+           "en": "https://storage.googleapis.com/fabmaster/cardfaces/2025-HNT/EN/HNT236.png"
+        }
+    },
+    {
+        "name": "Exposed (blue)",
+        "rarity": "common",
+        "mana_cost": "3",
+        "collector_number": "HNT237",
+        "type": "Generic, Attack Reaction",
+        "image_uris": {
+           "en": "https://storage.googleapis.com/fabmaster/cardfaces/2025-HNT/EN/HNT237.png"
+        }
+    },
+    {
+        "name": "Put in Context (blue)",
+        "rarity": "common",
+        "mana_cost": "3",
+        "collector_number": "HNT238",
+        "type": "Generic, Defense Reaction",
+        "image_uris": {
+           "en": "https://storage.googleapis.com/fabmaster/cardfaces/2025-HNT/EN/HNT238.png"
+        }
+    },
+    {
+        "name": "Nip at the Heels (blue)",
+        "rarity": "common",
+        "mana_cost": "3",
+        "collector_number": "HNT239",
+        "type": "Generic, Attack Reaction",
+        "image_uris": {
+           "en": "https://storage.googleapis.com/fabmaster/cardfaces/2025-HNT/EN/HNT239.png"
+        }
+    },
+    {
+        "name": "Trot Along (blue)",
+        "rarity": "common",
+        "mana_cost": "3",
+        "collector_number": "HNT240",
+        "type": "Generic, Action",
+        "image_uris": {
+           "en": "https://storage.googleapis.com/fabmaster/cardfaces/2025-HNT/EN/HNT240.png"
+        }
+    },
+    {
+        "name": "Public Bounty (red)",
+        "rarity": "common",
+        "mana_cost": "1",
+        "collector_number": "HNT241",
+        "type": "Generic, Action",
+        "image_uris": {
+           "en": "https://storage.googleapis.com/fabmaster/cardfaces/2025-HNT/EN/HNT241.png"
+        }
+    },
+    {
+        "name": "Public Bounty (yellow)",
+        "rarity": "common",
+        "mana_cost": "2",
+        "collector_number": "HNT242",
+        "type": "Generic, Action",
+        "image_uris": {
+           "en": "https://storage.googleapis.com/fabmaster/cardfaces/2025-HNT/EN/HNT242.png"
+        }
+    },
+    {
+        "name": "Public Bounty (blue)",
+        "rarity": "common",
+        "mana_cost": "3",
+        "collector_number": "HNT243",
+        "type": "Generic, Action",
+        "image_uris": {
+           "en": "https://storage.googleapis.com/fabmaster/cardfaces/2025-HNT/EN/HNT243.png"
+        }
+    },
+]
+[Layouts]
+   - scnaabgwmawo (341646)
+       2 Assassin
+       2 Ninja
+       2 Warrior
+       1 DraconicOnly
+       1 AssassinNinja
+       1 AssassinWarrior
+       1 Generic
+       1 Equipment
+       2 Rare
+       1 RFCommon
+   - smddtfpwmmab (95152)
+       2 Assassin
+       2 Ninja
+       2 Warrior
+       1 DraconicOnly
+       1 AssassinNinja
+       1 AssassinWarrior
+       1 Generic
+       1 Equipment
+       2 Rare
+       1 RFRare
+   - titxvlafbwsl (81119)
+       2 Assassin
+       2 Ninja
+       2 Warrior
+       1 DraconicOnly
+       1 AssassinNinja
+       1 AssassinWarrior
+       1 Generic
+       1 Equipment
+       1 Rare
+       1 Majestic
+       1 RFCommon
+   - kkckyqbbbaxd (28491)
+       2 Assassin
+       2 Ninja
+       2 Warrior
+       1 DraconicOnly
+       1 AssassinWarrior
+       1 Generic
+       2 Equipment
+       2 Rare
+       1 RFCommon
+   - hhdrkbbgxama (28397)
+       2 Assassin
+       2 Ninja
+       2 Warrior
+       1 DraconicOnly
+       1 AssassinNinja
+       1 AssassinWarrior
+       2 Equipment
+       2 Rare
+       1 RFCommon
+   - vwwfzofgdfoj (28310)
+       2 Assassin
+       2 Ninja
+       2 Warrior
+       1 DraconicOnly
+       1 AssassinNinja
+       1 Generic
+       2 Equipment
+       2 Rare
+       1 RFCommon
+   - ncusulebbojd (28298)
+       2 Assassin
+       2 Ninja
+       2 Warrior
+       1 AssassinNinja
+       1 AssassinWarrior
+       1 Generic
+       2 Equipment
+       2 Rare
+       1 RFCommon
+   - amwzbbimngot (22089)
+       2 Assassin
+       2 Ninja
+       2 Warrior
+       1 DraconicOnly
+       1 AssassinNinja
+       1 AssassinWarrior
+       1 Generic
+       1 Equipment
+       1 Rare
+       1 Majestic
+       1 RFRare
+   - wskmwjqwomgm (18928)
+       2 Assassin
+       2 Ninja
+       2 Warrior
+       1 DraconicOnly
+       1 AssassinNinja
+       1 AssassinWarrior
+       1 Generic
+       1 Equipment
+       2 Rare
+       1 RFMajestic
+   - nounymzamuno (12777)
+       2 Assassin
+       2 Ninja
+       3 Warrior
+       1 DraconicOnly
+       1 AssassinNinja
+       1 AssassinWarrior
+       1 Equipment
+       2 Rare
+       1 RFCommon
+   - inlqkroeikeg (12733)
+       2 Assassin
+       2 Ninja
+       3 Warrior
+       1 AssassinNinja
+       1 AssassinWarrior
+       1 Generic
+       1 Equipment
+       2 Rare
+       1 RFCommon
+   - faloedlkkmow (12712)
+       2 Assassin
+       3 Ninja
+       2 Warrior
+       1 DraconicOnly
+       1 AssassinNinja
+       1 Generic
+       1 Equipment
+       2 Rare
+       1 RFCommon
+   - kidrdzknqkzi (12681)
+       3 Assassin
+       2 Ninja
+       2 Warrior
+       1 DraconicOnly
+       1 AssassinNinja
+       1 AssassinWarrior
+       1 Equipment
+       2 Rare
+       1 RFCommon
+   - uktecrksjdrc (12673)
+       2 Assassin
+       3 Ninja
+       2 Warrior
+       1 AssassinNinja
+       1 AssassinWarrior
+       1 Generic
+       1 Equipment
+       2 Rare
+       1 RFCommon
+   - caxahtikrdpv (12644)
+       2 Assassin
+       2 Ninja
+       3 Warrior
+       1 DraconicOnly
+       1 AssassinWarrior
+       1 Generic
+       1 Equipment
+       2 Rare
+       1 RFCommon
+   - uukazttvryrj (12639)
+       3 Assassin
+       2 Ninja
+       2 Warrior
+       1 AssassinNinja
+       1 AssassinWarrior
+       1 Generic
+       1 Equipment
+       2 Rare
+       1 RFCommon
+   - aqwylkstcoyd (12638)
+       3 Assassin
+       2 Ninja
+       2 Warrior
+       1 DraconicOnly
+       1 AssassinNinja
+       1 Generic
+       1 Equipment
+       2 Rare
+       1 RFCommon
+   - swogkvwamdpf (12612)
+       2 Assassin
+       3 Ninja
+       2 Warrior
+       1 DraconicOnly
+       1 AssassinNinja
+       1 AssassinWarrior
+       1 Equipment
+       2 Rare
+       1 RFCommon
+   - wkzwhwevwwft (12558)
+       2 Assassin
+       2 Ninja
+       3 Warrior
+       1 DraconicOnly
+       1 AssassinNinja
+       1 Generic
+       1 Equipment
+       2 Rare
+       1 RFCommon
+   - nzgiufnytcqj (12547)
+       3 Assassin
+       2 Ninja
+       2 Warrior
+       1 DraconicOnly
+       1 AssassinWarrior
+       1 Generic
+       1 Equipment
+       2 Rare
+       1 RFCommon
+   - zoxjhtkluoyk (12427)
+       2 Assassin
+       3 Ninja
+       2 Warrior
+       1 DraconicOnly
+       1 AssassinWarrior
+       1 Generic
+       1 Equipment
+       2 Rare
+       1 RFCommon
+   - gnlhimafyfch (7908)
+       2 Assassin
+       2 Ninja
+       2 Warrior
+       1 DraconicOnly
+       1 AssassinNinja
+       1 Generic
+       2 Equipment
+       2 Rare
+       1 RFRare
+   - sjlomrtibaot (7893)
+       2 Assassin
+       2 Ninja
+       2 Warrior
+       1 AssassinNinja
+       1 AssassinWarrior
+       1 Generic
+       2 Equipment
+       2 Rare
+       1 RFRare
+   - qrifzlakhgls (7890)
+       2 Assassin
+       2 Ninja
+       2 Warrior
+       1 DraconicOnly
+       1 AssassinWarrior
+       1 Generic
+       2 Equipment
+       2 Rare
+       1 RFRare
+   - vdzeeuqbvnry (7744)
+       2 Assassin
+       2 Ninja
+       2 Warrior
+       1 DraconicOnly
+       1 AssassinNinja
+       1 AssassinWarrior
+       2 Equipment
+       2 Rare
+       1 RFRare
+   - rrjeuyviuvjx (6754)
+       2 Assassin
+       2 Ninja
+       2 Warrior
+       1 DraconicOnly
+       1 AssassinWarrior
+       1 Generic
+       2 Equipment
+       1 Rare
+       1 Majestic
+       1 RFCommon
+   - kbpoqfntwptl (6683)
+       2 Assassin
+       2 Ninja
+       2 Warrior
+       1 DraconicOnly
+       1 AssassinNinja
+       1 Generic
+       2 Equipment
+       1 Rare
+       1 Majestic
+       1 RFCommon
+   - dmcglywevful (6535)
+       2 Assassin
+       2 Ninja
+       2 Warrior
+       1 AssassinNinja
+       1 AssassinWarrior
+       1 Generic
+       2 Equipment
+       1 Rare
+       1 Majestic
+       1 RFCommon
+   - wwjeywoxxdfe (6523)
+       2 Assassin
+       2 Ninja
+       2 Warrior
+       1 DraconicOnly
+       1 AssassinNinja
+       1 AssassinWarrior
+       2 Equipment
+       1 Rare
+       1 Majestic
+       1 RFCommon
+   - vfqdhhiwdkro (4493)
+       2 Assassin
+       2 Ninja
+       2 Warrior
+       1 DraconicOnly
+       1 AssassinNinja
+       1 AssassinWarrior
+       1 Generic
+       1 Equipment
+       1 Rare
+       1 Majestic
+       1 RFMajestic
+   - srnzmossojjf (3686)
+       2 Assassin
+       3 Ninja
+       2 Warrior
+       1 DraconicOnly
+       1 AssassinNinja
+       1 Generic
+       1 Equipment
+       2 Rare
+       1 RFRare
+   - nlyqbhwsltyl (3598)
+       2 Assassin
+       3 Ninja
+       2 Warrior
+       1 AssassinNinja
+       1 AssassinWarrior
+       1 Generic
+       1 Equipment
+       2 Rare
+       1 RFRare
+   - qqsyljuzpero (3556)
+       2 Assassin
+       2 Ninja
+       3 Warrior
+       1 DraconicOnly
+       1 AssassinNinja
+       1 Generic
+       1 Equipment
+       2 Rare
+       1 RFRare
+   - ctdruumqrvye (3542)
+       2 Assassin
+       3 Ninja
+       2 Warrior
+       1 DraconicOnly
+       1 AssassinWarrior
+       1 Generic
+       1 Equipment
+       2 Rare
+       1 RFRare
+   - zvouuehknxob (3532)
+       3 Assassin
+       2 Ninja
+       2 Warrior
+       1 AssassinNinja
+       1 AssassinWarrior
+       1 Generic
+       1 Equipment
+       2 Rare
+       1 RFRare
+   - gvtupmekuiby (3509)
+       2 Assassin
+       2 Ninja
+       3 Warrior
+       1 DraconicOnly
+       1 AssassinWarrior
+       1 Generic
+       1 Equipment
+       2 Rare
+       1 RFRare
+   - iwulscrjevza (3494)
+       2 Assassin
+       3 Ninja
+       2 Warrior
+       1 DraconicOnly
+       1 AssassinNinja
+       1 AssassinWarrior
+       1 Equipment
+       2 Rare
+       1 RFRare
+   - xmudpcfvcrdh (3492)
+       3 Assassin
+       2 Ninja
+       2 Warrior
+       1 DraconicOnly
+       1 AssassinNinja
+       1 AssassinWarrior
+       1 Equipment
+       2 Rare
+       1 RFRare
+   - ejxqrcuvrsze (3480)
+       2 Assassin
+       2 Ninja
+       3 Warrior
+       1 DraconicOnly
+       1 AssassinNinja
+       1 AssassinWarrior
+       1 Equipment
+       2 Rare
+       1 RFRare
+   - txupmelkjwlp (3469)
+       3 Assassin
+       2 Ninja
+       2 Warrior
+       1 DraconicOnly
+       1 AssassinNinja
+       1 Generic
+       1 Equipment
+       2 Rare
+       1 RFRare
+   - ibypaboxmgfm (3397)
+       2 Assassin
+       2 Ninja
+       3 Warrior
+       1 AssassinNinja
+       1 AssassinWarrior
+       1 Generic
+       1 Equipment
+       2 Rare
+       1 RFRare
+   - zzmhtrparphy (3391)
+       3 Assassin
+       2 Ninja
+       2 Warrior
+       1 DraconicOnly
+       1 AssassinWarrior
+       1 Generic
+       1 Equipment
+       2 Rare
+       1 RFRare
+   - ftmjdeycryui (3050)
+       2 Assassin
+       2 Ninja
+       3 Warrior
+       1 DraconicOnly
+       1 AssassinNinja
+       1 Generic
+       1 Equipment
+       1 Rare
+       1 Majestic
+       1 RFCommon
+   - yvshehqaxlmv (3035)
+       2 Assassin
+       2 Ninja
+       3 Warrior
+       1 DraconicOnly
+       1 AssassinWarrior
+       1 Generic
+       1 Equipment
+       1 Rare
+       1 Majestic
+       1 RFCommon
+   - pyirgrmwealh (3034)
+       3 Assassin
+       2 Ninja
+       2 Warrior
+       1 AssassinNinja
+       1 AssassinWarrior
+       1 Generic
+       1 Equipment
+       1 Rare
+       1 Majestic
+       1 RFCommon
+   - jlqwkdxdipgy (3025)
+       2 Assassin
+       3 Ninja
+       2 Warrior
+       1 AssassinNinja
+       1 AssassinWarrior
+       1 Generic
+       1 Equipment
+       1 Rare
+       1 Majestic
+       1 RFCommon
+   - zhtrxfjgvpts (3014)
+       2 Assassin
+       2 Ninja
+       3 Warrior
+       1 DraconicOnly
+       1 AssassinNinja
+       1 AssassinWarrior
+       1 Equipment
+       1 Rare
+       1 Majestic
+       1 RFCommon
+   - bjslapaxixrz (2962)
+       2 Assassin
+       3 Ninja
+       2 Warrior
+       1 DraconicOnly
+       1 AssassinNinja
+       1 AssassinWarrior
+       1 Equipment
+       1 Rare
+       1 Majestic
+       1 RFCommon
+   - ontfdcmalcmi (2962)
+       3 Assassin
+       2 Ninja
+       2 Warrior
+       1 DraconicOnly
+       1 AssassinNinja
+       1 AssassinWarrior
+       1 Equipment
+       1 Rare
+       1 Majestic
+       1 RFCommon
+   - vfwasvhkfsff (2950)
+       2 Assassin
+       3 Ninja
+       2 Warrior
+       1 DraconicOnly
+       1 AssassinWarrior
+       1 Generic
+       1 Equipment
+       1 Rare
+       1 Majestic
+       1 RFCommon
+   - szpphqxjcztc (2946)
+       2 Assassin
+       3 Ninja
+       2 Warrior
+       1 DraconicOnly
+       1 AssassinNinja
+       1 Generic
+       1 Equipment
+       1 Rare
+       1 Majestic
+       1 RFCommon
+   - fajzolgngpxl (2928)
+       2 Assassin
+       2 Ninja
+       3 Warrior
+       1 AssassinNinja
+       1 AssassinWarrior
+       1 Generic
+       1 Equipment
+       1 Rare
+       1 Majestic
+       1 RFCommon
+   - piwtygbjegjr (2922)
+       3 Assassin
+       2 Ninja
+       2 Warrior
+       1 DraconicOnly
+       1 AssassinWarrior
+       1 Generic
+       1 Equipment
+       1 Rare
+       1 Majestic
+       1 RFCommon
+   - lnsosldrkzpu (2889)
+       3 Assassin
+       2 Ninja
+       2 Warrior
+       1 DraconicOnly
+       1 AssassinNinja
+       1 Generic
+       1 Equipment
+       1 Rare
+       1 Majestic
+       1 RFCommon
+   - ywmyeznmvqtz (1876)
+       2 Assassin
+       2 Ninja
+       2 Warrior
+       1 DraconicOnly
+       1 AssassinNinja
+       1 Generic
+       2 Equipment
+       1 Rare
+       1 Majestic
+       1 RFRare
+   - tdpjlbythorv (1861)
+       2 Assassin
+       2 Ninja
+       2 Warrior
+       1 DraconicOnly
+       1 AssassinWarrior
+       1 Generic
+       2 Equipment
+       1 Rare
+       1 Majestic
+       1 RFRare
+   - gwhmazsgdufd (1861)
+       2 Assassin
+       2 Ninja
+       2 Warrior
+       1 AssassinNinja
+       1 AssassinWarrior
+       1 Generic
+       2 Equipment
+       1 Rare
+       1 Majestic
+       1 RFRare
+   - janbqtqxcjbp (1854)
+       2 Assassin
+       2 Ninja
+       2 Warrior
+       1 DraconicOnly
+       1 AssassinNinja
+       1 AssassinWarrior
+       2 Equipment
+       1 Rare
+       1 Majestic
+       1 RFRare
+   - iltovwnnjfkf (1596)
+       2 Assassin
+       2 Ninja
+       2 Warrior
+       1 DraconicOnly
+       1 AssassinNinja
+       1 Generic
+       2 Equipment
+       2 Rare
+       1 RFMajestic
+   - lpntlutkynwd (1592)
+       2 Assassin
+       2 Ninja
+       2 Warrior
+       1 DraconicOnly
+       1 AssassinNinja
+       1 AssassinWarrior
+       2 Equipment
+       2 Rare
+       1 RFMajestic
+   - ajwtwxpvshli (1550)
+       2 Assassin
+       2 Ninja
+       2 Warrior
+       1 DraconicOnly
+       1 AssassinWarrior
+       1 Generic
+       2 Equipment
+       2 Rare
+       1 RFMajestic
+   - tnmlbqzlwntx (1517)
+       2 Assassin
+       2 Ninja
+       2 Warrior
+       1 AssassinNinja
+       1 AssassinWarrior
+       1 Generic
+       2 Equipment
+       2 Rare
+       1 RFMajestic
+   - ydzfsmcaadwi (856)
+       3 Assassin
+       2 Ninja
+       2 Warrior
+       1 DraconicOnly
+       1 AssassinWarrior
+       1 Generic
+       1 Equipment
+       1 Rare
+       1 Majestic
+       1 RFRare
+   - npirgsaayeya (849)
+       2 Assassin
+       3 Ninja
+       2 Warrior
+       1 DraconicOnly
+       1 AssassinNinja
+       1 Generic
+       1 Equipment
+       1 Rare
+       1 Majestic
+       1 RFRare
+   - kehqswvcjjgr (849)
+       2 Assassin
+       2 Ninja
+       3 Warrior
+       1 DraconicOnly
+       1 AssassinNinja
+       1 Generic
+       1 Equipment
+       1 Rare
+       1 Majestic
+       1 RFRare
+   - yciindysvdgs (847)
+       3 Assassin
+       2 Ninja
+       2 Warrior
+       1 DraconicOnly
+       1 AssassinNinja
+       1 Generic
+       1 Equipment
+       1 Rare
+       1 Majestic
+       1 RFRare
+   - wuzqnttulnwt (839)
+       3 Assassin
+       2 Ninja
+       2 Warrior
+       1 DraconicOnly
+       1 AssassinNinja
+       1 AssassinWarrior
+       1 Equipment
+       1 Rare
+       1 Majestic
+       1 RFRare
+   - ujxelprclpaq (822)
+       2 Assassin
+       2 Ninja
+       3 Warrior
+       1 DraconicOnly
+       1 AssassinWarrior
+       1 Generic
+       1 Equipment
+       1 Rare
+       1 Majestic
+       1 RFRare
+   - gdtfectutbqe (813)
+       2 Assassin
+       2 Ninja
+       3 Warrior
+       1 DraconicOnly
+       1 AssassinNinja
+       1 AssassinWarrior
+       1 Equipment
+       1 Rare
+       1 Majestic
+       1 RFRare
+   - jnhruybcyhwk (810)
+       2 Assassin
+       3 Ninja
+       2 Warrior
+       1 AssassinNinja
+       1 AssassinWarrior
+       1 Generic
+       1 Equipment
+       1 Rare
+       1 Majestic
+       1 RFRare
+   - grljvljdgpbz (802)
+       2 Assassin
+       3 Ninja
+       2 Warrior
+       1 DraconicOnly
+       1 AssassinWarrior
+       1 Generic
+       1 Equipment
+       1 Rare
+       1 Majestic
+       1 RFRare
+   - rrnkukridfih (797)
+       3 Assassin
+       2 Ninja
+       2 Warrior
+       1 AssassinNinja
+       1 AssassinWarrior
+       1 Generic
+       1 Equipment
+       1 Rare
+       1 Majestic
+       1 RFRare
+   - bpxvlooqocpi (794)
+       2 Assassin
+       3 Ninja
+       2 Warrior
+       1 DraconicOnly
+       1 AssassinNinja
+       1 AssassinWarrior
+       1 Equipment
+       1 Rare
+       1 Majestic
+       1 RFRare
+   - cdlsvsypgbrn (790)
+       2 Assassin
+       2 Ninja
+       3 Warrior
+       1 AssassinNinja
+       1 AssassinWarrior
+       1 Generic
+       1 Equipment
+       1 Rare
+       1 Majestic
+       1 RFRare
+   - cbqdjqxrxxzg (749)
+       3 Assassin
+       2 Ninja
+       2 Warrior
+       1 DraconicOnly
+       1 AssassinNinja
+       1 Generic
+       1 Equipment
+       2 Rare
+       1 RFMajestic
+   - xcoaqpwqibct (739)
+       2 Assassin
+       3 Ninja
+       2 Warrior
+       1 DraconicOnly
+       1 AssassinNinja
+       1 Generic
+       1 Equipment
+       2 Rare
+       1 RFMajestic
+   - tekropbyrfmz (739)
+       2 Assassin
+       2 Ninja
+       3 Warrior
+       1 DraconicOnly
+       1 AssassinWarrior
+       1 Generic
+       1 Equipment
+       2 Rare
+       1 RFMajestic
+   - tnxpxwiakdjj (727)
+       3 Assassin
+       2 Ninja
+       2 Warrior
+       1 AssassinNinja
+       1 AssassinWarrior
+       1 Generic
+       1 Equipment
+       2 Rare
+       1 RFMajestic
+   - kgdajmapvssq (724)
+       2 Assassin
+       3 Ninja
+       2 Warrior
+       1 AssassinNinja
+       1 AssassinWarrior
+       1 Generic
+       1 Equipment
+       2 Rare
+       1 RFMajestic
+   - llrquiztuhkc (710)
+       2 Assassin
+       3 Ninja
+       2 Warrior
+       1 DraconicOnly
+       1 AssassinWarrior
+       1 Generic
+       1 Equipment
+       2 Rare
+       1 RFMajestic
+   - pgghnstxfxrr (708)
+       2 Assassin
+       2 Ninja
+       3 Warrior
+       1 AssassinNinja
+       1 AssassinWarrior
+       1 Generic
+       1 Equipment
+       2 Rare
+       1 RFMajestic
+   - weykpwutgimz (693)
+       2 Assassin
+       2 Ninja
+       3 Warrior
+       1 DraconicOnly
+       1 AssassinNinja
+       1 AssassinWarrior
+       1 Equipment
+       2 Rare
+       1 RFMajestic
+   - vprsfwiebqad (693)
+       2 Assassin
+       3 Ninja
+       2 Warrior
+       1 DraconicOnly
+       1 AssassinNinja
+       1 AssassinWarrior
+       1 Equipment
+       2 Rare
+       1 RFMajestic
+   - jjsbumtthquz (688)
+       3 Assassin
+       2 Ninja
+       2 Warrior
+       1 DraconicOnly
+       1 AssassinWarrior
+       1 Generic
+       1 Equipment
+       2 Rare
+       1 RFMajestic
+   - cwmmeenjgyvz (685)
+       3 Assassin
+       2 Ninja
+       2 Warrior
+       1 DraconicOnly
+       1 AssassinNinja
+       1 AssassinWarrior
+       1 Equipment
+       2 Rare
+       1 RFMajestic
+   - lwttydteucfp (676)
+       2 Assassin
+       2 Ninja
+       3 Warrior
+       1 DraconicOnly
+       1 AssassinNinja
+       1 Generic
+       1 Equipment
+       2 Rare
+       1 RFMajestic
+   - ciqaupzrvwcm (418)
+       2 Assassin
+       2 Ninja
+       2 Warrior
+       1 DraconicOnly
+       1 AssassinNinja
+       1 Generic
+       2 Equipment
+       1 Rare
+       1 Majestic
+       1 RFMajestic
+   - dwnfsyqziakw (373)
+       2 Assassin
+       2 Ninja
+       2 Warrior
+       1 DraconicOnly
+       1 AssassinWarrior
+       1 Generic
+       2 Equipment
+       1 Rare
+       1 Majestic
+       1 RFMajestic
+   - ppiwhpwmjcoo (363)
+       2 Assassin
+       2 Ninja
+       2 Warrior
+       1 AssassinNinja
+       1 AssassinWarrior
+       1 Generic
+       2 Equipment
+       1 Rare
+       1 Majestic
+       1 RFMajestic
+   - tcimkobqxiws (363)
+       2 Assassin
+       2 Ninja
+       2 Warrior
+       1 DraconicOnly
+       1 AssassinNinja
+       1 AssassinWarrior
+       2 Equipment
+       1 Rare
+       1 Majestic
+       1 RFMajestic
+   - gdbfdlrgxdqg (193)
+       3 Assassin
+       2 Ninja
+       2 Warrior
+       1 AssassinNinja
+       1 AssassinWarrior
+       1 Generic
+       1 Equipment
+       1 Rare
+       1 Majestic
+       1 RFMajestic
+   - wswuoxmerigk (182)
+       2 Assassin
+       3 Ninja
+       2 Warrior
+       1 DraconicOnly
+       1 AssassinWarrior
+       1 Generic
+       1 Equipment
+       1 Rare
+       1 Majestic
+       1 RFMajestic
+   - bdtjsxjzonsl (179)
+       2 Assassin
+       2 Ninja
+       3 Warrior
+       1 DraconicOnly
+       1 AssassinWarrior
+       1 Generic
+       1 Equipment
+       1 Rare
+       1 Majestic
+       1 RFMajestic
+   - prmtqrksiyuw (176)
+       2 Assassin
+       2 Ninja
+       3 Warrior
+       1 AssassinNinja
+       1 AssassinWarrior
+       1 Generic
+       1 Equipment
+       1 Rare
+       1 Majestic
+       1 RFMajestic
+   - fvmrxwjirdnp (174)
+       3 Assassin
+       2 Ninja
+       2 Warrior
+       1 DraconicOnly
+       1 AssassinNinja
+       1 Generic
+       1 Equipment
+       1 Rare
+       1 Majestic
+       1 RFMajestic
+   - wobxbqmuluot (171)
+       2 Assassin
+       2 Ninja
+       3 Warrior
+       1 DraconicOnly
+       1 AssassinNinja
+       1 Generic
+       1 Equipment
+       1 Rare
+       1 Majestic
+       1 RFMajestic
+   - mqxvpzunvryq (166)
+       2 Assassin
+       3 Ninja
+       2 Warrior
+       1 DraconicOnly
+       1 AssassinNinja
+       1 Generic
+       1 Equipment
+       1 Rare
+       1 Majestic
+       1 RFMajestic
+   - xljnppmbwuar (165)
+       2 Assassin
+       2 Ninja
+       3 Warrior
+       1 DraconicOnly
+       1 AssassinNinja
+       1 AssassinWarrior
+       1 Equipment
+       1 Rare
+       1 Majestic
+       1 RFMajestic
+   - lecaanjxgndi (164)
+       3 Assassin
+       2 Ninja
+       2 Warrior
+       1 DraconicOnly
+       1 AssassinNinja
+       1 AssassinWarrior
+       1 Equipment
+       1 Rare
+       1 Majestic
+       1 RFMajestic
+   - hhipgsmlgfjl (152)
+       2 Assassin
+       3 Ninja
+       2 Warrior
+       1 DraconicOnly
+       1 AssassinNinja
+       1 AssassinWarrior
+       1 Equipment
+       1 Rare
+       1 Majestic
+       1 RFMajestic
+   - wemukqxrneuf (150)
+       2 Assassin
+       3 Ninja
+       2 Warrior
+       1 AssassinNinja
+       1 AssassinWarrior
+       1 Generic
+       1 Equipment
+       1 Rare
+       1 Majestic
+       1 RFMajestic
+   - rdwhfpfuardy (148)
+       3 Assassin
+       2 Ninja
+       2 Warrior
+       1 DraconicOnly
+       1 AssassinWarrior
+       1 Generic
+       1 Equipment
+       1 Rare
+       1 Majestic
+       1 RFMajestic
+[Assassin]
+4 Back Stab (red)
+2 Defang the Dragon (red)
+2 Extinguish the Flames (red)
+4 Mark of the Black Widow (red)
+2 Mark of the Black Widow (yellow)
+4 Mark of the Black Widow (blue)
+4 Mark of the Funnel Web (red)
+2 Mark of the Funnel Web (yellow)
+4 Mark of the Funnel Web (blue)
+4 Mark the Prey (red)
+2 Mark the Prey (yellow)
+4 Mark the Prey (blue)
+4 Plunge the Prospect (red)
+4 Plunge the Prospect (yellow)
+2 Plunge the Prospect (blue)
+4 Reaper's Call (red)
+4 Reaper's Call (yellow)
+4 Reaper's Call (blue)
+4 Scuttle the Canal (red)
+2 Scuttle the Canal (yellow)
+4 Scuttle the Canal (blue)
+4 Razor's Edge (red)
+4 Two Sides to the Blade (red)
+4 Hunted or Hunter (red)
+[Ninja]
+2 Blood Drop (red)
+4 Blood Line (red)
+4 Burning Blade Dance (red)
+2 Cinderskin Devotion (red)
+4 Dust Runner Outlaw (red)
+4 Hot on Their Heels (red)
+4 Lava Vein Loyalty (red)
+4 Mark with Magma (red)
+4 Ronin Renegade (red)
+4 Fire Tenet: Strike First (red)
+2 Fire Tenet: Strike First (yellow)
+2 Fire Tenet: Strike First (blue)
+4 Grow Claws (red)
+2 Grow Claws (yellow)
+4 Grow Claws (blue)
+4 Grow Wings (red)
+2 Grow Wings (yellow)
+4 Grow Wings (blue)
+4 Tag the Target (red)
+4 Tag the Target (yellow)
+2 Tag the Target (blue)
+4 Trap and Release (red)
+2 Trap and Release (yellow)
+4 Trap and Release (blue)
+[Warrior]
+4 Blistering Blade (red)
+2 Brothers of Flame (red)
+2 Dynastic Dedication (red)
+4 Imperial Intent (red)
+4 Scalding Iron (red)
+4 Searing Gaze (red)
+4 Sisters of Fire (red)
+4 Sizzling Steel (red)
+2 Stabbing Pain (red)
+4 Cut Deep (red)
+2 Cut Deep (yellow)
+4 Cut Deep (blue)
+2 Hunt a Killer (red)
+4 Hunt a Killer (yellow)
+4 Hunt a Killer (blue)
+2 Knife Through Butter (red)
+4 Knife Through Butter (yellow)
+4 Knife Through Butter (blue)
+4 Point of Engagement (red)
+4 Point of Engagement (yellow)
+2 Point of Engagement (blue)
+4 Sworn Vengeance (red)
+2 Sworn Vengeance (yellow)
+4 Sworn Vengeance (blue)
+[DraconicOnly]
+4 Blaze Headlong (red)
+4 For the Dracai (red)
+4 For the Emperor (red)
+4 For the Realm (red)
+4 Hunt the Hunter (red)
+4 Smoke Out (red)
+6 Blessing of Vynserakai (red)
+6 Pledge Fealty (red)
+4 Proclaim Vengeance (red)
+4 Tooth of the Dragon (red)
+[AssassinNinja]
+4 Pick Up the Point (red)
+4 Pick Up the Point (yellow)
+4 Pick Up the Point (blue)
+4 Poisoned Blade (red)
+4 Poisoned Blade (yellow)
+4 Poisoned Blade (blue)
+6 Throw Yourself at Them (red)
+4 Throw Yourself at Them (yellow)
+4 Throw Yourself at Them (blue)
+6 Lair of the Spider (red)
+[AssassinWarrior]
+4 Incision (red)
+4 Incision (yellow)
+4 Incision (blue)
+6 Scar Tissue (red)
+4 Scar Tissue (yellow)
+4 Scar Tissue (blue)
+4 Take a Stab (red)
+4 Take a Stab (yellow)
+4 Take a Stab (blue)
+6 Den of the Spider (red)
+[Generic]
+4 Tip-Off (red)
+4 Tip-Off (yellow)
+4 Tip-Off (blue)
+4 Outed (red)
+4 Lay Low (yellow)
+2 Exposed (blue)
+4 Put in Context (blue)
+4 Nip at the Heels (blue)
+4 Trot Along (blue)
+4 Public Bounty (red)
+4 Public Bounty (yellow)
+4 Public Bounty (blue)
+[Equipment]
+4 Vow of Vengeance
+4 Heart of Vengeance
+4 Hand of Vengeance
+4 Path of Vengeance
+4 Coat of Allegiance
+4 Leap Frog Vocal Sac
+4 Leap Frog Slime Skin
+4 Leap Frog Gloves
+4 Leap Frog Leggings
+4 Danger Digits
+4 Red Alert Visor
+4 Red Alert Vest
+4 Red Alert Gloves
+4 Red Alert Boots
+4 Starting Point
+4 Bunker Beard
+[Rare]
+2 Bite (red)
+2 Bite (yellow)
+2 Bite (blue)
+2 Whittle from Bone (red)
+2 Whittle from Bone (yellow)
+2 Whittle from Bone (blue)
+2 Stains of the Redback (red)
+2 Stains of the Redback (yellow)
+2 Stains of the Redback (blue)
+2 Orb-Weaver Spinneret (red)
+2 Orb-Weaver Spinneret (yellow)
+2 Orb-Weaver Spinneret (blue)
+2 Demonstrate Devotion (red)
+2 Display Loyalty (red)
+2 Wrath of Retribution (red)
+2 Art of the Dragon: Claw (red)
+2 Art of the Dragon: Fire (red)
+2 Art of the Dragon: Scale (red)
+2 Dragon Power (red)
+2 Dragon Power (yellow)
+2 Dragon Power (blue)
+2 Silver Talons (red)
+2 Silver Talons (yellow)
+2 Silver Talons (blue)
+2 Affirm Loyalty (red)
+2 Endear Devotion (red)
+2 Fire and Brimstone (red)
+2 Diced (red)
+2 Diced (yellow)
+2 Diced (blue)
+2 Twist and Turn (red)
+2 Twist and Turn (yellow)
+2 Twist and Turn (blue)
+2 Agility Stance (yellow)
+2 Flurry Stance (red)
+2 Power Stance (blue)
+2 Compounding Anger (red)
+2 Hunt to the Ends of Rathe (red)
+2 March of Loyalty (red)
+2 Bubble to the Surface (red)
+2 Drop of Dragon Blood (red)
+2 Rake Over the Coals (red)
+2 Cut Through (red)
+2 Cut Through (yellow)
+2 Cut Through (blue)
+2 Up Sticks and Run (red)
+2 Up Sticks and Run (yellow)
+2 Up Sticks and Run (blue)
+2 To the Point (red)
+2 To the Point (yellow)
+2 To the Point (blue)
+2 Cut from the Same Cloth (red)
+2 Cut from the Same Cloth (yellow)
+2 Cut from the Same Cloth (blue)
+2 Blade Beckoner Helm
+2 Blade Beckoner Plating
+2 Blade Beckoner Gauntlets
+2 Blade Beckoner Boots
+2 Pursue to the Edge of Oblivion (red)
+2 Pursue to the Pits of Despair (red)
+2 Sound the Alarm (red)
+2 Razor Reflex (red)
+2 Imperial Seal of Command (red)
+2 Relentless Pursuit (blue)
+2 Calming Breeze (red)
+2 Sigil of Solace (red)
+[Majestic]
+1 Kiss of Death (red)
+1 Under the Trap-Door (blue)
+1 Take Up the Mantle (yellow)
+1 Tarantula Toxin (red)
+1 Anaphylactic Shock (blue)
+1 Blood Runs Deep (red)
+1 Ignite (red)
+1 Art of the Dragon: Blood (red)
+1 Devotion Never Dies (red)
+1 Prowess of Agility (blue)
+1 Hunt's End (red)
+1 Long Whisker Loyalty (red)
+1 Jagged Edge (red)
+1 Provoke (blue)
+1 Sharpened Senses (yellow)
+1 Oath of Loyalty (red)
+1 Loyalty Beyond the Grave (red)
+1 Pain in the Backside (red)
+1 Throw Dagger (blue)
+1 Perforate (yellow)
+1 Savor Bloodshed (red)
+1 Rotten Remains (blue)
+1 Shelter from the Storm (red)
+1 Dual Threat (yellow)
+[RFCommon]
+1 Defang the Dragon (red)
+1 Extinguish the Flames (red)
+1 Mark of the Black Widow (red)
+1 Mark of the Black Widow (yellow)
+1 Mark of the Black Widow (blue)
+1 Mark of the Funnel Web (red)
+1 Mark of the Funnel Web (yellow)
+1 Mark of the Funnel Web (blue)
+1 Mark the Prey (red)
+1 Mark the Prey (yellow)
+1 Mark the Prey (blue)
+1 Plunge the Prospect (red)
+1 Plunge the Prospect (yellow)
+1 Plunge the Prospect (blue)
+1 Reaper's Call (red)
+1 Reaper's Call (yellow)
+1 Reaper's Call (blue)
+1 Scuttle the Canal (red)
+1 Scuttle the Canal (yellow)
+1 Scuttle the Canal (blue)
+1 Two Sides to the Blade (red)
+1 Hunted or Hunter (red)
+1 Blood Drop (red)
+1 Blood Line (red)
+1 Burning Blade Dance (red)
+1 Hot on Their Heels (red)
+1 Mark with Magma (red)
+1 Fire Tenet: Strike First (red)
+1 Fire Tenet: Strike First (yellow)
+1 Fire Tenet: Strike First (blue)
+1 Grow Claws (red)
+1 Grow Claws (yellow)
+1 Grow Claws (blue)
+1 Grow Wings (red)
+1 Grow Wings (yellow)
+1 Grow Wings (blue)
+1 Tag the Target (red)
+1 Tag the Target (yellow)
+1 Tag the Target (blue)
+1 Trap and Release (red)
+1 Trap and Release (yellow)
+1 Trap and Release (blue)
+1 Blistering Blade (red)
+1 Brothers of Flame (red)
+1 Dynastic Dedication (red)
+1 Imperial Intent (red)
+1 Scalding Iron (red)
+1 Searing Gaze (red)
+1 Sisters of Fire (red)
+1 Sizzling Steel (red)
+1 Stabbing Pain (red)
+1 Cut Deep (red)
+1 Cut Deep (yellow)
+1 Cut Deep (blue)
+1 Hunt a Killer (red)
+1 Hunt a Killer (yellow)
+1 Hunt a Killer (blue)
+1 Knife Through Butter (red)
+1 Knife Through Butter (yellow)
+1 Knife Through Butter (blue)
+1 Point of Engagement (red)
+1 Point of Engagement (yellow)
+1 Point of Engagement (blue)
+1 Sworn Vengeance (red)
+1 Sworn Vengeance (yellow)
+1 Sworn Vengeance (blue)
+1 Blaze Headlong (red)
+1 For the Dracai (red)
+1 For the Emperor (red)
+1 For the Realm (red)
+1 Hunt the Hunter (red)
+1 Smoke Out (red)
+1 Blessing of Vynserakai (red)
+1 Pledge Fealty (red)
+1 Proclaim Vengeance (red)
+1 Tooth of the Dragon (red)
+1 Pick Up the Point (red)
+1 Pick Up the Point (yellow)
+1 Pick Up the Point (blue)
+1 Poisoned Blade (red)
+1 Poisoned Blade (yellow)
+1 Poisoned Blade (blue)
+1 Throw Yourself at Them (red)
+1 Throw Yourself at Them (yellow)
+1 Throw Yourself at Them (blue)
+1 Lair of the Spider (red)
+1 Incision (red)
+1 Incision (yellow)
+1 Incision (blue)
+1 Scar Tissue (red)
+1 Scar Tissue (yellow)
+1 Scar Tissue (blue)
+1 Take a Stab (red)
+1 Take a Stab (yellow)
+1 Take a Stab (blue)
+1 Den of the Spider (red)
+1 Tip-Off (red)
+1 Tip-Off (yellow)
+1 Tip-Off (blue)
+1 Outed (red)
+1 Lay Low (yellow)
+1 Exposed (blue)
+1 Put in Context (blue)
+1 Nip at the Heels (blue)
+1 Trot Along (blue)
+1 Public Bounty (red)
+1 Public Bounty (yellow)
+1 Public Bounty (blue)
+[RFRare]
+1 Bite (red)
+1 Bite (yellow)
+1 Bite (blue)
+1 Whittle from Bone (red)
+1 Whittle from Bone (yellow)
+1 Whittle from Bone (blue)
+1 Stains of the Redback (red)
+1 Stains of the Redback (yellow)
+1 Stains of the Redback (blue)
+1 Orb-Weaver Spinneret (red)
+1 Orb-Weaver Spinneret (yellow)
+1 Orb-Weaver Spinneret (blue)
+1 Demonstrate Devotion (red)
+1 Display Loyalty (red)
+1 Wrath of Retribution (red)
+1 Art of the Dragon: Claw (red)
+1 Art of the Dragon: Fire (red)
+1 Art of the Dragon: Scale (red)
+1 Dragon Power (red)
+1 Dragon Power (yellow)
+1 Dragon Power (blue)
+1 Silver Talons (red)
+1 Silver Talons (yellow)
+1 Silver Talons (blue)
+1 Affirm Loyalty (red)
+1 Endear Devotion (red)
+1 Fire and Brimstone (red)
+1 Diced (red)
+1 Diced (yellow)
+1 Diced (blue)
+1 Twist and Turn (red)
+1 Twist and Turn (yellow)
+1 Twist and Turn (blue)
+1 Agility Stance (yellow)
+1 Flurry Stance (red)
+1 Power Stance (blue)
+1 Compounding Anger (red)
+1 Hunt to the Ends of Rathe (red)
+1 March of Loyalty (red)
+1 Bubble to the Surface (red)
+1 Drop of Dragon Blood (red)
+1 Rake Over the Coals (red)
+1 Cut Through (red)
+1 Cut Through (yellow)
+1 Cut Through (blue)
+1 Up Sticks and Run (red)
+1 Up Sticks and Run (yellow)
+1 Up Sticks and Run (blue)
+1 To the Point (red)
+1 To the Point (yellow)
+1 To the Point (blue)
+1 Cut from the Same Cloth (red)
+1 Cut from the Same Cloth (yellow)
+1 Cut from the Same Cloth (blue)
+1 Pursue to the Edge of Oblivion (red)
+1 Pursue to the Pits of Despair (red)
+1 Sound the Alarm (red)
+1 Imperial Seal of Command (red)
+1 Relentless Pursuit (blue)
+1 Calming Breeze (red)
+[RFMajestic]
+1 Kiss of Death (red)
+1 Under the Trap-Door (blue)
+1 Take Up the Mantle (yellow)
+1 Tarantula Toxin (red)
+1 Anaphylactic Shock (blue)
+1 Blood Runs Deep (red)
+1 Ignite (red)
+1 Art of the Dragon: Blood (red)
+1 Devotion Never Dies (red)
+1 Prowess of Agility (blue)
+1 Hunt's End (red)
+1 Long Whisker Loyalty (red)
+1 Jagged Edge (red)
+1 Provoke (blue)
+1 Sharpened Senses (yellow)
+1 Oath of Loyalty (red)
+1 Loyalty Beyond the Grave (red)
+1 Pain in the Backside (red)
+1 Throw Dagger (blue)
+1 Perforate (yellow)
+1 Savor Bloodshed (red)
+1 Rotten Remains (blue)
+1 Shelter from the Storm (red)
+1 Dual Threat (yellow)
