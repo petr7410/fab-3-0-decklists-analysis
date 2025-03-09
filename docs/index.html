@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FaB Draft 3-0 Analysis</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/indexStyles.css">
+</head>
+<body>
+
+<header>
+    <div class="logo">FaB Draft Analysis</div>
+    <nav>
+        <ul>
+            <li><a href="index.html#home" onclick="loadPage('home')">Home</a></li>
+            <li><a href="index.html#database-attributes" onclick="loadPage('database-attributes')">Attributes</a></li>
+            <li><a href="index.html#analysis" onclick="loadPage('analysis')">Analysis</a></li>
+            <li><a href="index.html#pick-rate" onclick="loadPage('pick-rate')">Pick Rate</a></li>
+            <li><a href="index.html#credits" onclick="loadPage('credits')">Credits</a></li>
+            <li><a href="index.html#support" onclick="loadPage('support')">Support</a></li>
+        </ul>
+    </nav>
+        
+    <button id="theme-toggle">🌙</button>
+</header>
+
+<main>
+    <iframe id="content-frame" src="" frameborder="0"></iframe>
+</main>
+
+<script>
+    const themeToggle = document.getElementById("theme-toggle");
+
+    function setTheme(mode) {
+        document.documentElement.setAttribute("data-theme", mode);
+        localStorage.setItem("theme", mode);
+        themeToggle.textContent = mode === "dark" ? "☀️" : "🌙";
+    }
+
+    // Auto-detect system preference on first load
+    const savedTheme = localStorage.getItem("theme") || 
+                       (window.matchMedia("(prefers-color-scheme: dark)").matches ? "dark" : "light");
+
+    setTheme(savedTheme);
+
+    // Toggle theme
+    themeToggle.addEventListener("click", () => {
+        const newTheme = document.documentElement.getAttribute("data-theme") === "dark" ? "light" : "dark";
+        setTheme(newTheme);
+    });
+</script>
+<script> 
+    function loadPage(page) {
+        event.preventDefault();
+
+        const iframe = document.getElementById("content-frame");
+
+        // Load the selected page
+        iframe.src = page + ".html";
+
+        // Save last visited page in sessionStorage
+        sessionStorage.setItem("lastPage", page);
+
+        // Wait for the iframe to load the content
+        iframe.onload = function () {
+            const iframeDocument = iframe.contentDocument || iframe.contentWindow.document;
+
+            // Create footer element dynamically
+            const footer = document.createElement("footer");
+            footer.innerHTML = `
+                <p>
+                    This site is not affiliated with Legend Story Studios. 
+                    Legend Story Studios®, Flesh and Blood™, and all associated set names are trademarks of Legend Story Studios. 
+                    All Flesh and Blood artwork, card images, and characters are the property of Legend Story Studios. 
+                    © Legend Story Studios
+                </p>
+            `;
+
+            // Append the footer to the iframe's body
+            iframeDocument.body.appendChild(footer);
+        };
+    }
+
+    // The user is redirected to the lastPage from the sessionStorage if it is defined, else the hash is used instead, and if none of these is found default to the home page
+    window.onload = () => {
+        const hash = sessionStorage.getItem("lastPage") || window.location.hash.substring(1) || "home";
+        if (window.location.hash) {
+            history.pushState("", document.title, window.location.pathname + window.location.search); // Remove hash from page
+        }
+        loadPage(hash);
+    };
+
+    //   ------------ Communication with the iframe ------------ 
+    window.addEventListener("message", (event) => {
+        if (event.origin !== window.location.origin) return;
+
+        const data = event.data;
+
+        if (data.type === "changePage") {
+            loadPage(data.page);
+        }
+    });
+</script>
+</body>
+</html>

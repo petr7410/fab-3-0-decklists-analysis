@@ -1,0 +1,108 @@
+<html>
+<head>
+    <link rel="stylesheet" href="./css/styles.css">
+</head>
+<body>
+<section class="main-info">
+    <h1>Database Attributes</h1>
+    <p>A breakdown of all columns included in the dataset.</p>
+</section>
+
+<section class="card content">
+    <h2>Draft File Columns</h2>
+    <p>These attributes are directly taken from the draft files.</p>
+
+    <div class="grid">
+        <div class="card">
+            <h3>Name</h3>
+            <p>The official card name.</p>
+        </div>
+        <div class="card">
+            <h3>Rarity</h3>
+            <p>Indicates if a card is <i>Common</i>, <i>Rare</i>, or <i>Mythic</i>.</p>
+        </div>
+        <div class="card">
+            <h3>Collector Number</h3>
+            <p>A unique identifier for the card within its set.</p>
+        </div>
+        <div class="card">
+            <h3>Image URL</h3>
+            <p>Link to the card's hosted image.</p>
+        </div>
+    </div>
+</section>
+
+<section class="card content">
+    <h2>Flesh-and-Blood Card Data</h2>
+    <p>This is only brief explanation of attributes. For full details, refer to the 
+        <a href="https://github.com/the-fab-cube/flesh-and-blood-cards/blob/develop/documentation/csv-schemas.md">flesh-and-blood-cards repository</a>.</p>
+    <table>
+        <thead>
+            <tr>
+                <th>Attribute</th>
+                <th>Description</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr><td>Unique ID</td><td>A unique identifier assigned to each card.</td></tr>
+            <tr><td>Pitch</td><td>The pitch value of the card.</td></tr>
+            <tr><td>Cost</td><td>The cost value of the card</td></tr>
+            <tr><td>Power</td><td>The power value of the card.</td></tr>
+            <tr><td>Defense</td><td>The defense value of the card.</td></tr>
+            <tr><td>Health</td><td>The health value of the card</td></tr>
+            <tr><td>Intelligence</td><td>The Intelligence value of the card.</td></tr>
+            <tr><td>Types</td><td>Types of the card. (Ninja, Earth, Draconic, Instant, ...)</td></tr>
+            <tr><td>Card Keywords</td><td>Keywords that appear on the card.</td></tr>
+            <tr><td>Abilities & Effects</td><td>Types of the abilities or effects of the card.</td></tr>
+            <tr><td>Ability Keywords</td><td>Keywords the card has.</td></tr>
+            <tr><td>Granted Keywords</td><td>Keywords that the card grants.</td></tr>
+            <tr><td>Removed Keywords</td><td>Keywords that the card removes.</td></tr>
+            <tr><td>Interacts with Keywords</td><td>Keywords that the card interacts with.</td></tr>
+            <tr><td>Functional Text</td><td>The text on the card.</td></tr>
+            <tr><td>Type Text</td><td>The type text on the card.</td></tr>
+            <tr><td>Card Played Horizontally</td><td>Is the card played horizontally.</td></tr>
+            <tr><td>Blitz Legal</td><td>Is the card legal in Blitz.</td></tr>
+            <tr><td>CC Legal</td><td>Is the card legal in CC.</td></tr>
+            <tr><td>Commoner Legal</td><td>Is the card legal in Commoner</td></tr>
+        </tbody>
+    </table>
+</section>
+
+<section class="card content">
+    <h2>Calculated Columns (Deck-Based)</h2>
+    <p>These values are calculated based on all decklists.</p>
+
+    <table>
+        <thead>
+            <tr>
+                <th>Metric</th>
+                <th>Exact Name</th>
+                <th>Formula / Explanation</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr><td>Total Count</td><td>total_count</td><td>Number of times this card appears across all decks.</td></tr>
+            <tr><td>HERO Total Count</td><td>HERO_total_count</td><td>Total appearances of this card in HERO decks.</td></tr>
+            <tr><td>Draft Avg. Occurrence</td><td>draft_average_occurrenceX</td><td>Average number of times this card appears per draft.</td></tr>
+            <tr><td>Pick Rate</td><td>pick_rate</td><td><code>total_count / (draft_average_occurrence * Number_of_decks)</code></td></tr>
+            <tr><td>HERO Pick Rate</td><td>HERO_pick_rate</td><td><code>HERO_total_count / (draft_average_occurrence * Number_of_HERO_decks)</code></td></tr>
+            <tr><td>Weighted Pick Rate</td><td>weighted_pick_rate</td><td><code>SUM(HERO_pick_rate) / COUNT(HERO_pick_rate)</code></td></tr>
+            <tr><td>Avg. Count per Deck</td><td>average_count_per_deck</td><td><code>total_count / Number_of_decks</code></td></tr>
+            <tr><td>HERO Avg. Count per Deck</td><td>HERO_average_count_per_deck</td><td><code>HERO_total_count / Number_of_HERO_decks</code></td></tr>
+            <tr><td>Normalized Avg. Count</td><td>average_count_per_normalized_deck</td><td><code>average_count_per_deck</code>, but total count was calculated with respect to deck size, each card in a 30-card deck increased the total count by 1, but each card in a 35-card deck increased the total count by 1 / 35 * 30. (For equipment this is not defined.)</td></tr>
+            <tr><td>Normalized HERO Avg. Count per Deck</td><td>HERO_average_count_per_normalized_deck</td><td>Similar to above, but only for HERO decks.</td></tr>
+        </tbody>
+    </table>
+
+    <div class="note">
+        <p><strong>Note:</strong> Pick rates are calculated using multiple draft files. When selecting a value for <i>draft_average_occurrenceX</i>, 
+            the system prioritizes <i>date</i> -> A file cannot be chosen if it has not yet been released.<br>
+            After prioritizing by date, drafts are ranked based on the total <i>draft_average_occurrenceX</i> across all cards in a deck. 
+            Newer draft files receive additional preference by accounting for the highest recorded difference between 
+            <i>draft_average_occurrenceX_newer</i> and <i>draft_average_occurrenceX_older</i> before the release of the newer file.</p>
+    </div>
+
+</section>
+<script type="module" src="js/utility.js"></script>
+</body>
+</html>

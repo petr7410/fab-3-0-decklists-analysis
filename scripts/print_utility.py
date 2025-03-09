@@ -1,41 +1,3 @@
-# Style definition
-def add_style(msg):
-    # fixing the problem with data-src
-    msg = msg.replace("data-src", "src")
-    msg += """\
-<style>
-    img {
-        width: 250px;
-    }
-
-    .tooltip {
-        position: relative;
-        display: inline-block;
-    }
-
-    .tooltip .tooltiptext {
-        visibility: hidden;
-        width: 250px;
-        background-color: white;
-        text-align: center;
-        padding: 5px;
-        border-radius: 6px;
-        box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.2);
-
-        /* Position the tooltip text */
-        position: absolute;
-        z-index: 1;
-        top: 20px; /* Position it below the link */
-        left: 105%; /* Position it to the right of the link */
-        margin-left: 0;
-    }
-
-    .tooltip:hover .tooltiptext {
-        visibility: visible;
-    }
-</style>"""
-    return msg
-
 # html definition
 def add_html_format(msg, title):
     head = f"""\
@@ -48,7 +10,7 @@ def add_html_format(msg, title):
     <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
     <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/2.1.8/css/dataTables.dataTables.min.css"/>
     <script type="text/javascript" src="https://cdn.datatables.net/2.1.8/js/dataTables.min.js"></script>
-    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="../css/analysisStyles.css">
 </head>
 <body>
     <div class="content">
@@ -56,7 +18,7 @@ def add_html_format(msg, title):
     tail = """\
 \n        </div>
     </div>
-    <script type="module" src="js/utility.js"></script>
+    <script type="module" src="../js/utility.js"></script>
     <script>
     $(document).ready(function() {
         $('table.dataTable').DataTable({

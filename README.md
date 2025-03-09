@@ -1,12 +1,33 @@
 ## Information
-Rosetta draft data are out. You can check them out [HERE](https://petr7410.github.io/fab-3-0-decklists-analysis) thanks to the GitHub Pages.  
+The Hunted draft data are out. You can check them out [HERE](https://petr7410.github.io/fab-3-0-decklists-analysis) thanks to the GitHub Pages.  
 
-I step out of generating markdown files, it is possible, but I don't think it is that much useful.  
+### Overview of Files in This Repository:
 
-I'm planning to:
- - Include tutorial how to access the PtM draft data
- - Finish working on the main branch
- - Improve this readme
+- **/data**  
+  - **all_cards.csv** – Sourced from [flesh-and-blood-cards](https://github.com/the-fab-cube/flesh-and-blood-cards).  
+  - **cards_stats.csv** – Contains all card statistics gathered from decks, including Cracked Bauble.  
+  - **decks_by_date_counts.json** – Records the number of new 3-0 decklists added per date for each hero (based on available data).  
+  - **decks_stats.json** – Shows the number of decks for each hero currently used in the analysis.  
+  - **decks.json** – Stores all decks for each hero in JSON format.  
+  - **decks.txt** – Extracted deck data from Fabrary.  
+  - **HNTdraft_\*** – Draft files.  
+
+- **/docs** – Contains all necessary data, HTML templates, scripts, and styles for GitHub Pages.  
+
+- **/scripts**  
+  - **create_card_data.py** – Generates `cards_stats.csv` from `all_cards.csv` and `decks.txt`.  
+  - **create_site.py** – Builds all analysis pages.  
+  - **init.json** – Configuration file required for correct analysis and site generation. A detailed description will be added in the main branch in the near future.  
+  - **print_utility.py** – Adds headers and scripts to analysis pages. Used by `create_site.py`.  
+  - **vis-py** – Generates the visualization site.  
+
+- **README.md** – This file.  
+
+### Required Python libraries to run locally:
+- **pandas**  
+- **markdown**  
+- **scipy**  
+- **numpy**  
 
 ### Description of all columns in the created main dataset:
 Only brief explanation of attributes used by flesh-and-blood-cards, visit their repo for more information.  
@@ -50,3 +71,9 @@ Columns calculated based on decks:
 8. **HERO_average_count_per_deck**: `HERO Cards / Number_of_HERO_decks`  
 9. **average_count_per_normalized_deck**: `average_count_per_deck`, but total count was calculated with respect to deck size, each card in a 30-card deck increased the total count by 1, but each card in a 35-card deck increased the total count by 1 / 35 * 30. (For equipment this is always empty)  
 10. **HERO_average_count_per_normalized_deck**: Similar to above but only for HERO decks
+
+### Disclaimer
+This project is not affiliated with Legend Story Studios.  
+**Legend Story Studios®, Flesh and Blood™, and all associated set names** are trademarks of Legend Story Studios.  
+All Flesh and Blood artwork, card images, and characters are the property of Legend Story Studios.  
+ © Legend Story Studios  

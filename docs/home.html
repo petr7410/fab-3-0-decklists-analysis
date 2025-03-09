@@ -1,0 +1,42 @@
+<html>
+<head>
+    <link rel="stylesheet" href="./css/styles.css">
+</head>
+<body>
+<section class="main-info">
+    <h1>3 Win Decklists Analysis</h1>
+    <p>Last decklist update: <strong>2025/03/08 22:00 CEST</strong></p>
+    <a class="button" href="https://github.com/petr7410/fab-3-0-decklists-analysis/tree/The-Hunted"  target="_blank">View Repository</a>
+    <p>This project analyzes 3-0 decklists from the Runaways Discord server.</p>
+</section>
+
+<section class="grid">
+    <div class="card interactive" onclick="loadPage('database-attributes')">
+        <h2>Database Attributes</h2>
+        <p>Details about attributes used in the analysis.</p>
+    </div>
+    <div class="card interactive" onclick="loadPage('analysis')">
+        <h2>Analysis Links</h2>
+        <p>View the visualization and text data.</p>
+    </div>
+    <div class="card interactive" onclick="loadPage('pick-rate')">
+        <h2>Pick Rate</h2>
+        <p>My attempt to explain pick rate attribute.</p>
+    </div>
+    <div class="card interactive" onclick="loadPage('credits')">
+        <h2>Acknowledgements</h2>
+        <p>Show credits.</p>
+    </div>
+    <div class="card interactive" onclick="loadPage('support')">
+        <h2>Support, Contributions and Suggestions</h2>
+        <p>Supports this project.</p>
+    </div>
+</section>
+<script type="module" src="js/utility.js"></script>
+<script>
+    function loadPage(page) {
+        window.parent.postMessage({ type: "changePage", page}, window.location.origin);
+    }
+</script>
+</body>
+</html>

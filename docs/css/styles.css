@@ -1,117 +1,172 @@
+/* 🌞 Light Theme */
+:root {
+    --bg-color: #fff;
+    --bg-alt-color: #ddd;
+    --note-color: #ccc;
+    --text-color: #000;
+    --border-color: #ccc;
+    --box-shadow-color: rgba(0, 0, 0, 0.1);
+    --card-bg: #f4f4f4;
+    --primary: #5747ff;
+    --button-hover: #3727ff;
+    --table-header: #5747ff;
+   
+}
+
+/* 🌙 Dark Theme */
+[data-theme="dark"] {
+    --bg-color: #000;
+    --bg-alt-color: #222;
+    --note-color: #333;
+    --text-color: #eee;
+    --border-color: #444;
+    --box-shadow-color: rgba(0, 0, 0, 0.2);
+    --card-bg: #1e1e1e;
+    --primary: #857aff;
+    --button-hover: #a587ff;
+    --table-header: #857aff;
+    
+}
+
+/* General Layout */
 body {
-  font-family: 'Arial', sans-serif;
-  line-height: 1.6;
-  margin: 20px;
-  background-color: #f4f4f4;
-  color: #333;
+    font-family: 'Inter', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: var(--bg-color);
+    color: var(--text-color);
+    transition: all 0.3s ease;
 }
 
-h1, h2, h3 {
-  margin-bottom: 15px;
+/* Style for the initial info on page */
+.main-info {
+    text-align: center;
+    padding: 50px 20px;
 }
 
-p {
-  margin-bottom: 10px;
+/* Style for button */
+.button {
+    display: inline-block;
+    background: var(--primary);
+    color: var(--text-color);
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
 }
 
-h3 {
-  border-bottom: 2px solid #ccc;
-  padding-bottom: 1px;
-  margin-bottom: 5px;
+.button:hover {
+    background: var(--button-hover);
 }
 
-.card-list {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 20px;
+/* Style if content should be displayed in grid */
+.grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+    padding: 20px;
 }
 
-.card-item {
-  flex: 1 1 calc(33.333% - 20px);
-  background: #fff;
-  padding: 15px;
-  border-radius: 8px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  transition: transform 0.3s;
+/* Style for information container; if it is clickable, it should also use the interactive class, and if it contains a lot of content, it should use the content class  */
+.card {
+    background: var(--card-bg);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px var(--box-shadow-color);
 }
 
-.card-item:hover {
-  transform: translateY(-5px);
+.card.content {
+    margin: 20px;
+    overflow-x: auto; /* Allows horizontal scrolling if needed */
+    max-width: 100%; /* Ensures it doesn't stretch beyond its parent */
 }
 
-.card-item a {
-  text-decoration: none;
-  color: #333;
+.card.interactive {
+    transition: transform 0.3s;
+    cursor: pointer;
 }
 
-img {
-  width: 250px;
-  height: auto;
-  border-radius: 6px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+.card.interactive:hover {
+    transform: translateY(-5px);
 }
 
-.tooltip {
-  position: relative;
-  display: inline-block;
+/* Styles for more specific paragraphs (use-case: <div class="note"><p>Text of note</p></div>*/
+.formula {
+    font-weight: bold;
+    font-size: 1.1em;
+    background: var(--bg-alt-color);
+    padding: 8px;
+    border-radius: 5px;
+    display: inline-block;
 }
 
-.tooltip .tooltiptext {
-  visibility: hidden;
-  width: 250px;
-  background-color: #f4f4f4;
-  color: #333;
-  text-align: center;
-  padding: 5px;
-  border-radius: 6px;
-  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
-  position: absolute;
-  z-index: 1;
-  top: 20px;
-  left: 105%;
-  margin-left: 0;
-  transition: opacity 0.3s ease;
-  opacity: 0;
+.note {
+    background: var(--note-color);
+    padding: 10px;
+    border-left: 4px solid var(--table-header);
+    margin: 10px 0;
+    border-radius: 5px;
 }
 
-.tooltip:hover .tooltiptext {
-  visibility: visible;
-  opacity: 1;
-}
-
-.tooltip .tooltiptext img {
-  max-width: 100%;
-  height: auto;
-  display: block;
-}
-
+/* Table style*/
 table {
-  width: 100%;
-  border-collapse: collapse;
-  margin: 20px 0;
-  font-size: 16px;
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 15px;
 }
 
 table, th, td {
-  border: 1px solid #ddd;
-  text-align: left;
-  padding: 8px;
+    border: 1px solid var(--border-color);
+    padding: 10px;
 }
 
-table tr:nth-child(even) {
-  background-color: #f9f9f9;
+th {
+    background-color: var(--table-header);
+    color: var(--text-color);
 }
 
-table tr:nth-child(odd) {
-  background-color: #fff;
+/* Disclaimer style */
+footer {
+    text-align: center;
+    padding: 15px;
+    background: var(--note-color);
 }
 
-table th {
-  background-color: #f2f2f2;
-  color: #333;
-  font-weight: bold;
+/* Style for the analysis non-modal pages */
+.modal {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.7);
+    z-index: 1000;
 }
 
-table tr:hover {
-  background-color: #e0e0e0;
+.modal-content {
+    position: absolute;
+    top: 2.5%;
+    left: 2.5%;
+    width: 95%;
+    height: 95%;
+    background: var(--bg-color);
+    border-radius: 10px;
+    overflow: hidden;
 }
+
+.modal-content .close {
+    position: absolute;
+    top: 10px;
+    right: 15px;
+    font-size: 25px;
+    cursor: pointer;
+    color: var(--text-color);
+}
+
+#analysis-frame {
+    width: 100%;
+    height: 100%;
+    border: none;
+}
+  

@@ -17,3 +17,11 @@ document.addEventListener('DOMContentLoaded', () => {
         }
     });
 });
+
+addEventListener("storage", (event) => {
+    if (event.key === "theme") {
+        document.documentElement.setAttribute("data-theme", localStorage.getItem("theme"));
+    }
+});
+
+document.documentElement.setAttribute("data-theme", localStorage.getItem("theme"));

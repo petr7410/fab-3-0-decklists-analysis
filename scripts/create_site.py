@@ -34,7 +34,7 @@ def create_site(site_config, name):
 
         msg += process_card_group(filtered_cards, group_config)
 
-    with open(f'../docs/{name}.html', 'w') as f:
+    with open(f'../docs/generated/{name}.html', 'w') as f:
         f.write(add_html_format(markdown.markdown(msg, extensions=['tables']).replace('<!-- dataTable -->\n<table>', '<table class="dataTable">'), site_config["name"]))
 
 

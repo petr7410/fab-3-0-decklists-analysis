@@ -172,7 +172,7 @@ figures = {
 
 for filename, (data, x_col, y_col_list, yaxis_title, title, custom_color_sequence) in figures.items():
     fig = create_bar_figure(data, x_col, y_col_list, title, yaxis_title, custom_color_sequence)
-    save_chart_as_json(fig, f'../docs/vis_data/{filename}.json')
+    save_chart_as_json(fig, f'../docs/generated/vis_data/{filename}.json')
 
 # Load decks by date data from JSON file
 with open('../data/decks_by_date_counts.json', 'r') as file:
@@ -206,7 +206,7 @@ fig = px.line(df, x='date', y='cumulative_count', color='name', title='Cumulativ
               color_discrete_sequence=["blue", "red", "#ffd901"])
 
 # Saving chart
-save_chart_as_json(fig, '../docs/vis_data/deck_statistics.json')
+save_chart_as_json(fig, '../docs/generated/vis_data/deck_statistics.json')
 
 # Load decks data
 with open('../data/decks.json', 'r') as f:
@@ -354,5 +354,5 @@ data_dicts = {
 for title, data_dict in data_dicts.items():
     df = create_dataframe(data_dict)
     fig = create_plot(df, title)
-    filename = f'../docs/vis_data/{title.lower().replace(" ", "_")}.json'
+    filename = f'../docs/generated/vis_data/{title.lower().replace(" ", "_")}.json'
     save_chart_as_json(fig, filename)
