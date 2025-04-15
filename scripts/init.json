@@ -1,0 +1,172 @@
+{
+    "date_range": {
+        "start_date": "2025-01-20 23:30:00",
+        "end_date": ""
+    },
+    "files": {
+        "all_cards": "../data/all_cards.csv",
+        "decks": "../data/decks.txt",
+        "draft_files": ["../data/HNTdraft_V0_2.txt", "../data/HNTdraft_V1_0.txt"]
+    },
+    "draft_file_date": ["2025-01-01 0:00:00", "2025-01-30 16:00:00"],
+    "save": {
+        "decks_stats": "../data/decks_stats.json",
+        "decks_by_date_counts": "../data/decks_by_date_counts.json",
+        "cards_stats": "../data/cards_stats.csv",
+        "decks": "../data/decks.json"
+    },
+    "cracked_bauble": {
+        "rarity": "token",
+        "collector_number": "HNT245",
+        "type": [],
+        "image_url": "https://storage.googleapis.com/fabmaster/cardfaces/2025-HNT/EN/HNT245.png"
+    },
+    "weapons": ["Mark of the Huntsman", "Obsidian Fire Vein", "Kunai of Retribution"],
+    "cannot_be_played_conditions": {
+        "Fang": ["Ninja"],
+        "Cindra": ["Warrior"]
+    },
+    "can_be_played_conditions": {
+        "Fang": [
+            "Warrior",
+            "Draconic",
+            "Generic"
+        ],
+        "Cindra": [
+            "Ninja",
+            "Draconic",
+            "Generic"
+        ],
+        "Arakni, Web of Deceit": [
+            "Assassin",
+            "Chaos",
+            "Generic"
+        ]
+    },
+    "html_to_create":{
+        "Fang_all_cards": {
+            "name": "Fang Analysis", 
+            "filter" : {
+                "Types": ["Warrior", "Draconic", "Generic"]
+            },
+            "negative_filter" : {
+                "Types": ["Ninja"]
+            },
+            "data": {
+                "all_cards": {
+                    "sort": "Fang_pick_rate",
+                    "data": ["Fang_average_count_per_deck", "Fang_average_count_per_normalized_deck", "Fang_pick_rate", "Fang_total_count"],
+                    "data_name": ["Fang average number of card per deck", "Fang average number of card per 30-card deck", "Fang Pick rate", "Fang Overall number"],
+                    "bonus_data": ["rarity", "Types", "Card Keywords"],
+                    "name": "All cards",
+                    "data_table": true
+                }
+            }
+        },
+        "Cards_by_type_comparison": {
+            "name": "Cards with equipment by type",
+            "data": {
+                "pitch_distribution": {
+                    "negative_filter" : {
+                        "Types": ["Equipment"]
+                    },
+                    "data": ["average_count_per_normalized_deck", "pick_rate", "total_count"],
+                    "data_name": ["average number of card per 30-card deck", "Pick rate", "Overall number"],
+                    "group_by": {
+                        "columns": ["Pitch"],
+                        "aggregation": {"average_count_per_normalized_deck": "sum", "pick_rate": "mean", "total_count": "sum"}
+                    },
+                    "sort": "Pitch",
+                    "name": "Pitch distribution"
+                },
+                "equipment_cards": {
+                    "filter": {
+                        "Types": ["Equipment"]
+                    },
+                    "sort": "pick_rate",
+                    "data": ["pick_rate", "weighted_pick_rate", "average_count_per_deck", "total_count"],
+                    "data_name": ["Pick rate", "Weighted pick rate", "Average number of card per deck", "Overall number"],
+                    "bonus_data": ["rarity", "Types", "Card Keywords"],
+                    "name": "Equipment cards",
+                    "data_table": true
+                },
+                "generic_cards": {
+                    "filter": {
+                        "Types": ["Generic"]
+                    },
+                    "sort": "pick_rate",
+                    "data": ["pick_rate", "weighted_pick_rate", "average_count_per_deck", "average_count_per_normalized_deck", "total_count"],
+                    "data_name": ["Pick rate", "Weighted pick rate", "Average number of card per deck", "Average number of card per 30-card deck", "Overall number"],
+                    "bonus_data": ["rarity", "Types", "Card Keywords"],
+                    "name": "Generic cards",
+                    "data_table": true
+                },
+                "draconic_cards": {
+                    "filter": {
+                        "Types": ["Draconic"]
+                    },
+                    "negative_filter" : {
+                        "Types": ["Warrior", "Ninja"]
+                    },
+                    "sort": "pick_rate",
+                    "data": ["pick_rate", "weighted_pick_rate", "average_count_per_deck", "average_count_per_normalized_deck", "total_count"],
+                    "data_name": ["Pick rate", "Weighted pick rate", "Average number of card per deck", "Average number of card per 30-card deck", "Overall number"],
+                    "bonus_data": ["rarity", "Types", "Card Keywords"],
+                    "name": "Draconic cards",
+                    "data_table": true
+                },
+                "warrior_assassin_cards": {
+                    "filter": {
+                        "Types": ["Warrior"],
+                        "_Types": ["Assassin"]
+                    },
+                    "sort": "pick_rate",
+                    "data": ["pick_rate", "weighted_pick_rate", "average_count_per_deck", "average_count_per_normalized_deck", "total_count"],
+                    "data_name": ["Pick rate", "Weighted pick rate", "Average number of card per deck", "Average number of card per 30-card deck", "Overall number"],
+                    "bonus_data": ["rarity", "Types", "Card Keywords"],
+                    "name": "Warrior & Assassin cards",
+                    "data_table": true
+                },
+                "ninja_assassin_cards": {
+                    "filter": {
+                        "Types": ["Ninja"],
+                        "_Types": ["Assassin"]
+                    },
+                    "sort": "pick_rate",
+                    "data": ["pick_rate", "weighted_pick_rate", "average_count_per_deck", "average_count_per_normalized_deck", "total_count"],
+                    "data_name": ["Pick rate", "Weighted pick rate", "Average number of card per deck", "Average number of card per 30-card deck", "Overall number"],
+                    "bonus_data": ["rarity", "Types", "Card Keywords"],
+                    "name": "Ninja & Assassin cards",
+                    "data_table": true
+                },
+                "attack_action_cards": {
+                    "filter": {
+                        "Types": ["Action"],
+                        "_Types": ["Attack"]
+                    },
+                    "data": ["average_count_per_normalized_deck", "total_count"],
+                    "data_name": ["Average number of card per 30-card deck", "Overall number"],
+                    "group_by": {
+                        "columns": [],
+                        "aggregation": {"average_count_per_normalized_deck": "sum", "total_count": "sum"}
+                    },
+                    "name": "Summary of card types and keywords",
+                    "comment": "Attack Action cards"
+                }
+            }
+        },
+        "Draft_file_analysis": {
+            "name": "Draft file with pick rate",
+            "data": {
+                "all_cards": {
+                    "sort": "weighted_pick_rate",
+                    "data": ["weighted_pick_rate", "pick_rate", "total_count", "average_count_per_deck", "average_count_per_normalized_deck", "draft_average_occurrence1", "draft_average_occurrence2"],
+                    "data_name": ["Weighted pick rate", "Pick rate", "Overall number", "Average number of card per deck", "Average number of card per 30-card deck", "First Draft File average occurrence", "Second Draft File average occurrence"],
+                    "bonus_data": ["rarity", "Types", "Card Keywords"],
+                    "name": "All cards",
+                    "data_table": true
+                }
+            }
+        }
+    }
+}
