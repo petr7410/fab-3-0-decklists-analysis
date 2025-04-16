@@ -10,7 +10,7 @@ This branch contains data from the old F&B expansion. This means that this data 
 - [Analysis Links](#analysis-links)
 - [Overview of Files](#overview-of-files)
 - [Acknowledgements](#acknowledgements)
-- [Contributions and Suggestions](#contributions-and-suggestions)
+- [Disclaimer](#disclaimer)
 
 ## Introduction
 
@@ -186,6 +186,9 @@ Thank you to:
 - [Runaways TCG](https://x.com/tcgrunaways) for gathering an amazing community.
 - Everyone who shared their decks on the Runaways Discord server.
 
-## Contributions and Suggestions
+## Disclaimer
 
-I welcome suggestions for improvements and encourage you to point out any mistakes. For feedback or contributions, please open an issue or submit a pull request. You can also contact me on Discord: petr7410.
+This project is not affiliated with Legend Story Studios.  
+**Legend Story Studios®, Flesh and Blood™, and all associated set names** are trademarks of Legend Story Studios.  
+All Flesh and Blood artwork, card images, and characters are the property of Legend Story Studios.  
+ © Legend Story Studios  
