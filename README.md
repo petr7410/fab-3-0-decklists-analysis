@@ -68,3 +68,9 @@ Columns calculated based on decks:
 8. **HERO_average_count_per_deck**: `HERO Cards / Number_of_HERO_decks`  
 9. **average_count_per_normalized_deck**: `average_count_per_deck`, but total count was calculated with respect to deck size, each card in a 30-card deck increased the total count by 1, but each card in a 35-card deck increased the total count by 1 / 35 * 30. (For equipment this is always empty)  
 10. **HERO_average_count_per_normalized_deck**: Similar to above but only for HERO decks
+
+## Disclaimer
+This project is not affiliated with Legend Story Studios.  
+**Legend Story Studios®, Flesh and Blood™, and all associated set names** are trademarks of Legend Story Studios.  
+All Flesh and Blood artwork, card images, and characters are the property of Legend Story Studios.  
+ © Legend Story Studios  
