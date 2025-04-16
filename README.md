@@ -1,4 +1,4 @@
-# 3 Win Decklists Analysis
+# Part the Mistveil 3-0 Decklists Analysis
 
 This branch contains data from the old F&B expansion. This means that this data is no longer accessible on the web page. If you want to view this data, please visit [Accessibility](#accessibility).
 
@@ -22,6 +22,28 @@ The project end up as an HTML page. The analysis folder contains Markdown files,
 
 ## Accessibility
 
+### Compatibility with Newer Versions
+
+This version does not include some of the more advanced features introduced in the **Rosetta** version, such as Pick Rate calculations or support for multiple draft files.
+
+If you plan to use this data with newer scripts, it's recommended to regenerate the datasets using the latest version of the script, which includes all the updated columns. Be aware that the FaBrary export format has changed, so:
+
+- You should either update the parsing logic in the main branch to match the Rosetta script  
+**or**
+- Ideally, write a converter that updates old-format exports to the new format  
+**(or wait till I have enough time and energy to do so)**
+
+#### About `init.json` Setup
+
+When setting up the `init.json` file, the release data of the second draft was sometime around `2024-06-01 00:00:00`.
+
+```json
+"draft_files": ["old-draft-file.txt", "draft-file.txt"],
+"draft_file_date": ["2024-01-01 00:00:00", "2024-06-01 00:00:00"]
+```
+
+### Access the version before release of Rosetta
+
 If you are interested in the data but not in the analysis, you can either **clone** this repository or simply **download** what you need from the `data` folder (and potentially the `scripts` folder).
 
 If you are interested in text-based analysis, the easiest way to access it is to download the relevant `.md` files from the `analysis` folder and open them in any Markdown viewer. Note that GitHub does not support custom styles for Markdown files for security reasons, so they appear incorrectly on GitHub. You won't miss out on anything other than visualization, as PtM was originally created to be viewed as Markdown, and all HTML files are pretty much generated from these Markdown files.
@@ -31,7 +53,7 @@ If you are interested in the web-based interface:
 2. Navigate to the folder containing `index.html`. Ensure that the `docs` folder is inside it.
 3. Create a local server in this folder. There are multiple ways to do this. I'm using `py -m http.server` (only if you have Python installed), but you can also use `Simple Web Server`, `Simple HTTP Server`, or even the Chrome extension `Web Server for Chrome`.
 4. Navigate to the URL of your server at `/index.html`. (For Python method: If you see the message: `Serving HTTP on :: port 8000`, then go to `http://localhost:8000/index.html`.)
-5. Now you have access to the final version of PtM before the switch to Rosetta. Congratulations!
+5. Now you have access to the final version of PtM before the switch to Rosetta.
 
 **Note:** You should be able to view HTML pages in a browser without a local server, but `vis.html` will not load correctly.
 
