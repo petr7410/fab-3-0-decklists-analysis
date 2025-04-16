@@ -229,13 +229,68 @@ When multiple draft files are used:
 3. The selected draft file is used for pick rate calculation.
 
 
+## Attributes Reference
+
+This section summarizes the key attributes used in the dataset and generated outputs. They are grouped based on their origin: exported draft files, external card databases, and calculated statistics.
+
+### Draft File Columns
+
+These attributes are taken directly from draft file:
+
+- **Name** - The official card name.
+- **rarity** - Indicates if a card is *common*, *rare*, or *mythic*.
+- **collector_number** - A unique identifier for the card within its set.
+- **image_url** - Link to the card’s hosted image.
+
+
+### Flesh-and-Blood Card Data ([More Details](https://github.com/the-fab-cube/flesh-and-blood-cards/blob/develop/documentation/csv-schemas.md))
+
+These attributes are imported from the `flesh-and-blood-cards` database:
+
+- **Unique ID** - A unique identifier assigned to each card.
+- **Pitch** - The pitch value of the card.
+- **Cost** - The cost value of the card.
+- **Power** - The power value of the card.
+- **Defense** - The defense value of the card.
+- **Health** - The health value of the card.
+- **Intelligence** - The Intelligence value of the card.
+- **Types** - Types of the card. (*Ninja*, *Earth*, *Draconic*, *Instant*, ...)
+- **Card Keywords** - Keywords that appear on the card.
+- **Abilities & Effects** - Types of the abilities or effects of the card.
+- **Ability Keywords** - Keywords the card has.
+- **Granted Keywords** - Keywords that the card grants.
+- **Removed Keywords** - Keywords that the card removes.
+- **Interacts with Keywords** - Keywords that the card interacts with.
+- **Functional Text** - The text on the card.
+- **Type Text** - The type text on the card.
+- **Card Played Horizontally** - Is the card played horizontally.
+- **Blitz Legal** - Is the card legal in Blitz.
+- **CC Legal** - Is the card legal in CC.
+- **Commoner Legal** - Is the card legal in Commoner.
+
+### Calculated Columns (Deck-Based Metrics)
+
+These values are generated through `create_card_data.py`:
+
+- **total_count** - Number of times this card appears across all decks.
+- **HERO_total_count** - Total appearances of this card in HERO decks.
+- **draft_average_occurrenceX** - Average number of times this card appears per draft, based on draft file `X`.
+- **pick_rate** - `total_count / (draft_average_occurrence * total_number_of_decks)`
+- **HERO_pick_rate** - Same as `pick_rate`, but for a specific hero only.
+- **weighted_pick_rate** - Averaged pick rate across heroes: `SUM(HERO_pick_rate) / COUNT(HERO_pick_rate)`
+- **average_count_per_deck** - How many copies of the card appear on average in decks.
+- **HERO_average_count_per_deck** - How many copies of the card appear on average in HRO decks.
+- **average_count_per_normalized_deck** - Adjusted average for decks normalized to 30 cards (undefined for equipment).
+- **HERO_average_count_per_normalized_deck** -  Adjusted average for HERO decks normalized to 30 cards(undefined for equipment).
+
+
 ## Acknowledgements
 
 Special thanks to the following projects and communities whose resources made this work possible:
 
-- **[Flesh and Blood Cards](https://github.com/the-fab-cube/flesh-and-blood-cards)** – For providing detailed and structured card data.
-- **[Runaways](https://discord.com/invite/EcKkyJJBm6)** – For building an amazing community around Flesh and Blood and to everyone who shared their 3-0 deck.
-- **[FaBrary](https://fabrary.net/)** – For offering a robust deck-building and export platform.
+- **[Flesh and Blood Cards](https://github.com/the-fab-cube/flesh-and-blood-cards)** - For providing detailed and structured card data.
+- **[Runaways](https://discord.com/invite/EcKkyJJBm6)** - For building an amazing community around Flesh and Blood and to everyone who shared their 3-0 deck.
+- **[FaBrary](https://fabrary.net/)** - For offering a robust deck-building and export platform.
 
 
 ## Disclaimer
