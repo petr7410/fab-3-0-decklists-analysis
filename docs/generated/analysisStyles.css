@@ -1,0 +1,231 @@
+/* 🌞 Light Theme */
+:root {
+  --bg-color: #fff;
+  --bg-alt-color: #ddd;
+  --text-color: #000;
+  --border-color: #bbb;
+  --box-shadow-color: rgba(0, 0, 0, 0.1);
+  --card-bg: #f4f4f4;
+  --table-header: #5747ff;
+  --even-row: #e3e3e3;
+  --odd-row: #eee;
+}
+
+/* 🌙 Dark Theme */
+[data-theme="dark"] {
+  --bg-color: #000;
+  --bg-alt-color: #222;
+  --text-color: #eee;
+  --border-color: #444;
+  --box-shadow-color: rgba(0, 0, 0, 0.2);
+  --card-bg: #1e1e1e;
+  --table-header: #857aff;
+  --even-row: #1c1c1c;
+  --odd-row: #111;
+}
+
+/* General Layout */
+body {
+  font-family: Arial, sans-serif;
+  background: var(--bg-color);
+  color: var(--text-color);
+  margin: 0;
+  padding: 20px;
+}
+
+.content {
+  margin: 0 auto;
+  padding: 20px;
+  background: var(--card-bg);
+  border-radius: 8px;
+  box-shadow: 0 4px 8px var(--box-shadow-color);
+}
+
+/* Headings */
+h1, h2, h3 {
+  color: var(--text-color);
+  border-bottom: 2px solid var(--border-color);
+  padding-bottom: 5px;
+  margin-bottom: 10px;
+}
+
+h1 {
+  text-align: center;
+}
+
+
+/* Style for display of the card */
+.card-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.card-item {
+  flex: 1 1 calc(33.333% - 20px);
+  background: #fff;
+  padding: 15px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s;
+}
+
+.card-item:hover {
+  transform: translateY(-5px);
+}
+
+.card-item a {
+  text-decoration: none;
+  color: #333;
+}
+
+img {
+  width: 250px;
+  height: auto;
+  border-radius: 6px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.tooltip {
+  position: relative;
+  display: inline-block;
+}
+
+.tooltip .tooltiptext {
+  visibility: hidden;
+  width: 250px;
+  background-color: #f4f4f4;
+  color: #333;
+  text-align: center;
+  border-radius: 15px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  position: absolute;
+  z-index: 1;
+  top: 20px;
+  left: 105%;
+  margin-left: 0;
+  transition: opacity 0.3s ease;
+  opacity: 0;
+}
+
+.tooltip:hover .tooltiptext {
+  visibility: visible;
+  opacity: 1;
+}
+
+.tooltip .tooltiptext img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+/* Tables */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 15px;
+  background: var(--bg-alt-color);
+}
+
+th {
+  background-color: var(--table-header);
+  color: white;
+  padding: 10px;
+  text-align: left;
+}
+
+td {
+  padding: 10px;
+  border-bottom: 1px solid var(--border-color);
+}
+
+tr:nth-child(even) {
+  background: var(--even-row);
+}
+
+tr:nth-child(odd) {
+  background: var(--odd-row);
+}
+
+/* Force DataTables to respect odd/even row styles */
+table.dataTable tbody tr:nth-child(even) {
+  background: var(--even-row) !important;
+}
+
+table.dataTable tbody tr:nth-child(odd) {
+  background: var(--odd-row) !important;
+}
+
+/* Ensure DataTables "odd" and "even" classes don't interfere */
+table.dataTable tbody tr.even {
+  background: var(--even-row) !important;
+}
+
+table.dataTable tbody tr.odd {
+  background: var(--odd-row) !important;
+}
+
+/* DataTables Enhancements */
+.dataTables_wrapper {
+  margin-top: 10px;
+  font-size: 0.9em;
+}
+
+.dataTables_length select {
+  background: var(--bg-alt-color);
+  color: var(--text-color);
+}
+
+.dataTables_filter input {
+  background: var(--bg-alt-color);
+  color: var(--text-color);
+  border: 1px solid var(--border-color);
+  padding: 5px;
+  border-radius: 5px;
+}
+
+/* Summary Section */
+p {
+  background: var(--bg-alt-color);
+  padding: 10px;
+  border-radius: 5px;
+  line-height: 1.5;
+}
+
+p strong {
+  color: var(--table-header);
+}
+
+div.dt-container .dt-input {
+  color: var(--text-color);
+  background-color: var(--bg-color);
+}
+
+/* select style*/
+select {
+  background-color: var(--bg-alt-color);
+  color: var(--text-color);
+  border: 1px solid var(--border-color);
+  padding: 8px;
+  border-radius: 6px;
+  font-size: 1em;
+  cursor: pointer;
+}
+
+/* Dropdown arrow fix for some browsers */
+select::-ms-expand {
+  display: none; /* Hide default arrow in IE/Edge */
+}
+
+/* Ensure focus and hover effects are consistent */
+select:focus,
+select:hover {
+  border-color: var(--table-header);
+  outline: none;
+}
+
+/* Style dropdown options */
+select option {
+  background: var(--bg-alt-color);
+  color: var(--text-color);
+}

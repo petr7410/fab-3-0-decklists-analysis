@@ -168,5 +168,169 @@
                 }
             }
         }
+    },
+    "visualization": {
+        "heroes": ["Fang", "Cindra", "Arakni, Web of Deceit"],
+        "heroes_color": ["red", "#ffd901", "blue"],
+        "decks_by_date_chart": true,
+        "group_by_charts" : [
+            {
+                "filename": "pitch_distribution",
+                "title": "Pitch Distribution",
+                "x-axis": "Percentage of cards",
+                "group_by": "Pitch"
+            },
+            {
+                "filename": "defense_distribution",
+                "title": "Defense Distribution",
+                "x-axis": "Percentage of cards",
+                "group_by": "Defense"
+            },
+            {
+                "filename": "cost_distribution",
+                "title": "Pitch Distribution",
+                "x-axis": "Cost of cards",
+                "group_by": "Cost"
+            }
+        ],
+        "custom_charts": [
+            {
+                "filename": "card_types_keywords",
+                "title": "Card Types",
+                "x-axis": "Percentage of cards",
+                "bars": [
+                    {
+                        "name": "Attack Action",
+                        "filter": { "Types": ["Action"], "_Types": ["Attack"] }
+                    },
+                    {
+                        "name": "Non-Attack Action",
+                        "filter": { "Types": ["Action"] },
+                        "negative_filter": { "Types": ["Attack"] }
+                    },
+                    {
+                        "name": "Attack Reaction",
+                        "filter": { "Types": ["Attack Reaction"]}
+                    },
+                    {
+                        "name": "Instant",
+                        "filter": { "Types": ["Instant"]}
+                    },
+                    {
+                        "name": "Defense Reaction",
+                        "filter": { "Types": ["Defense Reaction"]}
+                    },
+                    {
+                        "name": "Block",
+                        "filter": { "Types": ["Block"]}
+                    }
+                ]
+            }
+        ],
+        "shared_cards": [
+            {
+                "filename": "equipment_comparison_classes",
+                "title": "Equipment Distribution Across Classes",
+                "x-axis": "Percentage of equipments",
+                "heroes": ["Fang", "Cindra", "Arakni, Web of Deceit"],
+                "filter": { "Types": ["Equipment"] }
+            },
+            {
+                "filename": "pure_draconic_cards",
+                "title": "Pure Draconic Cards",
+                "x-axis": "Percentage of cards",
+                "heroes": ["Fang", "Cindra"],
+                "filter": { "Types": ["Draconic"] },
+                "negative_filter": { "Types": ["Warrior", "Ninja", "Equipment"] }
+            },
+            {
+                "filename": "ninja_assassin_cards",
+                "title": "Ninja/Assassin Cards",
+                "x-axis": "Percentage of cards",
+                "heroes": ["Cindra", "Arakni, Web of Deceit"],
+                "filter": { "Types": ["Ninja"], "_Types": ["Assassin"] },
+                "negative_filter": { "Types": ["Equipment"] }
+            },
+            {
+                "filename": "warrior_assassin_cards",
+                "title": "Warrior/Assassin Cards",
+                "x-axis": "Percentage of cards",
+                "heroes": ["Fang", "Arakni, Web of Deceit"],
+                "filter": { "Types": ["Warrior"], "_Types": ["Assassin"] },
+                "negative_filter": { "Types": ["Equipment"] }
+            },
+            {
+                "filename": "generic_cards",
+                "title": "Generic Cards",
+                "x-axis": "Percentage of cards",
+                "heroes": ["Fang", "Cindra", "Arakni, Web of Deceit"],
+                "filter": { "Types": ["Generic"] },
+                "negative_filter": { "Types": ["Equipment"] }
+            }
+        ],
+        "number_of_cards_in_deck" : [
+            {
+                "filename": "red_cards_n",
+                "title": "Number of red cards",
+                "filter": { "Pitch": [1] }
+            },
+            {
+                "filename": "yellow_cards_n",
+                "title": "Number of yellow cards",
+                "filter": { "Pitch": [2] }
+            },
+            {
+                "filename": "blue_cards_n",
+                "title": "Number of blue cards",
+                "filter": { "Pitch": [3] }
+            },
+            {
+                "filename": "draconic_cards_n",
+                "title": "Number of draconic cards",
+                "filter": { "Types": ["Draconic"] },
+                "negative_filter": { "Types": ["Equipment"] },
+                "correction": ["Arakni, Web of Deceit"]
+            },
+            {
+                "filename": "warrior_cards_n",
+                "title": "Number of warrior cards",
+                "filter": { "Types": ["Warrior"] },
+                "negative_filter": { "Types": ["Equipment"] },
+                "correction": ["Cindra"]
+            },
+            {
+                "filename": "ninja_cards_n",
+                "title": "Number of ninja cards",
+                "filter": { "Types": ["Ninja"] },
+                "negative_filter": { "Types": ["Equipment"] },
+                "correction": ["Fang"]
+            },
+            {
+                "filename": "assassin_cards_n",
+                "title": "Number of assassin cards",
+                "filter": { "Types": ["Assassin"] },
+                "negative_filter": { "Types": ["Equipment"] }
+            },
+            {
+                "filename": "generic_cards_n",
+                "title": "Number of generic cards",
+                "filter": { "Types": ["Generic"] },
+                "negative_filter": { "Types": ["Equipment"] }
+            },
+            {
+                "filename": "equipment_cards_n",
+                "title": "Number of equipment cards",
+                "filter": { "Types": ["Equipment"] }
+            },
+            {
+                "filename": "non_equipment_cards_n",
+                "title": "Number of non-equipment cards",
+                "negative_filter": { "Types": ["Equipment"] }
+            },
+            {
+                "filename": "all_cards_n",
+                "title": "Number of all cards"
+            }
+        ]
     }
 }
