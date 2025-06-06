@@ -1,0 +1,83 @@
+<html>
+<head>
+    <link rel="stylesheet" href="./css/styles.css">
+</head>
+<body>
+<section class="main-info">
+    <h1>Analysis Links</h1>
+    <p>Explore data visualization and text-based breakdowns of decklists.</p>
+    <div class="note">
+        <p>All searchable tables support search based on the attributes visible in the table and <i>rarity</i>, <i>Types</i>, <i>Card Keywords</i></p>
+    </div>
+</section>
+
+<section class="card content">
+    <h2>Data Visualization</h2>
+    <p>Interactive visualizations of deck and card statistics.</p>
+    <a href="generated/vis.html" onclick="openAnalysis('generated/vis.html')">Visualizations</a>
+</section>
+
+<section class="grid">
+    <div class="card">
+        <h2>Hero-Specific Analysis</h2>
+        <p>Access detailed analysis and card distribution statistics for each hero.</p>
+        <ul>
+            <li><a href="generated/Marlynn_site.html" onclick="openAnalysis('generated/Marlynn_site.html')">Marlynn Analysis</a></li>
+            <li><a href="generated/Puffin_site.html" onclick="openAnalysis('generated/Puffin_site.html')">Puffin Analysis</a></li>
+            <li><a href="generated/Gravy Bones_site.html" onclick="openAnalysis('generated/Gravy Bones_site.html')">Gravy Bones Analysis</a></li>
+            <li><a href="generated/Scurv, Stowaway_site.html" onclick="openAnalysis('generated/Scurv, Stowaway_site.html')">Scurv, Stowaway Analysis</a></li>
+        </ul>
+    </div>
+
+    <div class="card">
+        <h2>All Hero Cards Distribution</h2>
+        <p>Access analysis and card distribution of all cards for each hero.</p>
+        <ul>
+            <li><a href="generated/Marlynn_all_cards.html" onclick="openAnalysis('generated/Marlynn_all_cards.html')">Marlynn All Cards</a></li>
+            <li><a href="generated/Puffin_all_cards.html" onclick="openAnalysis('generated/Puffin_all_cards.html')">Puffin All Cards</a></li>
+            <li><a href="generated/Gravy Bones_all_cards.html" onclick="openAnalysis('generated/Gravy Bones_all_cards.html')">Gravy Bones All Cards</a></li>
+            <li><a href="generated/Scurv, Stowaway_all_cards.html" onclick="openAnalysis('generated/Scurv, Stowaway_all_cards.html')">Scurv, Stowaway All Cards</a></li>
+        </ul>
+    </div>
+
+    <div class="card">
+        <h2>Draft & Card Type Analysis</h2>
+        <p>Compare card usage across drafts and shared card types.</p>
+        <ul>
+            <li><a href="generated/Draft_file_analysis.html" onclick="openAnalysis('generated/Draft_file_analysis.html')">Draft File Analysis</a></li>
+            <li><a href="generated/Cards_by_type_comparison.html" onclick="openAnalysis('generated/Cards_by_type_comparison.html')">Cards by Type Comparison</a></li>
+        </ul>
+    </div>
+</section>
+
+<div id="analysis-modal" class="modal">
+    <div class="modal-content">
+        <span class="close" onclick="closeAnalysis()">&times;</span>
+        <iframe id="analysis-frame"></iframe>
+    </div>
+</div>
+
+<script>
+    function openAnalysis(url) {
+        event.preventDefault();
+
+        document.getElementById("analysis-frame").src = url;
+        document.getElementById("analysis-modal").style.display = "block";
+    }
+
+    function closeAnalysis() {
+        document.getElementById("analysis-frame").src = "";
+        document.getElementById("analysis-modal").style.display = "none";
+    }
+
+    // Close modal if user clicks outside it
+    window.onclick = function (event) {
+        const modal = document.getElementById("analysis-modal");
+        if (event.target === modal) {
+            closeAnalysis();
+        }
+    };
+</script>
+<script type="module" src="js/utility.js"></script>
+</body>
+</html>

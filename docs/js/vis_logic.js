@@ -17,21 +17,15 @@ function renderChart(containerId, jsonPath) {
         .then(res => res.json())
         .then(fig => {
             const layout = applyDarkModeStyles(fig.layout);
-            Plotly.newPlot(containerId, fig.data, layout);
+            const container = document.getElementById(containerId);
+            container._originalLayout = fig.layout; // Store original layout
+            Plotly.newPlot(container, fig.data, layout);
         });
 }
 
 const config = JSON.parse(document.getElementById("chart-config").textContent);
 
-// Static charts TODO -> Consider allowing user to not include these
-const staticDefaults = {
-    "deck-statistics-1": "deck_statistics.json",
-    "pitch-distribution": "pitch_distribution.json",
-    "defense-distribution": "defense_distribution.json",
-    "cost-distribution": "cost_distribution.json"
-};
-
-Object.entries({ ...staticDefaults, ...config.static }).forEach(([id, file]) => {
+Object.entries(config.static).forEach(([id, file]) => {
     renderChart(id, `./vis_data/${file}`);
 });
 
@@ -62,10 +56,11 @@ function updateSharedChart() {
         .then(res => res.json())
         .then(data => {
             const layout = applyDarkModeStyles(data.layout);
+            sharedContainer._originalLayout = data.layout; // Store original layout
             let chartData = data.data;
 
             if (group !== "All") {
-                chartData = data.data.filter(trace => trace.name === group);
+                chartData = chartData.filter(trace => trace.name === group);
                 if (chartData.length > 0) {
                     const trace = chartData[0];
                     const sorted = trace.x.map((x, i) => ({ x, y: trace.y[i] }))
@@ -85,6 +80,7 @@ updateSharedChart();
 // Number of cards
 const typeSelect = document.getElementById("type-select");
 const modeSelect = document.getElementById("mode-select");
+const numberContainer = document.getElementById("number-of-cards");
 
 Object.entries(config.number).forEach(([label, file]) => {
     const opt = document.createElement("option");
@@ -108,6 +104,7 @@ function updateNumberChart() {
         .then(res => res.json())
         .then(data => {
             const layout = applyDarkModeStyles(data.layout);
+            numberContainer._originalLayout = data.layout; // Store original layout
 
             if (mode === "Cumulative Increase") {
                 data.data.forEach(trace => {
@@ -126,6 +123,32 @@ function updateNumberChart() {
             Plotly.react("number-of-cards", data.data, layout);
         });
 }
+
 typeSelect.onchange = updateNumberChart;
 modeSelect.onchange = updateNumberChart;
 updateNumberChart();
+
+// Allow change of theme:
+// Dark-theme for charts
+function applyPlotlyTheme() {
+    document.querySelectorAll(".chart").forEach(chart => {
+        const originalLayout = chart._originalLayout;
+        if (originalLayout) {
+            const updatedLayout = applyDarkModeStyles(originalLayout);
+            Plotly.relayout(chart, updatedLayout);
+        }
+    });
+}
+
+// Listen for theme changes
+addEventListener("storage", (event) => {
+    if (event.key === "theme") {
+        document.documentElement.setAttribute("data-theme", localStorage.getItem("theme"));
+        applyPlotlyTheme();
+    }
+});
+
+// Apply Theme on Page Load After Ensuring Charts are Initialized
+document.addEventListener("DOMContentLoaded", () => {
+    document.documentElement.setAttribute("data-theme", localStorage.getItem("theme"));
+});

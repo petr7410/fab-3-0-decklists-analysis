@@ -17,10 +17,30 @@ html.append("""<!DOCTYPE html>
   <title>Flesh and Blood Deck Statistics</title>
   <link rel=\"stylesheet\" href=\"../css/analysisStyles.css\">
   <script src=\"https://cdn.plot.ly/plotly-latest.min.js\"></script>
-  <script src=\"../js/vis_logic.js\" defer></script>
 </head>
 <body>
-  <h1>3-0 Decks Statistics</h1>
+  <h1>3-0 Decks Statistics</h1>    
+  <p>
+  Note: 
+  <math xmlns="http://www.w3.org/1998/Math/MathML">
+      <mrow>
+      <mi>Percentage&nbsp;of&nbsp;cards</mi>
+      <mo>=</mo>
+      <mfrac>
+          <mrow>
+          <mi>Number&nbsp;of&nbsp;qualifying&nbsp;cards&nbsp;in&nbsp;class&nbsp;decks</mi>
+          </mrow>
+          <mrow>
+          <mi>Total&nbsp;cards&nbsp;in&nbsp;all&nbsp;class&nbsp;decks</mi>
+          <mo>-</mo>
+          <mi>equipment&nbsp;and&nbsp;unplayable&nbsp;cards</mi>
+          </mrow>
+      </mfrac>
+      <mo>&times;</mo>
+      <mn>100</mn>
+      </mrow>
+  </math>
+  </p>
 """)
 
 # Static charts
@@ -95,6 +115,7 @@ html.append(f"""
 """)
 
 html.append("""
+<script src=\"../js/vis_logic.js\"></script>
 </body>
 </html>
 """)
@@ -102,4 +123,3 @@ html.append("""
 # Write output
 output_path = Path("../docs/generated/vis.html")
 output_path.write_text("\n".join(html), encoding="utf-8")
-print(f"Generated: {output_path}")

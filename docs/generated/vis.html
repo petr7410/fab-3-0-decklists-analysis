@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Flesh and Blood Deck Statistics</title>
+  <link rel="stylesheet" href="../css/analysisStyles.css">
+  <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+</head>
+<body>
+  <h1>3-0 Decks Statistics</h1>    
+  <p>
+  Note: 
+  <math xmlns="http://www.w3.org/1998/Math/MathML">
+      <mrow>
+      <mi>Percentage&nbsp;of&nbsp;cards</mi>
+      <mo>=</mo>
+      <mfrac>
+          <mrow>
+          <mi>Number&nbsp;of&nbsp;qualifying&nbsp;cards&nbsp;in&nbsp;class&nbsp;decks</mi>
+          </mrow>
+          <mrow>
+          <mi>Total&nbsp;cards&nbsp;in&nbsp;all&nbsp;class&nbsp;decks</mi>
+          <mo>-</mo>
+          <mi>equipment&nbsp;and&nbsp;unplayable&nbsp;cards</mi>
+          </mrow>
+      </mfrac>
+      <mo>&times;</mo>
+      <mn>100</mn>
+      </mrow>
+  </math>
+  </p>
+
+
+<div class="chart-container">
+  <h2>Number of recorded decks</h2>
+  <div id="deck_statistics" class="chart full-width"></div>
+</div>
+
+
+<div class="chart-container">
+  <h2>Pitch Distribution</h2>
+  <div id="pitch_distribution" class="chart full-width"></div>
+</div>
+
+
+<div class="chart-container">
+  <h2>Defense Distribution</h2>
+  <div id="defense_distribution" class="chart full-width"></div>
+</div>
+
+
+<div class="chart-container">
+  <h2>COst Distribution</h2>
+  <div id="cost_distribution" class="chart full-width"></div>
+</div>
+
+
+<div class="chart-container">
+  <h2>Card Types</h2>
+  <div id="card_types_keywords" class="chart full-width"></div>
+</div>
+
+
+<div class="chart-container">
+  <h2>Shared Cards by Classification</h2>
+  <select id="shared-chart-select"></select>
+  <select id="shared-group-select"></select>
+  <div id="cards-classification" class="chart full-width"></div>
+</div>
+
+
+<div class="chart-container">
+  <h2>Number of Specified Cards in Deck</h2>
+  <p>Note: Cumulative Increase represents the graphical visualization of the calculation of discrete expected value.</p>
+  <select id="type-select"></select>
+  <select id="mode-select"></select>
+  <div id="number-of-cards" class="chart full-width"></div>
+</div>
+
+
+<script id="chart-config" type="application/json">
+{
+  "static": {
+    "deck_statistics": "deck_statistics.json",
+    "pitch_distribution": "pitch_distribution.json",
+    "defense_distribution": "defense_distribution.json",
+    "cost_distribution": "cost_distribution.json"
+  },
+  "custom": {
+    "card_types_keywords": "card_types_keywords.json"
+  },
+  "shared": {
+    "Equipment Distribution Across Classes": "equipment_comparison_classes.json",
+    "Pure Pirate Cards": "pure_pirate_cards.json",
+    "Generic Cards": "generic_cards.json"
+  },
+  "number": {
+    "Number of red cards": "red_cards_n.json",
+    "Number of yellow cards": "yellow_cards_n.json",
+    "Number of blue cards": "blue_cards_n.json",
+    "Number of pure pirate cards": "pirate_cards_n.json",
+    "Number of class cards": "class_cards_n.json",
+    "Number of generic cards": "generic_cards_n.json",
+    "Number of equipment cards": "equipment_cards_n.json",
+    "Number of non-equipment cards": "non_equipment_cards_n.json",
+    "Number of all cards": "all_cards_n.json"
+  },
+  "groups": [
+    "Marlynn",
+    "Puffin",
+    "Gravy Bones",
+    "Scurv, Stowaway"
+  ]
+}
+</script>
+
+
+<script src="../js/vis_logic.js"></script>
+</body>
+</html>

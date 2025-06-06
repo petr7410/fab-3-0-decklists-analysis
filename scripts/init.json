@@ -6,9 +6,9 @@
     "files": {
         "all_cards": "../data/all_cards.csv",
         "decks": "../data/decks.txt",
-        "draft_files": ["../data/HNTdraft_V0_2.txt", "../data/HNTdraft_V1_0.txt"]
+        "draft_files": ["../data/SEAdraft_V0_1.txt", "../data/SEAdraft_V0_2.txt", "../data/SeaDraft3.0.txt"]
     },
-    "draft_file_date": ["2025-01-01 0:00:00", "2025-01-30 16:00:00"],
+    "draft_file_date": ["2025-01-01 0:00:00", "2025-05-29 19:00:00", "2025-06-04 1:15:00"],
     "save": {
         "decks_stats": "../data/decks_stats.json",
         "decks_by_date_counts": "../data/decks_by_date_counts.json",
@@ -17,46 +17,994 @@
     },
     "cracked_bauble": {
         "rarity": "token",
-        "collector_number": "HNT245",
+        "collector_number": "SEA246",
         "type": [],
-        "image_url": "https://storage.googleapis.com/fabmaster/cardfaces/2025-HNT/EN/HNT245.png"
+        "image_url": "https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA246.png"
     },
-    "weapons": ["Mark of the Huntsman", "Obsidian Fire Vein", "Kunai of Retribution"],
+    "weapons": ["Compass of Sunken Depths", "Cogwerx Blunderbuss", "Spitfire", "Hammerhead, Harpoon Cannon", "Redspine Manta", "Sticky Fingers"],
     "cannot_be_played_conditions": {
-        "Fang": ["Ninja"],
-        "Cindra": ["Warrior"]
+        "Marlynn": ["Mechanologist", "Necromancer"],
+        "Puffin": ["Ranger", "Necromancer"],
+        "Gravy Bones": ["Ranger", "Mechanologist"],
+        "Scurv, Stowaway": ["Mechanologist", "Ranger", "Necromancer"]
     },
     "can_be_played_conditions": {
-        "Fang": [
-            "Warrior",
-            "Draconic",
+        "Marlynn": [
+            "Ranger",
+            "Pirate",
             "Generic"
         ],
-        "Cindra": [
-            "Ninja",
-            "Draconic",
+        "Puffin": [
+            "Mechanologist",
+            "Pirate",
             "Generic"
         ],
-        "Arakni, Web of Deceit": [
-            "Assassin",
-            "Chaos",
+        "Gravy Bones": [
+            "Necromancer",
+            "Pirate",
+            "Generic"
+        ],
+        "Scurv, Stowaway": [
+            "Pirate",
             "Generic"
         ]
     },
     "html_to_create":{
-        "Fang_all_cards": {
-            "name": "Fang Analysis", 
+        "Marlynn_site": {
+            "name": "Marlynn Analysis", 
             "filter" : {
-                "Types": ["Warrior", "Draconic", "Generic"]
+                "Types": ["Ranger", "Pirate", "Generic"]
             },
             "negative_filter" : {
-                "Types": ["Ninja"]
+                "Types": ["Mechanologist", "Necromancer"]
+            },
+            "data": {
+                "pitch_distribution": {
+                    "negative_filter" : {
+                        "Types": ["Equipment"]
+                    },
+                    "data": ["Marlynn_average_count_per_normalized_deck", "Marlynn_pick_rate", "Marlynn_total_count"],
+                    "data_name": ["Marlynn average number of card per 30-card deck", "Marlynn Pick rate", "Marlynn Overall number"],
+                    "group_by": {
+                        "columns": ["Pitch"],
+                        "aggregation": {"Marlynn_average_count_per_normalized_deck": "sum", "Marlynn_pick_rate": "mean", "Marlynn_total_count": "sum"}
+                    },
+                    "sort": "Pitch",
+                    "name": "Pitch distribution"
+                },
+                "defense_distribution": {
+                    "negative_filter" : {
+                        "Types": ["Equipment"]
+                    },
+                    "data": ["Marlynn_average_count_per_normalized_deck", "Marlynn_pick_rate", "Marlynn_total_count"],
+                    "data_name": ["Marlynn average number of card per 30-card deck", "Marlynn Pick rate", "Marlynn Overall number"],
+                    "group_by": {
+                        "columns": ["Defense"],
+                        "aggregation": {"Marlynn_average_count_per_normalized_deck": "sum", "Marlynn_pick_rate": "mean", "Marlynn_total_count": "sum"}
+                    },
+                    "sort": "Defense",
+                    "name": "Defense distribution"
+                },
+                "cost_distribution": {
+                    "negative_filter" : {
+                        "Types": ["Equipment"]
+                    },
+                    "data": ["Marlynn_average_count_per_normalized_deck", "Marlynn_pick_rate", "Marlynn_total_count"],
+                    "data_name": ["Marlynn average number of card per 30-card deck", "Marlynn Pick rate", "Marlynn Overall number"],
+                    "group_by": {
+                        "columns": ["Cost"],
+                        "aggregation": {"Marlynn_average_count_per_normalized_deck": "sum", "Marlynn_pick_rate": "mean", "Marlynn_total_count": "sum"}
+                    },
+                    "sort": "Cost",
+                    "name": "Cost distribution"
+                },
+                "common_cards": {
+                    "filter": {
+                        "rarity": ["common"]
+                    },
+                    "negative_filter" : {
+                        "Types": ["Equipment"]
+                    },
+                    "sort": "Marlynn_pick_rate",
+                    "data": ["Marlynn_average_count_per_deck", "Marlynn_average_count_per_normalized_deck", "Marlynn_pick_rate", "Marlynn_total_count"],
+                    "data_name": ["Marlynn average number of card per deck", "Marlynn average number of card per 30-card deck", "Marlynn Pick rate", "Marlynn Overall number"],
+                    "bonus_data": ["rarity", "Types", "Card Keywords"],
+                    "name": "Common cards",
+                    "data_table": true
+                },
+                "rare_cards": {
+                    "filter": {
+                        "rarity": ["rare"]
+                    },
+                    "negative_filter" : {
+                        "Types": ["Equipment"]
+                    },
+                    "sort": "Marlynn_pick_rate",
+                    "data": ["Marlynn_average_count_per_deck", "Marlynn_average_count_per_normalized_deck", "Marlynn_pick_rate", "Marlynn_total_count"],
+                    "data_name": ["Marlynn average number of card per deck", "Marlynn average number of card per 30-card deck", "Marlynn Pick rate", "Marlynn Overall number"],
+                    "bonus_data": ["rarity", "Types", "Card Keywords"],
+                    "name": "Rare cards",
+                    "data_table": true
+                },
+                "mythic_cards": {
+                    "filter": {
+                        "rarity": ["mythic"]
+                    },
+                    "negative_filter" : {
+                        "Types": ["Equipment"]
+                    },
+                    "sort": "Marlynn_pick_rate",
+                    "data": ["Marlynn_average_count_per_deck", "Marlynn_average_count_per_normalized_deck", "Marlynn_pick_rate", "Marlynn_total_count"],
+                    "data_name": ["Marlynn average number of card per deck", "Marlynn average number of card per 30-card deck", "Marlynn Pick rate", "Marlynn Overall number"],
+                    "bonus_data": ["rarity", "Types", "Card Keywords"],
+                    "name": "Mythic cards",
+                    "data_table": true
+                },
+                "equipment_cards": {
+                    "filter": {
+                        "Types": ["Equipment"]
+                    },
+                    "sort": "Marlynn_pick_rate",
+                    "data": ["Marlynn_average_count_per_deck", "Marlynn_pick_rate", "Marlynn_total_count"],
+                    "data_name": ["Marlynn average number of card per deck", "Marlynn Pick rate", "Marlynn Overall number"],
+                    "bonus_data": ["rarity", "Types", "Card Keywords"],
+                    "name": "Equipment cards",
+                    "data_table": true
+                },
+                "attack_action_cards": {
+                    "filter": {
+                        "Types": ["Action"],
+                        "_Types": ["Attack"]
+                    },
+                    "data": ["Marlynn_average_count_per_normalized_deck", "Marlynn_total_count"],
+                    "data_name": ["Marlynn average number of card per 30-card deck", "Marlynn Overall number"],
+                    "group_by": {
+                        "columns": [],
+                        "aggregation": {"Marlynn_average_count_per_normalized_deck": "sum", "Marlynn_total_count": "sum"}
+                    },
+                    "name": "Summary of card types and keywords",
+                    "comment": "Attack Action cards"
+                },
+                "non_attack_action_cards": {
+                    "filter": {
+                        "Types": ["Action"]
+                    },
+                    "negative_filter" : {
+                        "Types": ["Attack"]
+                    },
+                    "data": ["Marlynn_average_count_per_normalized_deck", "Marlynn_total_count"],
+                    "data_name": ["Marlynn average number of card per 30-card deck", "Marlynn Overall number"],
+                    "group_by": {
+                        "columns": [],
+                        "aggregation": {"Marlynn_average_count_per_normalized_deck": "sum", "Marlynn_total_count": "sum"}
+                    },
+                    "comment": "Non-Attack Action cards"
+                },
+                "attack_reaction_cards": {
+                    "filter": {
+                        "Types": ["Attack Reaction"]
+                    },
+                    "data": ["Marlynn_average_count_per_normalized_deck", "Marlynn_total_count"],
+                    "data_name": ["Marlynn average number of card per 30-card deck", "Marlynn Overall number"],
+                    "group_by": {
+                        "columns": [],
+                        "aggregation": {"Marlynn_average_count_per_normalized_deck": "sum", "Marlynn_total_count": "sum"}
+                    },
+                    "comment": "Attack Reaction cards"
+                },
+                "defense_reaction_cards": {
+                    "filter": {
+                        "Types": ["Defense Reaction"]
+                    },
+                    "data": ["Marlynn_average_count_per_normalized_deck", "Marlynn_total_count"],
+                    "data_name": ["Marlynn average number of card per 30-card deck", "Marlynn Overall number"],
+                    "group_by": {
+                        "columns": [],
+                        "aggregation": {"Marlynn_average_count_per_normalized_deck": "sum", "Marlynn_total_count": "sum"}
+                    },
+                    "comment": "Defense Reaction cards"
+                },
+                "block_cards": {
+                    "filter": {
+                        "Types": ["Block"]
+                    },
+                    "data": ["Marlynn_average_count_per_normalized_deck", "Marlynn_total_count"],
+                    "data_name": ["Marlynn average number of card per 30-card deck", "Marlynn Overall number"],
+                    "group_by": {
+                        "columns": [],
+                        "aggregation": {"Marlynn_average_count_per_normalized_deck": "sum", "Marlynn_total_count": "sum"}
+                    },
+                    "comment": "Block cards"
+                },
+                "instant_cards": {
+                    "filter": {
+                        "Types": ["Instant"]
+                    },
+                    "data": ["Marlynn_average_count_per_normalized_deck", "Marlynn_total_count"],
+                    "data_name": ["Marlynn average number of card per 30-card deck", "Marlynn Overall number"],
+                    "group_by": {
+                        "columns": [],
+                        "aggregation": {"Marlynn_average_count_per_normalized_deck": "sum", "Marlynn_total_count": "sum"}
+                    },
+                    "comment": "Instant cards"
+                },
+                "pure_pirate_cards": {
+                    "filter": {
+                        "Types": ["Pirate"]
+                    },
+                    "negative_filter" : {
+                        "Types": ["Equipment", "Ranger"]
+                    },
+                    "data": ["Marlynn_average_count_per_normalized_deck", "Marlynn_total_count"],
+                    "data_name": ["Marlynn average number of card per 30-card deck", "Marlynn Overall number"],
+                    "group_by": {
+                        "columns": [],
+                        "aggregation": {"Marlynn_average_count_per_normalized_deck": "sum", "Marlynn_total_count": "sum"}
+                    },
+                    "comment": "Pure Pirate cards"
+                },
+                "ranger_cards": {
+                    "filter": {
+                        "Types": ["Ranger"]
+                    },
+                    "negative_filter" : {
+                        "Types": ["Equipment"]
+                    },
+                    "data": ["Marlynn_average_count_per_normalized_deck", "Marlynn_total_count"],
+                    "data_name": ["Marlynn average number of card per 30-card deck", "Marlynn Overall number"],
+                    "group_by": {
+                        "columns": [],
+                        "aggregation": {"Marlynn_average_count_per_normalized_deck": "sum", "Marlynn_total_count": "sum"}
+                    },
+                    "comment": "Ranger cards"
+                },
+                "generic_cards": {
+                    "filter": {
+                        "Types": ["Generic"]
+                    },
+                    "negative_filter" : {
+                        "Types": ["Equipment"]
+                    },
+                    "data": ["Marlynn_average_count_per_normalized_deck", "Marlynn_total_count"],
+                    "data_name": ["Marlynn average number of card per 30-card deck", "Marlynn Overall number"],
+                    "group_by": {
+                        "columns": [],
+                        "aggregation": {"Marlynn_average_count_per_normalized_deck": "sum", "Marlynn_total_count": "sum"}
+                    },
+                    "comment": "Generic cards"
+                }
+            }
+        },
+        "Puffin_site": {
+            "name": "Puffin Analysis", 
+            "filter" : {
+                "Types": ["Mechanologist", "Pirate", "Generic"]
+            },
+            "negative_filter" : {
+                "Types": ["Ranger", "Necromancer"]
+            },
+            "data": {
+                "pitch_distribution": {
+                    "negative_filter" : {
+                        "Types": ["Equipment"]
+                    },
+                    "data": ["Puffin_average_count_per_normalized_deck", "Puffin_pick_rate", "Puffin_total_count"],
+                    "data_name": ["Puffin average number of card per 30-card deck", "Puffin Pick rate", "Puffin Overall number"],
+                    "group_by": {
+                        "columns": ["Pitch"],
+                        "aggregation": {"Puffin_average_count_per_normalized_deck": "sum", "Puffin_pick_rate": "mean", "Puffin_total_count": "sum"}
+                    },
+                    "sort": "Pitch",
+                    "name": "Pitch distribution"
+                },
+                "defense_distribution": {
+                    "negative_filter" : {
+                        "Types": ["Equipment"]
+                    },
+                    "data": ["Puffin_average_count_per_normalized_deck", "Puffin_pick_rate", "Puffin_total_count"],
+                    "data_name": ["Puffin average number of card per 30-card deck", "Puffin Pick rate", "Puffin Overall number"],
+                    "group_by": {
+                        "columns": ["Defense"],
+                        "aggregation": {"Puffin_average_count_per_normalized_deck": "sum", "Puffin_pick_rate": "mean", "Puffin_total_count": "sum"}
+                    },
+                    "sort": "Defense",
+                    "name": "Defense distribution"
+                },
+                "cost_distribution": {
+                    "negative_filter" : {
+                        "Types": ["Equipment"]
+                    },
+                    "data": ["Puffin_average_count_per_normalized_deck", "Puffin_pick_rate", "Puffin_total_count"],
+                    "data_name": ["Puffin average number of card per 30-card deck", "Puffin Pick rate", "Puffin Overall number"],
+                    "group_by": {
+                        "columns": ["Cost"],
+                        "aggregation": {"Puffin_average_count_per_normalized_deck": "sum", "Puffin_pick_rate": "mean", "Puffin_total_count": "sum"}
+                    },
+                    "sort": "Cost",
+                    "name": "Cost distribution"
+                },
+                "common_cards": {
+                    "filter": {
+                        "rarity": ["common"]
+                    },
+                    "negative_filter" : {
+                        "Types": ["Equipment"]
+                    },
+                    "sort": "Puffin_pick_rate",
+                    "data": ["Puffin_average_count_per_deck", "Puffin_average_count_per_normalized_deck", "Puffin_pick_rate", "Puffin_total_count"],
+                    "data_name": ["Puffin average number of card per deck", "Puffin average number of card per 30-card deck", "Puffin Pick rate", "Puffin Overall number"],
+                    "bonus_data": ["rarity", "Types", "Card Keywords"],
+                    "name": "Common cards",
+                    "data_table": true
+                },
+                "rare_cards": {
+                    "filter": {
+                        "rarity": ["rare"]
+                    },
+                    "negative_filter" : {
+                        "Types": ["Equipment"]
+                    },
+                    "sort": "Puffin_pick_rate",
+                    "data": ["Puffin_average_count_per_deck", "Puffin_average_count_per_normalized_deck", "Puffin_pick_rate", "Puffin_total_count"],
+                    "data_name": ["Puffin average number of card per deck", "Puffin average number of card per 30-card deck", "Puffin Pick rate", "Puffin Overall number"],
+                    "bonus_data": ["rarity", "Types", "Card Keywords"],
+                    "name": "Rare cards",
+                    "data_table": true
+                },
+                "mythic_cards": {
+                    "filter": {
+                        "rarity": ["mythic"]
+                    },
+                    "negative_filter" : {
+                        "Types": ["Equipment"]
+                    },
+                    "sort": "Puffin_pick_rate",
+                    "data": ["Puffin_average_count_per_deck", "Puffin_average_count_per_normalized_deck", "Puffin_pick_rate", "Puffin_total_count"],
+                    "data_name": ["Puffin average number of card per deck", "Puffin average number of card per 30-card deck", "Puffin Pick rate", "Puffin Overall number"],
+                    "bonus_data": ["rarity", "Types", "Card Keywords"],
+                    "name": "Mythic cards",
+                    "data_table": true
+                },
+                "equipment_cards": {
+                    "filter": {
+                        "Types": ["Equipment"]
+                    },
+                    "sort": "Puffin_pick_rate",
+                    "data": ["Puffin_average_count_per_deck", "Puffin_pick_rate", "Puffin_total_count"],
+                    "data_name": ["Puffin average number of card per deck", "Puffin Pick rate", "Puffin Overall number"],
+                    "bonus_data": ["rarity", "Types", "Card Keywords"],
+                    "name": "Equipment cards",
+                    "data_table": true
+                },
+                "attack_action_cards": {
+                    "filter": {
+                        "Types": ["Action"],
+                        "_Types": ["Attack"]
+                    },
+                    "data": ["Puffin_average_count_per_normalized_deck", "Puffin_total_count"],
+                    "data_name": ["Puffin average number of card per 30-card deck", "Puffin Overall number"],
+                    "group_by": {
+                        "columns": [],
+                        "aggregation": {"Puffin_average_count_per_normalized_deck": "sum", "Puffin_total_count": "sum"}
+                    },
+                    "name": "Summary of card types and keywords",
+                    "comment": "Attack Action cards"
+                },
+                "non_attack_action_cards": {
+                    "filter": {
+                        "Types": ["Action"]
+                    },
+                    "negative_filter" : {
+                        "Types": ["Attack"]
+                    },
+                    "data": ["Puffin_average_count_per_normalized_deck", "Puffin_total_count"],
+                    "data_name": ["Puffin average number of card per 30-card deck", "Puffin Overall number"],
+                    "group_by": {
+                        "columns": [],
+                        "aggregation": {"Puffin_average_count_per_normalized_deck": "sum", "Puffin_total_count": "sum"}
+                    },
+                    "comment": "Non-Attack Action cards"
+                },
+                "attack_reaction_cards": {
+                    "filter": {
+                        "Types": ["Attack Reaction"]
+                    },
+                    "data": ["Puffin_average_count_per_normalized_deck", "Puffin_total_count"],
+                    "data_name": ["Puffin average number of card per 30-card deck", "Puffin Overall number"],
+                    "group_by": {
+                        "columns": [],
+                        "aggregation": {"Puffin_average_count_per_normalized_deck": "sum", "Puffin_total_count": "sum"}
+                    },
+                    "comment": "Attack Reaction cards"
+                },
+                "defense_reaction_cards": {
+                    "filter": {
+                        "Types": ["Defense Reaction"]
+                    },
+                    "data": ["Puffin_average_count_per_normalized_deck", "Puffin_total_count"],
+                    "data_name": ["Puffin average number of card per 30-card deck", "Puffin Overall number"],
+                    "group_by": {
+                        "columns": [],
+                        "aggregation": {"Puffin_average_count_per_normalized_deck": "sum", "Puffin_total_count": "sum"}
+                    },
+                    "comment": "Defense Reaction cards"
+                },
+                "block_cards": {
+                    "filter": {
+                        "Types": ["Block"]
+                    },
+                    "data": ["Puffin_average_count_per_normalized_deck", "Puffin_total_count"],
+                    "data_name": ["Puffin average number of card per 30-card deck", "Puffin Overall number"],
+                    "group_by": {
+                        "columns": [],
+                        "aggregation": {"Puffin_average_count_per_normalized_deck": "sum", "Puffin_total_count": "sum"}
+                    },
+                    "comment": "Block cards"
+                },
+                "instant_cards": {
+                    "filter": {
+                        "Types": ["Instant"]
+                    },
+                    "data": ["Puffin_average_count_per_normalized_deck", "Puffin_total_count"],
+                    "data_name": ["Puffin average number of card per 30-card deck", "Puffin Overall number"],
+                    "group_by": {
+                        "columns": [],
+                        "aggregation": {"Puffin_average_count_per_normalized_deck": "sum", "Puffin_total_count": "sum"}
+                    },
+                    "comment": "Instant cards"
+                },
+                "pure_pirate_cards": {
+                    "filter": {
+                        "Types": ["Pirate"]
+                    },
+                    "negative_filter" : {
+                        "Types": ["Equipment", "Mechanologist"]
+                    },
+                    "data": ["Puffin_average_count_per_normalized_deck", "Puffin_total_count"],
+                    "data_name": ["Puffin average number of card per 30-card deck", "Puffin Overall number"],
+                    "group_by": {
+                        "columns": [],
+                        "aggregation": {"Puffin_average_count_per_normalized_deck": "sum", "Puffin_total_count": "sum"}
+                    },
+                    "comment": "Pure Pirate cards"
+                },
+                "mechanologist_cards": {
+                    "filter": {
+                        "Types": ["Mechanologist"]
+                    },
+                    "negative_filter" : {
+                        "Types": ["Equipment"]
+                    },
+                    "data": ["Puffin_average_count_per_normalized_deck", "Puffin_total_count"],
+                    "data_name": ["Puffin average number of card per 30-card deck", "Puffin Overall number"],
+                    "group_by": {
+                        "columns": [],
+                        "aggregation": {"Puffin_average_count_per_normalized_deck": "sum", "Puffin_total_count": "sum"}
+                    },
+                    "comment": "Mechanologist cards"
+                },
+                "generic_cards": {
+                    "filter": {
+                        "Types": ["Generic"]
+                    },
+                    "negative_filter" : {
+                        "Types": ["Equipment"]
+                    },
+                    "data": ["Puffin_average_count_per_normalized_deck", "Puffin_total_count"],
+                    "data_name": ["Puffin average number of card per 30-card deck", "Puffin Overall number"],
+                    "group_by": {
+                        "columns": [],
+                        "aggregation": {"Puffin_average_count_per_normalized_deck": "sum", "Puffin_total_count": "sum"}
+                    },
+                    "comment": "Generic cards"
+                }
+            }
+        },
+        "Gravy Bones_site": {
+            "name": "Gravy Bones Analysis", 
+            "filter" : {
+                "Types": ["Necromancer", "Pirate", "Generic"]
+            },
+            "negative_filter" : {
+                "Types": ["Mechanologist", "Ranger"]
+            },
+            "data": {
+                "pitch_distribution": {
+                    "negative_filter" : {
+                        "Types": ["Equipment"]
+                    },
+                    "data": ["Gravy Bones_average_count_per_normalized_deck", "Gravy Bones_pick_rate", "Gravy Bones_total_count"],
+                    "data_name": ["Gravy Bones average number of card per 30-card deck", "Gravy Bones Pick rate", "Gravy Bones Overall number"],
+                    "group_by": {
+                        "columns": ["Pitch"],
+                        "aggregation": {"Gravy Bones_average_count_per_normalized_deck": "sum", "Gravy Bones_pick_rate": "mean", "Gravy Bones_total_count": "sum"}
+                    },
+                    "sort": "Pitch",
+                    "name": "Pitch distribution"
+                },
+                "defense_distribution": {
+                    "negative_filter" : {
+                        "Types": ["Equipment"]
+                    },
+                    "data": ["Gravy Bones_average_count_per_normalized_deck", "Gravy Bones_pick_rate", "Gravy Bones_total_count"],
+                    "data_name": ["Gravy Bones average number of card per 30-card deck", "Gravy Bones Pick rate", "Gravy Bones Overall number"],
+                    "group_by": {
+                        "columns": ["Defense"],
+                        "aggregation": {"Gravy Bones_average_count_per_normalized_deck": "sum", "Gravy Bones_pick_rate": "mean", "Gravy Bones_total_count": "sum"}
+                    },
+                    "sort": "Defense",
+                    "name": "Defense distribution"
+                },
+                "cost_distribution": {
+                    "negative_filter" : {
+                        "Types": ["Equipment"]
+                    },
+                    "data": ["Gravy Bones_average_count_per_normalized_deck", "Gravy Bones_pick_rate", "Gravy Bones_total_count"],
+                    "data_name": ["Gravy Bones average number of card per 30-card deck", "Gravy Bones Pick rate", "Gravy Bones Overall number"],
+                    "group_by": {
+                        "columns": ["Cost"],
+                        "aggregation": {"Gravy Bones_average_count_per_normalized_deck": "sum", "Gravy Bones_pick_rate": "mean", "Gravy Bones_total_count": "sum"}
+                    },
+                    "sort": "Cost",
+                    "name": "Cost distribution"
+                },
+                "common_cards": {
+                    "filter": {
+                        "rarity": ["common"]
+                    },
+                    "negative_filter" : {
+                        "Types": ["Equipment"]
+                    },
+                    "sort": "Gravy Bones_pick_rate",
+                    "data": ["Gravy Bones_average_count_per_deck", "Gravy Bones_average_count_per_normalized_deck", "Gravy Bones_pick_rate", "Gravy Bones_total_count"],
+                    "data_name": ["Gravy Bones average number of card per deck", "Gravy Bones average number of card per 30-card deck", "Gravy Bones Pick rate", "Gravy Bones Overall number"],
+                    "bonus_data": ["rarity", "Types", "Card Keywords"],
+                    "name": "Common cards",
+                    "data_table": true
+                },
+                "rare_cards": {
+                    "filter": {
+                        "rarity": ["rare"]
+                    },
+                    "negative_filter" : {
+                        "Types": ["Equipment"]
+                    },
+                    "sort": "Gravy Bones_pick_rate",
+                    "data": ["Gravy Bones_average_count_per_deck", "Gravy Bones_average_count_per_normalized_deck", "Gravy Bones_pick_rate", "Gravy Bones_total_count"],
+                    "data_name": ["Gravy Bones average number of card per deck", "Gravy Bones average number of card per 30-card deck", "Gravy Bones Pick rate", "Gravy Bones Overall number"],
+                    "bonus_data": ["rarity", "Types", "Card Keywords"],
+                    "name": "Rare cards",
+                    "data_table": true
+                },
+                "mythic_cards": {
+                    "filter": {
+                        "rarity": ["mythic"]
+                    },
+                    "negative_filter" : {
+                        "Types": ["Equipment"]
+                    },
+                    "sort": "Gravy Bones_pick_rate",
+                    "data": ["Gravy Bones_average_count_per_deck", "Gravy Bones_average_count_per_normalized_deck", "Gravy Bones_pick_rate", "Gravy Bones_total_count"],
+                    "data_name": ["Gravy Bones average number of card per deck", "Gravy Bones average number of card per 30-card deck", "Gravy Bones Pick rate", "Gravy Bones Overall number"],
+                    "bonus_data": ["rarity", "Types", "Card Keywords"],
+                    "name": "Mythic cards",
+                    "data_table": true
+                },
+                "equipment_cards": {
+                    "filter": {
+                        "Types": ["Equipment"]
+                    },
+                    "sort": "Gravy Bones_pick_rate",
+                    "data": ["Gravy Bones_average_count_per_deck", "Gravy Bones_pick_rate", "Gravy Bones_total_count"],
+                    "data_name": ["Gravy Bones average number of card per deck", "Gravy Bones Pick rate", "Gravy Bones Overall number"],
+                    "bonus_data": ["rarity", "Types", "Card Keywords"],
+                    "name": "Equipment cards",
+                    "data_table": true
+                },
+                "attack_action_cards": {
+                    "filter": {
+                        "Types": ["Action"],
+                        "_Types": ["Attack"]
+                    },
+                    "data": ["Gravy Bones_average_count_per_normalized_deck", "Gravy Bones_total_count"],
+                    "data_name": ["Gravy Bones average number of card per 30-card deck", "Gravy Bones Overall number"],
+                    "group_by": {
+                        "columns": [],
+                        "aggregation": {"Gravy Bones_average_count_per_normalized_deck": "sum", "Gravy Bones_total_count": "sum"}
+                    },
+                    "name": "Summary of card types and keywords",
+                    "comment": "Attack Action cards"
+                },
+                "non_attack_action_cards": {
+                    "filter": {
+                        "Types": ["Action"]
+                    },
+                    "negative_filter" : {
+                        "Types": ["Attack"]
+                    },
+                    "data": ["Gravy Bones_average_count_per_normalized_deck", "Gravy Bones_total_count"],
+                    "data_name": ["Gravy Bones average number of card per 30-card deck", "Gravy Bones Overall number"],
+                    "group_by": {
+                        "columns": [],
+                        "aggregation": {"Gravy Bones_average_count_per_normalized_deck": "sum", "Gravy Bones_total_count": "sum"}
+                    },
+                    "comment": "Non-Attack Action cards"
+                },
+                "attack_reaction_cards": {
+                    "filter": {
+                        "Types": ["Attack Reaction"]
+                    },
+                    "data": ["Gravy Bones_average_count_per_normalized_deck", "Gravy Bones_total_count"],
+                    "data_name": ["Gravy Bones average number of card per 30-card deck", "Gravy Bones Overall number"],
+                    "group_by": {
+                        "columns": [],
+                        "aggregation": {"Gravy Bones_average_count_per_normalized_deck": "sum", "Gravy Bones_total_count": "sum"}
+                    },
+                    "comment": "Attack Reaction cards"
+                },
+                "defense_reaction_cards": {
+                    "filter": {
+                        "Types": ["Defense Reaction"]
+                    },
+                    "data": ["Gravy Bones_average_count_per_normalized_deck", "Gravy Bones_total_count"],
+                    "data_name": ["Gravy Bones average number of card per 30-card deck", "Gravy Bones Overall number"],
+                    "group_by": {
+                        "columns": [],
+                        "aggregation": {"Gravy Bones_average_count_per_normalized_deck": "sum", "Gravy Bones_total_count": "sum"}
+                    },
+                    "comment": "Defense Reaction cards"
+                },
+                "block_cards": {
+                    "filter": {
+                        "Types": ["Block"]
+                    },
+                    "data": ["Gravy Bones_average_count_per_normalized_deck", "Gravy Bones_total_count"],
+                    "data_name": ["Gravy Bones average number of card per 30-card deck", "Gravy Bones Overall number"],
+                    "group_by": {
+                        "columns": [],
+                        "aggregation": {"Gravy Bones_average_count_per_normalized_deck": "sum", "Gravy Bones_total_count": "sum"}
+                    },
+                    "comment": "Block cards"
+                },
+                "instant_cards": {
+                    "filter": {
+                        "Types": ["Instant"]
+                    },
+                    "data": ["Gravy Bones_average_count_per_normalized_deck", "Gravy Bones_total_count"],
+                    "data_name": ["Gravy Bones average number of card per 30-card deck", "Gravy Bones Overall number"],
+                    "group_by": {
+                        "columns": [],
+                        "aggregation": {"Gravy Bones_average_count_per_normalized_deck": "sum", "Gravy Bones_total_count": "sum"}
+                    },
+                    "comment": "Instant cards"
+                },
+                "pure_pirate_cards": {
+                    "filter": {
+                        "Types": ["Pirate"]
+                    },
+                    "negative_filter" : {
+                        "Types": ["Equipment", "Necromancer"]
+                    },
+                    "data": ["Gravy Bones_average_count_per_normalized_deck", "Gravy Bones_total_count"],
+                    "data_name": ["Gravy Bones average number of card per 30-card deck", "Gravy Bones Overall number"],
+                    "group_by": {
+                        "columns": [],
+                        "aggregation": {"Gravy Bones_average_count_per_normalized_deck": "sum", "Gravy Bones_total_count": "sum"}
+                    },
+                    "comment": "Pure Pirate cards"
+                },
+                "necromancer_cards": {
+                    "filter": {
+                        "Types": ["Necromancer"]
+                    },
+                    "negative_filter" : {
+                        "Types": ["Equipment"]
+                    },
+                    "data": ["Gravy Bones_average_count_per_normalized_deck", "Gravy Bones_total_count"],
+                    "data_name": ["Gravy Bones average number of card per 30-card deck", "Gravy Bones Overall number"],
+                    "group_by": {
+                        "columns": [],
+                        "aggregation": {"Gravy Bones_average_count_per_normalized_deck": "sum", "Gravy Bones_total_count": "sum"}
+                    },
+                    "comment": "Necromancer cards"
+                },
+                "generic_cards": {
+                    "filter": {
+                        "Types": ["Generic"]
+                    },
+                    "negative_filter" : {
+                        "Types": ["Equipment"]
+                    },
+                    "data": ["Gravy Bones_average_count_per_normalized_deck", "Gravy Bones_total_count"],
+                    "data_name": ["Gravy Bones average number of card per 30-card deck", "Gravy Bones Overall number"],
+                    "group_by": {
+                        "columns": [],
+                        "aggregation": {"Gravy Bones_average_count_per_normalized_deck": "sum", "Gravy Bones_total_count": "sum"}
+                    },
+                    "comment": "Generic cards"
+                }
+            }
+        },
+        "Scurv, Stowaway_site": {
+            "name": "Scurv, Stowaway Analysis", 
+            "filter" : {
+                "Types": ["Pirate", "Generic"]
+            },
+            "negative_filter" : {
+                "Types": ["Mechanologist", "Necromancer", "Ranger"]
+            },
+            "data": {
+                "pitch_distribution": {
+                    "negative_filter" : {
+                        "Types": ["Equipment"]
+                    },
+                    "data": ["Scurv, Stowaway_average_count_per_normalized_deck", "Scurv, Stowaway_pick_rate", "Scurv, Stowaway_total_count"],
+                    "data_name": ["Scurv, Stowaway average number of card per 30-card deck", "Scurv, Stowaway Pick rate", "Scurv, Stowaway Overall number"],
+                    "group_by": {
+                        "columns": ["Pitch"],
+                        "aggregation": {"Scurv, Stowaway_average_count_per_normalized_deck": "sum", "Scurv, Stowaway_pick_rate": "mean", "Scurv, Stowaway_total_count": "sum"}
+                    },
+                    "sort": "Pitch",
+                    "name": "Pitch distribution"
+                },
+                "defense_distribution": {
+                    "negative_filter" : {
+                        "Types": ["Equipment"]
+                    },
+                    "data": ["Scurv, Stowaway_average_count_per_normalized_deck", "Scurv, Stowaway_pick_rate", "Scurv, Stowaway_total_count"],
+                    "data_name": ["Scurv, Stowaway average number of card per 30-card deck", "Scurv, Stowaway Pick rate", "Scurv, Stowaway Overall number"],
+                    "group_by": {
+                        "columns": ["Defense"],
+                        "aggregation": {"Scurv, Stowaway_average_count_per_normalized_deck": "sum", "Scurv, Stowaway_pick_rate": "mean", "Scurv, Stowaway_total_count": "sum"}
+                    },
+                    "sort": "Defense",
+                    "name": "Defense distribution"
+                },
+                "cost_distribution": {
+                    "negative_filter" : {
+                        "Types": ["Equipment"]
+                    },
+                    "data": ["Scurv, Stowaway_average_count_per_normalized_deck", "Scurv, Stowaway_pick_rate", "Scurv, Stowaway_total_count"],
+                    "data_name": ["Scurv, Stowaway average number of card per 30-card deck", "Scurv, Stowaway Pick rate", "Scurv, Stowaway Overall number"],
+                    "group_by": {
+                        "columns": ["Cost"],
+                        "aggregation": {"Scurv, Stowaway_average_count_per_normalized_deck": "sum", "Scurv, Stowaway_pick_rate": "mean", "Scurv, Stowaway_total_count": "sum"}
+                    },
+                    "sort": "Cost",
+                    "name": "Cost distribution"
+                },
+                "common_cards": {
+                    "filter": {
+                        "rarity": ["common"]
+                    },
+                    "negative_filter" : {
+                        "Types": ["Equipment"]
+                    },
+                    "sort": "Scurv, Stowaway_pick_rate",
+                    "data": ["Scurv, Stowaway_average_count_per_deck", "Scurv, Stowaway_average_count_per_normalized_deck", "Scurv, Stowaway_pick_rate", "Scurv, Stowaway_total_count"],
+                    "data_name": ["Scurv, Stowaway average number of card per deck", "Scurv, Stowaway average number of card per 30-card deck", "Scurv, Stowaway Pick rate", "Scurv, Stowaway Overall number"],
+                    "bonus_data": ["rarity", "Types", "Card Keywords"],
+                    "name": "Common cards",
+                    "data_table": true
+                },
+                "rare_cards": {
+                    "filter": {
+                        "rarity": ["rare"]
+                    },
+                    "negative_filter" : {
+                        "Types": ["Equipment"]
+                    },
+                    "sort": "Scurv, Stowaway_pick_rate",
+                    "data": ["Scurv, Stowaway_average_count_per_deck", "Scurv, Stowaway_average_count_per_normalized_deck", "Scurv, Stowaway_pick_rate", "Scurv, Stowaway_total_count"],
+                    "data_name": ["Scurv, Stowaway average number of card per deck", "Scurv, Stowaway average number of card per 30-card deck", "Scurv, Stowaway Pick rate", "Scurv, Stowaway Overall number"],
+                    "bonus_data": ["rarity", "Types", "Card Keywords"],
+                    "name": "Rare cards",
+                    "data_table": true
+                },
+                "mythic_cards": {
+                    "filter": {
+                        "rarity": ["mythic"]
+                    },
+                    "negative_filter" : {
+                        "Types": ["Equipment"]
+                    },
+                    "sort": "Scurv, Stowaway_pick_rate",
+                    "data": ["Scurv, Stowaway_average_count_per_deck", "Scurv, Stowaway_average_count_per_normalized_deck", "Scurv, Stowaway_pick_rate", "Scurv, Stowaway_total_count"],
+                    "data_name": ["Scurv, Stowaway average number of card per deck", "Scurv, Stowaway average number of card per 30-card deck", "Scurv, Stowaway Pick rate", "Scurv, Stowaway Overall number"],
+                    "bonus_data": ["rarity", "Types", "Card Keywords"],
+                    "name": "Mythic cards",
+                    "data_table": true
+                },
+                "equipment_cards": {
+                    "filter": {
+                        "Types": ["Equipment"]
+                    },
+                    "sort": "Scurv, Stowaway_pick_rate",
+                    "data": ["Scurv, Stowaway_average_count_per_deck", "Scurv, Stowaway_pick_rate", "Scurv, Stowaway_total_count"],
+                    "data_name": ["Scurv, Stowaway average number of card per deck", "Scurv, Stowaway Pick rate", "Scurv, Stowaway Overall number"],
+                    "bonus_data": ["rarity", "Types", "Card Keywords"],
+                    "name": "Equipment cards",
+                    "data_table": true
+                },
+                "attack_action_cards": {
+                    "filter": {
+                        "Types": ["Action"],
+                        "_Types": ["Attack"]
+                    },
+                    "data": ["Scurv, Stowaway_average_count_per_normalized_deck", "Scurv, Stowaway_total_count"],
+                    "data_name": ["Scurv, Stowaway average number of card per 30-card deck", "Scurv, Stowaway Overall number"],
+                    "group_by": {
+                        "columns": [],
+                        "aggregation": {"Scurv, Stowaway_average_count_per_normalized_deck": "sum", "Scurv, Stowaway_total_count": "sum"}
+                    },
+                    "name": "Summary of card types and keywords",
+                    "comment": "Attack Action cards"
+                },
+                "non_attack_action_cards": {
+                    "filter": {
+                        "Types": ["Action"]
+                    },
+                    "negative_filter" : {
+                        "Types": ["Attack"]
+                    },
+                    "data": ["Scurv, Stowaway_average_count_per_normalized_deck", "Scurv, Stowaway_total_count"],
+                    "data_name": ["Scurv, Stowaway average number of card per 30-card deck", "Scurv, Stowaway Overall number"],
+                    "group_by": {
+                        "columns": [],
+                        "aggregation": {"Scurv, Stowaway_average_count_per_normalized_deck": "sum", "Scurv, Stowaway_total_count": "sum"}
+                    },
+                    "comment": "Non-Attack Action cards"
+                },
+                "attack_reaction_cards": {
+                    "filter": {
+                        "Types": ["Attack Reaction"]
+                    },
+                    "data": ["Scurv, Stowaway_average_count_per_normalized_deck", "Scurv, Stowaway_total_count"],
+                    "data_name": ["Scurv, Stowaway average number of card per 30-card deck", "Scurv, Stowaway Overall number"],
+                    "group_by": {
+                        "columns": [],
+                        "aggregation": {"Scurv, Stowaway_average_count_per_normalized_deck": "sum", "Scurv, Stowaway_total_count": "sum"}
+                    },
+                    "comment": "Attack Reaction cards"
+                },
+                "defense_reaction_cards": {
+                    "filter": {
+                        "Types": ["Defense Reaction"]
+                    },
+                    "data": ["Scurv, Stowaway_average_count_per_normalized_deck", "Scurv, Stowaway_total_count"],
+                    "data_name": ["Scurv, Stowaway average number of card per 30-card deck", "Scurv, Stowaway Overall number"],
+                    "group_by": {
+                        "columns": [],
+                        "aggregation": {"Scurv, Stowaway_average_count_per_normalized_deck": "sum", "Scurv, Stowaway_total_count": "sum"}
+                    },
+                    "comment": "Defense Reaction cards"
+                },
+                "block_cards": {
+                    "filter": {
+                        "Types": ["Block"]
+                    },
+                    "data": ["Scurv, Stowaway_average_count_per_normalized_deck", "Scurv, Stowaway_total_count"],
+                    "data_name": ["Scurv, Stowaway average number of card per 30-card deck", "Scurv, Stowaway Overall number"],
+                    "group_by": {
+                        "columns": [],
+                        "aggregation": {"Scurv, Stowaway_average_count_per_normalized_deck": "sum", "Scurv, Stowaway_total_count": "sum"}
+                    },
+                    "comment": "Block cards"
+                },
+                "instant_cards": {
+                    "filter": {
+                        "Types": ["Instant"]
+                    },
+                    "data": ["Scurv, Stowaway_average_count_per_normalized_deck", "Scurv, Stowaway_total_count"],
+                    "data_name": ["Scurv, Stowaway average number of card per 30-card deck", "Scurv, Stowaway Overall number"],
+                    "group_by": {
+                        "columns": [],
+                        "aggregation": {"Scurv, Stowaway_average_count_per_normalized_deck": "sum", "Scurv, Stowaway_total_count": "sum"}
+                    },
+                    "comment": "Instant cards"
+                },
+                "pure_pirate_cards": {
+                    "filter": {
+                        "Types": ["Pirate"]
+                    },
+                    "negative_filter" : {
+                        "Types": ["Equipment"]
+                    },
+                    "data": ["Scurv, Stowaway_average_count_per_normalized_deck", "Scurv, Stowaway_total_count"],
+                    "data_name": ["Scurv, Stowaway average number of card per 30-card deck", "Scurv, Stowaway Overall number"],
+                    "group_by": {
+                        "columns": [],
+                        "aggregation": {"Scurv, Stowaway_average_count_per_normalized_deck": "sum", "Scurv, Stowaway_total_count": "sum"}
+                    },
+                    "comment": "Pure Pirate cards"
+                },
+                "generic_cards": {
+                    "filter": {
+                        "Types": ["Generic"]
+                    },
+                    "negative_filter" : {
+                        "Types": ["Equipment"]
+                    },
+                    "data": ["Scurv, Stowaway_average_count_per_normalized_deck", "Scurv, Stowaway_total_count"],
+                    "data_name": ["Scurv, Stowaway average number of card per 30-card deck", "Scurv, Stowaway Overall number"],
+                    "group_by": {
+                        "columns": [],
+                        "aggregation": {"Scurv, Stowaway_average_count_per_normalized_deck": "sum", "Scurv, Stowaway_total_count": "sum"}
+                    },
+                    "comment": "Generic cards"
+                }
+            }
+        },
+        "Marlynn_all_cards": {
+            "name": "Marlynn Analysis", 
+            "filter" : {
+                "Types": ["Ranger", "Pirate", "Generic"]
+            },
+            "negative_filter" : {
+                "Types": ["Mechanologist", "Necromancer"]
             },
             "data": {
                 "all_cards": {
-                    "sort": "Fang_pick_rate",
-                    "data": ["Fang_average_count_per_deck", "Fang_average_count_per_normalized_deck", "Fang_pick_rate", "Fang_total_count"],
-                    "data_name": ["Fang average number of card per deck", "Fang average number of card per 30-card deck", "Fang Pick rate", "Fang Overall number"],
+                    "sort": "Marlynn_pick_rate",
+                    "data": ["Marlynn_average_count_per_deck", "Marlynn_average_count_per_normalized_deck", "Marlynn_pick_rate", "Marlynn_total_count"],
+                    "data_name": ["Marlynn average number of card per deck", "Marlynn average number of card per 30-card deck", "Marlynn Pick rate", "Marlynn Overall number"],
+                    "bonus_data": ["rarity", "Types", "Card Keywords"],
+                    "name": "All cards",
+                    "data_table": true
+                }
+            }
+        },
+        "Puffin_all_cards": {
+            "name": "Puffin Analysis", 
+            "filter" : {
+                "Types": ["Mechanologist", "Pirate", "Generic"]
+            },
+            "negative_filter" : {
+                "Types": ["Ranger", "Necromancer"]
+            },
+            "data": {
+                "all_cards": {
+                    "sort": "Puffin_pick_rate",
+                    "data": ["Puffin_average_count_per_deck", "Puffin_average_count_per_normalized_deck", "Puffin_pick_rate", "Puffin_total_count"],
+                    "data_name": ["Puffin average number of card per deck", "Puffin average number of card per 30-card deck", "Puffin Pick rate", "Puffin Overall number"],
+                    "bonus_data": ["rarity", "Types", "Card Keywords"],
+                    "name": "All cards",
+                    "data_table": true
+                }
+            }
+        },
+        "Gravy Bones_all_cards": {
+            "name": "Gravy Bones Analysis", 
+            "filter" : {
+                "Types": ["Necromancer", "Pirate", "Generic"]
+            },
+            "negative_filter" : {
+                "Types": ["Mechanologist", "Ranger"]
+            },
+            "data": {
+                "all_cards": {
+                    "sort": "Gravy Bones_pick_rate",
+                    "data": ["Gravy Bones_average_count_per_deck", "Gravy Bones_average_count_per_normalized_deck", "Gravy Bones_pick_rate", "Gravy Bones_total_count"],
+                    "data_name": ["Gravy Bones average number of card per deck", "Gravy Bones average number of card per 30-card deck", "Gravy Bones Pick rate", "Gravy Bones Overall number"],
+                    "bonus_data": ["rarity", "Types", "Card Keywords"],
+                    "name": "All cards",
+                    "data_table": true
+                }
+            }
+        },
+        "Scurv, Stowaway_all_cards": {
+            "name": "Scurv, Stowaway Analysis", 
+            "filter" : {
+                "Types": ["Pirate", "Generic"]
+            },
+            "negative_filter" : {
+                "Types": ["Mechanologist", "Ranger", "Necromancer"]
+            },
+            "data": {
+                "all_cards": {
+                    "sort": "Scurv, Stowaway_pick_rate",
+                    "data": ["Scurv, Stowaway_average_count_per_deck", "Scurv, Stowaway_average_count_per_normalized_deck", "Scurv, Stowaway_pick_rate", "Scurv, Stowaway_total_count"],
+                    "data_name": ["Scurv, Stowaway average number of card per deck", "Scurv, Stowaway average number of card per 30-card deck", "Scurv, Stowaway Pick rate", "Scurv, Stowaway Overall number"],
                     "bonus_data": ["rarity", "Types", "Card Keywords"],
                     "name": "All cards",
                     "data_table": true
@@ -66,19 +1014,6 @@
         "Cards_by_type_comparison": {
             "name": "Cards with equipment by type",
             "data": {
-                "pitch_distribution": {
-                    "negative_filter" : {
-                        "Types": ["Equipment"]
-                    },
-                    "data": ["average_count_per_normalized_deck", "pick_rate", "total_count"],
-                    "data_name": ["average number of card per 30-card deck", "Pick rate", "Overall number"],
-                    "group_by": {
-                        "columns": ["Pitch"],
-                        "aggregation": {"average_count_per_normalized_deck": "sum", "pick_rate": "mean", "total_count": "sum"}
-                    },
-                    "sort": "Pitch",
-                    "name": "Pitch distribution"
-                },
                 "equipment_cards": {
                     "filter": {
                         "Types": ["Equipment"]
@@ -101,57 +1036,19 @@
                     "name": "Generic cards",
                     "data_table": true
                 },
-                "draconic_cards": {
+                "pirate_cards": {
                     "filter": {
-                        "Types": ["Draconic"]
+                        "Types": ["Pirate"]
                     },
                     "negative_filter" : {
-                        "Types": ["Warrior", "Ninja"]
+                        "Types": ["Mechanologist", "Ranger", "Necromancer"]
                     },
                     "sort": "pick_rate",
                     "data": ["pick_rate", "weighted_pick_rate", "average_count_per_deck", "average_count_per_normalized_deck", "total_count"],
                     "data_name": ["Pick rate", "Weighted pick rate", "Average number of card per deck", "Average number of card per 30-card deck", "Overall number"],
                     "bonus_data": ["rarity", "Types", "Card Keywords"],
-                    "name": "Draconic cards",
+                    "name": "Pirate cards",
                     "data_table": true
-                },
-                "warrior_assassin_cards": {
-                    "filter": {
-                        "Types": ["Warrior"],
-                        "_Types": ["Assassin"]
-                    },
-                    "sort": "pick_rate",
-                    "data": ["pick_rate", "weighted_pick_rate", "average_count_per_deck", "average_count_per_normalized_deck", "total_count"],
-                    "data_name": ["Pick rate", "Weighted pick rate", "Average number of card per deck", "Average number of card per 30-card deck", "Overall number"],
-                    "bonus_data": ["rarity", "Types", "Card Keywords"],
-                    "name": "Warrior & Assassin cards",
-                    "data_table": true
-                },
-                "ninja_assassin_cards": {
-                    "filter": {
-                        "Types": ["Ninja"],
-                        "_Types": ["Assassin"]
-                    },
-                    "sort": "pick_rate",
-                    "data": ["pick_rate", "weighted_pick_rate", "average_count_per_deck", "average_count_per_normalized_deck", "total_count"],
-                    "data_name": ["Pick rate", "Weighted pick rate", "Average number of card per deck", "Average number of card per 30-card deck", "Overall number"],
-                    "bonus_data": ["rarity", "Types", "Card Keywords"],
-                    "name": "Ninja & Assassin cards",
-                    "data_table": true
-                },
-                "attack_action_cards": {
-                    "filter": {
-                        "Types": ["Action"],
-                        "_Types": ["Attack"]
-                    },
-                    "data": ["average_count_per_normalized_deck", "total_count"],
-                    "data_name": ["Average number of card per 30-card deck", "Overall number"],
-                    "group_by": {
-                        "columns": [],
-                        "aggregation": {"average_count_per_normalized_deck": "sum", "total_count": "sum"}
-                    },
-                    "name": "Summary of card types and keywords",
-                    "comment": "Attack Action cards"
                 }
             }
         },
@@ -160,8 +1057,8 @@
             "data": {
                 "all_cards": {
                     "sort": "weighted_pick_rate",
-                    "data": ["weighted_pick_rate", "pick_rate", "total_count", "average_count_per_deck", "average_count_per_normalized_deck", "draft_average_occurrence1", "draft_average_occurrence2"],
-                    "data_name": ["Weighted pick rate", "Pick rate", "Overall number", "Average number of card per deck", "Average number of card per 30-card deck", "First Draft File average occurrence", "Second Draft File average occurrence"],
+                    "data": ["weighted_pick_rate", "pick_rate", "total_count", "average_count_per_deck", "average_count_per_normalized_deck", "draft_average_occurrence1", "draft_average_occurrence2", "draft_average_occurrence3"],
+                    "data_name": ["Weighted pick rate", "Pick rate", "Overall number", "Average number of card per deck", "Average number of card per 30-card deck", "First Draft File average occurrence", "Second Draft File average occurrence", "Third Draft File average occurrence"],
                     "bonus_data": ["rarity", "Types", "Card Keywords"],
                     "name": "All cards",
                     "data_table": true
@@ -170,8 +1067,8 @@
         }
     },
     "visualization": {
-        "heroes": ["Fang", "Cindra", "Arakni, Web of Deceit"],
-        "heroes_color": ["red", "#ffd901", "blue"],
+        "heroes": ["Marlynn", "Puffin", "Gravy Bones", "Scurv, Stowaway"],
+        "heroes_color": ["red", "#ffd901", "blue", "black"],
         "decks_by_date_chart": true,
         "group_by_charts" : [
             {
@@ -188,7 +1085,7 @@
             },
             {
                 "filename": "cost_distribution",
-                "title": "Pitch Distribution",
+                "title": "COst Distribution",
                 "x-axis": "Cost of cards",
                 "group_by": "Cost"
             }
@@ -232,38 +1129,22 @@
                 "filename": "equipment_comparison_classes",
                 "title": "Equipment Distribution Across Classes",
                 "x-axis": "Percentage of equipments",
-                "heroes": ["Fang", "Cindra", "Arakni, Web of Deceit"],
+                "heroes": ["Marlynn", "Puffin", "Gravy Bones", "Scurv, Stowaway"],
                 "filter": { "Types": ["Equipment"] }
             },
             {
-                "filename": "pure_draconic_cards",
-                "title": "Pure Draconic Cards",
+                "filename": "pure_pirate_cards",
+                "title": "Pure Pirate Cards",
                 "x-axis": "Percentage of cards",
-                "heroes": ["Fang", "Cindra"],
-                "filter": { "Types": ["Draconic"] },
-                "negative_filter": { "Types": ["Warrior", "Ninja", "Equipment"] }
-            },
-            {
-                "filename": "ninja_assassin_cards",
-                "title": "Ninja/Assassin Cards",
-                "x-axis": "Percentage of cards",
-                "heroes": ["Cindra", "Arakni, Web of Deceit"],
-                "filter": { "Types": ["Ninja"], "_Types": ["Assassin"] },
-                "negative_filter": { "Types": ["Equipment"] }
-            },
-            {
-                "filename": "warrior_assassin_cards",
-                "title": "Warrior/Assassin Cards",
-                "x-axis": "Percentage of cards",
-                "heroes": ["Fang", "Arakni, Web of Deceit"],
-                "filter": { "Types": ["Warrior"], "_Types": ["Assassin"] },
-                "negative_filter": { "Types": ["Equipment"] }
+                "heroes": ["Marlynn", "Puffin", "Gravy Bones", "Scurv, Stowaway"],
+                "filter": { "Types": ["Pirate"] },
+                "negative_filter": { "Types": ["Mechanologist", "Ranger", "Necromancer", "Equipment"] }
             },
             {
                 "filename": "generic_cards",
                 "title": "Generic Cards",
                 "x-axis": "Percentage of cards",
-                "heroes": ["Fang", "Cindra", "Arakni, Web of Deceit"],
+                "heroes": ["Marlynn", "Puffin", "Gravy Bones", "Scurv, Stowaway"],
                 "filter": { "Types": ["Generic"] },
                 "negative_filter": { "Types": ["Equipment"] }
             }
@@ -285,31 +1166,17 @@
                 "filter": { "Pitch": [3] }
             },
             {
-                "filename": "draconic_cards_n",
-                "title": "Number of draconic cards",
-                "filter": { "Types": ["Draconic"] },
-                "negative_filter": { "Types": ["Equipment"] },
-                "correction": ["Arakni, Web of Deceit"]
+                "filename": "pirate_cards_n",
+                "title": "Number of pure pirate cards",
+                "filter": { "Types": ["Pirate"] },
+                "negative_filter": { "Types": ["Mechanologist", "Ranger", "Necromancer", "Equipment"] }
             },
             {
-                "filename": "warrior_cards_n",
-                "title": "Number of warrior cards",
-                "filter": { "Types": ["Warrior"] },
+                "filename": "class_cards_n",
+                "title": "Number of class cards",
+                "filter": { "Types": ["Mechanologist", "Ranger", "Necromancer"] },
                 "negative_filter": { "Types": ["Equipment"] },
-                "correction": ["Cindra"]
-            },
-            {
-                "filename": "ninja_cards_n",
-                "title": "Number of ninja cards",
-                "filter": { "Types": ["Ninja"] },
-                "negative_filter": { "Types": ["Equipment"] },
-                "correction": ["Fang"]
-            },
-            {
-                "filename": "assassin_cards_n",
-                "title": "Number of assassin cards",
-                "filter": { "Types": ["Assassin"] },
-                "negative_filter": { "Types": ["Equipment"] }
+                "correction": ["Scurv, Stowaway"]
             },
             {
                 "filename": "generic_cards_n",

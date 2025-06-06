@@ -219,6 +219,12 @@ Each key inside `data` defines a table or section:
 
 - **`data_table`**: Enables advanced table features like search or sort. Note that `data_table` had the last three columns hidden (User is still able to search by them)
 
+### `visualization` Structure
+
+The `visualization` section in `init.json` defines charts for vis page you want to generate.
+
+TODO
+
 
 ## Pick Rate Calculation for Multiple Draft Files
 

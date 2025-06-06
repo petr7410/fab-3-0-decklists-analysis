@@ -1,4 +1,4 @@
-/* 🌞 Light Theme */
+/* Light Theme */
 :root {
   --bg-color: #fff;
   --bg-alt-color: #ddd;
@@ -11,7 +11,7 @@
   --odd-row: #eee;
 }
 
-/* 🌙 Dark Theme */
+/* Dark Theme */
 [data-theme="dark"] {
   --bg-color: #000;
   --bg-alt-color: #222;
@@ -228,4 +228,31 @@ select:hover {
 select option {
   background: var(--bg-alt-color);
   color: var(--text-color);
+}
+
+/* Styles for vis.html*/
+.chart-container {
+    margin-bottom: 40px;
+}
+
+.chart-row {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-bottom: 40px;
+}
+
+.chart {
+    flex: 1;
+    min-width: 45%;
+    margin: 10px;
+}
+
+.full-width {
+    width: 99%;
+}
+
+.chart .plotly {
+    border-radius: 10px;
+    clip-path: inset(0 round 10px); /* Ensures rounded edges */
 }

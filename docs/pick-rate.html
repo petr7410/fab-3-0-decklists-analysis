@@ -1,0 +1,114 @@
+<html>
+<head>
+    <link rel="stylesheet" href="./css/styles.css">
+</head>
+<body>
+<script>
+    window.MathJax = {
+        tex: { inlineMath: [['$', '$'], ['\\(', '\\)']] },
+        svg: { scale: 1.2 }
+    };
+</script>
+<script async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+
+<section class="main-info">
+    <h1>Understanding Pick Rate in Draft Analysis</h1>
+    <p>Exploring the assumptions and limitations of pick rate calculations.</p>
+</section>
+
+<section class="card content">
+    <h2>Introduction</h2>
+    <p>This section explains how pick rate is calculated and the assumptions behind its interpretation.</p>
+</section>
+
+<section class="card content">
+    <h2>Assumptions & Limitations</h2>
+
+    <h3>1. Player Skill Levels Are Not Considered</h3>
+    <p>Some players are better than others - this is true for any competitive game. However,  
+       pick rate analysis does <i>not</i> account for individual player skill, 
+       as there is no good reason or way to do it.</p>
+    <div class="note">
+        <p>A strong card that requires <i>high skill</i> may be underrepresented in the data.</p>
+    </div>
+
+    <h3>2. Assuming All Cards Are Equal</h3>
+    <p>Let's start by assuming that all cards are equally strong and that players pick them randomly.  
+       Under this assumption, a card has the following chance of making it into a winning deck:</p>
+
+    <p class="formula">
+        \( P(\text{card in winning deck}) = \frac{\text{draft_average_occurrence}}{8} \)
+    </p>
+
+    <p>And the Pick Rate is calculated as:</p>
+
+    <p class="formula">
+        \[ \text{pick_rate} =  \frac{\text{total_count}}{\text{draft_average_occurrence} \times \text{Number_of_decks}}\]
+    </p>
+    
+    <p>And in this simplified version for 1 deck, we get \( \text{total_count} = P(\text{card in winning deck}), \text{Number_of_decks} = 1 \)</p>
+
+    <p class="formula">
+        \[ \frac{\frac{\text{draft_average_occurrence}}{8}}{\text{draft_average_occurrence} \times 1} = \frac{1}{8}= 0.125 \] (12.5% pick rate)
+    </p>
+
+    <h4>Why This Doesn’t Hold in Reality</h4>
+    <ul>
+        <li><strong>Equipment:</strong> Drafting duplicate equipment <i>has no benefit</i> (other than denial).</li>
+        <li><strong>Class Cards:</strong> If a player drafts an <i>unplayable class card</i>, it’s filtered out.</li>
+        <li><strong>Card Strength Varies:</strong> Not all cards are equally powerful - this is why analysis is necessary.</li>
+    </ul>
+</section>
+
+<section class="card content">
+    <h2>What Happens When Cards Have Different Strengths?</h2>
+
+    <h3>Case 1: A Single "Win Game" Card</h3>
+    <p>Imagine a draft where only <i>one</i> card can <i>guarantee victory</i> and all others do nothing.  
+       The player who picks it wins.</p>
+
+    <p class="formula">
+        Pick Rate = \( P(\text{card drafted}) = 1 \) (100%)
+    </p>
+
+    <h3>Case 2: Two "Win Game" Cards</h3>
+    <p>Now, assume there are <i>two</i> such cards. Each player has an equal chance of drafting them.</p>
+
+    <p class="formula">
+        \( P(\text{one player has both}) = 0.125 \times 0.125 \times 8 = 0.125 \)
+    </p>
+
+    <p>Thus, the pick rate for this card is is:</p>
+
+    <p class="formula">
+        \( (1 \times 0.875 + 2 \times 0.125) / 2 = 0.56125 \) (56.1%)
+    </p>
+
+    <h3>Case 3: The Impact of Drawing</h3>
+    <p>Even if a card guarantees a win, it <i>must be drawn</i> during the game.</p>
+    <p>Assume that a game ends when <i>half the deck is drawn</i>, and if the <i>win card</i> is in the deck,  
+        the probability of winning <i>one game</i> is:</p>
+
+    <p class="formula">
+        \( P(\text{win one game}) = 0.5 + 0.5 \times 0.5 = 0.75 \)
+    </p>
+
+    <p>Winning <i>three games in a row</i>:</p>
+
+    <p class="formula">
+        \( (3/4)^3 = 27/64 = 0.421875 \) (42.2% pick rate)
+    </p>
+</section>
+
+<!-- Note: consider including the example of different draft\_average\_occurrence -->
+
+<section class="card content">
+    <h2>Final Thoughts</h2>
+    <ul>
+        <li>Cards with <i>higher skill ceilings</i> may be undervalued in raw pick rate data.</li>
+        <li>Pick rate is a <i>useful but imperfect metric</i> - additional factors like <i>deck synergy</i> matter.</li>
+    </ul>
+</section>
+<script type="module" src="js/utility.js"></script>
+</body>
+</html>

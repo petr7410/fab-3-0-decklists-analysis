@@ -1,0 +1,3185 @@
+[Settings]
+{
+    "showSlots": true,
+    "withReplacement": false,
+    "cardBack": "https://d2h5owxb2ypf43.cloudfront.net/cards/cardback.webp",
+}
+[CustomCards]
+[
+    {
+        "name": "Golden Skywarden (yellow)",
+        "rarity": "mythic",
+        "mana_cost": "2",
+        "collector_number": "SEA004",
+        "type": "Pirate, Mechanologist, Action, Attack",
+        "image_uris": {
+           "en": "https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA004.png"
+        }
+    },
+    {
+        "name": "Jolly Bludger (yellow)",
+        "rarity": "mythic",
+        "mana_cost": "2",
+        "collector_number": "SEA005",
+        "type": "Pirate, Mechanologist, Action, Attack",
+        "image_uris": {
+           "en": "https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA005.png"
+        }
+    },
+    {
+        "name": "Rust Belt",
+        "rarity": "common",
+        "mana_cost": "0",
+        "collector_number": "SEA009",
+        "type": "Mechanologist, Equipment, Chest",
+        "image_uris": {
+           "en": "https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA009.png"
+        }
+    },
+    {
+        "name": "Unicycle",
+        "rarity": "common",
+        "mana_cost": "0",
+        "collector_number": "SEA010",
+        "type": "Mechanologist, Equipment, Legs",
+        "image_uris": {
+           "en": "https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA010.png"
+        }
+    },
+    {
+        "name": "Cogwerx Dovetail (red)",
+        "rarity": "mythic",
+        "mana_cost": "1",
+        "collector_number": "SEA011",
+        "type": "Mechanologist, Action, Attack",
+        "image_uris": {
+           "en": "https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA011.png"
+        }
+    },
+    {
+        "name": "Palantir Aeronought (red)",
+        "rarity": "mythic",
+        "mana_cost": "1",
+        "collector_number": "SEA012",
+        "type": "Mechanologist, Action, Attack",
+        "image_uris": {
+           "en": "https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA012.png"
+        }
+    },
+    {
+        "name": "Cog in the Machine (red)",
+        "rarity": "mythic",
+        "mana_cost": "1",
+        "collector_number": "SEA013",
+        "type": "Mechanologist, Action",
+        "image_uris": {
+           "en": "https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA013.png"
+        }
+    },
+    {
+        "name": "Cogwerx Workshop (blue)",
+        "rarity": "mythic",
+        "mana_cost": "3",
+        "collector_number": "SEA014",
+        "type": "Mechanologist, Action",
+        "image_uris": {
+           "en": "https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA014.png"
+        }
+    },
+    {
+        "name": "Cloud City Steamboat (red)",
+        "rarity": "rare",
+        "mana_cost": "1",
+        "collector_number": "SEA015",
+        "type": "Mechanologist, Action, Attack",
+        "image_uris": {
+           "en": "https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA015.png"
+        }
+    },
+    {
+        "name": "Cloud City Steamboat (yellow)",
+        "rarity": "rare",
+        "mana_cost": "2",
+        "collector_number": "SEA016",
+        "type": "Mechanologist, Action, Attack",
+        "image_uris": {
+           "en": "https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA016.png"
+        }
+    },
+    {
+        "name": "Cloud City Steamboat (blue)",
+        "rarity": "rare",
+        "mana_cost": "3",
+        "collector_number": "SEA017",
+        "type": "Mechanologist, Action, Attack",
+        "image_uris": {
+           "en": "https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA017.png"
+        }
+    },
+    {
+        "name": "Cogwerx Zeppelin (red)",
+        "rarity": "rare",
+        "mana_cost": "1",
+        "collector_number": "SEA018",
+        "type": "Mechanologist, Action, Attack",
+        "image_uris": {
+           "en": "https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA018.png"
+        }
+    },
+    {
+        "name": "Cogwerx Zeppelin (yellow)",
+        "rarity": "rare",
+        "mana_cost": "2",
+        "collector_number": "SEA019",
+        "type": "Mechanologist, Action, Attack",
+        "image_uris": {
+           "en": "https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA019.png"
+        }
+    },
+    {
+        "name": "Cogwerx Zeppelin (blue)",
+        "rarity": "rare",
+        "mana_cost": "3",
+        "collector_number": "SEA020",
+        "type": "Mechanologist, Action, Attack",
+        "image_uris": {
+           "en": "https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA020.png"
+        }
+    },
+    {
+        "name": "Copper Cog (blue)",
+        "rarity": "rare",
+        "mana_cost": "3",
+        "collector_number": "SEA021",
+        "type": "Mechanologist, Action, Cog, Item",
+        "image_uris": {
+           "en": "https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA021.png"
+        }
+    },
+    {
+        "name": "Lubricate (blue)",
+        "rarity": "rare",
+        "mana_cost": "3",
+        "collector_number": "SEA022",
+        "type": "Mechanologist, Instant",
+        "image_uris": {
+           "en": "https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA022.png"
+        }
+    },
+    {
+        "name": "Pinion Sentry (blue)",
+        "rarity": "rare",
+        "mana_cost": "3",
+        "collector_number": "SEA023",
+        "type": "Mechanologist, Block",
+        "image_uris": {
+           "en": "https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA023.png"
+        }
+    },
+    {
+        "name": "Cloud Skiff (red)",
+        "rarity": "common",
+        "mana_cost": "1",
+        "collector_number": "SEA024",
+        "type": "Mechanologist, Action, Attack",
+        "image_uris": {
+           "en": "https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA024.png"
+        }
+    },
+    {
+        "name": "Cloud Skiff (yellow)",
+        "rarity": "common",
+        "mana_cost": "2",
+        "collector_number": "SEA025",
+        "type": "Mechanologist, Action, Attack",
+        "image_uris": {
+           "en": "https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA025.png"
+        }
+    },
+    {
+        "name": "Cloud Skiff (blue)",
+        "rarity": "common",
+        "mana_cost": "3",
+        "collector_number": "SEA026",
+        "type": "Mechanologist, Action, Attack",
+        "image_uris": {
+           "en": "https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA026.png"
+        }
+    },
+    {
+        "name": "Sky Skimmer (red)",
+        "rarity": "common",
+        "mana_cost": "1",
+        "collector_number": "SEA027",
+        "type": "Mechanologist, Action, Attack",
+        "image_uris": {
+           "en": "https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA027.png"
+        }
+    },
+    {
+        "name": "Sky Skimmer (yellow)",
+        "rarity": "common",
+        "mana_cost": "2",
+        "collector_number": "SEA028",
+        "type": "Mechanologist, Action, Attack",
+        "image_uris": {
+           "en": "https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA028.png"
+        }
+    },
+    {
+        "name": "Sky Skimmer (blue)",
+        "rarity": "common",
+        "mana_cost": "3",
+        "collector_number": "SEA029",
+        "type": "Mechanologist, Action, Attack",
+        "image_uris": {
+           "en": "https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA029.png"
+        }
+    },
+    {
+        "name": "Teeth of the Cog (red)",
+        "rarity": "common",
+        "mana_cost": "1",
+        "collector_number": "SEA030",
+        "type": "Mechanologist, Action, Attack",
+        "image_uris": {
+           "en": "https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA030.png"
+        }
+    },
+    {
+        "name": "Teeth of the Cog (yellow)",
+        "rarity": "common",
+        "mana_cost": "2",
+        "collector_number": "SEA031",
+        "type": "Mechanologist, Action, Attack",
+        "image_uris": {
+           "en": "https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA031.png"
+        }
+    },
+    {
+        "name": "Teeth of the Cog (blue)",
+        "rarity": "common",
+        "mana_cost": "3",
+        "collector_number": "SEA032",
+        "type": "Mechanologist, Action, Attack",
+        "image_uris": {
+           "en": "https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA032.png"
+        }
+    },
+    {
+        "name": "Tough Old Wrench (red)",
+        "rarity": "common",
+        "mana_cost": "1",
+        "collector_number": "SEA033",
+        "type": "Mechanologist, Action, Attack",
+        "image_uris": {
+           "en": "https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA033.png"
+        }
+    },
+    {
+        "name": "Tough Old Wrench (yellow)",
+        "rarity": "common",
+        "mana_cost": "2",
+        "collector_number": "SEA034",
+        "type": "Mechanologist, Action, Attack",
+        "image_uris": {
+           "en": "https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA034.png"
+        }
+    },
+    {
+        "name": "Tough Old Wrench (blue)",
+        "rarity": "common",
+        "mana_cost": "3",
+        "collector_number": "SEA035",
+        "type": "Mechanologist, Action, Attack",
+        "image_uris": {
+           "en": "https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA035.png"
+        }
+    },
+    {
+        "name": "Goldwing Turbine (red)",
+        "rarity": "common",
+        "mana_cost": "1",
+        "collector_number": "SEA036",
+        "type": "Mechanologist, Action",
+        "image_uris": {
+           "en": "https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA036.png"
+        }
+    },
+    {
+        "name": "Goldwing Turbine (yellow)",
+        "rarity": "common",
+        "mana_cost": "2",
+        "collector_number": "SEA037",
+        "type": "Mechanologist, Action",
+        "image_uris": {
+           "en": "https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA037.png"
+        }
+    },
+    {
+        "name": "Goldwing Turbine (blue)",
+        "rarity": "common",
+        "mana_cost": "3",
+        "collector_number": "SEA038",
+        "type": "Mechanologist, Action",
+        "image_uris": {
+           "en": "https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA038.png"
+        }
+    },
+    {
+        "name": "Draw Back the Hammer (red)",
+        "rarity": "common",
+        "mana_cost": "1",
+        "collector_number": "SEA039",
+        "type": "Mechanologist, Action",
+        "image_uris": {
+           "en": "https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA039.png"
+        }
+    },
+    {
+        "name": "Perk Up (red)",
+        "rarity": "common",
+        "mana_cost": "1",
+        "collector_number": "SEA040",
+        "type": "Mechanologist, Action",
+        "image_uris": {
+           "en": "https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA040.png"
+        }
+    },
+    {
+        "name": "Tighten the Screws (red)",
+        "rarity": "common",
+        "mana_cost": "1",
+        "collector_number": "SEA041",
+        "type": "Mechanologist, Action",
+        "image_uris": {
+           "en": "https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA041.png"
+        }
+    },
+    {
+        "name": "Washed Up Wave",
+        "rarity": "common",
+        "mana_cost": "0",
+        "collector_number": "SEA046",
+        "type": "Pirate, Necromancer, Equipment, Arms",
+        "image_uris": {
+           "en": "https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA046.png"
+        }
+    },
+    {
+        "name": "Blood in the Water (red)",
+        "rarity": "mythic",
+        "mana_cost": "1",
+        "collector_number": "SEA047",
+        "type": "Pirate, Necromancer, Defense Reaction",
+        "image_uris": {
+           "en": "https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA047.png"
+        }
+    },
+    {
+        "name": "Chart the High Seas (blue)",
+        "rarity": "mythic",
+        "mana_cost": "3",
+        "collector_number": "SEA048",
+        "type": "Pirate, Necromancer, Action",
+        "image_uris": {
+           "en": "https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA048.png"
+        }
+    },
+    {
+        "name": "Give No Quarter (blue)",
+        "rarity": "mythic",
+        "mana_cost": "3",
+        "collector_number": "SEA049",
+        "type": "Pirate, Necromancer, Action",
+        "image_uris": {
+           "en": "https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA049.png"
+        }
+    },
+    {
+        "name": "Chum, Friendly First Mate (yellow)",
+        "rarity": "mythic",
+        "mana_cost": "2",
+        "collector_number": "SEA050",
+        "type": "Pirate, Necromancer, Action, Ally",
+        "image_uris": {
+           "en": "https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA050.png"
+        }
+    },
+    {
+        "name": "Moray le Fay (yellow)",
+        "rarity": "mythic",
+        "mana_cost": "2",
+        "collector_number": "SEA051",
+        "type": "Pirate, Necromancer, Action, Ally",
+        "image_uris": {
+           "en": "https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA051.png"
+        }
+    },
+    {
+        "name": "Wailer Humperdinck (yellow)",
+        "rarity": "mythic",
+        "mana_cost": "2",
+        "collector_number": "SEA052",
+        "type": "Pirate, Necromancer, Action, Ally",
+        "image_uris": {
+           "en": "https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA052.png"
+        }
+    },
+    {
+        "name": "Board the Ship (red)",
+        "rarity": "rare",
+        "mana_cost": "1",
+        "collector_number": "SEA053",
+        "type": "Pirate, Necromancer, Action, Attack",
+        "image_uris": {
+           "en": "https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA053.png"
+        }
+    },
+    {
+        "name": "Paddle Faster (red)",
+        "rarity": "rare",
+        "mana_cost": "1",
+        "collector_number": "SEA054",
+        "type": "Pirate, Necromancer, Action, Attack",
+        "image_uris": {
+           "en": "https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA054.png"
+        }
+    },
+    {
+        "name": "Hoist 'Em Up (red)",
+        "rarity": "rare",
+        "mana_cost": "1",
+        "collector_number": "SEA055",
+        "type": "Pirate, Necromancer, Block",
+        "image_uris": {
+           "en": "https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA055.png"
+        }
+    },
+    {
+        "name": "Avast Ye! (blue)",
+        "rarity": "rare",
+        "mana_cost": "3",
+        "collector_number": "SEA056",
+        "type": "Pirate, Necromancer, Action",
+        "image_uris": {
+           "en": "https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA056.png"
+        }
+    },
+    {
+        "name": "Heave Ho! (blue)",
+        "rarity": "rare",
+        "mana_cost": "3",
+        "collector_number": "SEA057",
+        "type": "Pirate, Necromancer, Action",
+        "image_uris": {
+           "en": "https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA057.png"
+        }
+    },
+    {
+        "name": "Yo Ho Ho! (blue)",
+        "rarity": "rare",
+        "mana_cost": "3",
+        "collector_number": "SEA058",
+        "type": "Pirate, Necromancer, Action",
+        "image_uris": {
+           "en": "https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA058.png"
+        }
+    },
+    {
+        "name": "Kelpie, Tangled Mess (yellow)",
+        "rarity": "rare",
+        "mana_cost": "2",
+        "collector_number": "SEA059",
+        "type": "Pirate, Necromancer, Action, Ally",
+        "image_uris": {
+           "en": "https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA059.png"
+        }
+    },
+    {
+        "name": "Limpit, Hop-a-long (yellow)",
+        "rarity": "rare",
+        "mana_cost": "2",
+        "collector_number": "SEA060",
+        "type": "Pirate, Necromancer, Action, Ally",
+        "image_uris": {
+           "en": "https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA060.png"
+        }
+    },
+    {
+        "name": "Scooba, Salty Sea Dog (yellow)",
+        "rarity": "rare",
+        "mana_cost": "2",
+        "collector_number": "SEA061",
+        "type": "Pirate, Necromancer, Action, Ally",
+        "image_uris": {
+           "en": "https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA061.png"
+        }
+    },
+    {
+        "name": "Angry Bones (red)",
+        "rarity": "common",
+        "mana_cost": "1",
+        "collector_number": "SEA062",
+        "type": "Pirate, Necromancer, Action, Attack",
+        "image_uris": {
+           "en": "https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA062.png"
+        }
+    },
+    {
+        "name": "Angry Bones (yellow)",
+        "rarity": "common",
+        "mana_cost": "2",
+        "collector_number": "SEA063",
+        "type": "Pirate, Necromancer, Action, Attack",
+        "image_uris": {
+           "en": "https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA063.png"
+        }
+    },
+    {
+        "name": "Angry Bones (blue)",
+        "rarity": "common",
+        "mana_cost": "3",
+        "collector_number": "SEA064",
+        "type": "Pirate, Necromancer, Action, Attack",
+        "image_uris": {
+           "en": "https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA064.png"
+        }
+    },
+    {
+        "name": "Burly Bones (red)",
+        "rarity": "common",
+        "mana_cost": "1",
+        "collector_number": "SEA065",
+        "type": "Pirate, Necromancer, Action, Attack",
+        "image_uris": {
+           "en": "https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA065.png"
+        }
+    },
+    {
+        "name": "Burly Bones (yellow)",
+        "rarity": "common",
+        "mana_cost": "2",
+        "collector_number": "SEA066",
+        "type": "Pirate, Necromancer, Action, Attack",
+        "image_uris": {
+           "en": "https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA066.png"
+        }
+    },
+    {
+        "name": "Burly Bones (blue)",
+        "rarity": "common",
+        "mana_cost": "3",
+        "collector_number": "SEA067",
+        "type": "Pirate, Necromancer, Action, Attack",
+        "image_uris": {
+           "en": "https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA067.png"
+        }
+    },
+    {
+        "name": "Jittery Bones (red)",
+        "rarity": "common",
+        "mana_cost": "1",
+        "collector_number": "SEA068",
+        "type": "Pirate, Necromancer, Action, Attack",
+        "image_uris": {
+           "en": "https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA068.png"
+        }
+    },
+    {
+        "name": "Jittery Bones (yellow)",
+        "rarity": "common",
+        "mana_cost": "2",
+        "collector_number": "SEA069",
+        "type": "Pirate, Necromancer, Action, Attack",
+        "image_uris": {
+           "en": "https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA069.png"
+        }
+    },
+    {
+        "name": "Jittery Bones (blue)",
+        "rarity": "common",
+        "mana_cost": "3",
+        "collector_number": "SEA070",
+        "type": "Pirate, Necromancer, Action, Attack",
+        "image_uris": {
+           "en": "https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA070.png"
+        }
+    },
+    {
+        "name": "Restless Bones (red)",
+        "rarity": "common",
+        "mana_cost": "1",
+        "collector_number": "SEA071",
+        "type": "Pirate, Necromancer, Action, Attack",
+        "image_uris": {
+           "en": "https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA071.png"
+        }
+    },
+    {
+        "name": "Restless Bones (yellow)",
+        "rarity": "common",
+        "mana_cost": "2",
+        "collector_number": "SEA072",
+        "type": "Pirate, Necromancer, Action, Attack",
+        "image_uris": {
+           "en": "https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA072.png"
+        }
+    },
+    {
+        "name": "Restless Bones (blue)",
+        "rarity": "common",
+        "mana_cost": "3",
+        "collector_number": "SEA073",
+        "type": "Pirate, Necromancer, Action, Attack",
+        "image_uris": {
+           "en": "https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA073.png"
+        }
+    },
+    {
+        "name": "Barnacle (yellow)",
+        "rarity": "common",
+        "mana_cost": "2",
+        "collector_number": "SEA074",
+        "type": "Pirate, Necromancer, Action, Ally",
+        "image_uris": {
+           "en": "https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA074.png"
+        }
+    },
+    {
+        "name": "Chowder, Hearty Cook (yellow)",
+        "rarity": "common",
+        "mana_cost": "2",
+        "collector_number": "SEA075",
+        "type": "Pirate, Necromancer, Action, Ally",
+        "image_uris": {
+           "en": "https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA075.png"
+        }
+    },
+    {
+        "name": "Cutty Shark, Quick Clip (yellow)",
+        "rarity": "common",
+        "mana_cost": "2",
+        "collector_number": "SEA076",
+        "type": "Pirate, Necromancer, Action, Ally",
+        "image_uris": {
+           "en": "https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA076.png"
+        }
+    },
+    {
+        "name": "Riggermortis (yellow)",
+        "rarity": "common",
+        "mana_cost": "2",
+        "collector_number": "SEA077",
+        "type": "Pirate, Necromancer, Action, Ally",
+        "image_uris": {
+           "en": "https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA077.png"
+        }
+    },
+    {
+        "name": "Shelly, Hardened Traveler (yellow)",
+        "rarity": "common",
+        "mana_cost": "2",
+        "collector_number": "SEA078",
+        "type": "Pirate, Necromancer, Action, Ally",
+        "image_uris": {
+           "en": "https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA078.png"
+        }
+    },
+    {
+        "name": "Swabbie (yellow)",
+        "rarity": "common",
+        "mana_cost": "2",
+        "collector_number": "SEA079",
+        "type": "Pirate, Necromancer, Action, Ally",
+        "image_uris": {
+           "en": "https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA079.png"
+        }
+    },
+    {
+        "name": "Head Stone",
+        "rarity": "common",
+        "mana_cost": "0",
+        "collector_number": "SEA081",
+        "type": "Necromancer, Equipment, Head",
+        "image_uris": {
+           "en": "https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA081.png"
+        }
+    },
+    {
+        "name": "King Kraken Harpoon (red)",
+        "rarity": "mythic",
+        "mana_cost": "1",
+        "collector_number": "SEA085",
+        "type": "Pirate, Ranger, Action, Arrow, Attack",
+        "image_uris": {
+           "en": "https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA085.png"
+        }
+    },
+    {
+        "name": "King Shark Harpoon (red)",
+        "rarity": "mythic",
+        "mana_cost": "1",
+        "collector_number": "SEA086",
+        "type": "Pirate, Ranger, Action, Arrow, Attack",
+        "image_uris": {
+           "en": "https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA086.png"
+        }
+    },
+    {
+        "name": "Big Game Trophy Shot (yellow)",
+        "rarity": "mythic",
+        "mana_cost": "2",
+        "collector_number": "SEA087",
+        "type": "Pirate, Ranger, Action",
+        "image_uris": {
+           "en": "https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA087.png"
+        }
+    },
+    {
+        "name": "Gold the Tip (yellow)",
+        "rarity": "mythic",
+        "mana_cost": "2",
+        "collector_number": "SEA088",
+        "type": "Pirate, Ranger, Action",
+        "image_uris": {
+           "en": "https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA088.png"
+        }
+    },
+    {
+        "name": "Blue Fin Harpoon (blue)",
+        "rarity": "rare",
+        "mana_cost": "3",
+        "collector_number": "SEA089",
+        "type": "Pirate, Ranger, Action, Arrow, Attack",
+        "image_uris": {
+           "en": "https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA089.png"
+        }
+    },
+    {
+        "name": "Red Fin Harpoon (blue)",
+        "rarity": "rare",
+        "mana_cost": "3",
+        "collector_number": "SEA090",
+        "type": "Pirate, Ranger, Action, Arrow, Attack",
+        "image_uris": {
+           "en": "https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA090.png"
+        }
+    },
+    {
+        "name": "Yellow Fin Harpoon (blue)",
+        "rarity": "rare",
+        "mana_cost": "3",
+        "collector_number": "SEA091",
+        "type": "Pirate, Ranger, Action, Arrow, Attack",
+        "image_uris": {
+           "en": "https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA091.png"
+        }
+    },
+    {
+        "name": "Rusty Harpoon (blue)",
+        "rarity": "common",
+        "mana_cost": "3",
+        "collector_number": "SEA092",
+        "type": "Pirate, Ranger, Action, Arrow, Attack",
+        "image_uris": {
+           "en": "https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA092.png"
+        }
+    },
+    {
+        "name": "Patch the Hole",
+        "rarity": "common",
+        "mana_cost": "0",
+        "collector_number": "SEA096",
+        "type": "Ranger, Equipment, Head",
+        "image_uris": {
+           "en": "https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA096.png"
+        }
+    },
+    {
+        "name": "Glidewell Fins",
+        "rarity": "common",
+        "mana_cost": "0",
+        "collector_number": "SEA097",
+        "type": "Ranger, Equipment, Arms",
+        "image_uris": {
+           "en": "https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA097.png"
+        }
+    },
+    {
+        "name": "Barbed Barrage (red)",
+        "rarity": "mythic",
+        "mana_cost": "1",
+        "collector_number": "SEA098",
+        "type": "Ranger, Action, Arrow, Attack",
+        "image_uris": {
+           "en": "https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA098.png"
+        }
+    },
+    {
+        "name": "Return Fire (red)",
+        "rarity": "mythic",
+        "mana_cost": "1",
+        "collector_number": "SEA099",
+        "type": "Ranger, Block",
+        "image_uris": {
+           "en": "https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA099.png"
+        }
+    },
+    {
+        "name": "Drop the Anchor (red)",
+        "rarity": "rare",
+        "mana_cost": "1",
+        "collector_number": "SEA100",
+        "type": "Ranger, Action",
+        "image_uris": {
+           "en": "https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA100.png"
+        }
+    },
+    {
+        "name": "Fire in the Hole (red)",
+        "rarity": "rare",
+        "mana_cost": "1",
+        "collector_number": "SEA101",
+        "type": "Ranger, Action",
+        "image_uris": {
+           "en": "https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA101.png"
+        }
+    },
+    {
+        "name": "Monkey Powder (red)",
+        "rarity": "rare",
+        "mana_cost": "1",
+        "collector_number": "SEA102",
+        "type": "Ranger, Action",
+        "image_uris": {
+           "en": "https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA102.png"
+        }
+    },
+    {
+        "name": "Hook (blue)",
+        "rarity": "rare",
+        "mana_cost": "3",
+        "collector_number": "SEA103",
+        "type": "Ranger, Action",
+        "image_uris": {
+           "en": "https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA103.png"
+        }
+    },
+    {
+        "name": "Line (blue)",
+        "rarity": "rare",
+        "mana_cost": "3",
+        "collector_number": "SEA104",
+        "type": "Ranger, Action",
+        "image_uris": {
+           "en": "https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA104.png"
+        }
+    },
+    {
+        "name": "Sinker (blue)",
+        "rarity": "rare",
+        "mana_cost": "3",
+        "collector_number": "SEA105",
+        "type": "Ranger, Action",
+        "image_uris": {
+           "en": "https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA105.png"
+        }
+    },
+    {
+        "name": "Dry Powder Shot (red)",
+        "rarity": "common",
+        "mana_cost": "1",
+        "collector_number": "SEA106",
+        "type": "Ranger, Action, Arrow, Attack",
+        "image_uris": {
+           "en": "https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA106.png"
+        }
+    },
+    {
+        "name": "Entangling Shot (red)",
+        "rarity": "common",
+        "mana_cost": "1",
+        "collector_number": "SEA107",
+        "type": "Ranger, Action, Arrow, Attack",
+        "image_uris": {
+           "en": "https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA107.png"
+        }
+    },
+    {
+        "name": "Nettling Shot (red)",
+        "rarity": "common",
+        "mana_cost": "1",
+        "collector_number": "SEA108",
+        "type": "Ranger, Action, Arrow, Attack",
+        "image_uris": {
+           "en": "https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA108.png"
+        }
+    },
+    {
+        "name": "Scouting Shot (red)",
+        "rarity": "common",
+        "mana_cost": "1",
+        "collector_number": "SEA109",
+        "type": "Ranger, Action, Arrow, Attack",
+        "image_uris": {
+           "en": "https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA109.png"
+        }
+    },
+    {
+        "name": "Swift Shot (red)",
+        "rarity": "common",
+        "mana_cost": "1",
+        "collector_number": "SEA110",
+        "type": "Ranger, Action, Arrow, Attack",
+        "image_uris": {
+           "en": "https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA110.png"
+        }
+    },
+    {
+        "name": "Head Shot (red)",
+        "rarity": "common",
+        "mana_cost": "1",
+        "collector_number": "SEA111",
+        "type": "Ranger, Action, Arrow, Attack",
+        "image_uris": {
+           "en": "https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA111.png"
+        }
+    },
+    {
+        "name": "Head Shot (yellow)",
+        "rarity": "common",
+        "mana_cost": "2",
+        "collector_number": "SEA112",
+        "type": "Ranger, Action, Arrow, Attack",
+        "image_uris": {
+           "en": "https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA112.png"
+        }
+    },
+    {
+        "name": "Head Shot (blue)",
+        "rarity": "common",
+        "mana_cost": "3",
+        "collector_number": "SEA113",
+        "type": "Ranger, Action, Arrow, Attack",
+        "image_uris": {
+           "en": "https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA113.png"
+        }
+    },
+    {
+        "name": "Salvage Shot (red)",
+        "rarity": "common",
+        "mana_cost": "1",
+        "collector_number": "SEA114",
+        "type": "Ranger, Action, Arrow, Attack",
+        "image_uris": {
+           "en": "https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA114.png"
+        }
+    },
+    {
+        "name": "Salvage Shot (yellow)",
+        "rarity": "common",
+        "mana_cost": "2",
+        "collector_number": "SEA115",
+        "type": "Ranger, Action, Arrow, Attack",
+        "image_uris": {
+           "en": "https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA115.png"
+        }
+    },
+    {
+        "name": "Salvage Shot (blue)",
+        "rarity": "common",
+        "mana_cost": "3",
+        "collector_number": "SEA116",
+        "type": "Ranger, Action, Arrow, Attack",
+        "image_uris": {
+           "en": "https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA116.png"
+        }
+    },
+    {
+        "name": "Sic 'Em Shot (red)",
+        "rarity": "common",
+        "mana_cost": "1",
+        "collector_number": "SEA117",
+        "type": "Ranger, Action, Arrow, Attack",
+        "image_uris": {
+           "en": "https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA117.png"
+        }
+    },
+    {
+        "name": "Sic 'Em Shot (yellow)",
+        "rarity": "common",
+        "mana_cost": "2",
+        "collector_number": "SEA118",
+        "type": "Ranger, Action, Arrow, Attack",
+        "image_uris": {
+           "en": "https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA118.png"
+        }
+    },
+    {
+        "name": "Sic 'Em Shot (blue)",
+        "rarity": "common",
+        "mana_cost": "3",
+        "collector_number": "SEA119",
+        "type": "Ranger, Action, Arrow, Attack",
+        "image_uris": {
+           "en": "https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA119.png"
+        }
+    },
+    {
+        "name": "Call in the Big Guns (red)",
+        "rarity": "common",
+        "mana_cost": "1",
+        "collector_number": "SEA120",
+        "type": "Ranger, Action",
+        "image_uris": {
+           "en": "https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA120.png"
+        }
+    },
+    {
+        "name": "Call in the Big Guns (yellow)",
+        "rarity": "common",
+        "mana_cost": "2",
+        "collector_number": "SEA121",
+        "type": "Ranger, Action",
+        "image_uris": {
+           "en": "https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA121.png"
+        }
+    },
+    {
+        "name": "Call in the Big Guns (blue)",
+        "rarity": "common",
+        "mana_cost": "3",
+        "collector_number": "SEA122",
+        "type": "Ranger, Action",
+        "image_uris": {
+           "en": "https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA122.png"
+        }
+    },
+    {
+        "name": "Scurv, Stowaway",
+        "rarity": "rare",
+        "mana_cost": "0",
+        "collector_number": "SEA123",
+        "type": "Pirate, Thief, Hero, Young",
+        "image_uris": {
+           "en": "https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA123.png"
+        }
+    },
+    {
+        "name": "Blue Sea Tricorn",
+        "rarity": "common",
+        "mana_cost": "0",
+        "collector_number": "SEA126",
+        "type": "Pirate, Equipment, Head",
+        "image_uris": {
+           "en": "https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA126.png"
+        }
+    },
+    {
+        "name": "Buccaneer's Bounty",
+        "rarity": "common",
+        "mana_cost": "0",
+        "collector_number": "SEA127",
+        "type": "Pirate, Equipment, Chest",
+        "image_uris": {
+           "en": "https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA127.png"
+        }
+    },
+    {
+        "name": "Fish Fingers",
+        "rarity": "common",
+        "mana_cost": "0",
+        "collector_number": "SEA128",
+        "type": "Pirate, Equipment, Arms",
+        "image_uris": {
+           "en": "https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA128.png"
+        }
+    },
+    {
+        "name": "Peg Leg",
+        "rarity": "common",
+        "mana_cost": "0",
+        "collector_number": "SEA129",
+        "type": "Pirate, Equipment, Legs",
+        "image_uris": {
+           "en": "https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA129.png"
+        }
+    },
+    {
+        "name": "Conqueror of the High Seas (red)",
+        "rarity": "mythic",
+        "mana_cost": "1",
+        "collector_number": "SEA130",
+        "type": "Pirate, Action, Attack",
+        "image_uris": {
+           "en": "https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA130.png"
+        }
+    },
+    {
+        "name": "Loan Shark (yellow)",
+        "rarity": "mythic",
+        "mana_cost": "2",
+        "collector_number": "SEA131",
+        "type": "Pirate, Action, Aura",
+        "image_uris": {
+           "en": "https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA131.png"
+        }
+    },
+    {
+        "name": "Tip the Barkeep (blue)",
+        "rarity": "mythic",
+        "mana_cost": "3",
+        "collector_number": "SEA132",
+        "type": "Pirate, Action",
+        "image_uris": {
+           "en": "https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA132.png"
+        }
+    },
+    {
+        "name": "Sunken Treasure (blue)",
+        "rarity": "mythic",
+        "mana_cost": "3",
+        "collector_number": "SEA133",
+        "type": "Pirate, Block",
+        "image_uris": {
+           "en": "https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA133.png"
+        }
+    },
+    {
+        "name": "HMS Barracuda (yellow)",
+        "rarity": "rare",
+        "mana_cost": "2",
+        "collector_number": "SEA134",
+        "type": "Pirate, Action, Attack",
+        "image_uris": {
+           "en": "https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA134.png"
+        }
+    },
+    {
+        "name": "HMS Kraken (yellow)",
+        "rarity": "rare",
+        "mana_cost": "2",
+        "collector_number": "SEA135",
+        "type": "Pirate, Action, Attack",
+        "image_uris": {
+           "en": "https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA135.png"
+        }
+    },
+    {
+        "name": "HMS Marlin (yellow)",
+        "rarity": "rare",
+        "mana_cost": "2",
+        "collector_number": "SEA136",
+        "type": "Pirate, Action, Attack",
+        "image_uris": {
+           "en": "https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA136.png"
+        }
+    },
+    {
+        "name": "Murderous Rabble (blue)",
+        "rarity": "rare",
+        "mana_cost": "3",
+        "collector_number": "SEA137",
+        "type": "Pirate, Action, Attack",
+        "image_uris": {
+           "en": "https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA137.png"
+        }
+    },
+    {
+        "name": "Pilfer the Wreck (red)",
+        "rarity": "rare",
+        "mana_cost": "1",
+        "collector_number": "SEA138",
+        "type": "Pirate, Action, Attack",
+        "image_uris": {
+           "en": "https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA138.png"
+        }
+    },
+    {
+        "name": "Pilfer the Wreck (yellow)",
+        "rarity": "rare",
+        "mana_cost": "2",
+        "collector_number": "SEA139",
+        "type": "Pirate, Action, Attack",
+        "image_uris": {
+           "en": "https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA139.png"
+        }
+    },
+    {
+        "name": "Pilfer the Wreck (blue)",
+        "rarity": "rare",
+        "mana_cost": "3",
+        "collector_number": "SEA140",
+        "type": "Pirate, Action, Attack",
+        "image_uris": {
+           "en": "https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA140.png"
+        }
+    },
+    {
+        "name": "Saltwater Swell (red)",
+        "rarity": "rare",
+        "mana_cost": "1",
+        "collector_number": "SEA141",
+        "type": "Pirate, Action, Attack",
+        "image_uris": {
+           "en": "https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA141.png"
+        }
+    },
+    {
+        "name": "Saltwater Swell (yellow)",
+        "rarity": "rare",
+        "mana_cost": "2",
+        "collector_number": "SEA142",
+        "type": "Pirate, Action, Attack",
+        "image_uris": {
+           "en": "https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA142.png"
+        }
+    },
+    {
+        "name": "Saltwater Swell (blue)",
+        "rarity": "rare",
+        "mana_cost": "3",
+        "collector_number": "SEA143",
+        "type": "Pirate, Action, Attack",
+        "image_uris": {
+           "en": "https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA143.png"
+        }
+    },
+    {
+        "name": "Divvy Up (blue)",
+        "rarity": "rare",
+        "mana_cost": "3",
+        "collector_number": "SEA144",
+        "type": "Pirate, Action",
+        "image_uris": {
+           "en": "https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA144.png"
+        }
+    },
+    {
+        "name": "Portside Exchange (blue)",
+        "rarity": "rare",
+        "mana_cost": "3",
+        "collector_number": "SEA145",
+        "type": "Pirate, Action",
+        "image_uris": {
+           "en": "https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA145.png"
+        }
+    },
+    {
+        "name": "Sea Floor Salvage (blue)",
+        "rarity": "rare",
+        "mana_cost": "3",
+        "collector_number": "SEA146",
+        "type": "Pirate, Action",
+        "image_uris": {
+           "en": "https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA146.png"
+        }
+    },
+    {
+        "name": "Scrub the Deck (blue)",
+        "rarity": "rare",
+        "mana_cost": "3",
+        "collector_number": "SEA147",
+        "type": "Pirate, Action",
+        "image_uris": {
+           "en": "https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA147.png"
+        }
+    },
+    {
+        "name": "Shifting Tides (blue)",
+        "rarity": "rare",
+        "mana_cost": "3",
+        "collector_number": "SEA148",
+        "type": "Pirate, Action, Aura",
+        "image_uris": {
+           "en": "https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA148.png"
+        }
+    },
+    {
+        "name": "Not So Fast (yellow)",
+        "rarity": "rare",
+        "mana_cost": "2",
+        "collector_number": "SEA149",
+        "type": "Pirate, Instant",
+        "image_uris": {
+           "en": "https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA149.png"
+        }
+    },
+    {
+        "name": "Throw Caution to the Wind (blue)",
+        "rarity": "rare",
+        "mana_cost": "3",
+        "collector_number": "SEA150",
+        "type": "Pirate, Instant",
+        "image_uris": {
+           "en": "https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA150.png"
+        }
+    },
+    {
+        "name": "Lost in Transit (yellow)",
+        "rarity": "rare",
+        "mana_cost": "2",
+        "collector_number": "SEA151",
+        "type": "Pirate, Block",
+        "image_uris": {
+           "en": "https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA151.png"
+        }
+    },
+    {
+        "name": "Battalion Barque (red)",
+        "rarity": "common",
+        "mana_cost": "1",
+        "collector_number": "SEA152",
+        "type": "Pirate, Action, Attack",
+        "image_uris": {
+           "en": "https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA152.png"
+        }
+    },
+    {
+        "name": "Battalion Barque (yellow)",
+        "rarity": "common",
+        "mana_cost": "2",
+        "collector_number": "SEA153",
+        "type": "Pirate, Action, Attack",
+        "image_uris": {
+           "en": "https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA153.png"
+        }
+    },
+    {
+        "name": "Battalion Barque (blue)",
+        "rarity": "common",
+        "mana_cost": "3",
+        "collector_number": "SEA154",
+        "type": "Pirate, Action, Attack",
+        "image_uris": {
+           "en": "https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA154.png"
+        }
+    },
+    {
+        "name": "Expedition to Azuro Keys (red)",
+        "rarity": "common",
+        "mana_cost": "1",
+        "collector_number": "SEA155",
+        "type": "Pirate, Action, Attack",
+        "image_uris": {
+           "en": "https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA155.png"
+        }
+    },
+    {
+        "name": "Expedition to Blackwater Strait (red)",
+        "rarity": "common",
+        "mana_cost": "1",
+        "collector_number": "SEA156",
+        "type": "Pirate, Action, Attack",
+        "image_uris": {
+           "en": "https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA156.png"
+        }
+    },
+    {
+        "name": "Expedition to Dreadfall Reach (red)",
+        "rarity": "common",
+        "mana_cost": "1",
+        "collector_number": "SEA157",
+        "type": "Pirate, Action, Attack",
+        "image_uris": {
+           "en": "https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA157.png"
+        }
+    },
+    {
+        "name": "Expedition to Horizon's Mantle (red)",
+        "rarity": "common",
+        "mana_cost": "1",
+        "collector_number": "SEA158",
+        "type": "Pirate, Action, Attack",
+        "image_uris": {
+           "en": "https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA158.png"
+        }
+    },
+    {
+        "name": "Golden Tipple (red)",
+        "rarity": "common",
+        "mana_cost": "1",
+        "collector_number": "SEA159",
+        "type": "Pirate, Action, Attack",
+        "image_uris": {
+           "en": "https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA159.png"
+        }
+    },
+    {
+        "name": "Golden Tipple (yellow)",
+        "rarity": "common",
+        "mana_cost": "2",
+        "collector_number": "SEA160",
+        "type": "Pirate, Action, Attack",
+        "image_uris": {
+           "en": "https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA160.png"
+        }
+    },
+    {
+        "name": "Golden Tipple (blue)",
+        "rarity": "common",
+        "mana_cost": "3",
+        "collector_number": "SEA161",
+        "type": "Pirate, Action, Attack",
+        "image_uris": {
+           "en": "https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA161.png"
+        }
+    },
+    {
+        "name": "Gold Hunter Lightsail (yellow)",
+        "rarity": "common",
+        "mana_cost": "2",
+        "collector_number": "SEA162",
+        "type": "Pirate, Action, Attack",
+        "image_uris": {
+           "en": "https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA162.png"
+        }
+    },
+    {
+        "name": "Gold Hunter Longboat (yellow)",
+        "rarity": "common",
+        "mana_cost": "2",
+        "collector_number": "SEA163",
+        "type": "Pirate, Action, Attack",
+        "image_uris": {
+           "en": "https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA163.png"
+        }
+    },
+    {
+        "name": "Gold Hunter Marauder (yellow)",
+        "rarity": "common",
+        "mana_cost": "2",
+        "collector_number": "SEA164",
+        "type": "Pirate, Action, Attack",
+        "image_uris": {
+           "en": "https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA164.png"
+        }
+    },
+    {
+        "name": "Gold Hunter Ketch (yellow)",
+        "rarity": "common",
+        "mana_cost": "2",
+        "collector_number": "SEA165",
+        "type": "Pirate, Action, Attack",
+        "image_uris": {
+           "en": "https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA165.png"
+        }
+    },
+    {
+        "name": "Swiftwater Sloop (red)",
+        "rarity": "common",
+        "mana_cost": "1",
+        "collector_number": "SEA166",
+        "type": "Pirate, Action, Attack",
+        "image_uris": {
+           "en": "https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA166.png"
+        }
+    },
+    {
+        "name": "Swiftwater Sloop (yellow)",
+        "rarity": "common",
+        "mana_cost": "2",
+        "collector_number": "SEA167",
+        "type": "Pirate, Action, Attack",
+        "image_uris": {
+           "en": "https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA167.png"
+        }
+    },
+    {
+        "name": "Swiftwater Sloop (blue)",
+        "rarity": "common",
+        "mana_cost": "3",
+        "collector_number": "SEA168",
+        "type": "Pirate, Action, Attack",
+        "image_uris": {
+           "en": "https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA168.png"
+        }
+    },
+    {
+        "name": "Swindler's Grift (red)",
+        "rarity": "common",
+        "mana_cost": "1",
+        "collector_number": "SEA169",
+        "type": "Pirate, Action, Attack",
+        "image_uris": {
+           "en": "https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA169.png"
+        }
+    },
+    {
+        "name": "Swindler's Grift (yellow)",
+        "rarity": "common",
+        "mana_cost": "2",
+        "collector_number": "SEA170",
+        "type": "Pirate, Action, Attack",
+        "image_uris": {
+           "en": "https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA170.png"
+        }
+    },
+    {
+        "name": "Swindler's Grift (blue)",
+        "rarity": "common",
+        "mana_cost": "3",
+        "collector_number": "SEA171",
+        "type": "Pirate, Action, Attack",
+        "image_uris": {
+           "en": "https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA171.png"
+        }
+    },
+    {
+        "name": "Thiev'n Varmints (red)",
+        "rarity": "common",
+        "mana_cost": "1",
+        "collector_number": "SEA172",
+        "type": "Pirate, Action, Attack",
+        "image_uris": {
+           "en": "https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA172.png"
+        }
+    },
+    {
+        "name": "Chart a Course (red)",
+        "rarity": "common",
+        "mana_cost": "1",
+        "collector_number": "SEA173",
+        "type": "Pirate, Action",
+        "image_uris": {
+           "en": "https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA173.png"
+        }
+    },
+    {
+        "name": "Chart a Course (yellow)",
+        "rarity": "common",
+        "mana_cost": "2",
+        "collector_number": "SEA174",
+        "type": "Pirate, Action",
+        "image_uris": {
+           "en": "https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA174.png"
+        }
+    },
+    {
+        "name": "Chart a Course (blue)",
+        "rarity": "common",
+        "mana_cost": "3",
+        "collector_number": "SEA175",
+        "type": "Pirate, Action",
+        "image_uris": {
+           "en": "https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA175.png"
+        }
+    },
+    {
+        "name": "Mutiny on the Nimbus Sovereign (blue)",
+        "rarity": "common",
+        "mana_cost": "3",
+        "collector_number": "SEA176",
+        "type": "Pirate, Action",
+        "image_uris": {
+           "en": "https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA176.png"
+        }
+    },
+    {
+        "name": "Mutiny on the Battalion Barque (blue)",
+        "rarity": "common",
+        "mana_cost": "3",
+        "collector_number": "SEA177",
+        "type": "Pirate, Action",
+        "image_uris": {
+           "en": "https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA177.png"
+        }
+    },
+    {
+        "name": "Mutiny on the Swiftwater (blue)",
+        "rarity": "common",
+        "mana_cost": "3",
+        "collector_number": "SEA178",
+        "type": "Pirate, Action",
+        "image_uris": {
+           "en": "https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA178.png"
+        }
+    },
+    {
+        "name": "Bandana of the Blue Beyond",
+        "rarity": "common",
+        "mana_cost": "0",
+        "collector_number": "SEA179",
+        "type": "Generic, Equipment, Head",
+        "image_uris": {
+           "en": "https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA179.png"
+        }
+    },
+    {
+        "name": "Helmsman's Peak",
+        "rarity": "common",
+        "mana_cost": "0",
+        "collector_number": "SEA180",
+        "type": "Generic, Equipment, Head",
+        "image_uris": {
+           "en": "https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA180.png"
+        }
+    },
+    {
+        "name": "Captain's Coat",
+        "rarity": "common",
+        "mana_cost": "0",
+        "collector_number": "SEA181",
+        "type": "Generic, Equipment, Chest",
+        "image_uris": {
+           "en": "https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA181.png"
+        }
+    },
+    {
+        "name": "Old Knocker",
+        "rarity": "common",
+        "mana_cost": "0",
+        "collector_number": "SEA182",
+        "type": "Generic, Equipment, Chest",
+        "image_uris": {
+           "en": "https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA182.png"
+        }
+    },
+    {
+        "name": "Swiftstrike Bracers",
+        "rarity": "common",
+        "mana_cost": "0",
+        "collector_number": "SEA183",
+        "type": "Generic, Equipment, Arms",
+        "image_uris": {
+           "en": "https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA183.png"
+        }
+    },
+    {
+        "name": "Light Fingers",
+        "rarity": "common",
+        "mana_cost": "0",
+        "collector_number": "SEA184",
+        "type": "Generic, Equipment, Arms",
+        "image_uris": {
+           "en": "https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA184.png"
+        }
+    },
+    {
+        "name": "Quartermaster's Boots",
+        "rarity": "common",
+        "mana_cost": "0",
+        "collector_number": "SEA185",
+        "type": "Generic, Equipment, Legs",
+        "image_uris": {
+           "en": "https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA185.png"
+        }
+    },
+    {
+        "name": "Quick Clicks",
+        "rarity": "common",
+        "mana_cost": "0",
+        "collector_number": "SEA186",
+        "type": "Generic, Equipment, Legs",
+        "image_uris": {
+           "en": "https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA186.png"
+        }
+    },
+    {
+        "name": "Sea Legs (yellow)",
+        "rarity": "mythic",
+        "mana_cost": "2",
+        "collector_number": "SEA187",
+        "type": "Generic, Action, Attack",
+        "image_uris": {
+           "en": "https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA187.png"
+        }
+    },
+    {
+        "name": "Midas Touch (yellow)",
+        "rarity": "mythic",
+        "mana_cost": "2",
+        "collector_number": "SEA188",
+        "type": "Generic, Action",
+        "image_uris": {
+           "en": "https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA188.png"
+        }
+    },
+    {
+        "name": "Amethyst Amulet (blue)",
+        "rarity": "mythic",
+        "mana_cost": "3",
+        "collector_number": "SEA189",
+        "type": "Generic, Action, Item",
+        "image_uris": {
+           "en": "https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA189.png"
+        }
+    },
+    {
+        "name": "Diamond Amulet (blue)",
+        "rarity": "mythic",
+        "mana_cost": "3",
+        "collector_number": "SEA190",
+        "type": "Generic, Action, Item",
+        "image_uris": {
+           "en": "https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA190.png"
+        }
+    },
+    {
+        "name": "Onyx Amulet (blue)",
+        "rarity": "mythic",
+        "mana_cost": "3",
+        "collector_number": "SEA191",
+        "type": "Generic, Action, Item",
+        "image_uris": {
+           "en": "https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA191.png"
+        }
+    },
+    {
+        "name": "Opal Amulet (blue)",
+        "rarity": "mythic",
+        "mana_cost": "3",
+        "collector_number": "SEA192",
+        "type": "Generic, Action, Item",
+        "image_uris": {
+           "en": "https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA192.png"
+        }
+    },
+    {
+        "name": "Pearl Amulet (blue)",
+        "rarity": "mythic",
+        "mana_cost": "3",
+        "collector_number": "SEA193",
+        "type": "Generic, Action, Item",
+        "image_uris": {
+           "en": "https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA193.png"
+        }
+    },
+    {
+        "name": "Platinum Amulet (blue)",
+        "rarity": "mythic",
+        "mana_cost": "3",
+        "collector_number": "SEA194",
+        "type": "Generic, Action, Item",
+        "image_uris": {
+           "en": "https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA194.png"
+        }
+    },
+    {
+        "name": "Pounamu Amulet (blue)",
+        "rarity": "mythic",
+        "mana_cost": "3",
+        "collector_number": "SEA195",
+        "type": "Generic, Action, Item",
+        "image_uris": {
+           "en": "https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA195.png"
+        }
+    },
+    {
+        "name": "Ruby Amulet (blue)",
+        "rarity": "mythic",
+        "mana_cost": "3",
+        "collector_number": "SEA196",
+        "type": "Generic, Action, Item",
+        "image_uris": {
+           "en": "https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA196.png"
+        }
+    },
+    {
+        "name": "Sapphire Amulet (blue)",
+        "rarity": "mythic",
+        "mana_cost": "3",
+        "collector_number": "SEA197",
+        "type": "Generic, Action, Item",
+        "image_uris": {
+           "en": "https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA197.png"
+        }
+    },
+    {
+        "name": "Crash Down the Gates (red)",
+        "rarity": "rare",
+        "mana_cost": "1",
+        "collector_number": "SEA198",
+        "type": "Generic, Action, Attack",
+        "image_uris": {
+           "en": "https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA198.png"
+        }
+    },
+    {
+        "name": "Crash Down the Gates (yellow)",
+        "rarity": "rare",
+        "mana_cost": "2",
+        "collector_number": "SEA199",
+        "type": "Generic, Action, Attack",
+        "image_uris": {
+           "en": "https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA199.png"
+        }
+    },
+    {
+        "name": "Crash Down the Gates (blue)",
+        "rarity": "rare",
+        "mana_cost": "3",
+        "collector_number": "SEA200",
+        "type": "Generic, Action, Attack",
+        "image_uris": {
+           "en": "https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA200.png"
+        }
+    },
+    {
+        "name": "Jack Be Nimble (red)",
+        "rarity": "rare",
+        "mana_cost": "1",
+        "collector_number": "SEA201",
+        "type": "Generic, Action, Attack",
+        "image_uris": {
+           "en": "https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA201.png"
+        }
+    },
+    {
+        "name": "Jack Be Quick (red)",
+        "rarity": "rare",
+        "mana_cost": "1",
+        "collector_number": "SEA202",
+        "type": "Generic, Action, Attack",
+        "image_uris": {
+           "en": "https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA202.png"
+        }
+    },
+    {
+        "name": "Money or Your Life? (red)",
+        "rarity": "rare",
+        "mana_cost": "1",
+        "collector_number": "SEA203",
+        "type": "Generic, Action, Attack",
+        "image_uris": {
+           "en": "https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA203.png"
+        }
+    },
+    {
+        "name": "Money or Your Life? (yellow)",
+        "rarity": "rare",
+        "mana_cost": "2",
+        "collector_number": "SEA204",
+        "type": "Generic, Action, Attack",
+        "image_uris": {
+           "en": "https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA204.png"
+        }
+    },
+    {
+        "name": "Money or Your Life? (blue)",
+        "rarity": "rare",
+        "mana_cost": "3",
+        "collector_number": "SEA205",
+        "type": "Generic, Action, Attack",
+        "image_uris": {
+           "en": "https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA205.png"
+        }
+    },
+    {
+        "name": "Flying High (red)",
+        "rarity": "rare",
+        "mana_cost": "1",
+        "collector_number": "SEA206",
+        "type": "Generic, Action",
+        "image_uris": {
+           "en": "https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA206.png"
+        }
+    },
+    {
+        "name": "Flying High (yellow)",
+        "rarity": "rare",
+        "mana_cost": "2",
+        "collector_number": "SEA207",
+        "type": "Generic, Action",
+        "image_uris": {
+           "en": "https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA207.png"
+        }
+    },
+    {
+        "name": "Flying High (blue)",
+        "rarity": "rare",
+        "mana_cost": "3",
+        "collector_number": "SEA208",
+        "type": "Generic, Action",
+        "image_uris": {
+           "en": "https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA208.png"
+        }
+    },
+    {
+        "name": "Clap 'Em in Irons (blue)",
+        "rarity": "rare",
+        "mana_cost": "3",
+        "collector_number": "SEA209",
+        "type": "Generic, Action, Item",
+        "image_uris": {
+           "en": "https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA209.png"
+        }
+    },
+    {
+        "name": "Regain Composure (blue)",
+        "rarity": "rare",
+        "mana_cost": "3",
+        "collector_number": "SEA210",
+        "type": "Generic, Action",
+        "image_uris": {
+           "en": "https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA210.png"
+        }
+    },
+    {
+        "name": "Tit for Tat (blue)",
+        "rarity": "rare",
+        "mana_cost": "3",
+        "collector_number": "SEA211",
+        "type": "Generic, Action",
+        "image_uris": {
+           "en": "https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA211.png"
+        }
+    },
+    {
+        "name": "Fiddler's Green (red)",
+        "rarity": "rare",
+        "mana_cost": "1",
+        "collector_number": "SEA212",
+        "type": "Generic, Block",
+        "image_uris": {
+           "en": "https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA212.png"
+        }
+    },
+    {
+        "name": "Fiddler's Green (yellow)",
+        "rarity": "rare",
+        "mana_cost": "2",
+        "collector_number": "SEA213",
+        "type": "Generic, Block",
+        "image_uris": {
+           "en": "https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA213.png"
+        }
+    },
+    {
+        "name": "Fiddler's Green (blue)",
+        "rarity": "rare",
+        "mana_cost": "3",
+        "collector_number": "SEA214",
+        "type": "Generic, Block",
+        "image_uris": {
+           "en": "https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA214.png"
+        }
+    },
+    {
+        "name": "Fool's Gold (yellow)",
+        "rarity": "rare",
+        "mana_cost": "2",
+        "collector_number": "SEA215",
+        "type": "Generic, Resource",
+        "image_uris": {
+           "en": "https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA215.png"
+        }
+    },
+    {
+        "name": "Blow for a Blow (red)",
+        "rarity": "common",
+        "mana_cost": "1",
+        "collector_number": "SEA216",
+        "type": "Generic, Action, Attack",
+        "image_uris": {
+           "en": "https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA216.png"
+        }
+    },
+    {
+        "name": "Life for a Life (red)",
+        "rarity": "common",
+        "mana_cost": "1",
+        "collector_number": "SEA217",
+        "type": "Generic, Action, Attack",
+        "image_uris": {
+           "en": "https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA217.png"
+        }
+    },
+    {
+        "name": "Scar for a Scar (red)",
+        "rarity": "common",
+        "mana_cost": "1",
+        "collector_number": "SEA218",
+        "type": "Generic, Action, Attack",
+        "image_uris": {
+           "en": "https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA218.png"
+        }
+    },
+    {
+        "name": "Ravenous Rabble (red)",
+        "rarity": "common",
+        "mana_cost": "1",
+        "collector_number": "SEA219",
+        "type": "Generic, Action, Attack",
+        "image_uris": {
+           "en": "https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA219.png"
+        }
+    },
+    {
+        "name": "Nimby (red)",
+        "rarity": "common",
+        "mana_cost": "1",
+        "collector_number": "SEA220",
+        "type": "Generic, Action, Attack",
+        "image_uris": {
+           "en": "https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA220.png"
+        }
+    },
+    {
+        "name": "Nimby (yellow)",
+        "rarity": "common",
+        "mana_cost": "2",
+        "collector_number": "SEA221",
+        "type": "Generic, Action, Attack",
+        "image_uris": {
+           "en": "https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA221.png"
+        }
+    },
+    {
+        "name": "Nimby (blue)",
+        "rarity": "common",
+        "mana_cost": "3",
+        "collector_number": "SEA222",
+        "type": "Generic, Action, Attack",
+        "image_uris": {
+           "en": "https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA222.png"
+        }
+    },
+    {
+        "name": "Rally the Coast Guard (red)",
+        "rarity": "common",
+        "mana_cost": "1",
+        "collector_number": "SEA223",
+        "type": "Generic, Action, Attack",
+        "image_uris": {
+           "en": "https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA223.png"
+        }
+    },
+    {
+        "name": "Rally the Coast Guard (yellow)",
+        "rarity": "common",
+        "mana_cost": "2",
+        "collector_number": "SEA224",
+        "type": "Generic, Action, Attack",
+        "image_uris": {
+           "en": "https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA224.png"
+        }
+    },
+    {
+        "name": "Rally the Coast Guard (blue)",
+        "rarity": "common",
+        "mana_cost": "3",
+        "collector_number": "SEA225",
+        "type": "Generic, Action, Attack",
+        "image_uris": {
+           "en": "https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA225.png"
+        }
+    },
+    {
+        "name": "Sirens of Safe Harbor (red)",
+        "rarity": "common",
+        "mana_cost": "1",
+        "collector_number": "SEA226",
+        "type": "Generic, Action, Attack",
+        "image_uris": {
+           "en": "https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA226.png"
+        }
+    },
+    {
+        "name": "Sirens of Safe Harbor (yellow)",
+        "rarity": "common",
+        "mana_cost": "2",
+        "collector_number": "SEA227",
+        "type": "Generic, Action, Attack",
+        "image_uris": {
+           "en": "https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA227.png"
+        }
+    },
+    {
+        "name": "Sirens of Safe Harbor (blue)",
+        "rarity": "common",
+        "mana_cost": "3",
+        "collector_number": "SEA228",
+        "type": "Generic, Action, Attack",
+        "image_uris": {
+           "en": "https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA228.png"
+        }
+    },
+    {
+        "name": "Strike Gold (red)",
+        "rarity": "common",
+        "mana_cost": "1",
+        "collector_number": "SEA229",
+        "type": "Generic, Action, Attack",
+        "image_uris": {
+           "en": "https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA229.png"
+        }
+    },
+    {
+        "name": "Strike Gold (yellow)",
+        "rarity": "common",
+        "mana_cost": "2",
+        "collector_number": "SEA230",
+        "type": "Generic, Action, Attack",
+        "image_uris": {
+           "en": "https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA230.png"
+        }
+    },
+    {
+        "name": "Strike Gold (blue)",
+        "rarity": "common",
+        "mana_cost": "3",
+        "collector_number": "SEA231",
+        "type": "Generic, Action, Attack",
+        "image_uris": {
+           "en": "https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA231.png"
+        }
+    },
+    {
+        "name": "Trade In (red)",
+        "rarity": "common",
+        "mana_cost": "1",
+        "collector_number": "SEA232",
+        "type": "Generic, Action, Attack",
+        "image_uris": {
+           "en": "https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA232.png"
+        }
+    },
+    {
+        "name": "Trade In (yellow)",
+        "rarity": "common",
+        "mana_cost": "2",
+        "collector_number": "SEA233",
+        "type": "Generic, Action, Attack",
+        "image_uris": {
+           "en": "https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA233.png"
+        }
+    },
+    {
+        "name": "Trade In (blue)",
+        "rarity": "common",
+        "mana_cost": "3",
+        "collector_number": "SEA234",
+        "type": "Generic, Action, Attack",
+        "image_uris": {
+           "en": "https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA234.png"
+        }
+    },
+    {
+        "name": "Walk the Plank (red)",
+        "rarity": "common",
+        "mana_cost": "1",
+        "collector_number": "SEA235",
+        "type": "Generic, Action, Attack",
+        "image_uris": {
+           "en": "https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA235.png"
+        }
+    },
+    {
+        "name": "Walk the Plank (yellow)",
+        "rarity": "common",
+        "mana_cost": "2",
+        "collector_number": "SEA236",
+        "type": "Generic, Action, Attack",
+        "image_uris": {
+           "en": "https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA236.png"
+        }
+    },
+    {
+        "name": "Walk the Plank (blue)",
+        "rarity": "common",
+        "mana_cost": "3",
+        "collector_number": "SEA237",
+        "type": "Generic, Action, Attack",
+        "image_uris": {
+           "en": "https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA237.png"
+        }
+    },
+    {
+        "name": "Nimblism (red)",
+        "rarity": "common",
+        "mana_cost": "1",
+        "collector_number": "SEA238",
+        "type": "Generic, Action",
+        "image_uris": {
+           "en": "https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA238.png"
+        }
+    },
+    {
+        "name": "Nimblism (yellow)",
+        "rarity": "common",
+        "mana_cost": "2",
+        "collector_number": "SEA239",
+        "type": "Generic, Action",
+        "image_uris": {
+           "en": "https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA239.png"
+        }
+    },
+    {
+        "name": "Nimblism (blue)",
+        "rarity": "common",
+        "mana_cost": "3",
+        "collector_number": "SEA240",
+        "type": "Generic, Action",
+        "image_uris": {
+           "en": "https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA240.png"
+        }
+    },
+    {
+        "name": "On the Horizon (red)",
+        "rarity": "common",
+        "mana_cost": "1",
+        "collector_number": "SEA241",
+        "type": "Generic, Block",
+        "image_uris": {
+           "en": "https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA241.png"
+        }
+    },
+    {
+        "name": "On the Horizon (yellow)",
+        "rarity": "common",
+        "mana_cost": "2",
+        "collector_number": "SEA242",
+        "type": "Generic, Block",
+        "image_uris": {
+           "en": "https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA242.png"
+        }
+    },
+    {
+        "name": "On the Horizon (blue)",
+        "rarity": "common",
+        "mana_cost": "3",
+        "collector_number": "SEA243",
+        "type": "Generic, Block",
+        "image_uris": {
+           "en": "https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA243.png"
+        }
+    },
+]
+[Layouts]
+   - jrypncashlbp (76273)
+       2 Gravy
+       1 Puffin
+       2 Marlynn
+       2 Pirate
+       3 Generic
+       1 Equipment
+       2 Rare
+       1 RFCommon
+   - ezftwbftwnin (76175)
+       2 Gravy
+       1 Puffin
+       2 Marlynn
+       3 Pirate
+       2 Generic
+       1 Equipment
+       2 Rare
+       1 RFCommon
+   - gxhalnwtwesj (76169)
+       1 Gravy
+       2 Puffin
+       2 Marlynn
+       2 Pirate
+       3 Generic
+       1 Equipment
+       2 Rare
+       1 RFCommon
+   - mophzacxakkt (76161)
+       1 Gravy
+       2 Puffin
+       2 Marlynn
+       3 Pirate
+       2 Generic
+       1 Equipment
+       2 Rare
+       1 RFCommon
+   - haasejwwwppg (76139)
+       2 Gravy
+       2 Puffin
+       1 Marlynn
+       2 Pirate
+       3 Generic
+       1 Equipment
+       2 Rare
+       1 RFCommon
+   - mhktbrqobtax (75775)
+       2 Gravy
+       2 Puffin
+       1 Marlynn
+       3 Pirate
+       2 Generic
+       1 Equipment
+       2 Rare
+       1 RFCommon
+   - dkognfwctvpy (50665)
+       2 Gravy
+       2 Puffin
+       1 Marlynn
+       2 Pirate
+       2 Generic
+       2 Equipment
+       2 Rare
+       1 RFCommon
+   - juvydvfannbf (50543)
+       1 Gravy
+       2 Puffin
+       2 Marlynn
+       2 Pirate
+       2 Generic
+       2 Equipment
+       2 Rare
+       1 RFCommon
+   - itacstgayvti (50369)
+       2 Gravy
+       1 Puffin
+       2 Marlynn
+       2 Pirate
+       2 Generic
+       2 Equipment
+       2 Rare
+       1 RFCommon
+   - nkhmpsoenqay (21298)
+       2 Gravy
+       2 Puffin
+       1 Marlynn
+       3 Pirate
+       2 Generic
+       1 Equipment
+       2 Rare
+       1 RFRare
+   - xbowwvhhrtow (21210)
+       1 Gravy
+       2 Puffin
+       2 Marlynn
+       2 Pirate
+       3 Generic
+       1 Equipment
+       2 Rare
+       1 RFRare
+   - nsxncbtcjvyg (21160)
+       2 Gravy
+       1 Puffin
+       2 Marlynn
+       2 Pirate
+       3 Generic
+       1 Equipment
+       2 Rare
+       1 RFRare
+   - lniyrqxghshm (21037)
+       1 Gravy
+       2 Puffin
+       2 Marlynn
+       3 Pirate
+       2 Generic
+       1 Equipment
+       2 Rare
+       1 RFRare
+   - hfgkplhqeusq (21034)
+       2 Gravy
+       2 Puffin
+       1 Marlynn
+       2 Pirate
+       3 Generic
+       1 Equipment
+       2 Rare
+       1 RFRare
+   - pbxqnwtvoueg (20978)
+       2 Gravy
+       1 Puffin
+       2 Marlynn
+       3 Pirate
+       2 Generic
+       1 Equipment
+       2 Rare
+       1 RFRare
+   - fjcbxpyndevf (17886)
+       2 Gravy
+       2 Puffin
+       1 Marlynn
+       2 Pirate
+       3 Generic
+       1 Equipment
+       1 Rare
+       1 Majestic
+       1 RFCommon
+   - osgvgecpdknw (17792)
+       2 Gravy
+       2 Puffin
+       1 Marlynn
+       3 Pirate
+       2 Generic
+       1 Equipment
+       1 Rare
+       1 Majestic
+       1 RFCommon
+   - nvhtjnwbnivk (17764)
+       1 Gravy
+       2 Puffin
+       2 Marlynn
+       3 Pirate
+       2 Generic
+       1 Equipment
+       1 Rare
+       1 Majestic
+       1 RFCommon
+   - dnexkyxkrfys (17728)
+       2 Gravy
+       1 Puffin
+       2 Marlynn
+       3 Pirate
+       2 Generic
+       1 Equipment
+       1 Rare
+       1 Majestic
+       1 RFCommon
+   - cbvcbtvaghwa (17668)
+       1 Gravy
+       2 Puffin
+       2 Marlynn
+       2 Pirate
+       3 Generic
+       1 Equipment
+       1 Rare
+       1 Majestic
+       1 RFCommon
+   - oomewhnwazrk (17531)
+       2 Gravy
+       1 Puffin
+       2 Marlynn
+       2 Pirate
+       3 Generic
+       1 Equipment
+       1 Rare
+       1 Majestic
+       1 RFCommon
+   - tunxpkfpecry (14152)
+       2 Gravy
+       2 Puffin
+       1 Marlynn
+       2 Pirate
+       2 Generic
+       2 Equipment
+       2 Rare
+       1 RFRare
+   - blfodxsrgsmz (13961)
+       1 Gravy
+       2 Puffin
+       2 Marlynn
+       2 Pirate
+       2 Generic
+       2 Equipment
+       2 Rare
+       1 RFRare
+   - bhzbyanphaxv (13862)
+       2 Gravy
+       1 Puffin
+       2 Marlynn
+       2 Pirate
+       2 Generic
+       2 Equipment
+       2 Rare
+       1 RFRare
+   - aeupkpupfqnw (11909)
+       2 Gravy
+       2 Puffin
+       1 Marlynn
+       2 Pirate
+       2 Generic
+       2 Equipment
+       1 Rare
+       1 Majestic
+       1 RFCommon
+   - gdytjmedrulo (11859)
+       1 Gravy
+       2 Puffin
+       2 Marlynn
+       2 Pirate
+       2 Generic
+       2 Equipment
+       1 Rare
+       1 Majestic
+       1 RFCommon
+   - qfuzmwosdphp (11843)
+       2 Gravy
+       1 Puffin
+       2 Marlynn
+       2 Pirate
+       2 Generic
+       2 Equipment
+       1 Rare
+       1 Majestic
+       1 RFCommon
+   - nauyilcvlvvk (5012)
+       2 Gravy
+       2 Puffin
+       1 Marlynn
+       2 Pirate
+       3 Generic
+       1 Equipment
+       1 Rare
+       1 Majestic
+       1 RFRare
+   - zpnrjpqnstlg (4982)
+       1 Gravy
+       2 Puffin
+       2 Marlynn
+       2 Pirate
+       3 Generic
+       1 Equipment
+       1 Rare
+       1 Majestic
+       1 RFRare
+   - ouetqdrlsbib (4972)
+       1 Gravy
+       2 Puffin
+       2 Marlynn
+       3 Pirate
+       2 Generic
+       1 Equipment
+       1 Rare
+       1 Majestic
+       1 RFRare
+   - lqrwshrvgtvx (4958)
+       2 Gravy
+       1 Puffin
+       2 Marlynn
+       3 Pirate
+       2 Generic
+       1 Equipment
+       1 Rare
+       1 Majestic
+       1 RFRare
+   - kivjkyilnqob (4888)
+       2 Gravy
+       1 Puffin
+       2 Marlynn
+       2 Pirate
+       3 Generic
+       1 Equipment
+       1 Rare
+       1 Majestic
+       1 RFRare
+   - mlkatbhgsuxh (4850)
+       2 Gravy
+       2 Puffin
+       1 Marlynn
+       3 Pirate
+       2 Generic
+       1 Equipment
+       1 Rare
+       1 Majestic
+       1 RFRare
+   - mqgsnvqqhiwl (4229)
+       1 Gravy
+       2 Puffin
+       2 Marlynn
+       2 Pirate
+       3 Generic
+       1 Equipment
+       2 Rare
+       1 RFMajestic
+   - aiobnnnajrzd (4229)
+       2 Gravy
+       2 Puffin
+       1 Marlynn
+       2 Pirate
+       3 Generic
+       1 Equipment
+       2 Rare
+       1 RFMajestic
+   - pcmzkicemdtw (4212)
+       1 Gravy
+       2 Puffin
+       2 Marlynn
+       3 Pirate
+       2 Generic
+       1 Equipment
+       2 Rare
+       1 RFMajestic
+   - tyvlwxeucsee (4181)
+       2 Gravy
+       1 Puffin
+       2 Marlynn
+       3 Pirate
+       2 Generic
+       1 Equipment
+       2 Rare
+       1 RFMajestic
+   - ctmaebvkyzjf (4159)
+       2 Gravy
+       1 Puffin
+       2 Marlynn
+       2 Pirate
+       3 Generic
+       1 Equipment
+       2 Rare
+       1 RFMajestic
+   - npjbvmpemebl (4093)
+       2 Gravy
+       2 Puffin
+       1 Marlynn
+       3 Pirate
+       2 Generic
+       1 Equipment
+       2 Rare
+       1 RFMajestic
+   - ugltgedfmpiv (3263)
+       2 Gravy
+       2 Puffin
+       1 Marlynn
+       2 Pirate
+       2 Generic
+       2 Equipment
+       1 Rare
+       1 Majestic
+       1 RFRare
+   - zatykvynfptr (3206)
+       1 Gravy
+       2 Puffin
+       2 Marlynn
+       2 Pirate
+       2 Generic
+       2 Equipment
+       1 Rare
+       1 Majestic
+       1 RFRare
+   - qmtrnibjoayr (3178)
+       2 Gravy
+       1 Puffin
+       2 Marlynn
+       2 Pirate
+       2 Generic
+       2 Equipment
+       1 Rare
+       1 Majestic
+       1 RFRare
+   - gfbznwtfkqku (2882)
+       2 Gravy
+       1 Puffin
+       2 Marlynn
+       2 Pirate
+       2 Generic
+       2 Equipment
+       2 Rare
+       1 RFMajestic
+   - yxhmlroeures (2865)
+       1 Gravy
+       2 Puffin
+       2 Marlynn
+       2 Pirate
+       2 Generic
+       2 Equipment
+       2 Rare
+       1 RFMajestic
+   - vkxkojisnmqi (2850)
+       2 Gravy
+       2 Puffin
+       1 Marlynn
+       2 Pirate
+       2 Generic
+       2 Equipment
+       2 Rare
+       1 RFMajestic
+   - dgibeixyofzr (1013)
+       2 Gravy
+       2 Puffin
+       1 Marlynn
+       3 Pirate
+       2 Generic
+       1 Equipment
+       1 Rare
+       1 Majestic
+       1 RFMajestic
+   - oiyzdhenvqrk (1003)
+       1 Gravy
+       2 Puffin
+       2 Marlynn
+       3 Pirate
+       2 Generic
+       1 Equipment
+       1 Rare
+       1 Majestic
+       1 RFMajestic
+   - takazkbkbtef (1002)
+       2 Gravy
+       1 Puffin
+       2 Marlynn
+       2 Pirate
+       3 Generic
+       1 Equipment
+       1 Rare
+       1 Majestic
+       1 RFMajestic
+   - quyptgvksxxv (990)
+       2 Gravy
+       1 Puffin
+       2 Marlynn
+       3 Pirate
+       2 Generic
+       1 Equipment
+       1 Rare
+       1 Majestic
+       1 RFMajestic
+   - tewulmymwyxm (973)
+       2 Gravy
+       2 Puffin
+       1 Marlynn
+       2 Pirate
+       3 Generic
+       1 Equipment
+       1 Rare
+       1 Majestic
+       1 RFMajestic
+   - jfxuntiuclft (968)
+       1 Gravy
+       2 Puffin
+       2 Marlynn
+       2 Pirate
+       3 Generic
+       1 Equipment
+       1 Rare
+       1 Majestic
+       1 RFMajestic
+   - pxxansqxkhai (748)
+       1 Gravy
+       2 Puffin
+       2 Marlynn
+       2 Pirate
+       2 Generic
+       2 Equipment
+       1 Rare
+       1 Majestic
+       1 RFMajestic
+   - oeesujgwpgdt (698)
+       2 Gravy
+       2 Puffin
+       1 Marlynn
+       2 Pirate
+       2 Generic
+       2 Equipment
+       1 Rare
+       1 Majestic
+       1 RFMajestic
+   - yzamzaivrjmc (655)
+       2 Gravy
+       1 Puffin
+       2 Marlynn
+       2 Pirate
+       2 Generic
+       2 Equipment
+       1 Rare
+       1 Majestic
+       1 RFMajestic
+[Gravy]
+4 Angry Bones (red)
+4 Angry Bones (yellow)
+4 Angry Bones (blue)
+4 Burly Bones (red)
+4 Burly Bones (yellow)
+4 Burly Bones (blue)
+4 Jittery Bones (red)
+4 Jittery Bones (yellow)
+4 Jittery Bones (blue)
+4 Restless Bones (red)
+4 Restless Bones (yellow)
+4 Restless Bones (blue)
+4 Barnacle (yellow)
+4 Chowder, Hearty Cook (yellow)
+4 Cutty Shark, Quick Clip (yellow)
+4 Riggermortis (yellow)
+4 Shelly, Hardened Traveler (yellow)
+4 Swabbie (yellow)
+[Puffin]
+4 Cloud Skiff (red)
+4 Cloud Skiff (yellow)
+4 Cloud Skiff (blue)
+4 Sky Skimmer (red)
+4 Sky Skimmer (yellow)
+4 Sky Skimmer (blue)
+4 Teeth of the Cog (red)
+4 Teeth of the Cog (yellow)
+4 Teeth of the Cog (blue)
+4 Tough Old Wrench (red)
+4 Tough Old Wrench (yellow)
+4 Tough Old Wrench (blue)
+4 Goldwing Turbine (red)
+4 Goldwing Turbine (yellow)
+4 Goldwing Turbine (blue)
+4 Draw Back the Hammer (red)
+4 Perk Up (red)
+4 Tighten the Screws (red)
+[Marlynn]
+4 Rusty Harpoon (blue)
+4 Dry Powder Shot (red)
+4 Entangling Shot (red)
+4 Nettling Shot (red)
+4 Scouting Shot (red)
+4 Swift Shot (red)
+4 Head Shot (red)
+4 Head Shot (yellow)
+4 Head Shot (blue)
+4 Salvage Shot (red)
+4 Salvage Shot (yellow)
+4 Salvage Shot (blue)
+4 Sic 'Em Shot (red)
+4 Sic 'Em Shot (yellow)
+4 Sic 'Em Shot (blue)
+4 Call in the Big Guns (red)
+4 Call in the Big Guns (yellow)
+4 Call in the Big Guns (blue)
+[Pirate]
+4 Battalion Barque (red)
+4 Battalion Barque (yellow)
+4 Battalion Barque (blue)
+4 Expedition to Azuro Keys (red)
+4 Expedition to Blackwater Strait (red)
+4 Expedition to Dreadfall Reach (red)
+4 Expedition to Horizon's Mantle (red)
+4 Golden Tipple (red)
+4 Golden Tipple (yellow)
+4 Golden Tipple (blue)
+4 Gold Hunter Lightsail (yellow)
+4 Gold Hunter Longboat (yellow)
+4 Gold Hunter Marauder (yellow)
+4 Gold Hunter Ketch (yellow)
+4 Swiftwater Sloop (red)
+4 Swiftwater Sloop (yellow)
+4 Swiftwater Sloop (blue)
+4 Swindler's Grift (red)
+4 Swindler's Grift (yellow)
+4 Swindler's Grift (blue)
+4 Thiev'n Varmints (red)
+4 Chart a Course (red)
+4 Chart a Course (yellow)
+4 Chart a Course (blue)
+4 Mutiny on the Nimbus Sovereign (blue)
+4 Mutiny on the Battalion Barque (blue)
+4 Mutiny on the Swiftwater (blue)
+[Generic]
+4 Blow for a Blow (red)
+4 Life for a Life (red)
+4 Scar for a Scar (red)
+4 Ravenous Rabble (red)
+4 Nimby (red)
+4 Nimby (yellow)
+4 Nimby (blue)
+4 Rally the Coast Guard (red)
+4 Rally the Coast Guard (yellow)
+4 Rally the Coast Guard (blue)
+4 Sirens of Safe Harbor (red)
+4 Sirens of Safe Harbor (yellow)
+4 Sirens of Safe Harbor (blue)
+4 Strike Gold (red)
+4 Strike Gold (yellow)
+4 Strike Gold (blue)
+4 Trade In (red)
+4 Trade In (yellow)
+4 Trade In (blue)
+4 Walk the Plank (red)
+4 Walk the Plank (yellow)
+4 Walk the Plank (blue)
+4 Nimblism (red)
+4 Nimblism (yellow)
+4 Nimblism (blue)
+4 On the Horizon (red)
+4 On the Horizon (yellow)
+4 On the Horizon (blue)
+[Equipment]
+4 Rust Belt
+4 Unicycle
+4 Washed Up Wave
+4 Head Stone
+4 Patch the Hole
+4 Glidewell Fins
+4 Blue Sea Tricorn
+4 Buccaneer's Bounty
+4 Fish Fingers
+4 Peg Leg
+4 Bandana of the Blue Beyond
+4 Helmsman's Peak
+4 Captain's Coat
+4 Old Knocker
+4 Swiftstrike Bracers
+4 Light Fingers
+4 Quartermaster's Boots
+4 Quick Clicks
+[Rare]
+1 Cloud City Steamboat (red)
+1 Cloud City Steamboat (yellow)
+1 Cloud City Steamboat (blue)
+1 Cogwerx Zeppelin (red)
+1 Cogwerx Zeppelin (yellow)
+1 Cogwerx Zeppelin (blue)
+1 Copper Cog (blue)
+1 Lubricate (blue)
+1 Pinion Sentry (blue)
+1 Board the Ship (red)
+1 Paddle Faster (red)
+1 Hoist 'Em Up (red)
+1 Avast Ye! (blue)
+1 Heave Ho! (blue)
+1 Yo Ho Ho! (blue)
+1 Kelpie, Tangled Mess (yellow)
+1 Limpit, Hop-a-long (yellow)
+1 Scooba, Salty Sea Dog (yellow)
+1 Blue Fin Harpoon (blue)
+1 Red Fin Harpoon (blue)
+1 Yellow Fin Harpoon (blue)
+1 Drop the Anchor (red)
+1 Fire in the Hole (red)
+1 Monkey Powder (red)
+1 Hook (blue)
+1 Line (blue)
+1 Sinker (blue)
+1 Scurv, Stowaway
+1 HMS Barracuda (yellow)
+1 HMS Kraken (yellow)
+1 HMS Marlin (yellow)
+1 Murderous Rabble (blue)
+1 Pilfer the Wreck (red)
+1 Pilfer the Wreck (yellow)
+1 Pilfer the Wreck (blue)
+1 Saltwater Swell (red)
+1 Saltwater Swell (yellow)
+1 Saltwater Swell (blue)
+1 Divvy Up (blue)
+1 Portside Exchange (blue)
+1 Sea Floor Salvage (blue)
+1 Scrub the Deck (blue)
+1 Shifting Tides (blue)
+1 Not So Fast (yellow)
+1 Throw Caution to the Wind (blue)
+1 Lost in Transit (yellow)
+1 Crash Down the Gates (red)
+1 Crash Down the Gates (yellow)
+1 Crash Down the Gates (blue)
+1 Jack Be Nimble (red)
+1 Jack Be Quick (red)
+1 Money or Your Life? (red)
+1 Money or Your Life? (yellow)
+1 Money or Your Life? (blue)
+1 Flying High (red)
+1 Flying High (yellow)
+1 Flying High (blue)
+1 Clap 'Em in Irons (blue)
+1 Regain Composure (blue)
+1 Tit for Tat (blue)
+1 Fiddler's Green (red)
+1 Fiddler's Green (yellow)
+1 Fiddler's Green (blue)
+1 Fool's Gold (yellow)
+[Majestic]
+1 Golden Skywarden (yellow)
+1 Jolly Bludger (yellow)
+1 Cogwerx Dovetail (red)
+1 Palantir Aeronought (red)
+1 Cog in the Machine (red)
+1 Cogwerx Workshop (blue)
+1 Blood in the Water (red)
+1 Chart the High Seas (blue)
+1 Give No Quarter (blue)
+1 Chum, Friendly First Mate (yellow)
+1 Moray le Fay (yellow)
+1 Wailer Humperdinck (yellow)
+1 King Kraken Harpoon (red)
+1 King Shark Harpoon (red)
+1 Big Game Trophy Shot (yellow)
+1 Gold the Tip (yellow)
+1 Barbed Barrage (red)
+1 Return Fire (red)
+1 Conqueror of the High Seas (red)
+1 Loan Shark (yellow)
+1 Tip the Barkeep (blue)
+1 Sunken Treasure (blue)
+1 Sea Legs (yellow)
+1 Midas Touch (yellow)
+1 Amethyst Amulet (blue)
+1 Diamond Amulet (blue)
+1 Onyx Amulet (blue)
+1 Opal Amulet (blue)
+1 Pearl Amulet (blue)
+1 Platinum Amulet (blue)
+1 Pounamu Amulet (blue)
+1 Ruby Amulet (blue)
+1 Sapphire Amulet (blue)
+[RFCommon]
+1 Cloud Skiff (red)
+1 Cloud Skiff (yellow)
+1 Cloud Skiff (blue)
+1 Sky Skimmer (red)
+1 Sky Skimmer (yellow)
+1 Sky Skimmer (blue)
+1 Teeth of the Cog (red)
+1 Teeth of the Cog (yellow)
+1 Teeth of the Cog (blue)
+1 Tough Old Wrench (red)
+1 Tough Old Wrench (yellow)
+1 Tough Old Wrench (blue)
+1 Goldwing Turbine (red)
+1 Goldwing Turbine (yellow)
+1 Goldwing Turbine (blue)
+1 Draw Back the Hammer (red)
+1 Perk Up (red)
+1 Tighten the Screws (red)
+1 Angry Bones (red)
+1 Angry Bones (yellow)
+1 Angry Bones (blue)
+1 Burly Bones (red)
+1 Burly Bones (yellow)
+1 Burly Bones (blue)
+1 Jittery Bones (red)
+1 Jittery Bones (yellow)
+1 Jittery Bones (blue)
+1 Restless Bones (red)
+1 Restless Bones (yellow)
+1 Restless Bones (blue)
+1 Barnacle (yellow)
+1 Chowder, Hearty Cook (yellow)
+1 Cutty Shark, Quick Clip (yellow)
+1 Riggermortis (yellow)
+1 Shelly, Hardened Traveler (yellow)
+1 Swabbie (yellow)
+1 Rusty Harpoon (blue)
+1 Dry Powder Shot (red)
+1 Entangling Shot (red)
+1 Nettling Shot (red)
+1 Scouting Shot (red)
+1 Swift Shot (red)
+1 Call in the Big Guns (red)
+1 Call in the Big Guns (yellow)
+1 Call in the Big Guns (blue)
+1 Battalion Barque (red)
+1 Battalion Barque (yellow)
+1 Battalion Barque (blue)
+1 Expedition to Azuro Keys (red)
+1 Expedition to Blackwater Strait (red)
+1 Expedition to Dreadfall Reach (red)
+1 Expedition to Horizon's Mantle (red)
+1 Golden Tipple (red)
+1 Golden Tipple (yellow)
+1 Golden Tipple (blue)
+1 Gold Hunter Lightsail (yellow)
+1 Gold Hunter Longboat (yellow)
+1 Gold Hunter Marauder (yellow)
+1 Gold Hunter Ketch (yellow)
+1 Swiftwater Sloop (red)
+1 Swiftwater Sloop (yellow)
+1 Swiftwater Sloop (blue)
+1 Swindler's Grift (red)
+1 Swindler's Grift (yellow)
+1 Swindler's Grift (blue)
+1 Thiev'n Varmints (red)
+1 Chart a Course (red)
+1 Chart a Course (yellow)
+1 Chart a Course (blue)
+1 Mutiny on the Nimbus Sovereign (blue)
+1 Mutiny on the Battalion Barque (blue)
+1 Mutiny on the Swiftwater (blue)
+1 Blow for a Blow (red)
+1 Nimby (red)
+1 Nimby (yellow)
+1 Nimby (blue)
+1 Rally the Coast Guard (red)
+1 Rally the Coast Guard (yellow)
+1 Rally the Coast Guard (blue)
+1 Sirens of Safe Harbor (red)
+1 Sirens of Safe Harbor (yellow)
+1 Sirens of Safe Harbor (blue)
+1 Strike Gold (red)
+1 Strike Gold (yellow)
+1 Strike Gold (blue)
+1 Walk the Plank (red)
+1 Walk the Plank (yellow)
+1 Walk the Plank (blue)
+1 On the Horizon (red)
+1 On the Horizon (yellow)
+1 On the Horizon (blue)
+[RFRare]
+1 Cloud City Steamboat (red)
+1 Cloud City Steamboat (yellow)
+1 Cloud City Steamboat (blue)
+1 Cogwerx Zeppelin (red)
+1 Cogwerx Zeppelin (yellow)
+1 Cogwerx Zeppelin (blue)
+1 Copper Cog (blue)
+1 Lubricate (blue)
+1 Pinion Sentry (blue)
+1 Board the Ship (red)
+1 Paddle Faster (red)
+1 Hoist 'Em Up (red)
+1 Avast Ye! (blue)
+1 Heave Ho! (blue)
+1 Yo Ho Ho! (blue)
+1 Kelpie, Tangled Mess (yellow)
+1 Limpit, Hop-a-long (yellow)
+1 Scooba, Salty Sea Dog (yellow)
+1 Blue Fin Harpoon (blue)
+1 Red Fin Harpoon (blue)
+1 Yellow Fin Harpoon (blue)
+1 Drop the Anchor (red)
+1 Fire in the Hole (red)
+1 Monkey Powder (red)
+1 Hook (blue)
+1 Line (blue)
+1 Sinker (blue)
+1 HMS Barracuda (yellow)
+1 HMS Kraken (yellow)
+1 HMS Marlin (yellow)
+1 Murderous Rabble (blue)
+1 Pilfer the Wreck (red)
+1 Pilfer the Wreck (yellow)
+1 Pilfer the Wreck (blue)
+1 Saltwater Swell (red)
+1 Saltwater Swell (yellow)
+1 Saltwater Swell (blue)
+1 Divvy Up (blue)
+1 Portside Exchange (blue)
+1 Sea Floor Salvage (blue)
+1 Scrub the Deck (blue)
+1 Shifting Tides (blue)
+1 Not So Fast (yellow)
+1 Throw Caution to the Wind (blue)
+1 Lost in Transit (yellow)
+1 Crash Down the Gates (red)
+1 Crash Down the Gates (yellow)
+1 Crash Down the Gates (blue)
+1 Jack Be Nimble (red)
+1 Jack Be Quick (red)
+1 Money or Your Life? (red)
+1 Money or Your Life? (yellow)
+1 Money or Your Life? (blue)
+1 Flying High (red)
+1 Flying High (yellow)
+1 Flying High (blue)
+1 Clap 'Em in Irons (blue)
+1 Regain Composure (blue)
+1 Tit for Tat (blue)
+1 Fiddler's Green (red)
+1 Fiddler's Green (yellow)
+1 Fiddler's Green (blue)
+1 Fool's Gold (yellow)
+[RFMajestic]
+1 Golden Skywarden (yellow)
+1 Jolly Bludger (yellow)
+1 Cogwerx Dovetail (red)
+1 Palantir Aeronought (red)
+1 Cog in the Machine (red)
+1 Cogwerx Workshop (blue)
+1 Blood in the Water (red)
+1 Chart the High Seas (blue)
+1 Give No Quarter (blue)
+1 Chum, Friendly First Mate (yellow)
+1 Moray le Fay (yellow)
+1 Wailer Humperdinck (yellow)
+1 King Kraken Harpoon (red)
+1 King Shark Harpoon (red)
+1 Big Game Trophy Shot (yellow)
+1 Gold the Tip (yellow)
+1 Barbed Barrage (red)
+1 Return Fire (red)
+1 Conqueror of the High Seas (red)
+1 Loan Shark (yellow)
+1 Tip the Barkeep (blue)
+1 Sunken Treasure (blue)
+1 Sea Legs (yellow)
+1 Midas Touch (yellow)
+1 Amethyst Amulet (blue)
+1 Diamond Amulet (blue)
+1 Onyx Amulet (blue)
+1 Opal Amulet (blue)
+1 Pearl Amulet (blue)
+1 Platinum Amulet (blue)
+1 Pounamu Amulet (blue)
+1 Ruby Amulet (blue)
+1 Sapphire Amulet (blue)

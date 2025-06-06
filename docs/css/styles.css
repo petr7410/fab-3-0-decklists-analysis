@@ -1,0 +1,172 @@
+/* 🌞 Light Theme */
+:root {
+    --bg-color: #fff;
+    --bg-alt-color: #ddd;
+    --note-color: #ccc;
+    --text-color: #000;
+    --border-color: #ccc;
+    --box-shadow-color: rgba(0, 0, 0, 0.1);
+    --card-bg: #f4f4f4;
+    --primary: #5747ff;
+    --button-hover: #3727ff;
+    --table-header: #5747ff;
+   
+}
+
+/* 🌙 Dark Theme */
+[data-theme="dark"] {
+    --bg-color: #000;
+    --bg-alt-color: #222;
+    --note-color: #333;
+    --text-color: #eee;
+    --border-color: #444;
+    --box-shadow-color: rgba(0, 0, 0, 0.2);
+    --card-bg: #1e1e1e;
+    --primary: #857aff;
+    --button-hover: #a587ff;
+    --table-header: #857aff;
+    
+}
+
+/* General Layout */
+body {
+    font-family: 'Inter', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: var(--bg-color);
+    color: var(--text-color);
+    transition: all 0.3s ease;
+}
+
+/* Style for the initial info on page */
+.main-info {
+    text-align: center;
+    padding: 50px 20px;
+}
+
+/* Style for button */
+.button {
+    display: inline-block;
+    background: var(--primary);
+    color: var(--text-color);
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.button:hover {
+    background: var(--button-hover);
+}
+
+/* Style if content should be displayed in grid */
+.grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+    padding: 20px;
+}
+
+/* Style for information container; if it is clickable, it should also use the interactive class, and if it contains a lot of content, it should use the content class  */
+.card {
+    background: var(--card-bg);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px var(--box-shadow-color);
+}
+
+.card.content {
+    margin: 20px;
+    overflow-x: auto; /* Allows horizontal scrolling if needed */
+    max-width: 100%; /* Ensures it doesn't stretch beyond its parent */
+}
+
+.card.interactive {
+    transition: transform 0.3s;
+    cursor: pointer;
+}
+
+.card.interactive:hover {
+    transform: translateY(-5px);
+}
+
+/* Styles for more specific paragraphs (use-case: <div class="note"><p>Text of note</p></div>*/
+.formula {
+    font-weight: bold;
+    font-size: 1.1em;
+    background: var(--bg-alt-color);
+    padding: 8px;
+    border-radius: 5px;
+    display: inline-block;
+}
+
+.note {
+    background: var(--note-color);
+    padding: 10px;
+    border-left: 4px solid var(--table-header);
+    margin: 10px 0;
+    border-radius: 5px;
+}
+
+/* Table style*/
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 15px;
+}
+
+table, th, td {
+    border: 1px solid var(--border-color);
+    padding: 10px;
+}
+
+th {
+    background-color: var(--table-header);
+    color: var(--text-color);
+}
+
+/* Disclaimer style */
+footer {
+    text-align: center;
+    padding: 15px;
+    background: var(--note-color);
+}
+
+/* Style for the analysis non-modal pages */
+.modal {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.7);
+    z-index: 1000;
+}
+
+.modal-content {
+    position: absolute;
+    top: 2.5%;
+    left: 2.5%;
+    width: 95%;
+    height: 95%;
+    background: var(--bg-color);
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.modal-content .close {
+    position: absolute;
+    top: 10px;
+    right: 15px;
+    font-size: 25px;
+    cursor: pointer;
+    color: var(--text-color);
+}
+
+#analysis-frame {
+    width: 100%;
+    height: 100%;
+    border: none;
+}
+  

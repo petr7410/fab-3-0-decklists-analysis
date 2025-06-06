@@ -111,7 +111,7 @@ def create_card_data(df, types_include, types_exclude, heroes):
 def create_bar_figure(data, x_col, y_cols, title, yaxis_title, colors):
     fig = go.Figure()
     for y_col, color in zip(y_cols, colors):
-        fig.add_trace(go.Bar(x=data[x_col], y=data[y_col], name=y_col.split('_')[0].capitalize(), marker_color=color))
+        fig.add_trace(go.Bar(x=data[x_col], y=data[y_col], name=y_col.split('_')[0], marker_color=color))
     fig.update_layout(title_text=title, barmode='group', yaxis_title=yaxis_title)
     return fig
 
