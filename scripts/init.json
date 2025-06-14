@@ -1085,7 +1085,7 @@
             },
             {
                 "filename": "cost_distribution",
-                "title": "COst Distribution",
+                "title": "Cost Distribution",
                 "x-axis": "Cost of cards",
                 "group_by": "Cost"
             }

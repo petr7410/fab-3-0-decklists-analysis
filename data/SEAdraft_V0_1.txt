@@ -1567,7 +1567,7 @@
         }
     },
     {
-        "name": "Mutiny on the Nimbus Sovereign (blue)",
+        "name": "Mutiny on the Battalion Barque (blue)",
         "rarity": "common",
         "mana_cost": "3",
         "collector_number": "SEA176",
@@ -1577,7 +1577,7 @@
         }
     },
     {
-        "name": "Mutiny on the Battalion Barque (blue)",
+        "name": "Mutiny on the Nimbus Sovereign (blue)",
         "rarity": "common",
         "mana_cost": "3",
         "collector_number": "SEA177",
