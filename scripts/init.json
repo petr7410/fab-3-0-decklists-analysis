@@ -1185,6 +1185,11 @@
                 "negative_filter": { "Types": ["Equipment"] }
             },
             {
+                "filename": "cracked_bauble_n",
+                "title": "Number of Cracked Baubles",
+                "filter": { "rarity": ["token"] }
+            },
+            {
                 "filename": "equipment_cards_n",
                 "title": "Number of equipment cards",
                 "filter": { "Types": ["Equipment"] }

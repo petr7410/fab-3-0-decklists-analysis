@@ -12,10 +12,18 @@ function applyDarkModeStyles(layout) {
     };
 }
 
-function renderChart(containerId, jsonPath) {
+function renderChart(containerId, jsonPath, isCategorical) {
     fetch(jsonPath)
         .then(res => res.json())
         .then(fig => {
+            // Force x-axis to be categorical
+            if (isCategorical) { // Without this None is not displayed in charts with values, but this shouldn't be used for deck_statistics
+                if (!fig.layout.xaxis) {
+                    fig.layout.xaxis = {};
+                }
+                fig.layout.xaxis.type = "category";
+            }
+
             const layout = applyDarkModeStyles(fig.layout);
             const container = document.getElementById(containerId);
             container._originalLayout = fig.layout; // Store original layout
@@ -26,7 +34,7 @@ function renderChart(containerId, jsonPath) {
 const config = JSON.parse(document.getElementById("chart-config").textContent);
 
 Object.entries(config.static).forEach(([id, file]) => {
-    renderChart(id, `./vis_data/${file}`);
+    renderChart(id, `./vis_data/${file}`, id !== "deck_statistics");
 });
 
 // Shared dropdown setup
