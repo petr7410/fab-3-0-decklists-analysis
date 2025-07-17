@@ -1075,18 +1075,21 @@
                 "filename": "pitch_distribution",
                 "title": "Pitch Distribution",
                 "x-axis": "Percentage of cards",
+                "negative_filter": { "Types": ["Equipment"] },
                 "group_by": "Pitch"
             },
             {
                 "filename": "defense_distribution",
                 "title": "Defense Distribution",
                 "x-axis": "Percentage of cards",
+                "negative_filter": { "Types": ["Equipment"] },
                 "group_by": "Defense"
             },
             {
                 "filename": "cost_distribution",
                 "title": "Cost Distribution",
                 "x-axis": "Cost of cards",
+                "negative_filter": { "Types": ["Equipment"] },
                 "group_by": "Cost"
             }
         ],

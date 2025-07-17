@@ -44,9 +44,23 @@ def fill_na_columns(df, columns):
     return df
 
 # Group and sum by specified columns
-def group_and_sum(df, group_by_col, sum_cols):
+def group_and_sum(df, group_by_col, sum_cols, filter_include, filter_exclude): # TODO -> extract filtering to separate function, as currently there is a repetition in your code
+    filtered_df = df.copy()
+
+    if filter_include:
+        for key, values in filter_include.items():
+            key = key.replace("_", "")
+            filtered_df[key] = filtered_df[key].fillna("none")
+            filtered_df = filtered_df[filtered_df[key].apply(lambda x: any(val in x for val in values))]
+
+    if filter_exclude:
+        for key, values in filter_exclude.items():
+            key = key.replace("_", "")
+            filtered_df[key] = filtered_df[key].fillna("none")
+            filtered_df = filtered_df[~filtered_df[key].apply(lambda x: any(val in x for val in values))]
+
     # Group and sum
-    grouped = df.groupby(group_by_col)[sum_cols].sum().reset_index()
+    grouped = filtered_df.groupby(group_by_col)[sum_cols].sum().reset_index()
 
     # Create a custom sort key: (is_not_numeric, numeric_or_string_value)
     def sort_key(val):
@@ -176,7 +190,7 @@ if viz_config.get("decks_by_date_chart", False):
 # group_by_charts
 figures = {}
 for chart in viz_config.get("group_by_charts", []):
-    grouped_data = group_and_sum(cards, chart["group_by"], [f'{hero}_total_pct' for hero in heroes])
+    grouped_data = group_and_sum(cards, chart["group_by"], [f'{hero}_total_pct' for hero in heroes], chart.get("filter"), chart.get("negative_filter"))
     figures[chart["filename"]] = (grouped_data, chart["group_by"], [f'{hero}_total_pct' for hero in heroes], chart["x-axis"], chart["title"], heroes_color)
 
 for chart in viz_config.get("custom_charts", []):
