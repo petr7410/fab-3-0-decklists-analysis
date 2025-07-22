@@ -14654,7 +14654,7 @@ See the full deck @ https://fabrary.net/decks/01JXQS0M6P7REBDKW49AHAAJCK
 
 2025-06-15 16:09:44
 Name: Gold Hunter Puffin
-Hero: Marlynn
+Hero: Puffin
 Format: Draft
 
 Arena cards
