@@ -1,5 +1,7 @@
 # FaB Draft Analysis Scripts
 
+**This project was archived, as there are no planned changes for it. If you are still interested, then visit [new repository](https://github.com/petr7410/fab-3-0-analysis) with the rework of this project.
+
 This branch provides scripts that can help you prepare and analyze exported Flesh and Blood draft decks and generate HTML pages with data.
 
 > **Note:** Decks must be exported in the [FaBrary](https://fabrary.net) clipboard format with inclusion of date. On a FaBrary deck page, use **“Copy card list to clipboard”** to obtain the correct format. Please, refer to the `/data/decks.txt` for an example.
