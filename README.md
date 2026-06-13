@@ -1,5 +1,4 @@
 ## Information
-The Hunted draft data are out. You can check them out [HERE](https://petr7410.github.io/fab-3-0-decklists-analysis) thanks to the GitHub Pages.  
 
 ### Overview of Files in This Repository:
 
